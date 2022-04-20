@@ -1,0 +1,61 @@
+.menuButton {
+  margin: 43px 0 0 45px;
+  height: 108px;
+  width: 113px;
+  border-radius: 100%;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  background: url(../assets/img/c067b131-d360-4455-9960-43841275c823.jpeg) no-repeat center center fixed;
+  background-size: 230px 174px;
+  background-position: -54px 0px;
+}
+
+.menuPressed {
+  -webkit-animation: slideOutBtn 2.5s forwards;
+          animation: slideOutBtn 2.5s forwards;
+  -webkit-animation-delay: 1450ms;
+          animation-delay: 1450ms;
+}
+
+@-webkit-keyframes slideOutBtn {
+  0% {
+    background-position: -54px 0px;
+  }
+  100% {
+    background-position: -220px 0px;
+    background-color: white;
+  }
+}
+
+@keyframes slideOutBtn {
+  0% {
+    background-position: -54px 0px;
+  }
+  100% {
+    background-position: -220px 0px;
+    background-color: white;
+  }
+}
+
+/* Viewport-max*/
+@media only screen and (max-height: 500px) {
+  .menuButton {
+    margin: 20px 0 0 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .menuButton {
+    height: 179px;
+    width: 187px;
+  }
+}
+
+@media only screen and (max-width: 1960px) {
+  .menuButton {
+    height: 130px;
+    width: 130px;
+  }
+}
+/*# sourceMappingURL=menu_btn.css.map */

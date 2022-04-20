@@ -1,0 +1,45 @@
+@import './tools.scss';
+
+.footer-block{
+    position: fixed;
+    display: flex;
+    align-self:flex-end;
+    justify-content: space-between;
+    height: 60px;
+    max-width: 1540px;
+    width: 100%;
+    z-index: 5;
+    .footer-content{
+        @include font-style-text;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        padding: 0 0 0 10px;
+        width: 50%;
+        height: 100%;
+        p{
+        margin: 1px;
+        }
+    }
+    .second{
+        text-align: right;
+        padding: 0 10px 0 0;
+    }
+   
+}
+
+/* Viewport-max*/
+@media only screen and (min-width: 600px) {
+    
+  .footer-block{
+      .footer-content{
+         flex-direction: row;
+         width: 40%;
+         justify-content: space-between;
+         padding: 0 0 0 2px;
+      }
+  }
+    
+  }

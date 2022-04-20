@@ -1,0 +1,46 @@
+.openMenu {
+  -webkit-animation: slideIn 2s forwards;
+          animation: slideIn 2s forwards;
+}
+
+.closeMenu {
+  -webkit-animation: slideOut 2s forwards;
+          animation: slideOut 2s forwards;
+}
+
+@-webkit-keyframes slideOut {
+  0% {
+    left: -0.6vw;
+  }
+  100% {
+    left: 100vw;
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    left: -0.6vw;
+  }
+  100% {
+    left: 100vw;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    left: 100vw;
+  }
+  100% {
+    left: -0.6vw;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    left: 100vw;
+  }
+  100% {
+    left: -0.6vw;
+  }
+}
+/*# sourceMappingURL=animate.css.map */

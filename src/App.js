@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
-
+import {MenuBtn} from './components/MenuBtn';
+import MenuOverlay from './components/MenuOverlay';
+import { useState } from 'react';
+import './css/animate.css'
 function App() {
+
+  const [MenuState, setMenuState] = useState(false);
+  const [animatedState,setAnimatedState] = useState('closedStance');
+
+
+  const SwitchMenu = async ()=>{
+  let timeout = MenuState?2500:1000;
+    if(!MenuState){
+      setAnimatedState('openMenu')
+      setTimeout(()=> {
+        setMenuState(true);
+      },timeout);
+    }else{
+      setTimeout(()=> {
+        setAnimatedState('closeMenu');
+        setTimeout(()=>{
+        setMenuState(false);
+        },timeout+100);
+        return "";    
+      },timeout)
+    }
+    setAnimatedState('closedStance');
+  
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {MenuState?<MenuOverlay menuState={animatedState}/>:<></>}
+   
+    <MenuBtn closeMenu={SwitchMenu} menuState={MenuState} />
+    <div className='content-block'>
+
+
+    </div>
     </div>
   );
 }

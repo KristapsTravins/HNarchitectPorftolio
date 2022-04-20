@@ -1,0 +1,22 @@
+.openMenu{
+    animation: slideIn 2s forwards;
+}
+.closeMenu{
+    animation: slideOut 2s forwards;
+}
+@keyframes slideOut {
+    0%{   
+    left: -0.6vw;
+    }
+    100%{
+     left:100vw;
+    }
+ }
+@keyframes slideIn {
+   0%{   
+   left: 100vw;
+   }
+   100%{
+    left:-0.6vw;
+   }
+}
