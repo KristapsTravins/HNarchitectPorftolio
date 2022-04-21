@@ -3,7 +3,7 @@ import '../css/page_projects.css';
 
 const Projects = (props)=> {
   return (
-    <div className='home_page_block'>Home</div>
+    <div className='projects_page_block'>Projects</div>
   )
 }
 

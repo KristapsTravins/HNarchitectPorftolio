@@ -3,7 +3,7 @@ import '../css/page_about.css';
 
 const About = (props)=> {
   return (
-    <div className='home_page_block'>Home</div>
+    <div className='about_page_block'>about</div>
   )
 }
 
