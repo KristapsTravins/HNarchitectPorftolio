@@ -1,3 +1,4 @@
+/* menuOverlay */
 .openMenu {
   -webkit-animation: slideIn 2s forwards;
           animation: slideIn 2s forwards;
@@ -41,6 +42,53 @@
   }
   100% {
     left: -0.6vw;
+  }
+}
+
+/* Red big buttn */
+.menuActive {
+  -webkit-animation: fadeOut 2.5s forwards;
+          animation: fadeOut 2.5s forwards;
+}
+
+.menuInactive {
+  -webkit-animation: fadeIn 2.5s forwards;
+          animation: fadeIn 2.5s forwards;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.0;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=animate.css.map */

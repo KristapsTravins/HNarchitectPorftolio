@@ -1,3 +1,5 @@
+/* menuOverlay */
+
 .openMenu{
     animation: slideIn 2s forwards;
 }
@@ -19,4 +21,34 @@
    100%{
     left:-0.6vw;
    }
+}
+
+/* Red big buttn */
+
+.menuActive{
+    animation: fadeOut 2.5s forwards;
+
+}
+.menuInactive{
+    animation: fadeIn 2.5s forwards;
+}
+@keyframes fadeOut {
+    0%{
+        opacity: 1;
+    }
+    100%{
+       
+        opacity: 0.0;
+       
+    }
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0.0;
+    }
+    100%{
+       
+        opacity: 1;
+       
+    }
 }

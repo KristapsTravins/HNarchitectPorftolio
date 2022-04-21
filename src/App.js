@@ -1,41 +1,31 @@
 import {MenuBtn} from './components/MenuBtn';
 import MenuOverlay from './components/MenuOverlay';
 import { useState } from 'react';
-import './css/animate.css'
-function App() {
+import Home from'./pages/Home';
+import './css/animate.css';
 
+function App() {
   const [MenuState, setMenuState] = useState(false);
   const [animatedState,setAnimatedState] = useState('closedStance');
 
 
-  const SwitchMenu = async ()=>{
-  let timeout = MenuState?2500:1000;
+  const SwitchMenu =()=>{
     if(!MenuState){
-      setAnimatedState('openMenu')
-      setTimeout(()=> {
-        setMenuState(true);
-      },timeout);
+      setAnimatedState("openMenu");
+      setMenuState(!MenuState);
     }else{
-      setTimeout(()=> {
-        setAnimatedState('closeMenu');
-        setTimeout(()=>{
-        setMenuState(false);
-        },timeout+100);
-        return "";    
-      },timeout)
+      setAnimatedState("closeMenu");
+      setMenuState(!MenuState);
     }
-    setAnimatedState('closedStance');
-  
+
   }
 
   return (
-    <div className="App">
-    {MenuState?<MenuOverlay menuState={animatedState}/>:<></>}
-   
+    <div  className="App">
+    <MenuOverlay menuState={animatedState}/>
     <MenuBtn closeMenu={SwitchMenu} menuState={MenuState} />
     <div className='content-block'>
-
-
+    <Home />
     </div>
     </div>
   );
