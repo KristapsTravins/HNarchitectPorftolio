@@ -8,16 +8,21 @@
     display: flex;
     justify-content: center;
     min-height: 490px;
-    
+    background-color: $base-col;
+
     .content-block{
+        overflow-x: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
         max-width: 1540px;
         width: 100%;
-        height: auto; 
-        @include scaffolding;
-        
+        height: auto;
+        background-color: $base-col; 
+        @include scaffolding;  
+    }
+    .content-block::-webkit-scrollbar{
+        display: none;
     }
     
     .menu-overlay{

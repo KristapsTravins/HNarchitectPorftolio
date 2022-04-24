@@ -1,0 +1,218 @@
+@import './tools.scss';
+
+.content_one{
+align-self: flex-end;
+z-index: 0;
+.header_field{
+    z-index: 4;
+}
+h2{
+    float: right;
+    #tec{
+        position: relative;
+        right:122px;
+    }
+}
+.content_first{
+    right: 40px;
+    bottom: 80px;
+    position: relative;
+    display: flex;
+    float: right;
+    z-index: -1;
+    img{
+        width: 396px;
+        height: 237px;
+    }   
+}
+.content_sec{
+    position: relative;
+    display: flex;
+    z-index: -2;
+    left: 76px;
+    top: 126px;
+    img{
+      width: 307px;
+      height: 230px;
+    }
+  }
+  .text-field{
+    width:308px ;
+    height: 167px;
+    position: relative;
+    top: 35px;
+    left: -4px;
+    p{
+
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+    .home_page_block{
+       
+        .home_inner{
+          
+            .content_block{
+                max-width: 994px;
+                width: 57%;
+                .header_field{
+                   h2{
+                       #first{}
+                       #tec{}
+                   }     
+                }
+                .content_first{
+                   
+                    img{}
+                }
+                .content_sec{
+                   
+                  img{}
+                }
+                .text_field{
+                    p{}
+                }
+            }
+        }
+    } 
+}
+
+
+@media only screen and (min-width: 800px) {
+    .home_page_block{
+       
+        .home_inner{
+          
+            .content_block{
+                max-width: 460px;
+                width: 57%;
+                .header_field{
+                    position: relative;
+                    bottom: 60px;
+                    right: 80px;
+                   h2{
+                       #first{}
+                       #tec{}
+                   }     
+                }
+                .content_first{
+                    z-index: -2;
+                    img{
+                        width: 615px;
+                        height: 333px;
+                    }
+                }
+                .content_sec{
+                    z-index: -1;
+                    left:-320px;
+                    top:-245px;
+                  img{
+                    width: 486px;
+                    height: 300px;
+                  }
+                }
+                .text_field{
+                    top: auto;
+                    left: auto;
+                    right: 338px;
+                    bottom: 392px;
+                    p{}
+                }
+            }
+        }
+    } 
+}
+@media only screen and (min-width: 1100px) {
+    .home_page_block{
+       
+        .home_inner{
+          
+            .content_block{
+                max-width: 650px;
+                width: 57%;
+                .header_field{
+                    position: relative;
+                    bottom: 60px;
+                    right: 80px;
+                   h2{
+                       #first{}
+                       #tec{}
+                   }     
+                }
+                .content_first{
+                    z-index: -2;
+                    width: 615px;
+                    height: 333px;
+                    img{
+                        width: 615px;
+                        height: 333px;
+                    }
+                }
+                .content_sec{
+                    z-index: -1;
+                    left:-320px;
+                    top:-245px;
+                  img{
+                    width: 486px;
+                    height: 332px;
+                  }
+                }
+                .text_field{
+                    top: auto;
+                    left: auto;
+                    right: 356px;
+                    bottom: 243px;
+                    p{}
+                }
+            }
+        }
+    } 
+}
+
+@media only screen and (min-width: 1300px) {
+    .home_page_block{
+       
+        .home_inner{
+          
+            .content_block{
+                max-width: 650px;
+                width: 57%;
+                .header_field{
+                    position: relative;
+                    bottom: 60px;
+                    right: 80px;
+                   h2{
+                       #first{}
+                       #tec{}
+                   }     
+                }
+                .content_first{
+                    z-index: -2;
+                    width: 615px;
+                    height: 333px;
+                    img{
+                        width: 615px;
+                        height: 333px;
+                    }
+                }
+                .content_sec{
+                    z-index: -1;
+                    left:-320px;
+                    top:-245px;
+                  img{
+                    width: 486px;
+                    height: 332px;
+                  }
+                }
+                .text_field{
+                    top: auto;
+                    left: auto;
+                    right: 356px;
+                    bottom: 243px;
+                    p{}
+                }
+            }
+        }
+    } 
+}

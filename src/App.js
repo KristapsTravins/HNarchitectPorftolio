@@ -19,7 +19,7 @@ function App() {
       setMenuState(!MenuState);
     }else{
       setAnimatedState("closeMenu");
-      setMenuState(!MenuState);
+      setMenuState(!MenuState); 
     }
 
   }
