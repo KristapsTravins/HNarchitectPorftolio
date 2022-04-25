@@ -78,8 +78,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 80%;
-    margin: 0px -50% 0px 0px;
+    width: 100%;
+    margin: -24px -72% 0px 0px;
   }
 }
 
@@ -117,7 +117,7 @@
     left: auto;
     right: 100px;
     text-align: right;
-    bottom: 635px;
+    bottom: 638px;
   }
 }
 
@@ -156,7 +156,7 @@
     left: auto;
     right: 100px;
     text-align: right;
-    bottom: 670px;
+    bottom: 670px !important;
     margin: 33px -140px 0px 0px !important;
   }
 }
@@ -198,7 +198,7 @@
     left: auto;
     right: 100px;
     text-align: right;
-    bottom: 670px;
+    bottom: 670px !important;
     margin: 33px -140px 0px 0px !important;
   }
 }

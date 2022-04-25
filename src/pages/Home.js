@@ -5,7 +5,7 @@ import homepage from "../data/HomepageData.json";
 
 const Home = (props)=> {
 
-  console.log(homepage.homepage[0].title)
+
   return (
     <div className='home_page_block'>
       <div className='home_inner'>

@@ -17,6 +17,41 @@
     border-radius: 100%;
     }
 }
+.menuButton:hover{
+    cursor: pointer;
+}
+
+.Bouncein{
+    cursor: pointer;
+    animation: bounce-in 2s forwards;
+}
+.Bounceout{
+    cursor: pointer;
+    animation: bounce-out 2s forwards;
+}
+
+@keyframes bounce-in {
+    0% {
+      transform: scale(.9);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    70% { transform: scale(.9); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes bounce-out{
+    0% {
+      transform: scale(1.05);
+    }
+    50% {
+      transform: scale(.9);
+    }
+    70% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+
 
 
 /* Viewport-max*/

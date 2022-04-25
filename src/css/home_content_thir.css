@@ -60,6 +60,7 @@
   position: relative;
   top: 35px;
   left: -30px;
+  padding: 0 0 57px 0;
 }
 
 .content_thre .text_field p {
@@ -130,8 +131,8 @@
     position: relative;
     top: auto;
     left: auto;
-    right: 338px;
-    bottom: 392px;
+    right: -30px;
+    bottom: 280px;
   }
 }
 
@@ -164,8 +165,8 @@
   .home_page_block .home_inner .content_thre .text_field {
     top: auto;
     left: auto;
-    right: 356px;
-    bottom: 243px;
+    right: -205px;
+    bottom: 520px;
   }
 }
 
@@ -201,8 +202,8 @@
     width: 333px;
     top: auto;
     left: auto;
-    right: 356px;
-    bottom: 243px;
+    right: -65px;
+    bottom: 286px;
   }
 }
 /*# sourceMappingURL=home_content_thir.css.map */

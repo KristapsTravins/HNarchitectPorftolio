@@ -18,6 +18,10 @@
   height: 100%;
 }
 
+.home_page_block .home_inner .content_block:hover {
+  cursor: pointer;
+}
+
 .home_page_block .home_inner .content_block {
   width: 99%;
   margin: 200px -1px 0 0;
@@ -32,13 +36,13 @@
   font-size: 13px;
   color: #D73434;
   font-weight: 200;
-  font-size: 50px;
+  font-size: 52px;
   line-height: 47px;
   letter-spacing: 0.03em;
 }
 
 .home_page_block .home_inner .content_block .header_field h2 #first {
-  font-size: 65px;
+  font-size: 112px;
 }
 
 .home_page_block .home_inner .content_block .text_field p {

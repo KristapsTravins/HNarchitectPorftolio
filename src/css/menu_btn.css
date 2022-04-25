@@ -18,6 +18,98 @@
   border-radius: 100%;
 }
 
+.menuButton:hover {
+  cursor: pointer;
+}
+
+.Bouncein {
+  cursor: pointer;
+  -webkit-animation: bounce-in 2s forwards;
+          animation: bounce-in 2s forwards;
+}
+
+.Bounceout {
+  cursor: pointer;
+  -webkit-animation: bounce-out 2s forwards;
+          animation: bounce-out 2s forwards;
+}
+
+@-webkit-keyframes bounce-in {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  70% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  50% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  70% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes bounce-out {
+  0% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  70% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes bounce-out {
+  0% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  70% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
 /* Viewport-max*/
 @media only screen and (max-height: 500px) {
   .menuButton {
