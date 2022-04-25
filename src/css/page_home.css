@@ -3,7 +3,7 @@
   width: 100%;
   height: 100%;
   background-color: #F8F8F8;
-  margin: 400px 0 0 0;
+  margin: 0px 0 0 0;
 }
 
 .home_page_block .home_inner {
@@ -20,16 +20,10 @@
 
 .home_page_block .home_inner .content_block {
   width: 99%;
-  margin: 20px -1px 0 0;
+  margin: 200px -1px 0 0;
   max-width: 363px;
   height: 515px;
   z-index: 0;
-}
-
-.home_page_block .home_inner .content_block .header_field {
-  margin: 20px 0 0 0;
-  height: 160px;
-  width: 100%;
 }
 
 .home_page_block .home_inner .content_block .header_field h2 {

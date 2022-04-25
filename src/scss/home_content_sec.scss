@@ -1,13 +1,16 @@
 @import './tools.scss';
 
-.content_one{
-align-self: flex-end;
+.content_two{
+
+align-self: flex-start;
+max-width: 370px !important;
 z-index: 0;
+
 .header_field{
     z-index: 4;
-    margin: 20px 0 0 0 ;
-    height:160px;
-    width: 100%;
+    position: relative;
+    right: 0px;
+    top:-17px;
 }
 h2{
     float: right;
@@ -17,49 +20,47 @@ h2{
     }
 }
 .content_first{
-    right: 40px;
+    right: -200px;
     bottom: 80px;
     position: relative;
     display: flex;
     float: right;
-    z-index: -1;
+    z-index: -2;
     img{
-        width: 396px;
-        height: 237px;
+        width: 449px;
+        height: 219px;
     }   
 }
 .content_sec{
     position: relative;
     display: flex;
     z-index: -2;
-    left: 76px;
-    top: 126px;
+    left: 0px;
+    top: 242px;
     img{
-      width: 307px;
-      height: 230px;
+      width: 504px;
+      height: 246px;
     }
   }
   .text_field{
-    width:308px ;
+display: none;
     height: 167px;
-    position: relative;
-    top: 35px;
-    left: -4px;
+    float: right;
     p{
-        
-     letter-spacing: 1px;
-                
-      
+        letter-spacing: 1px;
+        @include font-style-text;
     }
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
     .home_page_block{
        
         .home_inner{
           
-            .content_one{
+            .content_two{
+                
+                align-self: flex-start;
                 max-width: 994px;
                 width: 57%;
                 .header_field{
@@ -77,6 +78,9 @@ h2{
                   img{}
                 }
                 .text_field{
+                    display: flex;
+                    width:80%;
+                    margin: 0px -50% 0px 0px;
                     p{}
                 }
             }
@@ -90,7 +94,54 @@ h2{
        
         .home_inner{
           
-            .content_one{
+            .content_two{
+                align-self: flex-start;
+                max-width: 460px;
+                width: 57%;
+                .header_field{
+                    position: relative;
+                    bottom: 60px;
+                    right: 80px;
+                   h2{
+                       #first{}
+                       #tec{}
+                   }     
+                }
+                .content_first{
+                    z-index: -2;
+                    img{
+                        width: 563px;
+                        height: 300px;
+                    }
+                }
+                .content_sec{
+                    z-index: -3;
+                    left:482px;
+                    top:-184px;
+                  img{
+                    width: 294px;
+                    height: 393px;
+                  }
+                }
+                .text_field{
+                    position: relative;
+                    top: auto;
+                    left: auto;
+                    right: 100px;
+                    text-align: right;
+                    bottom: 635px;
+                    p{}
+                }
+            }
+        }
+    } 
+}
+@media only screen and (min-width: 1100px) {
+    
+        .home_inner{
+          
+            .content_two{
+                align-self: center !important;
                 max-width: 460px;
                 width: 57%;
                 .header_field{
@@ -110,80 +161,41 @@ h2{
                     }
                 }
                 .content_sec{
-                    z-index: -1;
-                    left:-320px;
-                    top:-245px;
+                    z-index: -3;
+                    left:482px;
+                    top:-184px;
                   img{
-                    width: 486px;
-                    height: 300px;
+                    width: 294px;
+                    height: 393px;
                   }
                 }
                 .text_field{
                     position: relative;
                     top: auto;
                     left: auto;
-                    right: 338px;
-                    bottom: 392px;
+                    right: 100px;
+                    text-align: right;
+                    bottom: 670px;
+                    margin: 33px -140px 0px 0px !important;
+                
                     p{}
                 }
             }
         }
     } 
-}
-@media only screen and (min-width: 1100px) {
-    .home_page_block{
-       
-        .home_inner{
-          
-            .content_one{
-                max-width: 650px;
-                width: 57%;
-                .header_field{
-                    position: relative;
-                    bottom: 60px;
-                    right: 80px;
-                   h2{
-                       #first{}
-                       #tec{}
-                   }     
-                }
-                .content_first{
-                    z-index: -2;
-                    width: 615px;
-                    height: 333px;
-                    img{
-                        width: 615px;
-                        height: 333px;
-                    }
-                }
-                .content_sec{
-                    z-index: -1;
-                    left:-320px;
-                    top:-245px;
-                  img{
-                    width: 486px;
-                    height: 332px;
-                  }
-                }
-                .text_field{
-                    top: auto;
-                    left: auto;
-                    right: 356px;
-                    bottom: 243px;
-                    p{}
-                }
-            }
-        }
-    } 
-}
+
 
 @media only screen and (min-width: 1300px) {
-    .home_page_block{
+
        
         .home_inner{
           
-            .content_one{
-                max-width: 650px;
+            .content_two{
+                align-self: flex-start !important;
+                position: relative;
+                max-width: 460px;
+                top: 40px;
+                right: 15px;
                 width: 57%;
                 .header_field{
                     position: relative;
@@ -196,31 +208,30 @@ h2{
                 }
                 .content_first{
                     z-index: -2;
-                    width: 615px;
-                    height: 333px;
                     img{
                         width: 615px;
                         height: 333px;
                     }
                 }
                 .content_sec{
-                    z-index: -1;
-                    left:-320px;
-                    top:-245px;
+                    z-index: -3;
+                    left:482px;
+                    top:-184px;
                   img{
-                    width: 486px;
-                    height: 332px;
+                    width: 294px;
+                    height: 393px;
                   }
                 }
                 .text_field{
-                    width: 333px;
+                    position: relative;
                     top: auto;
                     left: auto;
-                    right: 356px;
-                    bottom: 243px;
+                    right: 100px;
+                    text-align: right;
+                    bottom: 670px;
+                    margin: 33px -140px 0px 0px !important;
                     p{}
                 }
             }
         }
     } 
-}

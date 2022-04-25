@@ -23,6 +23,16 @@ const Home = (props)=> {
      image1={homepage.homepage[1].image1} 
      image2={homepage.homepage[1].image2} 
      text={homepage.homepage[1].text} 
+     typeClass = {homepage.homepage[1].spec_layout} 
+     />
+
+
+    < PageContent 
+     title={homepage.homepage[2].title} 
+     image1={homepage.homepage[2].image1} 
+     image2={homepage.homepage[2].image2} 
+     text={homepage.homepage[2].text} 
+     typeClass = {homepage.homepage[2].spec_layout} 
      />
      
     </div>  

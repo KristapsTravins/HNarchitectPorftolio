@@ -7,6 +7,9 @@
 
 .content_one .header_field {
   z-index: 4;
+  margin: 20px 0 0 0;
+  height: 160px;
+  width: 100%;
 }
 
 .content_one h2 {
@@ -49,7 +52,7 @@
   height: 230px;
 }
 
-.content_one .text-field {
+.content_one .text_field {
   width: 308px;
   height: 167px;
   position: relative;
@@ -57,40 +60,45 @@
   left: -4px;
 }
 
+.content_one .text_field p {
+  letter-spacing: 1px;
+}
+
 @media only screen and (min-width: 600px) {
-  .home_page_block .home_inner .content_block {
+  .home_page_block .home_inner .content_one {
     max-width: 994px;
     width: 57%;
   }
 }
 
 @media only screen and (min-width: 800px) {
-  .home_page_block .home_inner .content_block {
+  .home_page_block .home_inner .content_one {
     max-width: 460px;
     width: 57%;
   }
-  .home_page_block .home_inner .content_block .header_field {
+  .home_page_block .home_inner .content_one .header_field {
     position: relative;
     bottom: 60px;
     right: 80px;
   }
-  .home_page_block .home_inner .content_block .content_first {
+  .home_page_block .home_inner .content_one .content_first {
     z-index: -2;
   }
-  .home_page_block .home_inner .content_block .content_first img {
+  .home_page_block .home_inner .content_one .content_first img {
     width: 615px;
     height: 333px;
   }
-  .home_page_block .home_inner .content_block .content_sec {
+  .home_page_block .home_inner .content_one .content_sec {
     z-index: -1;
     left: -320px;
     top: -245px;
   }
-  .home_page_block .home_inner .content_block .content_sec img {
+  .home_page_block .home_inner .content_one .content_sec img {
     width: 486px;
     height: 300px;
   }
-  .home_page_block .home_inner .content_block .text_field {
+  .home_page_block .home_inner .content_one .text_field {
+    position: relative;
     top: auto;
     left: auto;
     right: 338px;
@@ -99,34 +107,34 @@
 }
 
 @media only screen and (min-width: 1100px) {
-  .home_page_block .home_inner .content_block {
+  .home_page_block .home_inner .content_one {
     max-width: 650px;
     width: 57%;
   }
-  .home_page_block .home_inner .content_block .header_field {
+  .home_page_block .home_inner .content_one .header_field {
     position: relative;
     bottom: 60px;
     right: 80px;
   }
-  .home_page_block .home_inner .content_block .content_first {
+  .home_page_block .home_inner .content_one .content_first {
     z-index: -2;
     width: 615px;
     height: 333px;
   }
-  .home_page_block .home_inner .content_block .content_first img {
+  .home_page_block .home_inner .content_one .content_first img {
     width: 615px;
     height: 333px;
   }
-  .home_page_block .home_inner .content_block .content_sec {
+  .home_page_block .home_inner .content_one .content_sec {
     z-index: -1;
     left: -320px;
     top: -245px;
   }
-  .home_page_block .home_inner .content_block .content_sec img {
+  .home_page_block .home_inner .content_one .content_sec img {
     width: 486px;
     height: 332px;
   }
-  .home_page_block .home_inner .content_block .text_field {
+  .home_page_block .home_inner .content_one .text_field {
     top: auto;
     left: auto;
     right: 356px;
@@ -135,34 +143,35 @@
 }
 
 @media only screen and (min-width: 1300px) {
-  .home_page_block .home_inner .content_block {
+  .home_page_block .home_inner .content_one {
     max-width: 650px;
     width: 57%;
   }
-  .home_page_block .home_inner .content_block .header_field {
+  .home_page_block .home_inner .content_one .header_field {
     position: relative;
     bottom: 60px;
     right: 80px;
   }
-  .home_page_block .home_inner .content_block .content_first {
+  .home_page_block .home_inner .content_one .content_first {
     z-index: -2;
     width: 615px;
     height: 333px;
   }
-  .home_page_block .home_inner .content_block .content_first img {
+  .home_page_block .home_inner .content_one .content_first img {
     width: 615px;
     height: 333px;
   }
-  .home_page_block .home_inner .content_block .content_sec {
+  .home_page_block .home_inner .content_one .content_sec {
     z-index: -1;
     left: -320px;
     top: -245px;
   }
-  .home_page_block .home_inner .content_block .content_sec img {
+  .home_page_block .home_inner .content_one .content_sec img {
     width: 486px;
     height: 332px;
   }
-  .home_page_block .home_inner .content_block .text_field {
+  .home_page_block .home_inner .content_one .text_field {
+    width: 333px;
     top: auto;
     left: auto;
     right: 356px;

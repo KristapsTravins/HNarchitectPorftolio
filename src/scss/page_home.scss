@@ -4,7 +4,7 @@
     width: 100%;
     height: 100%;
     background-color: $base-col;
-    margin: 400px 0 0 0;
+    margin: 0px 0 0 0;
     .home_inner{
         display: flex;
         flex-direction: column;
@@ -12,14 +12,12 @@
         height: 100%;
         .content_block{
             width: 99%;
-            margin: 20px -1px 0 0;
+            margin: 200px -1px 0 0;
             max-width: 363px;
             height: 515px;
             z-index: 0;
             .header_field{
-                margin: 20px 0 0 0 ;
-                height:160px;
-                width: 100%;
+               
                h2{
                    #first{
                        font-size: 65px;
