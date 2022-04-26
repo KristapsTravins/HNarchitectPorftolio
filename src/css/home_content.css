@@ -113,8 +113,8 @@
   }
   .home_page_block .home_inner .content_one .header_field {
     position: relative;
-    bottom: 60px;
-    right: 80px;
+    bottom: 110px;
+    right: px;
   }
   .home_page_block .home_inner .content_one .content_first {
     z-index: -2;
@@ -122,8 +122,8 @@
     height: 333px;
   }
   .home_page_block .home_inner .content_one .content_first img {
-    width: 615px;
-    height: 333px;
+    width: 441px;
+    height: 239px;
   }
   .home_page_block .home_inner .content_one .content_sec {
     z-index: -1;
@@ -131,8 +131,8 @@
     top: -245px;
   }
   .home_page_block .home_inner .content_one .content_sec img {
-    width: 486px;
-    height: 332px;
+    width: 349px;
+    height: 238px;
   }
   .home_page_block .home_inner .content_one .text_field {
     top: auto;

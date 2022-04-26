@@ -108,7 +108,7 @@
     position: relative;
     bottom: 60px;
     right: 555px;
-    top: -250px;
+    top: -405px;
   }
   .home_page_block .home_inner .content_thre .content_first {
     z-index: -2;
@@ -124,8 +124,8 @@
     top: -245px;
   }
   .home_page_block .home_inner .content_thre .content_sec img {
-    width: 486px;
-    height: 300px;
+    width: 654px;
+    height: 292px;
   }
   .home_page_block .home_inner .content_thre .text_field {
     position: relative;
@@ -144,29 +144,30 @@
   .home_page_block .home_inner .content_thre .header_field {
     position: relative;
     bottom: 60px;
-    right: 600px;
+    right: 420px;
   }
   .home_page_block .home_inner .content_thre .content_first {
     z-index: 0;
   }
   .home_page_block .home_inner .content_thre .content_first img {
-    width: 540px;
-    height: 289px;
+    width: 408px;
+    height: 293px;
   }
   .home_page_block .home_inner .content_thre .content_sec {
     z-index: -1;
-    left: -320px;
-    top: -245px;
+    left: -80px;
+    top: -309px;
   }
   .home_page_block .home_inner .content_thre .content_sec img {
-    width: 486px;
-    height: 332px;
+    width: 654px;
+    height: 292px;
   }
   .home_page_block .home_inner .content_thre .text_field {
+    width: 333px;
     top: auto;
     left: auto;
-    right: -205px;
-    bottom: 520px;
+    right: -209px;
+    bottom: 335px;
   }
 }
 
@@ -178,12 +179,10 @@
   .home_page_block .home_inner .content_thre .header_field {
     position: relative;
     bottom: 60px;
-    right: 670px;
+    right: 420px;
   }
   .home_page_block .home_inner .content_thre .content_first {
-    z-index: -2;
-    width: 615px;
-    height: 333px;
+    z-index: 0;
   }
   .home_page_block .home_inner .content_thre .content_first img {
     width: 408px;
@@ -191,8 +190,8 @@
   }
   .home_page_block .home_inner .content_thre .content_sec {
     z-index: -1;
-    left: -320px;
-    top: -245px;
+    left: -80px;
+    top: -309px;
   }
   .home_page_block .home_inner .content_thre .content_sec img {
     width: 654px;
@@ -202,8 +201,8 @@
     width: 333px;
     top: auto;
     left: auto;
-    right: -65px;
-    bottom: 286px;
+    right: -209px;
+    bottom: 335px;
   }
 }
 /*# sourceMappingURL=home_content_thir.css.map */

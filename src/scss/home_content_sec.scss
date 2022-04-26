@@ -20,8 +20,8 @@ h2{
     }
 }
 .content_first{
-    right: -200px;
-    bottom: 80px;
+    right: -145px;
+    bottom: 83px;
     position: relative;
     display: flex;
     float: right;
@@ -101,7 +101,7 @@ display: none;
                 .header_field{
                     position: relative;
                     bottom: 60px;
-                    right: 80px;
+                    right: 129px;
                    h2{
                        #first{}
                        #tec{}
@@ -110,8 +110,8 @@ display: none;
                 .content_first{
                     z-index: -2;
                     img{
-                        width: 563px;
-                        height: 300px;
+                        width: 504px;
+                        height: 246px;
                     }
                 }
                 .content_sec{
@@ -191,11 +191,11 @@ display: none;
         .home_inner{
           
             .content_two{
-                align-self: flex-start !important;
+             
                 position: relative;
                 max-width: 460px;
-                top: 40px;
-                right: 15px;
+                top: -95px;
+                right: 65px;
                 width: 57%;
                 .header_field{
                     position: relative;
@@ -228,7 +228,7 @@ display: none;
                     left: auto;
                     right: 100px;
                     text-align: right;
-                    bottom: 670px !important;
+                    bottom: 636px !important;
                     margin: 33px -140px 0px 0px !important;
                     p{}
                 }
