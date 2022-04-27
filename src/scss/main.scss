@@ -19,6 +19,7 @@
         width: 100%;
         height: auto;
         background-color: $base-col; 
+      
      
     }
     .content-block::-webkit-scrollbar{
@@ -32,7 +33,7 @@
         position: fixed;
         @include background-menu;
         width: 100.6vw;
-        z-index: 2;
+        z-index: 4;
         height: 100vh;
        
     }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .home_page_block {
   width: 100%;
   height: 100%;
@@ -16,41 +16,11 @@
           flex-direction: column;
   width: 100%;
   height: 100%;
+  padding: 240px 0 0 0;
 }
 
 .home_page_block .home_inner .content_block:hover {
   cursor: pointer;
-}
-
-.home_page_block .home_inner .content_block {
-  width: 99%;
-  margin: 200px -1px 0 0;
-  max-width: 363px;
-  height: 515px;
-  z-index: 0;
-}
-
-.home_page_block .home_inner .content_block .header_field h2 {
-  font-family: 'Roboto Mono', monospace;
-  font-weight: lighter;
-  font-size: 13px;
-  color: #D73434;
-  font-weight: 200;
-  font-size: 52px;
-  line-height: 47px;
-  letter-spacing: 0.03em;
-}
-
-.home_page_block .home_inner .content_block .header_field h2 #first {
-  font-size: 112px;
-}
-
-.home_page_block .home_inner .content_block .text_field p {
-  letter-spacing: 1px;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: lighter;
-  font-size: 13px;
-  color: #D73434;
 }
 
 /* Viewport-max*/

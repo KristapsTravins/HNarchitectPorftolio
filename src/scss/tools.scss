@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap');
 
 $base-col:#F8F8F8;
 $content-col:#D73434;
@@ -6,8 +6,8 @@ $content-col:#D73434;
 
 @mixin font-style-text {
     font-family: 'Roboto Mono', monospace;
-    font-weight: lighter;
-    font-size: 13px;
+    font-weight: 300;
+    font-size: 15px;
     color: $content-col;
 }
 

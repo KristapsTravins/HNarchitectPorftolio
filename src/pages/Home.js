@@ -18,7 +18,7 @@ const Home = (props)=> {
      typeClass = {homepage.homepage[0].spec_layout} 
      />
 
-     < PageContent 
+{/*      < PageContent 
      title={homepage.homepage[1].title} 
      image1={homepage.homepage[1].image1} 
      image2={homepage.homepage[1].image2} 
@@ -33,7 +33,7 @@ const Home = (props)=> {
      image2={homepage.homepage[2].image2} 
      text={homepage.homepage[2].text} 
      typeClass = {homepage.homepage[2].spec_layout} 
-     />
+     /> */}
      
     </div>  
   </div>

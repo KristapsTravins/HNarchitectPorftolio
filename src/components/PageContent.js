@@ -1,13 +1,12 @@
 import React from 'react';
 import parse from "html-react-parser";
-
 import"../css/home_content.css";
-import"../css/home_content_sec.css";
-import"../css/home_content_thir.css";
+
 
 const PageContent = (props)=> {
   return (
-    <div className={`content_block ${props.typeClass}`}>
+<div className={props.typeClass} >
+    <div className="content_container">
     <div className='header_field'>
       <h2>{parse(props.title)}</h2>
     </div>
@@ -22,6 +21,7 @@ const PageContent = (props)=> {
         {props.text}
       </p>
   </div>
+</div>
 </div>
   )
 }
