@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .footer-block {
   position: fixed;
   display: -webkit-box;
@@ -17,8 +17,8 @@
 
 .footer-block .footer-content {
   font-family: 'Roboto Mono', monospace;
-  font-weight: lighter;
-  font-size: 13px;
+  font-weight: 300;
+  font-size: 15px;
   color: #D73434;
   color: white;
   display: -webkit-box;

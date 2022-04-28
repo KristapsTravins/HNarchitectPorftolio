@@ -1,11 +1,13 @@
 import React from 'react';
 import parse from "html-react-parser";
-import"../css/home_content.css";
+import"../css/home_content_style1.css";
+import"../css/home_content_style2.css";
+import"../css/home_content_style3.css";
 
 
 const PageContent = (props)=> {
   return (
-<div className={props.typeClass} >
+<div loading="lazy" className={props.typeClass} >
     <div className="content_container">
     <div className='header_field'>
       <h2>{parse(props.title)}</h2>

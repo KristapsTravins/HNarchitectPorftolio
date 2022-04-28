@@ -1,7 +1,7 @@
 @import './tools.scss';
 
 /* Heading of Content */
-.content_one{
+.content_style_one{
     display: flex;
     justify-content: flex-end;
     height: 587px;
@@ -17,14 +17,14 @@
            h2{
             z-index: 2;
             position: relative;
-            top: 10px;
-            left: 6px;
+            top: 0px;
+            left: 10px;
             font-size: 45px;
             font-weight: 200;
             line-height: 40px;
             #first{
                 font-size:75px;
-                font-weight: 300;
+                font-weight: 100;
             }
             #tec{
                 position: relative;
@@ -34,12 +34,33 @@
        }
     }
 }
-@media only screen and (min-width: 600px) {
- 
+@media only screen and (min-width: 1000px) {
+    .content_style_one{
+        width: 100%;
+        .content_container{
+            width: 100%;
+            max-width: 768px;
+            height: 405px;
+           .header_field{
+              justify-content: center;
+               h2{
+                  font-size: 47px;
+                  top: 29px;
+                  left: 45px;
+                #first{
+                  font-size: 85px;
+                }
+                #tec{
+                   right: 8px;
+                }
+             }
+           }
+        }
+    }
 }
 
 /* image1 of Content */
-.content_one{
+.content_style_one{
     .content_container{
         .content_first{
             position: relative;
@@ -55,8 +76,26 @@
         }
     }
 }
+@media only screen and (min-width: 1000px) {
+    .content_style_one{
+        .content_container{
+            .content_first{
+                position: relative;
+                bottom: 48px;
+                left: 200px;
+                z-index: 1;
+                width: 396px;
+                height: 237px;
+                img{
+                  width: 100%;
+                  height: 100%;
+                }
+            }
+        }
+    }
+}
 /* image2 of Content */
-.content_one{
+.content_style_one{
     .content_container{
         .content_sec{
             position: relative;
@@ -72,8 +111,22 @@
         }
     }
 }
+@media only screen and (min-width: 1000px) {
+    .content_style_one{
+        .content_container{
+            .content_sec{
+            bottom: 410px;
+              left: 10px;
+              z-index: 1;
+                img{
+                 
+                }
+            }
+        }
+    }
+}
 /* text of Content */
-.content_one{
+.content_style_one{
     .content_container{
         .text_field{
            position: relative;
@@ -92,11 +145,22 @@
     }
 }
 @media only screen and (min-width: 550px) {
-    .content_one{
+    .content_style_one{
         .content_container{
             .text_field{
                 bottom: 260px;
                 right: 193px;
+             
+            }
+        }
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .content_style_one{
+        .content_container{
+            .text_field{
+                bottom: 420px;
+                right: 360px;
              
             }
         }
