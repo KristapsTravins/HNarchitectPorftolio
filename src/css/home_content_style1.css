@@ -53,6 +53,8 @@
 @media only screen and (min-width: 1000px) {
   .content_style_one {
     width: 100%;
+    position: relative;
+    right: 256px;
   }
   .content_style_one .content_container {
     width: 100%;
@@ -67,7 +69,7 @@
   .content_style_one .content_container .header_field h2 {
     font-size: 47px;
     top: 29px;
-    left: 45px;
+    left: 225px;
   }
   .content_style_one .content_container .header_field h2 #first {
     font-size: 85px;
@@ -96,7 +98,7 @@
   .content_style_one .content_container .content_first {
     position: relative;
     bottom: 48px;
-    left: 200px;
+    left: 372px;
     z-index: 1;
     width: 396px;
     height: 237px;
@@ -125,7 +127,7 @@
 @media only screen and (min-width: 1000px) {
   .content_style_one .content_container .content_sec {
     bottom: 410px;
-    left: 10px;
+    left: 183px;
     z-index: 1;
   }
 }
@@ -162,7 +164,7 @@
 @media only screen and (min-width: 1000px) {
   .content_style_one .content_container .text_field {
     bottom: 420px;
-    right: 360px;
+    right: 185px;
   }
 }
 /*# sourceMappingURL=home_content_style1.css.map */

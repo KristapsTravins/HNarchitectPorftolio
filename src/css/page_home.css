@@ -14,9 +14,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100%;
-  height: 100%;
+  width: 99%;
+  height: auto;
   padding: 170px 0 0 0;
+  border: 0.1px dotted black;
 }
 
 .home_page_block .home_inner .content_block:hover {

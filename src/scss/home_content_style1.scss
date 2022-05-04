@@ -2,10 +2,12 @@
 
 /* Heading of Content */
 .content_style_one{
+    
     display: flex;
     justify-content: flex-end;
     height: 587px;
     .content_container{
+        
         width: 100%;
         max-width: 320px;
        .header_field{
@@ -37,6 +39,8 @@
 @media only screen and (min-width: 1000px) {
     .content_style_one{
         width: 100%;
+        position: relative;
+        right: 256px;
         .content_container{
             width: 100%;
             max-width: 768px;
@@ -46,7 +50,7 @@
                h2{
                   font-size: 47px;
                   top: 29px;
-                  left: 45px;
+                  left: 225px;
                 #first{
                   font-size: 85px;
                 }
@@ -82,7 +86,7 @@
             .content_first{
                 position: relative;
                 bottom: 48px;
-                left: 200px;
+                left: 372px;
                 z-index: 1;
                 width: 396px;
                 height: 237px;
@@ -116,7 +120,7 @@
         .content_container{
             .content_sec{
             bottom: 410px;
-              left: 10px;
+              left: 183px;
               z-index: 1;
                 img{
                  
@@ -160,7 +164,7 @@
         .content_container{
             .text_field{
                 bottom: 420px;
-                right: 360px;
+                right: 185px;
              
             }
         }

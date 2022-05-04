@@ -5,7 +5,7 @@
     display: flex;
     justify-content: flex-end;
     height: 587px;
-    margin: 100px 0 0 0;
+    margin: 0 0 0 0;
     .content_container{
         width: 100%;
         max-width: 320px;
@@ -37,8 +37,11 @@
 }
 @media only screen and (min-width: 1000px) {
     .content_style_two{
-        
+        justify-content: flex-start;
+        margin: 0 0 0 0;
         width: 100%;
+        position: relative;
+        left:265px;
         .content_container{
             width: 100%;
             max-width: 768px;
