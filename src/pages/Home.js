@@ -5,8 +5,6 @@ import homepage from "../data/HomepageData.json";
 import '../css/animate.css'
 
 const Home = (props)=> {
-
-
   return (
     <div className='home_page_block'>
       <div className='home_inner'>

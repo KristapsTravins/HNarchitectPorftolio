@@ -37,15 +37,16 @@
 }
 @media only screen and (min-width: 1000px) {
     .content_style_two{
-        justify-content: flex-start;
-        margin: 0 0 0 0;
         width: 100%;
-        position: relative;
-        left:265px;
+        display: flex;
+        justify-content: center;
         .content_container{
-            width: 100%;
-            max-width: 768px;
+            width: 740px;
+            max-width: 100%;
             height: 405px;
+            position: relative;
+            left: 173px;
+            bottom: 50px;
            .header_field{
               justify-content: center;
                h2{
