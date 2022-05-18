@@ -48,19 +48,14 @@
             width: 42vw;
             z-index: 0;
         }
-
-
-
-
-
     }
 }
 
 @media only screen and (min-width: 900px){
     .content_style_one{
+      align-self: flex-end;
         
-        @include scaffolding;
-        max-width: 100%;
+        max-width: 1074px;
           .image_box_1{
             top:170px;
             right:205px;
@@ -77,6 +72,7 @@
           }
           .image_box_3{
             top: 0px;
+            right:0px;
             left: 0px;
             float: right;
             width: 390px;
@@ -86,9 +82,10 @@
             max-height: 318px;
           }
           .text_box{
-            float: right;
-            top: 200px;
-            left: 670px;
+            float: left;
+            top: 130px;
+            width: 330px;
+            left: 450px;
             bottom: 0px;
             ul{
                 list-style: none;

@@ -16,11 +16,7 @@
           flex-direction: column;
   width: 99%;
   height: auto;
-  padding: 170px 0 0 0;
-}
-
-.home_page_block .home_inner .content_block:hover {
-  cursor: pointer;
+  padding: 50px 0 0 0;
 }
 
 /* Viewport-max*/

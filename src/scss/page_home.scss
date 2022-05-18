@@ -6,15 +6,13 @@
     background-color: $base-col;
     margin: 0px 0 0 0;
     .home_inner{
-  
         display: flex;
         flex-direction: column;
         width: 99%;
         height: auto;
-        padding: 170px 0 0 0;
-        .content_block:hover{
-            cursor: pointer;
-        }
+        padding: 50px 0 0 0;
+        
+       
     }
 }
 

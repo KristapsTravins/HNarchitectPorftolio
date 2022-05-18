@@ -34,8 +34,8 @@ return (
     </div>
     <div className='text_box'>
     <h3>{props.title}</h3>
-     {/*  {width>=900?<TitleTextWide title_text={props.title_text} />:< TitleTextMob title_text={props.title_text} />} */}
-     <TitleTextWide title_text={props.title_text} />
+      {width>=900?<TitleTextWide title_text={props.title_text} />:< TitleTextMob title_text={props.title_text} />}
+
     </div>
 </div>
   )

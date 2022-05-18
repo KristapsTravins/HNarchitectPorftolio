@@ -50,6 +50,7 @@
   bottom: 210px;
   left: 10px;
   height: 50px;
+  min-width: 241px;
 }
 
 .content_style_one .text_box h3 {
