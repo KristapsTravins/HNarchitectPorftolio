@@ -1,0 +1,54 @@
+@media only screen and (min-width: 900px){
+    .content_style_one{
+        animation: fadeIn 2s 1  ease-out forwards;
+        .image_box_1{
+            animation: out 0.7s 1 alternate ease-out forwards;
+          }
+        .image_box_2{
+            animation: out2 0.7s 1 alternate ease-out forwards;  
+          }
+        .image_box_3{
+            animation: out3 0.7s 1 alternate ease-out forwards;  
+        }  
+        .active{
+            animation: side 0.7s 1 alternate ease-out forwards;
+        }
+        .active1{
+            animation: upp 0.7s 1 alternate ease-out forwards;
+        }
+        .active2{
+            animation: side2 0.7s 1 alternate ease-out forwards;
+        }
+       
+          .text_box{
+            ul{
+                
+            }
+          }
+    }
+}
+
+@keyframes side {
+    0%   { transform: translateX(0); }
+    100%  { transform: translateX(-50px); }
+  }
+  @keyframes upp {
+    0%   { transform: translateY(0); }
+    100%  { transform: translateY(-50px); }
+  }
+  @keyframes side2{
+    0%   { transform: translateX(-50px); }
+    100%  { transform: translateX(0px); }
+  }
+  @keyframes out{
+    0%   { transform: translateX(-50px); }
+    100%  { transform: translateX(0); }
+  }
+  @keyframes out2{
+    0%   { transform: translateY(-50px); }
+    100%  { transform: translateY(0); }
+  }
+  @keyframes out3{
+    0%   { transform: translateX(0); }
+    100%  { transform: translateX(-50px); }
+  }

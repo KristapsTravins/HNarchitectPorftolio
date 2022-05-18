@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 @media only screen and (min-width: 440px) {
+  .content_style_one div:hover {
+    cursor: pointer;
+  }
   .content_style_one {
     max-width: 700px;
   }
@@ -45,6 +48,7 @@
   .content_style_one {
     -ms-flex-item-align: end;
         align-self: flex-end;
+    margin: 3vh 0 0 0;
     max-width: 1074px;
   }
   .content_style_one .image_box_1 {

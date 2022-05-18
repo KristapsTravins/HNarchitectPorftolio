@@ -1,15 +1,14 @@
 @import '../../../../scss/tools.scss';
 
-
-
-
-
-
 @media only screen and (min-width: 440px) {
-
     .content_style_one{
-
+      div:hover{
+        cursor: pointer;
+      }
+    }
+    .content_style_one{
         max-width: 700px;
+       
         .image_box_1{
             position: relative;
             top:81px;
@@ -53,8 +52,8 @@
 
 @media only screen and (min-width: 900px){
     .content_style_one{
-      align-self: flex-end;
-        
+        align-self: flex-end;
+        margin: 3vh 0 0 0;
         max-width: 1074px;
           .image_box_1{
             top:170px;

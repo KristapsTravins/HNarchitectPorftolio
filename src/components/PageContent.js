@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './sectionStyle/section_one/css/mobile.css';
 import './sectionStyle/section_one/css/viewport.css';
+import './sectionStyle/section_one/css/animate.css';
 import useWindowDimensions from '../hooks/useWindowDimensions';
 
 const TitleTextMob = (props) =>{
@@ -18,18 +19,20 @@ const TitleTextWide = (props) =>{
 
 
 const PageContent = (props)=> {
-
+const [isEntered,setEntered] = useState(false)
 const {height,width} = useWindowDimensions();
 
 return (
-<div className={props.typeClass} >
-    <div className='image_box_1'>
+<div className={props.typeClass}
+  onMouseLeave={()=>setEntered(false)}
+>
+    <div onMouseEnter={()=>setEntered(true)} className={`image_box_1 ${isEntered?"active":""}`}>
       <img src={props.image1} alt="" />
     </div>
-    <div className='image_box_2'>
+    <div onMouseEnter={()=>setEntered(true)} className={`image_box_2 ${isEntered?"active1":""}`}>
       <img src={props.image2} alt="" />
     </div>
-    <div className='image_box_3'>
+    <div onMouseEnter={()=>setEntered(true)} className={`image_box_3 ${isEntered?"active2":""}`}>
       <img src={props.image3} alt="" />
     </div>
     <div className='text_box'>
