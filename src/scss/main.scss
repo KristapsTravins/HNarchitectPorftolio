@@ -18,7 +18,8 @@
         max-width: 1540px;
         width: 100%;
         height: auto;
-        background-color: $base-col; 
+        background-color: $base-col;
+        @include scaffolding;
       
      
     }

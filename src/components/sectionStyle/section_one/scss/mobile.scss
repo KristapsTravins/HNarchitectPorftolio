@@ -1,0 +1,60 @@
+@import '../../../../scss/tools.scss';
+
+.content_style_one{
+height: 331px;
+margin: 24px 0 0 0;
+.image_box_1{
+    position: relative;
+    top:81px;
+    width: 199px;
+    height: 135px;
+    z-index: 2;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.image_box_2{
+    position: relative;
+    bottom: 135px;
+    left: 106px;
+    width: 139px;
+    height: 138px;
+    z-index: 0;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.image_box_3{
+    position: relative;
+    bottom: 160px;
+    left: 137px;
+    width: 148px;
+    height: 121px;
+    z-index: 0;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.text_box{
+    position: relative;
+    bottom: 210px;
+    height: 50px;
+    h3{
+        @include font-style-text;
+        font-size: 50px;
+        font-weight: 200;
+    }
+    ul{
+        list-style: none;
+        @include font-style-text;
+        position: relative;
+        bottom: 50px;
+        right: 38px;
+        font-size: 13px;
+    }
+}
+
+}

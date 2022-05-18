@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
+.content_style_one {
+  height: 331px;
+  margin: 24px 0 0 0;
+}
+
+.content_style_one .image_box_1 {
+  position: relative;
+  top: 81px;
+  width: 199px;
+  height: 135px;
+  z-index: 2;
+}
+
+.content_style_one .image_box_1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.content_style_one .image_box_2 {
+  position: relative;
+  bottom: 135px;
+  left: 106px;
+  width: 139px;
+  height: 138px;
+  z-index: 0;
+}
+
+.content_style_one .image_box_2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.content_style_one .image_box_3 {
+  position: relative;
+  bottom: 160px;
+  left: 137px;
+  width: 148px;
+  height: 121px;
+  z-index: 0;
+}
+
+.content_style_one .image_box_3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.content_style_one .text_box {
+  position: relative;
+  bottom: 210px;
+  height: 50px;
+}
+
+.content_style_one .text_box h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  font-size: 15px;
+  color: #D73434;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.content_style_one .text_box ul {
+  list-style: none;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+  font-size: 15px;
+  color: #D73434;
+  position: relative;
+  bottom: 50px;
+  right: 38px;
+  font-size: 13px;
+}
+/*# sourceMappingURL=mobile.css.map */
