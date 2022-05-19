@@ -7,44 +7,39 @@
       }
     }
     .content_style_one{
-        max-width: 700px;
+
+        position: relative;
+        @include scaffolding;
        
         .image_box_1{
-            position: relative;
-            top:81px;
-            width: 48vw;
-            height: 32vw;
-            max-width: 420px;
-            max-height: 290px;
+            position: absolute;
+            top:100px;
+            width: 360px;
+            height: 230px;
             z-index: 2;
         }
 
         .image_box_2{
-            position:relative;
-            bottom: 33vw;
-            left: 26vw;
-            width: 32vw;
-            height: 32vw;
-            max-width: 265px;
-            max-height: 310px;
+            position:absolute;
+            bottom: 108px;
+            left: 212px;
+            width: 220px;
+            height: 270px;
             z-index: 0;
         
         }
         .image_box_3{
-            position: relative;
-            bottom: 33vw;
-            left: 37vw;
-            width: 42vw;
-            height: 32vw;
-            max-width: 265px;
-            max-height: 216px;
+            position: absolute;
+            width: 265px;
+            height: 216px;
+            left: 306px;
+            top: 207px;
             z-index: 0;
+            
         }
         .text_box{
-            position: relative;
-            bottom: 53vw;
-            left: 2vw;
-            width: 42vw;
+            position: absolute;
+            top: 280px;
             z-index: 0;
         }
     }
@@ -52,46 +47,43 @@
 
 @media only screen and (min-width: 900px){
     .content_style_one{
-        align-self: flex-end;
+      align-self: flex-end;
         margin: 3vh 0 0 0;
-        max-width: 1074px;
+        width: 100%;
           .image_box_1{
-            top:170px;
-            right:205px;
+            right: 306px;
             width: 523px;
+            top: 177px;
             height: 355px;
-            float: right;
           }
           .image_box_2{
-            float: right;
-            bottom: 0px;
-            left: 323px;
+            left: auto;
+            right: 173px;
+            top: 2px;
             width: 363px;
             height: 366px;
           }
           .image_box_3{
-            top: 0px;
-            right:0px;
-            left: 0px;
-            float: right;
+            left: auto;
+            top: 370px;
             width: 390px;
             height: 318px;
-            bottom: 0px;
-            max-width: 390px;
-            max-height: 318px;
+            right: -25px;
           }
           .text_box{
             float: left;
-            top: 130px;
+            top: 478px;
+            left: auto;
+            right: 345px;
             width: 330px;
-            left: 450px;
             bottom: 0px;
             ul{
                 list-style: none;
                 @include font-style-text;
-                position: relative;
-                bottom: 50px;
-                right: 38px;
+                position: absolute;
+                top: 100px;
+                right: auto;
+                left: -45px;
                 font-size: 13px;
             }
 

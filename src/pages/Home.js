@@ -14,6 +14,10 @@ const Home = (props)=> {
      image1={homepage.homepage[0].image1} 
      image2={homepage.homepage[0].image2}
      image3={homepage.homepage[0].image3} 
+     image4={homepage.homepage[0].image4}
+     image5={homepage.homepage[0].image5}
+     open_text={homepage.homepage[0].open_text1}
+     open_text1={homepage.homepage[0].open_text2}
      title_text={homepage.homepage[0].title_text}
      typeClass = {homepage.homepage[0].spec_layout} 
      />

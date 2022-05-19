@@ -1,11 +1,12 @@
 @import '../../../../scss/tools.scss';
 
 .content_style_one{
+position: relative;
 height: 331px;
 margin: 120px 0 0 0;
 .image_box_1{
-    position: relative;
-    top:81px;
+    position: absolute;
+    top:120px;
     width: 199px;
     height: 135px;
     z-index: 2;
@@ -15,9 +16,9 @@ margin: 120px 0 0 0;
     }
 }
 .image_box_2{
-    position: relative;
-    bottom: 135px;
-    left: 106px;
+    position: absolute;
+    bottom: 152px;
+    left: 110px;
     width: 139px;
     height: 138px;
     z-index: 0;
@@ -27,9 +28,9 @@ margin: 120px 0 0 0;
     }
 }
 .image_box_3{
-    position: relative;
-    bottom: 160px;
-    left: 137px;
+    position: absolute;
+    bottom: 30px;
+    left: 163px;
     width: 148px;
     height: 121px;
     z-index: 0;
@@ -38,9 +39,26 @@ margin: 120px 0 0 0;
         height: 100%;
     }
 }
+.full_view_img1{
+    position: absolute;
+    width: 190px;
+    height: 168px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.full_view_img2{
+    width: 306px;
+    height: 179px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
 .text_box{
-    position: relative;
-    bottom: 210px;
+    position: absolute;
+    bottom: 75px;
     left: 10px;
     height: 50px;
     min-width: 241px;
@@ -52,15 +70,49 @@ margin: 120px 0 0 0;
     ul{
         list-style: none;
         @include font-style-text;
-        position: relative;
+        position: absolute;
         bottom: 50px;
         right: 38px;
         font-size: 13px;
     }
     p{
         @include font-style-text;
-        position: relative;
+        position: absolute;
+        top: 100px;
+        left: 2px;
+        font-size: 13px;
+        width: 265px;
+    }
+}
+.info_text{
+    display: flex;
+    width: 226px;
+    height: 237px;
+
+    text-align: inherit;
+    align-items: center;
+    padding: 10px 0 0 0;
+    p{
+        @include font-style-text;
+        position: absolute;
         bottom: 50px;
+        right: 0px;
+        font-size: 13px;
+        width: 265px;
+    }
+}
+.info_text2{
+    display: flex;
+    width: 226px;
+    height: 237px;
+
+    text-align: inherit;
+    align-items: center;
+    padding: 10px 0 0 0;
+    p{
+        @include font-style-text;
+        position: absolute;
+        bottom: 10px;
         right: 0px;
         font-size: 13px;
         width: 265px;
