@@ -3,8 +3,26 @@
         animation: OpenWidth_img1 0.5s 1 alternate ease-out forwards;
      }
      .open_text_main{
-        animation:  OpenPos_text_main 0.9s 1 alternate ease-out forwards;
+        animation:  OpenPos_text_main 1s 1 alternate ease-out forwards;
      }
+     .open_img_3{
+         display: none;
+     }
+     .open_img_2{
+        display: none;
+    }
+    .open_info_text{
+        display: none;
+    }
+    .open_info_text2{
+        display: none;
+    }
+    .full_view_img1{
+        display: none;
+    }
+    .full_view_img2{
+        display: none;
+    }
 
 
 
@@ -19,10 +37,13 @@
       }
 /////
 @keyframes OpenPos_text_main{
-    0%   { 
-        bottom: 570px;
+    0%   {
+        bottom: 75px;
+        left: 10px;
     }
     100%  {
-        bottom: 814px;
+        top: 0px;
+        left: 10px;
+        bottom: auto;
      }
   }

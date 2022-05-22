@@ -43,6 +43,7 @@
         align-self: flex-end;
     margin: 3vh 0 0 0;
     width: 100%;
+    height: auto;
   }
   .content_style_one .image_box_1 {
     right: 306px;
