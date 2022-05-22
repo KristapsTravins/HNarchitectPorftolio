@@ -50,6 +50,8 @@
   position: absolute;
   width: 190px;
   height: 168px;
+  top: 275px;
+  right: 0px;
 }
 
 .content_style_one .full_view_img1 img {
@@ -127,10 +129,11 @@
   font-size: 15px;
   color: #D73434;
   position: absolute;
-  bottom: 50px;
-  right: 0px;
+  top: 440px;
+  left: 10px;
+  word-spacing: 4px;
   font-size: 13px;
-  width: 265px;
+  width: 190px;
 }
 
 .content_style_one .info_text2 {
