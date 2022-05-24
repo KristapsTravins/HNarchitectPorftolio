@@ -1,26 +1,28 @@
 .content_style_one{
-    .open_img_1{  
-        animation: OpenWidth_img1 0.5s 1 alternate ease-out forwards;
-     }
+   
      .open_text_main{
       animation:  OpenPos_text_main 1.2s 1 alternate ease-out forwards; 
      }
-     .open_img_3{
-        animation:  Open_img_3 1.2s 1 alternate ease-out forwards; 
-     }
-     .open_img_2{
-        animation:  Open_img_2 1.2s 1 alternate ease-out forwards; 
-    }
     .open_info_text{
         animation:  Open_text 1.2s 1 alternate ease-out forwards; 
     }
     .open_info_text2{
         display: none;
     }
-    .full_view_img1{
-      animation:  Open_img_1 1.2s 1 alternate ease-out forwards; 
-    }
+   
+    .full_view_img1{  
+        animation: OpenWidth_img1 0.5s 1 alternate ease-out forwards;
+     }
     .full_view_img2{
+        animation:  Open_img_3 1.2s 1 alternate ease-out forwards; 
+     }
+    .full_view_img3{
+        animation:  Open_img_2 1.2s 1 alternate ease-out forwards; 
+    }
+    .full_view_img4{
+        animation:  Open_img_1 1.2s 1 alternate ease-out forwards; 
+      }
+    .full_view_img5{
         display: none;
     }
 

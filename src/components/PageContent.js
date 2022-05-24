@@ -18,21 +18,21 @@ return (
 >
     <div onMouseEnter={()=>setEntered(true)}
          onClick={()=>setOpen(!isOpen)} 
-         className={`${isOpen?"open_img_1":""} image_box_1 ${isEntered?"active":""}`}>
+         className={`${isOpen?"full_view_img1":""} image_box_1 ${isEntered?"active":""}`}>
       <img src={props.image1} alt="" />
     </div>
     <div onMouseEnter={()=>setEntered(true)}
          onClick={()=>setOpen(true)} 
-         className={`${isOpen?"open_img_2":""} image_box_2 ${isEntered?"active1":""}`}>
+         className={`${isOpen?"full_view_img2":""} image_box_2 ${isEntered?"active1":""}`}>
       <img src={props.image2} alt="" />
     </div>
     <div onMouseEnter={()=>setEntered(true)}
          onClick={()=>setOpen(true)} 
-         className={`${isOpen?"open_img_3":""} image_box_3${isEntered?" active2":""}`}>
+         className={`${isOpen?"full_view_img3":""} image_box_3${isEntered?" active2":""}`}>
       <img src={props.image3} alt="" />
     </div>
-    {isOpen?<div className={`${isOpen?"full_view_img1":""} image_box_4 `}><img src={props.image4} alt="" /></div>:<></>}
-    {isOpen?<div className={`image_box_5 ${isOpen?"full_view_img2":""}`}><img src={props.image5} alt="" /></div>:<></>}
+    {isOpen?<div className={`${isOpen?"full_view_img4":""} image_box_4 `}><img src={props.image4} alt="" /></div>:<></>}
+    {isOpen?<div className={`${isOpen?"full_view_img5":""} image_box_5 `}><img src={props.image5} alt="" /></div>:<></>}
       
     
     <div className={`${isOpen?"open_text_main":""} text_box`}>
