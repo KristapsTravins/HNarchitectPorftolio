@@ -9,7 +9,7 @@
         animation:  Open_img_3 1.2s 1 alternate ease-out forwards; 
      }
      .open_img_2{
-        display: none;
+        animation:  Open_img_2 1.2s 1 alternate ease-out forwards; 
     }
     .open_info_text{
         animation:  Open_text 1.2s 1 alternate ease-out forwards; 
@@ -54,6 +54,15 @@
         opacity: 1;
      }
   }
+  //
+  @keyframes Open_img_2{
+    0%   {
+        opacity: 0;
+    }
+    100%  {
+        opacity: 1;
+     }
+  }
   ///
   @keyframes Open_text{
     0%   {
@@ -70,8 +79,8 @@
       height: 121px;
     }
     100%  {
-    
       bottom: -500px;
+      left: auto;
       right: 0;
       width: 277px;
       height: 222px;

@@ -22,9 +22,11 @@
   position: absolute;
   bottom: 152px;
   left: 110px;
-  width: 139px;
-  height: 138px;
-  z-index: 0;
+  top: 800px;
+  right: 0px;
+  width: 211px;
+  height: 213px;
+  z-index: 1;
 }
 
 .content_style_one .image_box_2 img {
