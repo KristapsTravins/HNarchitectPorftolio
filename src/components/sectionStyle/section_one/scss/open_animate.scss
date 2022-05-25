@@ -1,90 +1,50 @@
 .content_style_one{
    
-     .open_text_main{
-      animation:  OpenPos_text_main 1.2s 1 alternate ease-out forwards; 
+    .open_text_main{
+        animation: Open_main_text_title 1s 1 alternate ease-out forwards;
+        p{
+            display: none;
+        }
+        
      }
     .open_info_text{
-        animation:  Open_text 1.2s 1 alternate ease-out forwards; 
+       display: none;
     }
     .open_info_text2{
         display: none;
     }
-   
-    .full_view_img1{  
-        animation: OpenWidth_img1 0.5s 1 alternate ease-out forwards;
+    .open_view_img1{  
+        animation: Open_animation_img_1 1s 1 alternate ease-out forwards;
+        width: 199px;
+        height: 135px;
      }
-    .full_view_img2{
-        animation:  Open_img_3 1.2s 1 alternate ease-out forwards; 
+    .open_view_img2{
+        display: none;
      }
-    .full_view_img3{
-        animation:  Open_img_2 1.2s 1 alternate ease-out forwards; 
-    }
-    .full_view_img4{
-        animation:  Open_img_1 1.2s 1 alternate ease-out forwards; 
-      }
-    .full_view_img5{
+    .open_view_img3{
         display: none;
     }
-
-
-
-
-    }
-/////    
-    @keyframes OpenWidth_img1{
-        0%   { width:199px; 
-               height: 135px;}
-        100%  { width:250px; 
-                height: 170px; }
+    .open_view_img4{
+        display: none;
       }
-/////
-@keyframes OpenPos_text_main{
-    0%   {
-        bottom: 75px;
-        left: 10px;
+    .open_view_img5{
+        display: none;
     }
-    100%  {
-        bottom: 285px;
-     }
-  }
-  ///
-  @keyframes Open_img_1{
-    0%   {
-        opacity: 0;
     }
-    100%  {
-        opacity: 1;
-     }
-  }
-  //
-  @keyframes Open_img_2{
-    0%   {
-        opacity: 0;
+//// img 1 move
+@keyframes Open_animation_img_1{
+    100%{
+        width: 250px;
+        height: 170px;
     }
-    100%  {
-        opacity: 1;
-     }
-  }
-  ///
-  @keyframes Open_text{
-    0%   {
-        opacity: 0;
+}
+//// main text move
+@keyframes Open_main_text_title{
+ 
+    100%{
+        
+        bottom: 275px;
     }
-    100%  {
-        opacity: 1;
-     }
-  }
-  ///
-  @keyframes Open_img_3{
-    0%   {
-      width: 148px;
-      height: 121px;
-    }
-    100%  {
-      bottom: -500px;
-      left: auto;
-      right: 0;
-      width: 277px;
-      height: 222px;
-     }
-  }
+}
+/// main text p disapear 
+

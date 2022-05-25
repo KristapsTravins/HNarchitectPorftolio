@@ -3,6 +3,8 @@ import './sectionStyle/section_one/css/mobile.css';
 import './sectionStyle/section_one/css/viewport.css';
 import './sectionStyle/section_one/css/animate.css';
 import './sectionStyle/section_one/css/open_animate.css';
+import './sectionStyle/section_one/css/close_animate.css';
+
 import useWindowDimensions from '../hooks/useWindowDimensions';
 
 
@@ -18,24 +20,24 @@ return (
 >
     <div onMouseEnter={()=>setEntered(true)}
          onClick={()=>setOpen(!isOpen)} 
-         className={`${isOpen?"full_view_img1":""} image_box_1 ${isEntered?"active":""}`}>
+         className={`${isOpen?"open_view_img1":"close_view_img1"} image_box_1 ${isEntered?"active":""}`}>
       <img src={props.image1} alt="" />
     </div>
     <div onMouseEnter={()=>setEntered(true)}
          onClick={()=>setOpen(true)} 
-         className={`${isOpen?"full_view_img2":""} image_box_2 ${isEntered?"active1":""}`}>
+         className={`${isOpen?"open_view_img2":""} image_box_2 ${isEntered?"active1":""}`}>
       <img src={props.image2} alt="" />
     </div>
     <div onMouseEnter={()=>setEntered(true)}
          onClick={()=>setOpen(true)} 
-         className={`${isOpen?"full_view_img3":""} image_box_3${isEntered?" active2":""}`}>
+         className={`${isOpen?"open_view_img3":""} image_box_3${isEntered?" active2":""}`}>
       <img src={props.image3} alt="" />
     </div>
-    {isOpen?<div className={`${isOpen?"full_view_img4":""} image_box_4 `}><img src={props.image4} alt="" /></div>:<></>}
-    {isOpen?<div className={`${isOpen?"full_view_img5":""} image_box_5 `}><img src={props.image5} alt="" /></div>:<></>}
+    {isOpen?<div className={`${isOpen?"open_view_img4":""} image_box_4 `}><img src={props.image4} alt="" /></div>:<></>}
+    {isOpen?<div className={`${isOpen?"open_view_img5":""} image_box_5 `}><img src={props.image5} alt="" /></div>:<></>}
       
     
-    <div className={`${isOpen?"open_text_main":""} text_box`}>
+    <div className={`${isOpen?"open_text_main":"close_text_main"} text_box`}>
     <h3>{props.title}</h3>
       {width>=900?!isOpen?<TitleTextWide title_text={props.title_text} />:<></>:!isOpen?< TitleTextMob title_text={props.title_text} />:<></>}
     </div>

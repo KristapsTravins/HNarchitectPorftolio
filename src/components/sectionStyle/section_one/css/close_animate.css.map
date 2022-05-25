@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACG,kBADe,CACf,gBAAgB,CAAA;EACf,SAAS,EAAE,sDAAsD;CACjE;;AAHJ,AAIG,kBAJe,CAIf,gBAAgB,CAAA;EACf,SAAS,EAAE,0DAA0D;CACrE;;AAGJ,UAAU,CAAV,qBAAU;EACN,EAAE;IACE,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,KAAK;;EAEjB,IAAI;IACA,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,KAAK;;;;AAGrB,UAAU,CAAV,yBAAU;EACN,EAAE;IACE,MAAM,EAAE,KAAK;;EAEjB,IAAI;IACC,MAAM,EAAE,IAAI",
+    "sources": [
+        "../scss/close_animate.scss"
+    ],
+    "names": [],
+    "file": "close_animate.css"
+}
