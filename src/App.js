@@ -1,14 +1,12 @@
-import {MenuBtn} from './components/MenuBtn';
-import { useState } from 'react';
-import './css/animate.css';
 import { Routes ,Route, BrowserRouter } from 'react-router-dom';
+import Home from './pages/Home/Home';
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
     <div  className="App">
     <Routes>
-    <Route path='/' element={<></>} />
+    <Route path='/' element={<Home />} />
     </Routes>
     </div>
     </BrowserRouter>
