@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
+.Menu_btn {
+  border: 0.1px dotted black;
+  border-radius: 100%;
+  position: fixed;
+  background: url(../../../assets/images/buttonMenuBackground.jpeg) no-repeat center center fixed;
+  background-size: cover;
+}
+/*# sourceMappingURL=global.css.map */
