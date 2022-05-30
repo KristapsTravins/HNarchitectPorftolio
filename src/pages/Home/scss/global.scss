@@ -1,0 +1,8 @@
+@import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
+
+.home_center{
+    @include scaffolding;
+    width: 100%;
+    max-width: 1444px;
+    height: 100vh;
+}

@@ -9,6 +9,12 @@ body {
   overflow-x: hidden;
   background-color: #F8F8F8;
 }
+.App{
+display: flex;
+justify-content: center;
+width: 99vw;
+height: auto;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

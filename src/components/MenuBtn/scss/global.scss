@@ -1,0 +1,8 @@
+@import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
+
+.Menu_btn{
+    @include scaffolding;
+    border-radius: 100%;
+    position: fixed;
+   @include background-menu;
+}
