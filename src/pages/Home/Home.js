@@ -2,7 +2,7 @@ import "./css/global.css"
 import "./css/tab.css"
 import "./css/mobile.css"
 import "./css/desktop.css"
-import MenuBtn from "../../components/MenuBtn/MenuBtn"
+import {MenuBtn}from "../../components/MenuBtn/MenuBtn"
 
 
 

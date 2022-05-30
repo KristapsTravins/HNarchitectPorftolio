@@ -1,8 +1,37 @@
 @import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
 
 .Menu_btn{
-    @include scaffolding;
+    all: unset;
     border-radius: 100%;
     position: fixed;
-   @include background-menu;
+    background-position: -322px -255px;
+    left: 20px;
+    top: 25px;
+    height: 108px;
+    width: 113px;
+    background-color:$base-col;
+    @include scaffolding;
+    div{
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        @include background-menu;
+    }
+    .fadeOut{
+        animation: fadeOut 2s  forwards;
+      
+        }
+    .fadeIn{
+        animation: fadeIn 2s forwards;
+    }
 }
+
+@keyframes fadeOut {
+0%{opacity: 1;}
+100%{opacity: 0;}
+}
+@keyframes fadeIn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
