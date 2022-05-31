@@ -1,1 +1,77 @@
 @import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
+
+.about_center_section{
+    width: 612px;
+    height: 672px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div{
+        width: 100%;
+    }
+    .main_description_block{
+        height: 246px;
+        display: flex;
+        justify-content: space-between;
+        .image_block{
+            @include scaffolding-white;
+            width: 164px;
+            height: 246px;
+            display: flex;
+            margin: 5px 0 0 0;
+            img{
+                width: 100%;
+            }
+        }
+        .description_block{
+            width: 434px;
+            margin: 10px 0 0 0;
+            .title_block{
+                line-height: 8px;
+                h1{
+                    @include font-style-menu;
+                    font-size: 13px;
+                    font-weight:bold;
+                    letter-spacing: 0px;
+                    word-spacing: -2px;
+                }
+                h3{
+                    @include font-style-menu;
+                    font-size: 13px;
+                    font-weight:bold;
+                }
+            }
+            .description_text_block{
+                width: 100%;
+                height: auto;
+                margin: 40px 0 0 0;
+                
+                p{
+                    @include font-style-menu;
+                    font-size: 13px;
+                    width: 375px;
+                    font-weight: 400;
+                }
+            }
+            
+        }
+    }
+    .exp_description_block{
+        h3{
+            @include font-style-menu;
+            font-size: 13px;
+            font-weight:bold;
+        }
+        ul{
+            all: unset;
+            list-style: none;
+            line-height: 36px;
+            li{
+                @include font-style-menu;
+                font-size: 13px;
+                font-weight: 300;
+            }
+        }
+
+    }
+}

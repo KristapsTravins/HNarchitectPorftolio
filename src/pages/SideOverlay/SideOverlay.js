@@ -3,10 +3,10 @@ import { motion } from "framer-motion"
 import useWindowDimensions from './hooks/WindowDimensions'
 import Footer from '../../components/Footer/Footer'
 import "./css/slideOverlay.css"
+import { About } from '../../components/About/About'
 
 function SideOverlay(props) {
   const {width} = useWindowDimensions();
-  console.log(width);
   const slideIn={
     left:0,
     transition:{duration:3}
@@ -17,9 +17,11 @@ function SideOverlay(props) {
   } 
   return (
     <motion.div
-    className='content_overlay'
+    className="content_overlay"
+    id={`${props.openState?"":"left"}`}
     animate={props.openState?slideIn:slideOut}>
       <div className='overlay_center'>
+          <About/>
           <Footer/>
       </div>
     </motion.div>

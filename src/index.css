@@ -1,29 +1,24 @@
 body {
   margin: 0;
+  height: auto;
   scroll-behavior: smooth;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  overflow: hidden;
   background-color: #F8F8F8;
-  overflow:hidden;
+
 }
 .App{
+position: relative;
 display: flex;
 justify-content: center;
-width: 99vw;
 height: auto;
+overflow-x: hidden;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-.App::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
-}
-.App{
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
 }

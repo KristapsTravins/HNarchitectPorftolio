@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
+/* @mixin  background-menu {
+    background: url(../../../assets/images/buttonMenuBackground.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
 .Menu_btn {
   all: unset;
   border-radius: 100%;
@@ -17,8 +24,7 @@
   width: 100%;
   height: 100%;
   border-radius: 100%;
-  background: url(../../../assets/images/buttonMenuBackground.jpeg) no-repeat center center fixed;
-  background-size: cover;
+  background: linear-gradient(166deg, #bf2827 0%, #963334 100%);
 }
 
 .Menu_btn .fadeOut {

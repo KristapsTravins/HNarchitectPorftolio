@@ -6,6 +6,7 @@
         height: 45px;
         display: flex;
         flex-direction: row;
+        margin: 0 0 0 0 !important;
         a{
             all: unset;
             @include font-style-menu;
@@ -21,13 +22,13 @@
             align-items: flex-start !important;
             width: 50%;
             padding: 0 0 0 5px;
-            @include scaffolding-white;
+          
         }
         .footer_right{
             width: 50%;
             align-items: flex-end !important;
             padding: 0 5px 0 0;
-            @include scaffolding-white;
+           
         }
 
     }

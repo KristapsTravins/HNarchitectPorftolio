@@ -22,10 +22,11 @@ $content-col:#D73434;
 @mixin scaffolding-white {
     border: 0.1px dotted white;
 }
-@mixin  background-menu {
-    background: url(../../../assets/images/buttonMenuBackground.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+@mixin background-menu {
+background: -webkit-linear-gradient(284deg, rgb(191, 40, 39) 0%, rgb(150, 51, 52) 100%);
+background: -o-linear-gradient(284deg, rgb(191, 40, 39) 0%, rgb(150, 51, 52) 100%);
+background: -ms-linear-gradient(284deg, rgb(191, 40, 39) 0%, rgb(150, 51, 52) 100%);
+background: -moz-linear-gradient(284deg, rgb(191, 40, 39) 0%, rgb(150, 51, 52) 100%);
+background: linear-gradient(166deg, rgb(191, 40, 39) 0%, rgb(150, 51, 52) 100%);
 }
