@@ -3,11 +3,6 @@ import "./css/tab.css"
 import "./css/mobile.css"
 import "./css/desktop.css"
 
-
-
-
-
-
 const Home = () => {
 
     return (

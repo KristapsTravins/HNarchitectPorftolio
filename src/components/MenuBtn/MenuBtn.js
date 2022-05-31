@@ -8,7 +8,6 @@ import "./css/desktop.css"
 
 
 export const MenuBtn = (props) =>{
-console.log(props.openStat)
 const pulse = {
     scale:[1, 1.2, 1],
     transition:{duration:2, repeat:Infinity ,repeatDelay:4,}

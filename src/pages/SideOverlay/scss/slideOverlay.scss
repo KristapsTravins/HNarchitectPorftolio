@@ -1,0 +1,21 @@
+@import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
+
+.content_overlay{
+    position: fixed;
+    height: 100vh;
+    @include background-menu;
+    width: 100vw;
+    z-index: 0;
+    left: 101%;
+    display: flex;
+    justify-content: center;
+    .overlay_center{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        min-width: 211px;
+        max-width: 1444px;
+        @include scaffolding-white
+    }
+}

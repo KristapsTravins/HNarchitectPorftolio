@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
+@media only screen and (max-width: 510px) {
+  .footer_outer {
+    width: 100%;
+    height: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .footer_outer a {
+    all: unset;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-weight: 200;
+    font-size: 13px;
+  }
+  .footer_outer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer_outer .footer_left {
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    width: 50%;
+    padding: 0 0 0 5px;
+    border: 0.1px dotted white;
+  }
+  .footer_outer .footer_right {
+    width: 50%;
+    -webkit-box-align: end !important;
+        -ms-flex-align: end !important;
+            align-items: flex-end !important;
+    padding: 0 5px 0 0;
+    border: 0.1px dotted white;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
