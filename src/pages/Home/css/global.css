@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .home_center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: 0.1px dotted black;
   width: 100%;
   max-width: 1444px;
-  height: 100vh;
   overflow-x: hidden;
 }
 /*# sourceMappingURL=global.css.map */

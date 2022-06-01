@@ -1,13 +1,10 @@
+import ContentOne from "../../components/content/content_style_one/ContentOne";
 import "./css/global.css"
-import "./css/tab.css"
-import "./css/mobile.css"
-import "./css/desktop.css"
 
 const Home = () => {
-
     return (
      <div className="home_center">
-       
+        <ContentOne />
      </div>
     );
   }

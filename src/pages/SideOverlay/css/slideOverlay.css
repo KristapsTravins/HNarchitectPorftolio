@@ -17,7 +17,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  left: 100%;
+  left: 101%;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .content_overlay .center {
