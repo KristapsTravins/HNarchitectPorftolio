@@ -1,26 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .content_overlay {
-  position: absolute;
+  top: 0px;
+  bottom: 0;
+  width: 100%;
   background: linear-gradient(166deg, #bf2827 0%, #963334 100%);
-  width: 100vw;
-  z-index: 0;
+  position: fixed;
+  height: auto;
+  overflow-y: scroll;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  overflow-x: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  left: 100%;
 }
 
-.content_overlay .overlay_center {
-  border: 0.1px dotted white;
-  margin: 20px 0 0 0;
-  width: 100%;
-  height: 100vh;
+.content_overlay .center {
+  margin: 3% 0 0 0;
+  position: relative;
+  top: 5%;
 }
 
-#left {
-  left: 101vw;
+@media only screen and (max-width: 610px) {
+  .content_overlay .center {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=slideOverlay.css.map */

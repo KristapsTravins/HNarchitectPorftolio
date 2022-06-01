@@ -2,15 +2,14 @@
 @media only screen and (max-width: 830px) {
    
     .about_center_section{
-        
+
         .main_description_block{
-            margin: 170px 0 0 0 ;
+            margin: 120px 0 0 0 ;
             height: 246px;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             flex-direction: row-reverse;
             .image_block{
-                @include scaffolding-white;
                 width: 164px;
                 height: 246px;
                 display: flex;
@@ -52,6 +51,7 @@
             }
         }
         .exp_description_block{
+            padding: 0 0 0 10px;
             h3{
                 @include font-style-menu;
                 font-size: 13px;

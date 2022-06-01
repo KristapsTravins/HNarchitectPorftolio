@@ -2,8 +2,8 @@ import React from 'react'
 import { motion } from "framer-motion"
 import useWindowDimensions from './hooks/WindowDimensions'
 import Footer from '../../components/Footer/Footer'
-import "./css/slideOverlay.css"
 import { About } from '../../components/About/About'
+import "./css/slideOverlay.css"
 
 function SideOverlay(props) {
   const {width} = useWindowDimensions();
@@ -18,12 +18,11 @@ function SideOverlay(props) {
   return (
     <motion.div
     className="content_overlay"
-    id={`${props.openState?"":"left"}`}
     animate={props.openState?slideIn:slideOut}>
-      <div className='overlay_center'>
-          <About/>
-          <Footer/>
-      </div>
+     <div className='center'>
+     <About />
+     </div>
+  
     </motion.div>
   )
 }

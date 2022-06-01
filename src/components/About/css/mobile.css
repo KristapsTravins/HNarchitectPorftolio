@@ -1,1 +1,30 @@
-/* No CSS *//*# sourceMappingURL=mobile.css.map */
+@media only screen and (max-width: 610px) {
+  .about_center_section {
+    width: 100%;
+  }
+  .about_center_section .main_description_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about_center_section .main_description_block .image_block {
+    position: absolute;
+    top: -18px;
+    right: 11px;
+    min-width: 164px;
+    min-height: 246px;
+  }
+  .about_center_section .main_description_block .description_block {
+    width: 100%;
+    min-width: none;
+    margin: 100px 0 0 1px;
+  }
+  .about_center_section .main_description_block .description_block .description_text_block p {
+    width: 99%;
+  }
+  .about_center_section .exp_description_block {
+    margin: 50px 0 50px 1px;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

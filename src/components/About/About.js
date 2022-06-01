@@ -3,6 +3,7 @@ import "./css/tab.css"
 import "./css/mobile.css"
 import "./css/desktop.css"
 import profileImg from "../../assets/images/profile.png"
+import Footer from "../Footer/Footer"
 
 
 
@@ -13,7 +14,7 @@ return(
 
     <div className="main_description_block">
         <div className="image_block">
-           {/* <img src={profileImg} alt="" /> */}
+           <img src={profileImg} alt="" />
         </div>
         <div className="description_block">
             <div className="title_block">
@@ -46,9 +47,10 @@ return(
             <li>2018 / MULTICOMFORT HOUSE STUDENTS CONTEST National stage / first Place</li>
             <li>2019 / MULTICOMFORT HOUSE STUDENTS CONTEST National stage / first Place</li>
             <li>2022 / BEBREEDERS MICRO HOME COMPETITION / Second place</li>
-            
+     
         </ul>
     </div>
+    <Footer />
 </div>
 )
 }

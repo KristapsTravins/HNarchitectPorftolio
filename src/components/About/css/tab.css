@@ -1,21 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 @media only screen and (max-width: 830px) {
   .about_center_section .main_description_block {
-    margin: 170px 0 0 0;
+    margin: 120px 0 0 0;
     height: 246px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
   }
   .about_center_section .main_description_block .image_block {
-    border: 0.1px dotted white;
     width: 164px;
     height: 246px;
     display: -webkit-box;
@@ -57,6 +56,9 @@
     font-size: 13px;
     width: 375px;
     font-weight: 400;
+  }
+  .about_center_section .exp_description_block {
+    padding: 0 0 0 10px;
   }
   .about_center_section .exp_description_block h3 {
     font-family: 'Roboto Mono', monospace;

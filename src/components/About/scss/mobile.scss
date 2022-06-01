@@ -1,4 +1,54 @@
-@media only screen and (max-width: 440px) {
-   
+@media only screen and (max-width: 610px) {
+    .about_center_section{
+        width: 100%;
+        .main_description_block{
+                flex-direction: column;
+            .image_block{
+              position: absolute;
+              top: -18px;
+              right: 11px;
+              min-width: 164px;
+              min-height: 246px;
+                img{
+                 
+                }
+            }
+            .description_block{
+                width: 100%;
+                min-width: none;
+                margin: 100px 0 0 1px;
+                .title_block{
+                    
+                    h1{
+                   
+                    }
+                    h3{
+                       
+                    }
+                }
+                .description_text_block{
+                 
+                    
+                    p{
+                      width: 99%;
+                    }
+                }
+                
+            }
+        }
+        .exp_description_block{
+            margin: 50px 0 50px 1px;
+            h3{
+              
+            }
+            ul{
+              
+                li{
+                
+                }
+            }
+    
+        }
+    }
 }
 
