@@ -10,8 +10,7 @@
     height: 108px;
     width: 113px;
     background-color:$base-col;
-
-    z-index: 1;
+    z-index: 5;
     div{
         width: 100%;
         height: 100%;
@@ -19,13 +18,10 @@
         @include background-menu;
     }
     .fadeOut{
-        
         animation: fadeOut 2s  forwards 2s;
-      
         }
     .fadeIn{
         animation: fadeIn 2s forwards;
-        
     }
 }
 

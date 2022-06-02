@@ -3,7 +3,6 @@
 .home_center{
     display: flex;
     flex-direction: column;
-    @include scaffolding;
     width: 100%;
     max-width: 1444px;
     overflow-x: hidden; 

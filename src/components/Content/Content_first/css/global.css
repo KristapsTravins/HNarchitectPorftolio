@@ -1,12 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .content_main {
+  margin: 85px 2px 0 0;
   width: 100%;
   height: 711px;
+  border: 0.1px dotted black;
   /* expands to 2351px */
 }
 
 .content_main .content_inner {
   position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.content_main .content_inner .image1_block {
+  width: 300px;
+  height: 297px;
+  position: absolute;
+  right: 100px;
+  z-index: 0;
+}
+
+.content_main .content_inner .image1_block img {
+  width: 100%;
+  height: 100%;
+}
+
+.content_main .content_inner .image2_block {
+  width: 365px;
+  height: 260px;
+  position: absolute;
+  top: 132px;
+  right: 200px;
+  z-index: 2;
+}
+
+.content_main .content_inner .image2_block img {
+  width: 100%;
+  height: 100%;
+}
+
+.content_main .content_inner .image3_block {
+  width: 328px;
+  height: 270px;
+  position: absolute;
+  top: 227px;
+  right: 0px;
+  z-index: 1;
+}
+
+.content_main .content_inner .image3_block img {
   width: 100%;
   height: 100%;
 }
