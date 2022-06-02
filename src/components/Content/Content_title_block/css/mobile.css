@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 550px) {
   .content_title_block {
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;

@@ -1,9 +1,8 @@
 @import '../../../../assets/styleShortcuts/scss/styleShorcuts.scss';
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 550px) {
     .content_main{
         .hover_zone{
             display: none;
-          
         }
         .content_inner{
             .image1_block{

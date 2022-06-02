@@ -2,19 +2,23 @@ import React from 'react'
 import "./css/global.css";
 import "./css/mobile.css";
 import useWindowDimensions from './hooks/WindowDimensions';
+import { motion } from "framer-motion"
 
  export const ContentTitle=(props)=> {
    
   const width = useWindowDimensions().width;
   return (
-    <div className='content_title_block'>
+    <motion.div className='content_title_block'
+    animate={props.expansionState?{opacity:0}:{}}
+    transition={{duration:2}}
+    >
        <div className='title_block'>
        <h5><span>H</span>EMP HUT</h5>
        </div>
        <div className='description_block'>
         {width>800?<WideScreen/>:<SmallScreen/>}
        </div>
-    </div>
+    </motion.div>
   )
 }
 

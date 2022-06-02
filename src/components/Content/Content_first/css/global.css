@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .content_main {
-  margin: 0px 2px 0 0;
+  margin: 0px 0 0 2px;
   width: 100%;
-  height: 520px;
+  height: 620px;
   border: 0.1px dotted black;
   /* expands to 2351px */
 }
