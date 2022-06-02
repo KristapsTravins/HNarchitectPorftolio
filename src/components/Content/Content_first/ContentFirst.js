@@ -7,23 +7,41 @@ import ContentTitle from '../Content_title_block/ContentTitle';
 
 
 function ContentFisrt(props) {
-  const [stateOfexp,setExp]=useState(false);
+  const [stateOfExpansion,setExpansion]=useState(false);
+  const [stateOfHover,setStateOfHover]=useState(false);
+
   const anim = {height:"2351px"};
   return (
     <motion.div className='content_main'
-      onClick={()=>setExp(!stateOfexp)}
-      animate={stateOfexp?anim:{}}
+      onClick={()=>setExpansion(!stateOfExpansion)}
+      animate={stateOfExpansion?anim:{}}
       transition={{duration: 3 }}>
+    
         <div className='content_inner'>
-          <div className='image1_block'>
+        <div className='hover_zone'
+        onMouseEnter={()=>setStateOfHover(true)}
+        onMouseLeave={()=>setStateOfHover(false)}
+        ></div>
+          <motion.div 
+          className='image1_block'
+          animate={stateOfHover?{translateY:"-30px"}:""}
+          transition={{duration:1.4}}
+          >
             <Img1 />
-          </div>
-          <div className='image2_block'>
-            <Img2 />
-          </div>
-          <div className='image3_block'>
+          </motion.div>
+          <motion.div 
+          className='image2_block'
+          animate={stateOfHover?{translateX:"-50px"}:""}
+          transition={{duration:1.4}}
+          ><Img2 />
+          </motion.div>
+          <motion.div 
+          className='image3_block'
+          animate={stateOfHover?{translateY:"20px"}:""}
+          transition={{duration:1.4}} 
+          >
             <Img3 />
-          </div>
+          </motion.div>
           <ContentTitle />
         </div>
     </motion.div>
