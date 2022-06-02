@@ -2,8 +2,8 @@ import "./css/global.css"
 import "./css/tab.css"
 import "./css/mobile.css"
 import "./css/desktop.css"
-import profileImg from "../../assets/images/profile.png"
 import Footer from "../Footer/Footer"
+import { ProfilePic } from "../../assets/images/ImageComponents"
 
 
 
@@ -14,7 +14,7 @@ return(
 
     <div className="main_description_block">
         <div className="image_block">
-           <img src={profileImg} alt="" />
+           <ProfilePic />
         </div>
         <div className="description_block">
             <div className="title_block">

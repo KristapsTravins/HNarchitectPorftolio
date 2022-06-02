@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,6FAAI;ADEZ,AAAA,aAAa,CAAA;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,uBAAuB;CAO1B;;AAVD,AAII,aAJS,CAIT,cAAc,CAAA;EACV,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CAEf",
+    "sources": [
+        "../scss/global.scss",
+        "../../../../assets/styleShortcuts/scss/styleShorcuts.scss"
+    ],
+    "names": [],
+    "file": "global.css"
+}

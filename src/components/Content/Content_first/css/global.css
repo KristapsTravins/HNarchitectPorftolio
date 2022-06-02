@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
+.content_main {
+  width: 100%;
+  height: 711px;
+  /* expands to 2351px */
+}
+
+.content_main .content_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=global.css.map */
