@@ -13,7 +13,6 @@ align-items: center;
 flex-direction: column;
 left: 101%;
 overflow-x: hidden;
-overflow-y: scroll;
 z-index: 4;
 .center{
   margin: 3% 0 0 0;
@@ -24,7 +23,8 @@ z-index: 4;
 @media only screen and (max-width: 610px) {
   .content_overlay{
     .center{
-      width: 100%;
+      width: 98%;
+      margin: 0 0 0 5px;
     }
   }
 }

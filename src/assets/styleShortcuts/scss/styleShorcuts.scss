@@ -19,8 +19,17 @@ $content-col:#D73434;
 @mixin scaffolding {
     border: 0.1px dotted black;
 }
+@mixin hideTemp {
+    border: 0.1px dotted rgb(3, 227, 67);
+    img{
+        display: none;
+    }
+}
 @mixin scaffolding-white {
     border: 0.1px dotted white;
+}
+@mixin scaffolding-col {
+    border: 0.1px dotted rgb(29, 84, 139);
 }
 
 @mixin background-menu {

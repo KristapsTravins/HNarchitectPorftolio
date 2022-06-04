@@ -26,5 +26,8 @@
   .about_center_section .exp_description_block {
     margin: 50px 0 50px 1px;
   }
+  .about_center_section .first {
+    margin: 50px 0 0 1px;
+  }
 }
 /*# sourceMappingURL=mobile.css.map */

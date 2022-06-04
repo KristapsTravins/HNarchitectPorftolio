@@ -32,7 +32,7 @@ return(
         </div>
 
     </div>
-    <div className="exp_description_block">
+    <div className="exp_description_block first">
         <h3>EXPERIENCE</h3>
         <ul>
             <li>2014-2017 / Freelance work / Architect technician, 3D visualizations</li>
@@ -41,7 +41,7 @@ return(
             <li>2021- currently / ĒTER / Architect, Designer</li>
         </ul>
     </div>
-    <div className="exp_description_block">
+    <div className="exp_description_block ">
         <h3>AWARDS</h3>
         <ul>
             <li>2018 / MULTICOMFORT HOUSE STUDENTS CONTEST National stage / first Place</li>
