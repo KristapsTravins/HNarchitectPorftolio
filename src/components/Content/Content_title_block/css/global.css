@@ -5,7 +5,7 @@
   font-size: 15px;
   color: #D73434;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,8 +13,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  top: 335px;
-  right: 315px;
+  top: 436px;
+  right: 330px;
   width: 232px;
 }
 
