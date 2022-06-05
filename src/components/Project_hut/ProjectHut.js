@@ -4,6 +4,7 @@ import useWindowDimensions from '../../assets/hooks/useWindowDimensions'
 import {AImg1,AImg2,AImg3,AImg4,AImg5} from "../../assets/images/ImageComponents"
 import "./css/mobile.css"
 import ProjectTitle from '../Project_title/ProjectTitle'
+import ProjectDescription from '../Project_title_description/ProjectDescription'
 
 const ProjectHut =(props)=> {
   const { width } = useWindowDimensions();
@@ -42,6 +43,7 @@ const ProjectHut =(props)=> {
             >
             <AImg5/>
           </motion.div>
+          <ProjectDescription titleDescription={props.titleDescriptionData}  />
 
       </div>
     </motion.div>

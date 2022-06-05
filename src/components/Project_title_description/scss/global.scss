@@ -1,0 +1,28 @@
+@import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
+
+
+.huts_title_info{
+    position: absolute;
+    top: 340px;
+    left: 3px;
+    @include font-style-text;
+    font-weight: 400;
+    .list_item{
+        display: flex;
+        justify-content: flex-start;
+        width: auto;
+        height: 22px;
+        .data{
+            display: inline;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .left{
+            padding: 0 3px 0 0;
+        }
+        .right{
+            padding: 0 0 0 0px;
+        }
+    }
+       
+}
