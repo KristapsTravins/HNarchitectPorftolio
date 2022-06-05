@@ -19,7 +19,6 @@ return (
                     animate={{width:"auto"}}
                     transition={{duration:0.7,delay:counters[i++]}}
                     >{p}</motion.div>
-                 
                   <div className='right'>]</div>
                </div>
               )
