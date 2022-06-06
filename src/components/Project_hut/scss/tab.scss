@@ -1,0 +1,41 @@
+@import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
+
+@media only screen and (min-width: 460px)  {
+    .project_huts_main{
+       
+        .project_huts_inner{
+          
+        }
+        .project_huts_trigger_box{
+          
+            
+        }
+    
+        .huts_img1{
+          
+          left: auto;
+          right: 190px;
+          width:260px;
+          height:180px ;
+        }
+        .huts_img2{
+            left: auto;
+            top: 49px;
+            right: 120px;
+            width: 190px;
+            height: 180px;
+        }
+        .huts_img3{
+           left: auto ;
+           right: 10px;
+           width: 245px;
+           height: 190px;
+        }
+        .huts_img4 {
+          
+        }
+        .huts_img5 {
+          
+        }
+    }
+}
