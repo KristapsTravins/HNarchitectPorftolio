@@ -5,11 +5,14 @@ import "./css/desktop.css"
 import { motion } from "framer-motion"
 
  const ProjectDescription =(props)=> {
-const counters = [0.1,0.4,0.5,0.7,0.9,1]
+const counters = [1.1,1.5,1.7,1.9,2.1,2.3]
 let i = 0;
 return (
 <motion.div
           className='huts_title_info'
+          initial={{height:"0%"}}
+          animate={{height:"auto"}} 
+          transition={{duration:0.7}}
           >
             {props.titleDescription.map((p)=>{
             
@@ -31,6 +34,3 @@ return (
 }
 
 export default ProjectDescription
-/* 
-initial={{width:"0%"}}
-animate={{width:"auto"}} */

@@ -1,31 +1,45 @@
-
+@import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
 @media only screen and (min-width: 1010px)  {
 
      .project_huts_main{
          height: 1000px;
          overflow: hidden;
-        
-        .huts_img1{
-            width: 400px;
-            height: 290px;
-            right: 300px;
-            top: 225px;
-            img{}
+        .project_huts_inner{
+            .project_huts_trigger_box{
+                position: absolute;
+                background-color: chocolate;
+                @include scaffolding-col;
+                right: 117px;
+                height: 440px;
+                width: 500px;
+                z-index: 4;
+                left: auto;
+                opacity: 0.2;
+                cursor: pointer;
+            }
+            .huts_img1{
+                width: 400px;
+                height: 290px;
+                right: 300px;
+                top: 225px;
+                img{}
+            }
+            .huts_img2{
+                width: 305px;
+                height: 311px;
+                right: 180px;
+                top: 45px;
+                img{}
+            }
+            .huts_img3{
+                top: 290px;
+                width: 390px;
+                height: 318px;
+                right: 15px;
+                img{}
+            }
         }
-        .huts_img2{
-            width: 305px;
-            height: 311px;
-            right: 180px;
-            top: 45px;
-            img{}
-        }
-        .huts_img3{
-            top: 290px;
-            width: 390px;
-            height: 318px;
-            right: 15px;
-            img{}
-        }
+      
        
        
     }

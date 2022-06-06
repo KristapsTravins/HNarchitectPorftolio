@@ -7,8 +7,9 @@
     left: 3px;
     @include font-style-text;
     font-weight: 400;
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
+    overflow: hidden;
     justify-content: flex-start;
     width: 198px;
     .list_item{

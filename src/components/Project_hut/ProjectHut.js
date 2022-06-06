@@ -18,7 +18,9 @@ const ProjectHut =(props)=> {
   return (
     <motion.div className='project_huts_main'>
       <div className='project_huts_inner'>
-        <div className='project_huts_trigger_box'></div>
+        <div className='project_huts_trigger_box'
+        
+        ></div>
           <ProjectTitle />
           <motion.div
             className='huts_img1'
