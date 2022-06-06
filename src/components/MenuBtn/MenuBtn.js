@@ -4,9 +4,6 @@ import "./css/tab.css"
 import "./css/mobile.css"
 import "./css/desktop.css"
 
-
-
-
 export const MenuBtn = (props) =>{
 const pulse = {
     scale:[1, 1.2, 1],

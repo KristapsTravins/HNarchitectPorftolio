@@ -7,15 +7,19 @@
     left: 3px;
     @include font-style-text;
     font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 198px;
     .list_item{
         display: flex;
-        justify-content: flex-start;
-        width: auto;
+        float: left;
         height: 22px;
         .data{
             display: inline;
             overflow: hidden;
             white-space: nowrap;
+            width: 0px;
         }
         .left{
             padding: 0 5px 0 0;

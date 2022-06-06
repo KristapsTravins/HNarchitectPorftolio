@@ -17,9 +17,9 @@ return (
                <div className='list_item'>
                   <div className='left'>[ </div>
                     <motion.div className='data'
-                    initial={{width:"0px"}}
-                    animate={{width:"auto"}}
                     transition={{duration:0.7,delay:counters[i++]}}
+                    initial={{width:"0%"}}
+                    animate={{width:"auto"}} 
                     >{p}</motion.div>
                   <div className='right'>]</div>
                </div>
@@ -31,3 +31,6 @@ return (
 }
 
 export default ProjectDescription
+/* 
+initial={{width:"0%"}}
+animate={{width:"auto"}} */

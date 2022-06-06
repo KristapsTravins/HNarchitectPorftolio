@@ -1,6 +1,11 @@
 @media only screen and (min-width: 1010px)  {
     .huts_title_info{
-        top: 650px;
-        right: 520px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 198px;
+        right: 504px;
+        top: 525px;
+       
     }
 }
