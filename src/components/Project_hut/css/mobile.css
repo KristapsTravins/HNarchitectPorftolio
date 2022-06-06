@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .project_huts_main {
   width: 100%;
-  height: 547px;
+  height: 747px;
+  overflow: hidden;
 }
 
 .project_huts_main .project_huts_inner {
   position: relative;
-  border: 0.1px dotted #1d548b;
   width: 100%;
   height: 100%;
 }

@@ -1,7 +1,8 @@
 
 import parse from 'html-react-parser';
 import './css/global.css';
-import './css/tab.css'
+import './css/tab.css';
+import './css/desktop.css';
 
 
 const ProjectTitle = (props)=> {

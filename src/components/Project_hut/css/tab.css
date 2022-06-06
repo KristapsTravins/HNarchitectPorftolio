@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 @media only screen and (min-width: 460px) {
+  .project_huts_main {
+    overflow: hidden;
+  }
   .project_huts_main .huts_img1 {
     left: auto;
     right: 190px;
@@ -8,7 +11,7 @@
   }
   .project_huts_main .huts_img2 {
     left: auto;
-    top: 49px;
+    top: 55px;
     right: 120px;
     width: 190px;
     height: 180px;
@@ -18,6 +21,14 @@
     right: 10px;
     width: 245px;
     height: 190px;
+  }
+  .project_huts_main .huts_img4 {
+    left: auto;
+    right: 10px;
+  }
+  .project_huts_main .huts_img5 {
+    left: auto;
+    right: 10px;
   }
 }
 /*# sourceMappingURL=tab.css.map */

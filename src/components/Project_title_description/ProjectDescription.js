@@ -1,6 +1,7 @@
 import React from 'react'
 import "./css/global.css"
 import "./css/tab.css"
+import "./css/desktop.css"
 import { motion } from "framer-motion"
 
  const ProjectDescription =(props)=> {
