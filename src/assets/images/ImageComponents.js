@@ -1,18 +1,20 @@
 import React from 'react'
-import ProfileImg from './files/profile.png'
-import FirstContentImg1 from './files/content_img_1.png' 
-import FirstContentImg2 from './files/content_img_2.png' 
-import FirstContentImg3 from './files/content_img_3.png' 
-import FirstContentImg4 from './files/content_img_4.png' 
-import FirstContentImg5 from './files/content_img_5.png'
-import SecContentImg1 from './files/content_img_6.png'  
+import ProfileImg from './files/profile.webp'
+
+import FirstContentImg1 from './files/content_img_1.webp' 
+import FirstContentImg2 from './files/content_img_2.webp' 
+import FirstContentImg3 from './files/content_img_3.webp' 
+import FirstContentImg4 from './files/content_img_4.webp' 
+import FirstContentImg5 from './files/content_img_5.webp'
+
+import SecContentImg1 from './files/content_img_6.webp'  
 import SecContentImg2 from './files/content_img_7.png'  
-import SecContentImg3 from './files/content_img_8.png'  
-import SecContentImg4 from './files/content_img_9.png'  
-import SecContentImg5 from './files/content_img_10.png'
-import SecContentImg6 from './files/content_img_11.png'
-import ThirContentImg1 from './files/content_img_12.png'
-import ThirContentImg2 from './files/content_img_13.png'              
+import SecContentImg3 from './files/content_img_8.webp'  
+import SecContentImg4 from './files/content_img_9.webp'  
+import SecContentImg5 from './files/content_img_10.webp'
+import SecContentImg6 from './files/content_img_11.webp'
+import ThirContentImg1 from './files/content_img_12.webp'
+import ThirContentImg2 from './files/content_img_13.webp'              
 
 export const ProfilePic = () => {
   return (
