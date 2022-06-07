@@ -18,6 +18,7 @@ export const SetHoverAnimation =()=>{
 
 export const SetAnimations = (state) =>{
     const animated = animData.HoverAnimations.img1.move;
+    const animated2 = animData.HoverAnimations.img2.move;
     const [openState,setOpenState] = useState(false);
     if(state){
         return animated
