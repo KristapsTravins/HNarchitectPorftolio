@@ -1,0 +1,17 @@
+{
+    "HoverAnimations":
+    {
+       "img1":{
+        "move":{"transform":"translateX(-10%)"},
+        "transitions":{"duration":1}
+       },
+       "img2":{
+        "move":{"transform":"translateY(-5%)"},
+        "transitions":{"duration":1}
+       },
+       "img3":{
+        "move":{"transform":"translateY(10%)"},
+        "transitions":{"duration":1}
+       }
+    }
+}
