@@ -22,8 +22,8 @@ const ProjectHut =(props)=> {
     <motion.div className='project_huts_main'>
       <div className='project_huts_inner'>
         <div className='project_huts_trigger_box'
-        onMouseEnter={()=>{setHoverEffect(width,true)}}
-        onMouseLeave={()=>{setHoverEffect(width,false)}}
+        onMouseEnter={()=>!openState?setHoverEffect(width,true):""}
+        onMouseLeave={()=>!openState?setHoverEffect(width,false):""}
         onClick={()=>{
           setHoverEffect(width,false)
           setOpenState(true)

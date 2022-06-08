@@ -1,37 +1,52 @@
 import React from 'react'
-import ProfileImg from './files/profile.webp'
 
-import FirstContentImg1 from './files/content_img_1.webp' 
-import FirstContentImg2 from './files/content_img_2.webp' 
-import FirstContentImg3 from './files/content_img_3.webp' 
-import FirstContentImg4 from './files/content_img_4.webp' 
-import FirstContentImg5 from './files/content_img_5.webp'
+import FirstContentImg1 from "./files/content_1/desktop/content_img_2.webp";
+import FirstContentImg2 from "./files/content_1/desktop/content_img_1.webp";                
+import FirstContentImg3 from "./files/content_1/desktop/content_img_3.webp";  
+import FirstContentImg4 from "./files/content_1/desktop/content_img_4.webp";
+import FirstContentImg5 from "./files/content_1/desktop/content_img_5.webp";
 
-import SecContentImg1 from './files/content_img_6.webp'  
-import SecContentImg2 from './files/content_img_7.png'  
-import SecContentImg3 from './files/content_img_8.webp'  
-import SecContentImg4 from './files/content_img_9.webp'  
-import SecContentImg5 from './files/content_img_10.webp'
-import SecContentImg6 from './files/content_img_11.webp'
-import ThirContentImg1 from './files/content_img_12.webp'
-import ThirContentImg2 from './files/content_img_13.webp'              
+import FirstContentImg1T from "./files/content_1/tab/content_img_2.webp";
+import FirstContentImg2T from "./files/content_1/tab/content_img_1.webp";                
+import FirstContentImg3T from "./files/content_1/tab/content_img_3.webp";
+
+import FirstContentImg1S from "./files/content_1/tab/content_img_2.webp";
+import FirstContentImg2S from "./files/content_1/tab/content_img_1.webp";                
+import FirstContentImg3S from "./files/content_1/tab/content_img_3.webp"; 
+
+
+
+
+import SecContentImg1 from "./files/content_2/content_img_6.webp";
+import SecContentImg2 from "./files/content_2/content_img_7.webp";
+import SecContentImg3 from "./files/content_2/content_img_8.webp";
+import SecContentImg4 from "./files/content_2/content_img_9.webp";
+import SecContentImg5 from "./files/content_2/content_img_10.webp";
+import SecContentImg6 from "./files/content_2/content_img_11.webp";
+
+import ThirContentImg1 from "./files/content_3/content_img_12.webp";
+import ThirContentImg2 from "./files/content_3/content_img_13.webp";
+
+import ProfileImg from "./files/about_page/profile.webp";
+
+
 
 export const ProfilePic = () => {
   return (
     <img src={ProfileImg} alt="profile_pic" />
   )
 }
-export const AImg1 = () => {
+export const AImg1 = (width) => {
     return (
       <img src={FirstContentImg1} alt="hut_img1" />
     )
   }
-  export const AImg2 = () => {
+  export const AImg2 = (width) => {
     return (
       <img src={FirstContentImg2} alt="hut_img2" />
     )
   }
-  export const AImg3 = () => {
+  export const AImg3 = (width) => {
     return (
       <img src={FirstContentImg3} alt="hut_img3" />
     )
