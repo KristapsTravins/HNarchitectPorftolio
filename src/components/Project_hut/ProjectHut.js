@@ -18,9 +18,15 @@ const ProjectHut =(props)=> {
   return (
     <motion.div className='project_huts_main'>
       <div className='project_huts_inner'>
+
+  
         <div 
         className='project_huts_trigger_box'
+        onMouseEnter={{}}
+        onMouseLeave={{}}
+        onClick={()=>{
         
+        }}
         ></div>
           <ProjectTitle />
           <motion.div
