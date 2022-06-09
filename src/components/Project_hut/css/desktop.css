@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 @media only screen and (min-width: 1010px) {
   .project_huts_main {
-    height: 1000px;
+    height: 75vh;
     overflow: hidden;
   }
   .project_huts_main .project_huts_inner .project_huts_trigger_box {

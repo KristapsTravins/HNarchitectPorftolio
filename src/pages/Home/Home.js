@@ -8,6 +8,7 @@ const Home = () => {
     return (
      <div className="home_center">
        <Project sectionOpen={sectionState} titleDescriptionData={['Modular prefab home','Concept','2022','Latvia','40 sq.m.']} />
+
      </div>
     );
   }
