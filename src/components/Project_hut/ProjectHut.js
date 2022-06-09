@@ -16,19 +16,21 @@ const ProjectHut =(props)=> {
   const { width } = useWindowDimensions();
   console.log(width)
   return (
-    <motion.div className='project_huts_main'>
+    <motion.div 
+    className='project_huts_main'
+    animate={{height:"5000px"}}
+    >
       <div className='project_huts_inner'>
 
   
         <div 
         className='project_huts_trigger_box'
-        onMouseEnter={{}}
-        onMouseLeave={{}}
+ 
         onClick={()=>{
         
         }}
         ></div>
-          <ProjectTitle />
+          <ProjectTitle/>
           <motion.div
             className='huts_img1'
             >
