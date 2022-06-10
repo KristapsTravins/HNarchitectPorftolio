@@ -6,18 +6,13 @@ import './css/desktop.css';
 
 
 const ProjectTitle = (props)=> {
-const classN ="hemp_title"; 
   return (
-    <motion.div
-    animate={{
-      top:"50px",
-      left:"25px",
-      fontSize:"80px"
 
-    }}
-    >
-      {parse(`<h1 className="${classN}" >H<span>EMP</span><br/><span className="lower_key">HUT</span></h1>`)      }
-    </motion.div>
+   <motion.h1 className="hemp_title" 
+              animate={{}}
+   >
+   {parse("H<span>EMP</span><br/><span className='lower_key'>HUT</span>")}</motion.h1>
+ 
  
   )
 }
