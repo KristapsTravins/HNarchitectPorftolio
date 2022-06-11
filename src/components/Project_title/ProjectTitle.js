@@ -9,7 +9,7 @@ const ProjectTitle = (props)=> {
   return (
 
    <motion.h1 className="hemp_title" 
-              animate={{}}
+              animate={props.mobileAnim}
    >
    {parse("H<span>EMP</span><br/><span className='lower_key'>HUT</span>")}</motion.h1>
  

@@ -13,5 +13,34 @@
         "move":{"transform":"translateY(10%)"},
         "transitions":{"duration":1}
        }
+    },
+    "OpenAnimation":
+    {
+        "mobile":{
+            "title_animation":{
+                "top":"55px",
+                "left":"10px",
+                "fontSize":"90px"
+            },
+            "title_description_animation":{
+                "top":"250px",
+                "left":"10px"
+            },
+            "img1_animation":{
+                "top":"370px",
+                "left":"auto",
+                "right":"10px",
+                "width":"285px",
+                "height":"194px"
+            }
+        },
+        "tab":{
+
+        },
+        "desktop":{
+
+        }
+
     }
+
 }

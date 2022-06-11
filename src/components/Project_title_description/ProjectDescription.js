@@ -11,7 +11,7 @@ return (
 <motion.div
           className='huts_title_info'
           initial={{height:"0%"}}
-          animate={{height:"auto"}} 
+          animate={{height:"auto", ...props.mobileAnim}} 
           transition={{duration:0.7}}
           >
             {props.titleDescription.map((p)=>{
