@@ -32,7 +32,42 @@
                 "right":"10px",
                 "width":"285px",
                 "height":"194px"
+            },
+            "img2_animation":{
+                "width":"276px",
+              "height":"276px",
+              "top":"795px",
+              "left":"auto",
+              "right":"10px"
+            },
+            "img3_animation":{
+                "top":"1050px",
+                "width":"277px",
+                "height":"222px",
+                "left":"0px",
+                "zIndex":0
+            },
+            "proj_text_description":{
+                "top":"575px",
+                "left":"10px",
+                "right":"8px",
+                "width":"100%",
+                "height":"100%"
+            },
+            "proj_text_description2":{
+                "top":"1280px",
+                "left":"10px",
+                "right":"8px",
+                "width":"100%",
+                "height":"100%"
+            },
+            "img5_animation":{
+                "top":"1488px",
+                "width":"311px",
+                "height":"182px",
+                "left":0
             }
+            
         },
         "tab":{
 
@@ -42,5 +77,6 @@
         }
 
     }
+
 
 }

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,6FAAI;ADEZ,AAAA,iBAAiB,CAAA;EACb,GAAG,EAAE,KAAK;EACV,IAAI,EAAE,IAAI;EACV,KAAK,EAAE,GAAG;CAEb;;AACD;;;;;;IAMI",
+    "sources": [
+        "../scss/mobile.scss",
+        "../../../assets/styleShortcuts/scss/styleShorcuts.scss"
+    ],
+    "names": [],
+    "file": "mobile.css"
+}
