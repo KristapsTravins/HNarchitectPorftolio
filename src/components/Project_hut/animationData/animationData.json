@@ -70,7 +70,62 @@
             
         },
         "tab":{
+            "title_animation":{
+                "top":"88px",
+                "left":"350px",
+                "right":"auto",
+                "fontSize":"70px"
+            },
+            "title_description_animation":{
+               "left":"350px",
+               "right":"auto",
+               "top":"260px"
+            },
+            "img1_animation":{
+              "right":"auto",
+              "left":"10px",
+              "width":"324px",
+              "height":"230px"
+            },
+            "img2_animation":{
+                "width":"276px",
+                "height":"276px",
+                "top":"408px",
+                "left":"auto",
+                "right":"10px"
+            },
+            "img3_animation":{
+                "right":"auto",
+                "zIndex":0,
+                "top":"620px",
+                "left":"10px",
+                "width":"336px",
+                "height":"273px"
 
+             
+            },
+            "proj_text_description":{
+                "top":"390px",
+                "left":"10px",
+                "right":"8px",
+                "width":"100%",
+                "height":"100%",
+                "zIndex":1
+
+            },
+            "proj_text_description2":{
+                "top":"730px",
+                "left":"48%",
+                "right":"auto",
+                "width":"100%",
+                "height":"100%"
+            },
+            "img5_animation":{
+                "top":"970px",
+                "width":"411px",
+                "height":"232px",
+                "left":0
+            }
         },
         "desktop":{
 

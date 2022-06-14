@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import { motion } from "framer-motion"
 import useWindowDimensions from '../../assets/hooks/useWindowDimensions'
 import {AImg1,AImg2,AImg3,AImg4,AImg5} from "../../assets/images/ImageComponents"
@@ -11,12 +11,18 @@ import OpenProjectDescription from '../Project_description/OpenProjectDescriptio
 import "./css/mobile.css";
 import "./css/tab.css";
 import "./css/desktop.css";
+import { SetAnimations } from './hooks/setAnimations'
 
 
 const ProjectHut =(props)=> {
 
   const { width } = useWindowDimensions();
-  console.log(width)
+  const [animationWidthState,setAnimationState] = useState({})
+  useEffect(() => {
+    setAnimationState(SetAnimations(width))
+  }, [width])
+  
+
 
   return (
     <motion.div 
@@ -33,32 +39,35 @@ const ProjectHut =(props)=> {
         }}
         ></div>
           <ProjectTitle 
-          mobileAnim={props.sectionOpen.sectionState?AnimationData.OpenAnimation.mobile.title_animation:{}}/>
+          mobileAnim={props.sectionOpen.sectionState?animationWidthState.title_animation:{}}/>
           <motion.div
             className='huts_img1'
-            animate={props.sectionOpen.sectionState?AnimationData.OpenAnimation.mobile.img1_animation:{}}
+            animate={props.sectionOpen.sectionState?animationWidthState.img1_animation:{}}
+     
             >
             <AImg2/>
           </motion.div>
 
           <motion.div
             className='huts_img2'
-            animate={props.sectionOpen.sectionState?AnimationData.OpenAnimation.mobile.img2_animation:{}}
+            animate={props.sectionOpen.sectionState?animationWidthState.img2_animation:{}}
+
             >
             <AImg1/>
           </motion.div>
 
           <motion.div
             className='huts_img3'
-            animate={props.sectionOpen.sectionState?AnimationData.OpenAnimation.mobile.img3_animation:{}}
+            animate={props.sectionOpen.sectionState?animationWidthState.img3_animation:{}}
+          
             >
             <AImg3/>
           </motion.div>
-          <OpenProjectDescription OpenProjectDesc={props.sectionOpen.sectionState?AnimationData.OpenAnimation.mobile.proj_text_description:{}} />
-          <OpenProjectDescription OpenProjectDesc={props.sectionOpen.sectionState?AnimationData.OpenAnimation.mobile.proj_text_description2:{}} />
+          <OpenProjectDescription OpenProjectDesc={props.sectionOpen.sectionState?animationWidthState.proj_text_description:{}} />
+          <OpenProjectDescription OpenProjectDesc={props.sectionOpen.sectionState?animationWidthState.proj_text_description2:{}} />
           
-          {props.sectionOpen?<motion.div className='huts_img5' animate={props.sectionOpen.sectionState?AnimationData.OpenAnimation.mobile.img5_animation:{}/*  */}><AImg5/></motion.div>:<></>}
-          <ProjectDescription titleDescription={props.titleDescriptionData} mobileAnim={props.sectionOpen.sectionState?AnimationData.OpenAnimation.mobile.title_description_animation:{}}  />
+          {props.sectionOpen?<motion.div className='huts_img5' animate={props.sectionOpen.sectionState?animationWidthState.img5_animation:{}/*  */}><AImg5/></motion.div>:<></>}
+          <ProjectDescription titleDescription={props.titleDescriptionData} mobileAnim={props.sectionOpen.sectionState?animationWidthState.title_description_animation:{}}  />
 
       </div>
     </motion.div>
