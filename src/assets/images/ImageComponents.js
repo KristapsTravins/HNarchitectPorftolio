@@ -1,6 +1,6 @@
 import React from 'react'
 
-import FirstContentImg1 from "./files/content_1/desktop/content_img_2.webp";
+import FirstContentImg1 from "./files/content_1/Original/9be8eb751a77abf4861deb1cfb06459c.png";
 import FirstContentImg2 from "./files/content_1/desktop/content_img_1.webp";                
 import FirstContentImg3 from "./files/content_1/desktop/content_img_3.webp";  
 import FirstContentImg4 from "./files/content_1/desktop/content_img_4.webp";

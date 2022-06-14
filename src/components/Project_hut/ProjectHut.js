@@ -43,15 +43,17 @@ const ProjectHut =(props)=> {
           <motion.div
             className='huts_img1'
             animate={props.sectionOpen.sectionState?animationWidthState.img1_animation:{}}
-     
+            transition={{duration:1}}
             >
             <AImg2/>
           </motion.div>
 
+
+
           <motion.div
             className='huts_img2'
             animate={props.sectionOpen.sectionState?animationWidthState.img2_animation:{}}
-
+            transition={{duration:1.5}}
             >
             <AImg1/>
           </motion.div>
@@ -59,14 +61,14 @@ const ProjectHut =(props)=> {
           <motion.div
             className='huts_img3'
             animate={props.sectionOpen.sectionState?animationWidthState.img3_animation:{}}
-          
+            transition={{duration:1.5}}
             >
             <AImg3/>
           </motion.div>
           <OpenProjectDescription OpenProjectDesc={props.sectionOpen.sectionState?animationWidthState.proj_text_description:{}} />
           <OpenProjectDescription OpenProjectDesc={props.sectionOpen.sectionState?animationWidthState.proj_text_description2:{}} />
           
-          {props.sectionOpen?<motion.div className='huts_img5' animate={props.sectionOpen.sectionState?animationWidthState.img5_animation:{}/*  */}><AImg5/></motion.div>:<></>}
+          {props.sectionOpen?<motion.div className='huts_img5' animate={props.sectionOpen.sectionState?animationWidthState.img5_animation:{}/*  */} transition={{duration:1.5}}><AImg5/></motion.div>:<></>}
           <ProjectDescription titleDescription={props.titleDescriptionData} mobileAnim={props.sectionOpen.sectionState?animationWidthState.title_description_animation:{}}  />
 
       </div>

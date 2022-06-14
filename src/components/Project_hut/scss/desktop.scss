@@ -1,5 +1,5 @@
 @import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
-@media only screen and (min-width: 1010px)  {
+@media only screen and (min-width: 800px)  {
 
      .project_huts_main{
          height: 75vh;
@@ -7,8 +7,6 @@
         .project_huts_inner{
             .project_huts_trigger_box{
      
-                background-color: chocolate;
-                @include scaffolding-col;
                 right: 117px;
                 height: 440px;
                 width: 580px;
@@ -37,6 +35,9 @@
                 height: 318px;
                 right: 15px;
                 img{}
+            }
+            .huts_img5{
+                top: 325px;
             }
         }
       

@@ -21,7 +21,7 @@ export const SetAnimations = (screenWidth) =>{
 if(screenWidth<550){
     return animData.OpenAnimation.mobile
 }else if(screenWidth>800){
-    console.log(animData.OpenAnimation.tab)
+  
     return animData.OpenAnimation.desktop
 }else{
     return animData.OpenAnimation.tab

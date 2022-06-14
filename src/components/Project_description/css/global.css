@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .proj_description {
+  top: 340px;
+  left: auto;
+  right: 10px;
   position: absolute;
   width: 100px;
   height: 100px;
@@ -24,11 +27,4 @@
 .proj_description .proj_description_inner p span {
   font-weight: 800;
 }
-
-/* 
-width: 100%;
-height: 100%;
-max-width: 312px;
-max-height: 220px;
-overflow: hidden; */
 /*# sourceMappingURL=global.css.map */

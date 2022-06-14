@@ -1,1 +1,13 @@
 @import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
+
+
+@media only screen and (max-width: 800px)  {
+    
+    .proj_description{
+        top: 180px;
+        left: auto;
+        right: 8px;
+        
+    } 
+
+}

@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACAA,OAAO,CAAC,6FAAI;ADEZ,AAAA,iBAAiB,CAAA;EACb,GAAG,EAAE,KAAK;EACV,IAAI,EAAE,IAAI;EACV,KAAK,EAAE,GAAG;CAEb;;AACD;;;;;;IAMI",
+    "mappings": "ACAA,OAAO,CAAC,6FAAI;ADEZ,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EAEpC,AAAA,iBAAiB,CAAA;IACb,GAAG,EAAE,gBAAgB;IACrB,IAAI,EAAE,eAAe;IACrB,KAAK,EAAE,cAAc;GAExB;;;AAIL;;;;;;IAMI",
     "sources": [
         "../scss/mobile.scss",
         "../../../assets/styleShortcuts/scss/styleShorcuts.scss"

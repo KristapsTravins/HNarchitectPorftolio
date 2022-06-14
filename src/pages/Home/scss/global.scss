@@ -1,13 +1,13 @@
 @import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
 
 .home_center{
-    @include scaffolding;
+   
     padding: 85px 0 0 0;
     height: auto;
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 1444px;
+    max-width: 1400px;
     overflow-x: hidden; 
 }
 
