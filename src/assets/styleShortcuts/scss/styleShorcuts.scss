@@ -3,7 +3,10 @@
 $base-col:#F8F8F8;
 $content-col:#D73434;
 
-
+@mixin TempOverlay {
+    background-color: #D73434;
+    opacity: 0.3;
+}
 @mixin font-style-text {
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
