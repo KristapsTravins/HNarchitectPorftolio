@@ -11,19 +11,16 @@
   background-color: #F8F8F8;
   z-index: 5;
 }
-
 .Menu_btn div {
   width: 100%;
   height: 100%;
   border-radius: 100%;
-  background: linear-gradient(166deg, #bf2827 0%, #963334 100%);
+  background: linear-gradient(166deg, rgb(191, 40, 39) 0%, rgb(150, 51, 52) 100%);
 }
-
 .Menu_btn .fadeOut {
-  -webkit-animation: fadeOut 2s  forwards 2s;
-          animation: fadeOut 2s  forwards 2s;
+  -webkit-animation: fadeOut 2s forwards 2s;
+          animation: fadeOut 2s forwards 2s;
 }
-
 .Menu_btn .fadeIn {
   -webkit-animation: fadeIn 2s forwards;
           animation: fadeIn 2s forwards;
@@ -46,7 +43,6 @@
     opacity: 0;
   }
 }
-
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -55,7 +51,6 @@
     opacity: 1;
   }
 }
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -63,5 +58,4 @@
   100% {
     opacity: 1;
   }
-}
-/*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */

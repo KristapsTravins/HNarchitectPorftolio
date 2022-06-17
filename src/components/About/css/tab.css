@@ -3,22 +3,13 @@
   .about_center_section .main_description_block {
     margin: 120px 0 0 0;
     height: 246px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    justify-content: center;
+    flex-direction: row-reverse;
   }
   .about_center_section .main_description_block .image_block {
     width: 164px;
     height: 246px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .about_center_section .main_description_block .image_block img {
@@ -32,7 +23,7 @@
     line-height: 8px;
   }
   .about_center_section .main_description_block .description_block .title_block h1 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     color: white;
     font-size: 13px;
     font-weight: bold;
@@ -40,7 +31,7 @@
     word-spacing: -2px;
   }
   .about_center_section .main_description_block .description_block .title_block h3 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     color: white;
     font-size: 13px;
     font-weight: bold;
@@ -51,7 +42,7 @@
     margin: 40px 0 0 0;
   }
   .about_center_section .main_description_block .description_block .description_text_block p {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     color: white;
     font-size: 13px;
     width: 375px;
@@ -61,7 +52,7 @@
     padding: 0 0 0 10px;
   }
   .about_center_section .exp_description_block h3 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     color: white;
     font-size: 13px;
     font-weight: bold;
@@ -72,10 +63,9 @@
     line-height: 36px;
   }
   .about_center_section .exp_description_block ul li {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     color: white;
     font-size: 13px;
     font-weight: 300;
   }
-}
-/*# sourceMappingURL=tab.css.map */
+}/*# sourceMappingURL=tab.css.map */
