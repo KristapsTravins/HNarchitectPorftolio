@@ -1,6 +1,6 @@
 @import url("../../../../assets/styleShortcuts/scss/styleShorcuts.scss");
 .project_base {
-  width: 99%;
+  width: 99.8%;
   position: relative;
   height: 701px;
   border: 0.1px solid black;
@@ -8,7 +8,7 @@
 
 @media only screen and (max-width: 450px) {
   .project_base {
-    width: 99%;
+    width: 99.8%;
     height: 447px;
   }
 }/*# sourceMappingURL=global.css.map */

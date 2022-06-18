@@ -7,9 +7,10 @@ function ProjectsBase(props) {
   return (
    <motion.div
    className='project_base'
+   animate={props.sectionStatus ?props.projectExpanParam:{}}
 
    >
-    <ProjectHut />
+  <ProjectHut openSection={props.setStatus} sectionState={props.sectionStatus} />
    </motion.div>
   )
 }
