@@ -13,8 +13,9 @@ GivePosition("project_hut");
     return (
      <div className="home_center">
         <ProjectsBase 
-        projectExpanParam={{"height":"1692px"}} 
         child={ProjectHut}
+        projectExpanParam={{"height":"1692px"}} 
+        projectTitleDescription={["a","vb","c"]}
         projectTitle={["HEMP","HUT"]}
         />  
   

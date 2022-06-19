@@ -21,7 +21,7 @@ const ProjectHut = (props) => {
     <div className='img_2'></div>
     <div className='img_3'></div>
     <ProjectTitle title={props.title} titlePosition={props.titlePosition} />
-    <ProjectDescription titleDescription={["a","vb","c"]}/>
+    <ProjectDescription titleDescription={props.titleDescription}/>
 
 
 

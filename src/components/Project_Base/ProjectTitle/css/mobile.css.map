@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACAA,OAAO,CAAC,6FAAI;ADCZ,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACpC,AAAA,iBAAiB,CAAA;IACb,KAAK,EAAE,IAAI;IACX,GAAG,EAAE,IAAI;GAEZ",
-    "sources": [
-        "../scss/mobile.scss",
-        "../../../../assets/styleShortcuts/scss/styleShorcuts.scss"
-    ],
-    "names": [],
-    "file": "mobile.css"
-}
+{"version":3,"sources":["../../../../assets/styleShortcuts/scss/styleShorcuts.scss","../scss/mobile.scss","mobile.css"],"names":[],"mappings":"AAAQ,qGAAA;ACCR;EACI;IACI,WAAA;IACA,SAAA;ECCN;AACF","file":"mobile.css"}

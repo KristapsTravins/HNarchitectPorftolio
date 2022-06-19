@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,OAAO,CAAC,gEAAI",
-    "sources": [
-        "../scss/tab.scss"
-    ],
-    "names": [],
-    "file": "tab.css"
-}
+{"version":3,"sources":["../scss/tab.scss"],"names":[],"mappings":"AAAQ,wEAAA","file":"tab.css"}
