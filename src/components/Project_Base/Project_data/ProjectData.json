@@ -1,0 +1,40 @@
+{
+    "project_hut":{
+        "closed_state":{
+            "title":{
+                "mobile":{
+                    "right":"10px",
+                    "top":"30px"
+                },
+                "tab":{
+                    "right":"524px",
+                    "top":"30px"
+                },
+                "desktop":{
+                    "right":"524px",
+                    "top":"30px"
+                }
+            },
+            "img":{
+
+            }
+
+        },
+        "open_state":{
+            "title":{
+                "mobile":{
+                    "right":"10px",
+                    "top":"30px"
+                },
+                "tab":{
+                    "right":"524px",
+                    "top":"30px"
+                },
+                "desktop":{
+                    "right":"524px",
+                    "top":"30px"
+                }
+            }
+        }
+    }
+}

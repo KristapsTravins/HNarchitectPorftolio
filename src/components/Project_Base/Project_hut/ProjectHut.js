@@ -7,6 +7,7 @@ import ProjectText from '../Project_description_text/ProjectText'
 
 
 const ProjectHut = (props) => {
+
   return (
     <div className='project_hut_box'>
 
@@ -19,7 +20,7 @@ const ProjectHut = (props) => {
     <div className='img_1'></div>
     <div className='img_2'></div>
     <div className='img_3'></div>
-    <ProjectTitle />
+    <ProjectTitle title={props.title} titlePosition={props.titlePosition} />
     <ProjectDescription titleDescription={["a","vb","c"]}/>
 
 
