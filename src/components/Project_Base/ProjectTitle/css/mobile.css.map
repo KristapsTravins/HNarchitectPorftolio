@@ -1,1 +1,9 @@
-{"version":3,"sources":["../scss/mobile.scss"],"names":[],"mappings":"AAAQ,wEAAA","file":"mobile.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,gEAAI",
+    "sources": [
+        "../scss/mobile.scss"
+    ],
+    "names": [],
+    "file": "mobile.css"
+}
