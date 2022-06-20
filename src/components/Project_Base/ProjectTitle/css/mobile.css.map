@@ -1,1 +1,9 @@
-{"version":3,"sources":["../../../../assets/styleShortcuts/scss/styleShorcuts.scss","../scss/mobile.scss","mobile.css"],"names":[],"mappings":"AAAQ,qGAAA;ACCR;EACI;IACI,WAAA;IACA,SAAA;ECCN;AACF","file":"mobile.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/mobile.scss"
+    ],
+    "names": [],
+    "file": "mobile.css"
+}

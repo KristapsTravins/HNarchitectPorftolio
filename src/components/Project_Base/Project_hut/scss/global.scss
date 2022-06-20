@@ -1,9 +1,16 @@
+@import '../../../../assets/styleShortcuts/scss/styleShorcuts.scss';
+
 .project_hut_box{
     position: relative;
     width: 100%;
     height: 100%;
     .img_1{
         position: absolute;
+        width: 363px;
+        height: 363px;
+        right: 110px;
+        top: 92px;
+        z-index: -1;
         img{
             width: 100%;
             height: 100%;
@@ -11,6 +18,11 @@
     }
     .img_2{
         position: absolute;
+        width: 523px;
+        height: 355px;
+        top: 195px;
+        right: 236px;
+        z-index: 1;
         img{
             width: 100%;
             height: 100%;
@@ -18,6 +30,9 @@
     }
     .img_3{
         position: absolute;
+        top: 300px;
+        right: 10px;
+        z-index: 0;
         img{
             width: 100%;
             height: 100%;

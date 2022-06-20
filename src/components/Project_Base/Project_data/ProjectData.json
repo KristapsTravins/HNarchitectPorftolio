@@ -1,6 +1,7 @@
 {
     "project_hut":{
         "closed_state":{
+
             "title":{
                 "mobile":{
                     "right":"10px",
@@ -8,18 +9,83 @@
                 },
                 "tab":{
                     "right":"524px",
-                    "top":"30px"
+                    "top":"80px"
                 },
                 "desktop":{
                     "right":"524px",
-                    "top":"30px"
+                    "top":"60px"
                 }
             },
-            "img":{
 
+            "img_1":{
+                "mobile":{
+                    "width":"138px",
+                    "height":"138px",
+                    "right":"107px",
+                    "top":"92px"
+                    
+                    
+                },
+                "tab":{
+                    "width":"363px",
+                    "height":"363px",
+                    "right":"110px",
+                    "top":"45px"
+                   
+                },
+                "desktop":{
+                    "width":"363px",
+                    "height":"363px",
+                    "right":"110px",
+                    "top":"45px"
+                }
+            },
+            "img_2":{
+                "mobile":{
+                    "width":"199px",
+                    "height":"135px",
+                    "right":"155px",
+                    "top":"152px"
+                },
+                "tab":{
+                    "width":"523px",
+                    "height":"355px",
+                    "right":"236px",
+                    "top":"195px"
+                   
+                },
+                "desktop":{
+                    "width":"523px",
+                    "height":"355px",
+                    "right":"236px",
+                    "top":"195px"
+                }
+            },
+            "img_3":{
+                "mobile":{
+                    "width":"199px",
+                    "height":"135px",
+                    "right":"155px",
+                    "top":"152px"
+                },
+                "tab":{
+                    "width":"523px",
+                    "height":"355px",
+                    "right":"236px",
+                    "top":"195px"
+                   
+                },
+                "desktop":{
+                    "width":"523px",
+                    "height":"355px",
+                    "right":"236px",
+                    "top":"195px"
+                }
             }
+        } 
+    },
+        
 
-        },
         "open_state":{
             "title":{
                 "mobile":{
@@ -37,4 +103,3 @@
             }
         }
     }
-}

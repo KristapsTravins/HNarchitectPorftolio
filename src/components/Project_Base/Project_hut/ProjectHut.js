@@ -4,6 +4,8 @@ import './css/mobile.css'
 import ProjectDescription from '../Project_title_description/ProjectDescription'
 import ProjectTitle from '../ProjectTitle/ProjectTitle'
 import ProjectText from '../Project_description_text/ProjectText'
+import { motion } from "framer-motion"
+import {AImg1,AImg2,AImg3} from '../../../assets/images/ImageComponents'
 
 
 const ProjectHut = (props) => {
@@ -17,10 +19,33 @@ const ProjectHut = (props) => {
       {/* temp */}
 
 
-    <div className='img_1'></div>
-    <div className='img_2'></div>
-    <div className='img_3'></div>
-    <ProjectTitle title={props.title} titlePosition={props.titlePosition} />
+    <motion.div 
+    className='img_1'
+    animate={props.img_1_Position}
+    transition={{duration:1}}
+    >
+    <AImg1 />
+    </motion.div>
+
+    <motion.div 
+    className='img_2'
+    animate={props.img_2_Position}
+    transition={{duration:1}}
+    >
+    <AImg2 />
+    </motion.div>
+
+    <div 
+    className='img_3'
+    >
+    <AImg3 />
+    </div>
+
+    <ProjectTitle 
+    title={props.title} 
+    titlePosition={props.titlePosition} 
+    transition={{duration:1}}
+    />
     <ProjectDescription titleDescription={props.titleDescription}/>
 
 

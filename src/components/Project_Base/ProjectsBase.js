@@ -27,6 +27,9 @@ const {width} = useWindowDimensions();
   title={projectTitle} 
   titleDescription={projectTitleDescription}
   titlePosition={GivePosition("project_hut",expanHook.ExpansionState,"title",width)}
+
+  img_1_Position={GivePosition("project_hut",expanHook.ExpansionState,"img_1",width)}
+  img_2_Position={GivePosition("project_hut",expanHook.ExpansionState,"img_2",width)}
   />
 
    </motion.div>

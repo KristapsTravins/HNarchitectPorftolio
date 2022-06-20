@@ -1,40 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .project_hut_box {
   position: relative;
   width: 100%;
   height: 100%;
 }
+
 .project_hut_box .img_1 {
   position: absolute;
+  width: 363px;
+  height: 363px;
+  right: 110px;
+  top: 92px;
+  z-index: -1;
 }
+
 .project_hut_box .img_1 img {
   width: 100%;
   height: 100%;
 }
+
 .project_hut_box .img_2 {
   position: absolute;
+  width: 523px;
+  height: 355px;
+  top: 195px;
+  right: 236px;
+  z-index: 1;
 }
+
 .project_hut_box .img_2 img {
   width: 100%;
   height: 100%;
 }
+
 .project_hut_box .img_3 {
   position: absolute;
+  top: 300px;
+  right: 10px;
+  z-index: 0;
 }
+
 .project_hut_box .img_3 img {
   width: 100%;
   height: 100%;
 }
+
 .project_hut_box .img_4 {
   position: absolute;
 }
+
 .project_hut_box .img_4 img {
   width: 100%;
   height: 100%;
 }
+
 .project_hut_box .img_5 {
   position: absolute;
 }
+
 .project_hut_box .img_5 img {
   width: 100%;
   height: 100%;
-}/*# sourceMappingURL=global.css.map */
+}
+/*# sourceMappingURL=global.css.map */

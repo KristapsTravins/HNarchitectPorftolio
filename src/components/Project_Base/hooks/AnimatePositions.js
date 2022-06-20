@@ -25,16 +25,18 @@ let component = {};
         case "title":
             component = current.title;
             break;
-        case "desc":
-            component = current.img;
+        case "img_1":
+            component = current.img_1;
             break;     
-        case "img":
-            component = current.img;
+        case "img_2":
+            component = current.img_2;
             break;
         default:
             break;
-    } 
+    }
+
     return component
+    
 
 }
 
@@ -47,6 +49,7 @@ if(width<800){
 }else{
     answ = cur.desktop
 }
+
 return answ
 }
 
