@@ -8,10 +8,11 @@ import { motion } from "framer-motion"
 const counters = [1.1,1.5,1.7,1.9,2.1,2.3]
 let i = 0;
 return (
+
 <motion.div
           className='huts_title_info'
           initial={{height:"0%"}}
-          animate={{height:"auto"}} 
+          animate={{height:"auto",...props.titleDescriptionPosition}} 
           transition={{duration:0.7}}
           >
             {props.titleDescription.map((p)=>{
@@ -30,6 +31,7 @@ return (
    
             })}
 </motion.div>
+
   )
 }
 

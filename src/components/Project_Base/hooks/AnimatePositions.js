@@ -31,6 +31,12 @@ let component = {};
         case "img_2":
             component = current.img_2;
             break;
+        case "img_3":
+            component = current.img_3;
+            break;
+        case "title_description":
+            component = current.title_description;
+            break;
         default:
             break;
     }

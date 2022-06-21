@@ -1,10 +1,11 @@
-@import url("../../../../assets/styleShortcuts/scss/styleShorcuts.scss");
+@import '../../../../assets/styleShortcuts/scss/styleShorcuts.scss';
 
 .project_base{
     width: 99.8%;
     position: relative; 
     height: 701px;
-    border: 0.1px solid black;
+
+   
 }
 
 @media only screen and (max-width: 450px)  {

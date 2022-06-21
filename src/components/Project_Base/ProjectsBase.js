@@ -25,11 +25,14 @@ const {width} = useWindowDimensions();
   <ProjectComp 
   OpenClose={expanHook} 
   title={projectTitle} 
-  titleDescription={projectTitleDescription}
   titlePosition={GivePosition("project_hut",expanHook.ExpansionState,"title",width)}
+
+  titleDescription={projectTitleDescription}
+  titleDescriptionPosition={GivePosition("project_hut",expanHook.ExpansionState,"title_description",width)}
 
   img_1_Position={GivePosition("project_hut",expanHook.ExpansionState,"img_1",width)}
   img_2_Position={GivePosition("project_hut",expanHook.ExpansionState,"img_2",width)}
+  img_3_Position={GivePosition("project_hut",expanHook.ExpansionState,"img_3",width)}
   />
 
    </motion.div>

@@ -35,18 +35,23 @@ const ProjectHut = (props) => {
     <AImg2 />
     </motion.div>
 
-    <div 
+    <motion.div 
     className='img_3'
+    animate={props.img_3_Position}
+    transition={{duration:1}}
     >
     <AImg3 />
-    </div>
+    </motion.div>
 
     <ProjectTitle 
     title={props.title} 
     titlePosition={props.titlePosition} 
     transition={{duration:1}}
     />
-    <ProjectDescription titleDescription={props.titleDescription}/>
+    <ProjectDescription 
+    titleDescription={props.titleDescription}
+    titleDescriptionPosition={props.titleDescriptionPosition}
+    />
 
 
 

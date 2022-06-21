@@ -1,9 +1,8 @@
-@import url("../../../../assets/styleShortcuts/scss/styleShorcuts.scss");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .project_base {
   width: 99.8%;
   position: relative;
   height: 701px;
-  border: 0.1px solid black;
 }
 
 @media only screen and (max-width: 450px) {
