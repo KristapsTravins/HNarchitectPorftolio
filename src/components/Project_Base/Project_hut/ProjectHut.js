@@ -13,10 +13,6 @@ const ProjectHut = (props) => {
   return (
     <div className='project_hut_box'>
 
-      {/* temp */}
-        <button className='project_hut_button'
-        onClick={() => props.OpenClose.setExpansionState(!props.OpenClose.ExpansionState) }>open</button>
-      {/* temp */}
 
 
     <motion.div 
@@ -29,6 +25,7 @@ const ProjectHut = (props) => {
 
     <motion.div 
     className='img_2'
+    onClick={() => props.OpenClose.setExpansionState(!props.OpenClose.ExpansionState) }
     animate={props.img_2_Position}
     transition={{duration:1}}
     >
@@ -52,15 +49,15 @@ const ProjectHut = (props) => {
     titleDescription={props.titleDescription}
     titleDescriptionPosition={props.titleDescriptionPosition}
     />
-
+  <div className='img_4'></div>
 
 
 
     {/* closed */}
-    <div className='img_4'></div>
+   {/*  
     <div className='img_5'></div>
     <ProjectText  />
-    <ProjectText  /> 
+    <ProjectText  />  */}
     {/* closed */} 
     </div>
   )

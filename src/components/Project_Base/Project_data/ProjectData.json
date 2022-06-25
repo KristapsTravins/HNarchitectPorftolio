@@ -1,7 +1,6 @@
 {
     "project_hut":{
         "closed_state":{
-
             "title":{
                 "mobile":{
                     "right":"10px",
@@ -16,7 +15,6 @@
                     "top":"50px"
                 }
             },
-
             "img_1":{
                 "mobile":{
                     "width":"138px",
@@ -100,24 +98,87 @@
                     "top":"560px"
                 }
             }
-        } 
-    },
-        
-
+        },
         "open_state":{
+            
             "title":{
                 "mobile":{
-                    "right":"10px",
-                    "top":"30px"
+               
                 },
                 "tab":{
-                    "right":"524px",
-                    "top":"30px"
+               
                 },
                 "desktop":{
-                    "right":"524px",
-                    "top":"30px"
+                  "left":"10px",
+                  "top":"240px"
+                }
+            },
+
+            "img_1":{
+                "mobile":{
+               
+                    
+                },
+                "tab":{
+                  
+                   
+                },
+                "desktop":{
+                    "right":"10px",
+                    "width":"450px",
+                    "height":"450px",
+                    "top":"657px",
+                    "zIndex":"2"
+                }
+            },
+            "img_2":{
+                "mobile":{
+                
+                },
+                "tab":{
+                   
+                   
+                },
+                "desktop":{
+                    "right":"10px",
+                    "width":"730px",
+                    "height":"496px"
+                }
+            },
+            "img_3":{
+                "mobile":{
+                 
+                },
+                "tab":{
+                  
+                   
+                },
+                "desktop":{
+                    "width":"417px",
+                    "height":"417px",
+                    "top":"1347px"
+                }
+            },
+            "title_description":{
+            "mobile":{
+                   
+                },
+                "tab":{
+                    
+                   
+                   
+                },
+                "desktop":{
+                  "left":"0px",
+                  "top":"358px"
+                   
                 }
             }
-        }
+
+
+        } 
+    }
+        
+
+       
     }
