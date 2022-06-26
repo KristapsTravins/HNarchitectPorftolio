@@ -37,7 +37,12 @@ let component = {};
         case "title_description":
             component = current.title_description;
             break;
+        case "text_description_1":
+            component = current.text_description_1;
+            break;
+        
         default:
+            component = {};
             break;
     }
 
@@ -63,12 +68,14 @@ return answ
 
 export const GivePosition = (Project,OpenState,component,screenWidth) =>{
 let answ = chooseProject(Project);
-console.log(answ)
+
 let answState = {};
 if(OpenState){
 answState= SelectSize(chooseComponent(answ.open_state,component),screenWidth)
+
 }else{
 answState = SelectSize(chooseComponent(answ.closed_state,component),screenWidth)
+
 }
 
 return answState

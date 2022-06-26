@@ -49,9 +49,11 @@ const ProjectHut = (props) => {
     titleDescription={props.titleDescription}
     titleDescriptionPosition={props.titleDescriptionPosition}
     />
-  <div className='img_4'></div>
 
-
+    <ProjectText
+    project_text={props.text1}
+    ProjectDescription_1Position={props.ProjectDescription_1_postition}
+    />
 
     {/* closed */}
    {/*  

@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,OAAO,CAAC,6FAAI;ADEZ,AAAA,0BAA0B,CAAA;EACtB,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACf,mBAAmB;EACjB,OAAO,EAAE,EAAE;CAad;;AAlBD,AAMI,0BANsB,CAMtB,uBAAuB,CAAA;EACnB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;CAQhB;;AAjBL,AAUQ,0BAVkB,CAMtB,uBAAuB,CAInB,CAAC,CAAA;ECFL,WAAW,EAAE,wBAAwB;EACrC,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,KAAK,EAVI,OAAO;EDWR,SAAS,EAAE,IAAI;CAIlB;;AAhBT,AAaY,0BAbc,CAMtB,uBAAuB,CAInB,CAAC,CAGG,IAAI,CAAA;EACA,WAAW,EAAE,GAAG;CACnB",
     "sources": [
-        "../scss/global.scss"
+        "../scss/global.scss",
+        "../../../../assets/styleShortcuts/scss/styleShorcuts.scss"
     ],
     "names": [],
     "file": "global.css"

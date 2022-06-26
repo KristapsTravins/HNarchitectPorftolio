@@ -97,7 +97,24 @@
                     "right":"597px",
                     "top":"560px"
                 }
-            }
+            },
+            "text_description_1":{
+                "mobile":{
+                       
+                    },
+                    "tab":{
+                        
+                       
+                       
+                    },
+                    "desktop":{
+                      "right":"262px",
+                     
+                      "top":"321px"
+                       
+                    }
+                }
+
         },
         "open_state":{
             
@@ -110,7 +127,7 @@
                 },
                 "desktop":{
                   "left":"10px",
-                  "top":"240px"
+                  "top":"405px"
                 }
             },
 
@@ -127,7 +144,7 @@
                     "right":"10px",
                     "width":"450px",
                     "height":"450px",
-                    "top":"657px",
+                    "top":"881px",
                     "zIndex":"2"
                 }
             },
@@ -140,6 +157,7 @@
                    
                 },
                 "desktop":{
+                    "top":"405px",
                     "right":"10px",
                     "width":"730px",
                     "height":"496px"
@@ -159,6 +177,7 @@
                     "top":"1347px"
                 }
             },
+            
             "title_description":{
             "mobile":{
                    
@@ -170,10 +189,26 @@
                 },
                 "desktop":{
                   "left":"0px",
-                  "top":"358px"
+                  "top":"601px"
                    
                 }
-            }
+            },
+
+            "text_description_1":{
+                "mobile":{
+                       
+                    },
+                    "tab":{
+                        
+                       
+                       
+                    },
+                    "desktop":{
+                      "left":"0px",
+                      "top":"803px"
+                       
+                    }
+                }
 
 
         } 
