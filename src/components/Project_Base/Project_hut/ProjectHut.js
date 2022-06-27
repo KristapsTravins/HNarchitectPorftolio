@@ -52,11 +52,13 @@ const ProjectHut = (props) => {
     />
 
   <ProjectText
+    text_intial_pos={props.text_intial_pos}
     project_text={props.text1}
     ProjectDescription_Position={props.ProjectDescription_1_postition}
     />
 
   <ProjectText
+    text_intial_pos={props.text_intial_pos}
     text_add_style={props.text2_addonStyle}
     project_text={props.text2}
     ProjectDescription_Position={props.ProjectDescription_2_postition}

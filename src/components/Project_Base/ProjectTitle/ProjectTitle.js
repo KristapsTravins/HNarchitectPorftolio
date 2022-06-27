@@ -13,6 +13,7 @@ const ProjectTitle = (props) => {
     <motion.div 
     className='proj_title_block'
     animate={props.titlePosition}
+    transition={{duration:1}}
     style={props.add_style}
     >
       <div className='upper'>

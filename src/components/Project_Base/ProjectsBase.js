@@ -53,6 +53,7 @@ const text2 = "<p>Regarding the material usage, high focus is placed on <span> r
   ProjectDescription_1_postition ={GivePosition("project_hut",expanHook.ExpansionState,"text_description_1",width)} 
   
   text2={text2}
+  text_intial_pos={GivePosition("project_hut",false,"text_description_1",width)} 
   text2_addonStyle={{"textAlign":"right"}}
   ProjectDescription_2_postition ={GivePosition("project_hut",expanHook.ExpansionState,"text_description_2",width)}
   

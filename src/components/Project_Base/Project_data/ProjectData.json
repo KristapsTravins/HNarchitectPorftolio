@@ -142,7 +142,6 @@
                     },
                     "desktop":{
                       "right":"262px",
-                     
                       "top":"321px"
                        
                     }
@@ -192,8 +191,8 @@
                     "right":"20px",
                     "width":"450px",
                     "height":"450px",
-                    "top":"732px",
-                    "zIndex":"2"
+                    "top":"732px"
+                   
                 }
             },
             "img_2":{
@@ -238,8 +237,8 @@
                     "width":"450px",
                     "height":"450px",
                     "left":"0px",
-                    "top":"1033px",
-                    "zIndex":"0"
+                    "top":"1033px"
+                    
                 }
             },
             "img_5":{
@@ -301,7 +300,7 @@
                     "desktop":{
                         "right":"20px",
                         "top":"1279px",
-                        "zIndex":"1"
+                        "zIndex":"0"
             
                     }
             }
