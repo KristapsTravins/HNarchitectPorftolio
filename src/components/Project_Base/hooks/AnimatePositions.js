@@ -34,11 +34,20 @@ let component = {};
         case "img_3":
             component = current.img_3;
             break;
+        case "img_4":
+            component = current.img_4;
+            break;
+        case "img_5":
+            component = current.img_5;
+            break;    
         case "title_description":
             component = current.title_description;
             break;
         case "text_description_1":
             component = current.text_description_1;
+            break;
+        case "text_description_2":
+            component = current.text_description_2;
             break;
         
         default:

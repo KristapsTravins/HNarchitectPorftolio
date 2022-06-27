@@ -5,7 +5,7 @@ import ProjectDescription from '../Project_title_description/ProjectDescription'
 import ProjectTitle from '../ProjectTitle/ProjectTitle'
 import ProjectText from '../Project_description_text/ProjectText'
 import { motion } from "framer-motion"
-import {AImg1,AImg2,AImg3} from '../../../assets/images/ImageComponents'
+import {AImg1,AImg2,AImg3,AImg4,AImg5} from '../../../assets/images/ImageComponents'
 
 
 const ProjectHut = (props) => {
@@ -50,17 +50,33 @@ const ProjectHut = (props) => {
     titleDescriptionPosition={props.titleDescriptionPosition}
     />
 
-    <ProjectText
+  <ProjectText
     project_text={props.text1}
-    ProjectDescription_1Position={props.ProjectDescription_1_postition}
+    ProjectDescription_Position={props.ProjectDescription_1_postition}
     />
 
-    {/* closed */}
-   {/*  
-    <div className='img_5'></div>
-    <ProjectText  />
-    <ProjectText  />  */}
-    {/* closed */} 
+  <ProjectText
+    text_add_style={props.text2_addonStyle}
+    project_text={props.text2}
+    ProjectDescription_Position={props.ProjectDescription_2_postition}
+  />
+
+  <motion.div 
+    className='img_4'
+    animate={props.img_4_Position}
+    transition={{duration:1}}
+    >
+    <AImg4 />
+  </motion.div>
+  <motion.div 
+    className='img_5'
+    animate={props.img_5_Position}
+    transition={{duration:1}}
+    >
+    <AImg5 />
+  </motion.div>
+
+ 
     </div>
   )
 }

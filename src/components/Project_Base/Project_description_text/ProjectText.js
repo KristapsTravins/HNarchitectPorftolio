@@ -11,10 +11,10 @@ function ProjectText(props) {
 
   return (
    <motion.div
-   animate={props.ProjectDescription_1Position}
+   animate={props.ProjectDescription_Position}
    className='project_description_block'
    >
-   <div className='inner_description_text'>
+   <div className='inner_description_text' style={props.text_add_style}>
     {parse(props.project_text)}
    </div> 
 
