@@ -83,7 +83,7 @@
             },
             "img_4":{
                 "mobile":{
-                 
+                 "display":"none"
                 },
                 "tab":{
                   
@@ -99,7 +99,7 @@
             },
             "img_5":{
                 "mobile":{
-                 
+                    "display":"none"
                 },
                 "tab":{
                   
@@ -115,7 +115,7 @@
             },
             "title_description":{
             "mobile":{
-                   
+               
                     "right":"158px",
                     "top":"310px"
                 },
@@ -133,7 +133,7 @@
             },
             "text_description_1":{
                 "mobile":{
-                       
+                    "display":"none"
                     },
                     "tab":{
                         
@@ -192,6 +192,7 @@
                     "width":"450px",
                     "height":"450px",
                     "top":"732px"
+                    
                    
                 }
             },
@@ -231,7 +232,7 @@
                 },
                 "tab":{
                   
-                   
+            
                 },
                 "desktop":{
                     "width":"450px",
