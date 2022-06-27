@@ -13,6 +13,7 @@ const ProjectTitle = (props) => {
     <motion.div 
     className='proj_title_block'
     animate={props.titlePosition}
+    style={props.add_style}
     >
       <div className='upper'>
           <h1><span>{props.title[0][0]}</span>{props.title[0].slice(1,props.title[0].length)}</h1>

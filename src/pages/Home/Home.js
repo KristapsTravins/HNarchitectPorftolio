@@ -18,6 +18,7 @@ GivePosition("project_hut");
         projectTitleDescription={["Modular prefab home","Concept","2022","Latvia","40 sq.m."]}
         projectTitle={["HEMP","HUT"]}
         />
+     
 
        
   

@@ -32,16 +32,16 @@ const text2 = "<p>Regarding the material usage, high focus is placed on <span> r
    <motion.div
    className='project_base'
    animate={expanHook.ExpansionState?projectExpanParam:{}}
-   transition={{duration:0.1}}>
+   transition={expanHook.ExpansionState?{duration:1}:{duration:1,delay:1}}>
 
   <ProjectComp 
   OpenClose={expanHook} 
   title={projectTitle} 
+  title_add_style={GivePosition("project_hut",false,"title",width)}
   titlePosition={GivePosition("project_hut",expanHook.ExpansionState,"title",width)}
 
   titleDescription={projectTitleDescription}
   titleDescriptionPosition={GivePosition("project_hut",expanHook.ExpansionState,"title_description",width)}
-
   img_1_Position={GivePosition("project_hut",expanHook.ExpansionState,"img_1",width)}
   img_2_Position={GivePosition("project_hut",expanHook.ExpansionState,"img_2",width)}
   img_3_Position={GivePosition("project_hut",expanHook.ExpansionState,"img_3",width)}
@@ -49,7 +49,8 @@ const text2 = "<p>Regarding the material usage, high focus is placed on <span> r
   img_5_Position={GivePosition("project_hut",expanHook.ExpansionState,"img_5",width)}
   
   text1={text1}
-  ProjectDescription_1_postition ={GivePosition("project_hut",expanHook.ExpansionState,"text_description_1",width)}
+  
+  ProjectDescription_1_postition ={GivePosition("project_hut",expanHook.ExpansionState,"text_description_1",width)} 
   
   text2={text2}
   text2_addonStyle={{"textAlign":"right"}}

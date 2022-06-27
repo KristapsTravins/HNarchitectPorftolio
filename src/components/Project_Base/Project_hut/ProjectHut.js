@@ -40,8 +40,9 @@ const ProjectHut = (props) => {
     <AImg3 />
     </motion.div>
 
-    <ProjectTitle 
-    title={props.title} 
+    <ProjectTitle
+    title={props.title}
+    add_style = {props.title_add_style} 
     titlePosition={props.titlePosition} 
     transition={{duration:1}}
     />
