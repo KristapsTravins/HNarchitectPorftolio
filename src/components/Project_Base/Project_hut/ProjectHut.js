@@ -68,6 +68,7 @@ const ProjectHut = (props) => {
     className='img_4'
     animate={props.img_4_Position}
     transition={{duration:1}}
+    style={props.img_4_Position_start} 
     >
     <AImg4 />
   </motion.div>

@@ -83,7 +83,10 @@
             },
             "img_4":{
                 "mobile":{
-                 "display":"none"
+                    "width":"138px",
+                    "height":"138px",
+                    "right":"107px",
+                    "top":"92px"
                 },
                 "tab":{
                   
@@ -99,7 +102,10 @@
             },
             "img_5":{
                 "mobile":{
-                    "display":"none"
+                    "width":"138px",
+                    "height":"138px",
+                    "right":"107px",
+                    "top":"92px"
                 },
                 "tab":{
                   
@@ -133,7 +139,11 @@
             },
             "text_description_1":{
                 "mobile":{
-                    "display":"none"
+                        "right":"110px",
+                        "top":"185px",
+                        "overflow":"hidden",
+                        "width":"108px",
+                        "height":"106px"
                     },
                     "tab":{
                         
@@ -148,7 +158,11 @@
             },
             "text_description_2":{
                 "mobile":{
-                       
+                    "right":"110px",
+                    "top":"185px",
+                    "overflow":"hidden",
+                    "width":"108px",
+                    "height":"106px"
                     },
                     "tab":{
                         
@@ -167,9 +181,13 @@
             
             "title":{
                 "mobile":{
-               
+                    "left":"10px",
+                    "top":"70px"
                 },
                 "tab":{
+
+                  "left":"0px",
+                  "top":"256px"
                
                 },
                 "desktop":{
@@ -177,14 +195,20 @@
                   "top":"256px"
                 }
             },
-
             "img_1":{
                 "mobile":{
-               
+                "width":"271px",
+                "height":"271px",
+                "right":"30px",
+                "top":"780px"
                     
                 },
                 "tab":{
-                  
+               
+                    "right":"20px",
+                    "width":"450px",
+                    "height":"450px",
+                    "top":"732px"
                    
                 },
                 "desktop":{
@@ -198,10 +222,17 @@
             },
             "img_2":{
                 "mobile":{
-                
+                    "width":"285px",
+                    "height":"194px",
+                    "right":"30px",
+                    "top":"350px"
                 },
                 "tab":{
-                   
+
+                    "top":"256px",
+                    "right":"20px",
+                    "width":"730px",
+                    "height":"496px"
                    
                 },
                 "desktop":{
@@ -213,10 +244,18 @@
             },
             "img_3":{
                 "mobile":{
-                 
+                  "left":"0px",
+                  "top":"1020px",
+                  "width":"222px",
+                  "height":"222px",
+                  "zIndex":"-2"
                 },
                 "tab":{
-                  
+
+                     "right":"20px",
+                    "width":"417px",
+                    "height":"417px",
+                    "top":"1378px"
                    
                 },
                 "desktop":{
@@ -228,43 +267,59 @@
             },
             "img_4":{
                 "mobile":{
-                 
+                    "width":"271px",
+                    "height":"271px",
+                    "right":"30px",
+                    "top":"1300px"
                 },
                 "tab":{
-                  
+
+                    "width":"450px",
+                    "height":"450px",
+                    "left":"0px",
+                    "top":"890px"
             
                 },
                 "desktop":{
                     "width":"450px",
                     "height":"450px",
                     "left":"0px",
-                    "top":"1033px"
+                    "top":"890px"
                     
                 }
             },
             "img_5":{
                 "mobile":{
-                 
+                    "width":"311px",
+                    "height":"182px",
+                    "left":"10px",
+                    "top":"1850px"
                 },
                 "tab":{
-                  
+                    "width":"593px",
+                    "height":"346px",
+                    "top":"1453px",
+                    "left":"0px",
+                    "zIndex":"-2"
                    
                 },
                 "desktop":{
                     "width":"593px",
                     "height":"346px",
-                    "top":"1622px",
+                    "top":"1453px",
                     "left":"0px",
                     "zIndex":"-2"
                 }
             },
             "title_description":{
-            "mobile":{
-                   
+                "mobile":{
+               "left":"10px",
+               "top":"200px"
                 },
                 "tab":{
                     
-                   
+                    "left":"0px",
+                    "top":"452px"
                    
                 },
                 "desktop":{
@@ -276,11 +331,15 @@
 
             "text_description_1":{
                 "mobile":{
-                       
+                    "width":"320px",
+                      "left":"10px",
+                      "top":"560px",
+                      "height":"269px"
                     },
                     "tab":{
                         
-                       
+                        "left":"0px",
+                        "top":"654px"
                        
                     },
                     "desktop":{
@@ -291,11 +350,16 @@
             },
             "text_description_2":{
                 "mobile":{
-                       
+                    "width":"320px",
+                      "right":"30px",
+                      "top":"1610px",
+                      "height":"269px"
                     },
                     "tab":{
                         
-                       
+                        "right":"20px",
+                        "top":"1279px",
+                        "zIndex":"0"
                        
                     },
                     "desktop":{
