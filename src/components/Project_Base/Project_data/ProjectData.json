@@ -4,8 +4,9 @@
         "closed_state":{
             "title":{
                 "mobile":{
-                    "right":"10px",
-                    "top":"30px"
+                    "right":"20px",
+                    "top":"30px",
+                    "left":"auto"
                 },
                 "tab":{
                     "right":"592px",
@@ -143,7 +144,7 @@
                         "top":"185px",
                         "overflow":"hidden",
                         "width":"108px",
-                        "height":"106px"
+                        "height":"10px"
                     },
                     "tab":{
                         
@@ -163,7 +164,7 @@
                     "top":"185px",
                     "overflow":"hidden",
                     "width":"108px",
-                    "height":"106px"
+                    "height":"10px"
                     },
                     "tab":{
                         
