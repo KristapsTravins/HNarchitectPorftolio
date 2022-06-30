@@ -147,7 +147,8 @@
                     },
                     "tab":{
                         
-                       
+                       "left":"265px",
+                       "top":"195px"
                        
                     },
                     "desktop":{
@@ -166,7 +167,8 @@
                     },
                     "tab":{
                         
-                       
+                        "left":"265px",
+                       "top":"195px"
                        
                     },
                     "desktop":{
@@ -178,7 +180,6 @@
             }
         },
         "open_state":{
-            
             "title":{
                 "mobile":{
                     "left":"10px",
@@ -206,8 +207,8 @@
                 "tab":{
                
                     "right":"20px",
-                    "width":"450px",
-                    "height":"450px",
+                    "width":"363px",
+                    "height":"363px",
                     "top":"732px"
                    
                 },
@@ -231,8 +232,8 @@
 
                     "top":"256px",
                     "right":"20px",
-                    "width":"730px",
-                    "height":"496px"
+                    "width":"565px",
+                    "height":"380px"
                    
                 },
                 "desktop":{
@@ -253,8 +254,8 @@
                 "tab":{
 
                      "right":"20px",
-                    "width":"417px",
-                    "height":"417px",
+                     "width":"360px",
+                     "height":"315px",
                     "top":"1378px"
                    
                 },
@@ -274,8 +275,8 @@
                 },
                 "tab":{
 
-                    "width":"450px",
-                    "height":"450px",
+                    "width":"363px",
+                    "height":"363px",
                     "left":"0px",
                     "top":"890px"
             
@@ -296,9 +297,9 @@
                     "top":"1850px"
                 },
                 "tab":{
-                    "width":"593px",
-                    "height":"346px",
-                    "top":"1453px",
+                    "width":"400px",
+                    "height":"220px",
+                    "top":"1315px",
                     "left":"0px",
                     "zIndex":"-2"
                    
@@ -312,7 +313,7 @@
                 }
             },
             "title_description":{
-                "mobile":{
+            "mobile":{
                "left":"10px",
                "top":"200px"
                 },
@@ -356,9 +357,9 @@
                       "height":"269px"
                     },
                     "tab":{
-                        
-                        "right":"20px",
-                        "top":"1279px",
+                        "left":"auto",
+                        "right":"30px",
+                        "top":"1180px",
                         "zIndex":"0"
                        
                     },
