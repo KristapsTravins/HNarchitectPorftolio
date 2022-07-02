@@ -69,9 +69,9 @@ if(width<800){
 }else{
     answ = cur.desktop
 }
-
 return answ
 }
+
 
 
 

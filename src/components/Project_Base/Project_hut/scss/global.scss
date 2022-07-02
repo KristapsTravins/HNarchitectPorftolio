@@ -5,6 +5,19 @@
     position: relative;
     width: 100%;
     height: 100%;
+    .trigger_box{
+        width: 746px;
+        height: 455px;
+        position: absolute;
+        right: 45px;
+        top:100px;
+        background-color: aqua;
+        opacity: 0.1;
+        cursor: pointer;
+        z-index: 2;
+
+
+    }
     .img_1{
         position: absolute;
         width: 363px;

@@ -13,6 +13,7 @@ const ProjectHut = (props) => {
   return (
     <div className='project_hut_box'>
 
+      <div className='trigger_box'></div>
 
 
     <motion.div 

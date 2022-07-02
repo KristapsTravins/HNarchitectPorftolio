@@ -5,24 +5,18 @@
   height: 269px;
   z-index: -1;
 }
-
 .project_description_block .inner_description_text {
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .project_description_block .inner_description_text p {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 300;
   font-size: 15px;
   color: #D73434;
   font-size: 13px;
 }
-
 .project_description_block .inner_description_text p span {
   font-weight: 600;
-}
-/*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */
