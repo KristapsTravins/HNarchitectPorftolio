@@ -197,15 +197,16 @@
                   "top":"256px"
                 }
             },
-            "img_1":{
-                "mobile":{
+    "img_1":{
+                
+            "mobile":{
                 "width":"271px",
                 "height":"271px",
                 "right":"30px",
                 "top":"780px"
                     
                 },
-                "tab":{
+            "tab":{
                
                     "right":"20px",
                     "width":"363px",
@@ -214,12 +215,12 @@
                    
                 },
                 "desktop":{
+
                     "right":"20px",
-                    "width":"450px",
                     "height":"450px",
-                    "top":"732px"
-                    
-                   
+                    "top":"732px",
+                    "zIndex":"-2"
+        
                 }
             },
             "img_2":{

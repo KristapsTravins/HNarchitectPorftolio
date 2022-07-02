@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './css/global.css'
 import './css/mobile.css'
 import ProjectDescription from '../Project_title_description/ProjectDescription'
@@ -10,15 +10,30 @@ import {AImg1,AImg2,AImg3,AImg4,AImg5} from '../../../assets/images/ImageCompone
 
 const ProjectHut = (props) => {
 
+    const [hoverState,setHoverState] = useState(false);
+
+
+   
+   
+
   return (
     <div className='project_hut_box'>
 
-      <div className='trigger_box'></div>
+      <div 
+      onMouseEnter={()=>{
+        !props.OpenClose.ExpansionState?setHoverState(true):console.log("close")
+      }}
+      onMouseLeave={()=>{setHoverState(false)}}
+      onClick={() => {
+        props.OpenClose.setExpansionState(!props.OpenClose.ExpansionState)
+        setHoverState(false)
+      } }
+      className='trigger_box'></div>
 
 
     <motion.div 
     className='img_1'
-    animate={props.img_1_Position}
+    animate={hoverState?{"top":"20px"}:props.img_1_Position}
     transition={{duration:1}}
     >
     <AImg1 />
@@ -26,8 +41,7 @@ const ProjectHut = (props) => {
 
     <motion.div 
     className='img_2'
-    onClick={() => props.OpenClose.setExpansionState(!props.OpenClose.ExpansionState) }
-    animate={props.img_2_Position}
+    animate={hoverState?{"right":"300px"}:props.img_2_Position}
     transition={{duration:1}}
     >
     <AImg2 />
@@ -35,7 +49,7 @@ const ProjectHut = (props) => {
 
     <motion.div 
     className='img_3'
-    animate={props.img_3_Position}
+    animate={hoverState?{"top":"320px"}:props.img_3_Position}
     transition={{duration:1}}
     >
     <AImg3 />
