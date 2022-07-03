@@ -7,7 +7,7 @@ const chooseProject = (proj) =>{
             section = ProjectData.project_hut;
             break;
         case "project_cloud":
-            section = ProjectData.project_hut;
+            section = ProjectData.project_cloud;
             break;     
         case "project_annas":
             section = ProjectData.project_hut;

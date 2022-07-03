@@ -1,5 +1,6 @@
 import ProjectsBase from "../../components/Project_Base/ProjectsBase";
 import ProjectHut from "../../components/Project_Base/Project_hut/ProjectHut";
+import ProjectCloud from "../../components/Project_Base/Project_Clound/ProjectCloud";
 import { GivePosition } from "../../components/Project_Base/hooks/AnimatePositions";
 
 import "./css/global.css"
@@ -20,12 +21,24 @@ const Home = () => {
      <div className="home_center">
         <ProjectsBase 
         child={ProjectHut}
+        projectName={"project_hut"}
         projectExpanParam={{"height":"2040px"}} 
         projectTitleDescription={["Modular prefab home","Concept","2022","Latvia","40 sq.m."]}
         projectTitle={["HEMP","HUT"]}
         projectDescriptionText1={text1}
         projectDescriptionText2={text2}
         />
+
+        <ProjectsBase 
+        child={ProjectCloud}
+        projectExpanParam={{"height":"2040px"}}
+        projectName={"project_cloud"}
+        projectTitleDescription={["Modular prefab home","Concept","2022","Latvia","40 sq.m."]}
+        projectTitle={["CLOUND","CATER"]}
+        projectDescriptionText1={text1}
+        projectDescriptionText2={text2}
+        />
+     
      
 
        

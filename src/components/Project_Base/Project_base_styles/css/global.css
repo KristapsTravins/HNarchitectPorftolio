@@ -4,6 +4,7 @@
   position: relative;
   height: 701px;
   overflow: hidden;
+  border: 0.1px dotted black;
 }
 
 @media only screen and (max-width: 450px) {
