@@ -13,7 +13,12 @@ const ProjectCloud = (props) => {
     return (
       <div className='project_cloud_box'>
         
-
+    <ProjectTitle
+    title={props.title}
+    add_style = {props.title_add_style} 
+    titlePosition={props.titlePosition} 
+    transition={{duration:1}}
+    />
     <motion.div 
     className='img_1'
     animate={props.img_1_Position}
@@ -36,6 +41,12 @@ const ProjectCloud = (props) => {
     >
     <BImg3 />
     </motion.div>
+
+    <ProjectDescription 
+    titleDescription={props.titleDescription}
+    titleDescriptionPosition={props.titleDescriptionPosition}
+    titleDescriptionPositionInit={props.titleDescriptionPositionInit}
+    />
 
       </div>
     )

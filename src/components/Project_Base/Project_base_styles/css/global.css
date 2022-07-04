@@ -2,9 +2,8 @@
 .project_base {
   width: 99.8%;
   position: relative;
-  height: 701px;
+  height: 801px;
   overflow: hidden;
-  border: 0.1px dotted black;
 }
 
 @media only screen and (max-width: 450px) {
@@ -12,5 +11,4 @@
     width: 99.8%;
     height: 447px;
   }
-}
-/*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */

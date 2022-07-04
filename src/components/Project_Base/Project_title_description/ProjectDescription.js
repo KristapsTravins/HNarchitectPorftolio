@@ -11,6 +11,7 @@ return (
 
 <motion.div
           className='huts_title_info'
+          style={props.titleDescriptionPositionInit}
           initial={{height:"0%"}}
           animate={{height:"auto",...props.titleDescriptionPosition}} 
           transition={{duration:0.7}}

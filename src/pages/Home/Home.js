@@ -27,14 +27,14 @@ const Home = () => {
         projectTitle={["HEMP","HUT"]}
         projectDescriptionText1={text1}
         projectDescriptionText2={text2}
-        />
+        /> 
 
         <ProjectsBase 
         child={ProjectCloud}
         projectExpanParam={{"height":"2040px"}}
         projectName={"project_cloud"}
-        projectTitleDescription={["Modular prefab home","Concept","2022","Latvia","40 sq.m."]}
-        projectTitle={["CLOUND","CATER"]}
+        projectTitleDescription={["Tiny house","Concept","2022","Atacama Desert","25 sq.m."]}
+        projectTitle={["CLOUND","CHATER"]}
         projectDescriptionText1={text1}
         projectDescriptionText2={text2}
         />

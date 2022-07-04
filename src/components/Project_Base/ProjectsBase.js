@@ -34,6 +34,7 @@ console.log(projectName)
   titlePosition={GivePosition(projectName,expanHook.ExpansionState,"title",width)}
   titleDescription={projectTitleDescription}
   titleDescriptionPosition={GivePosition(projectName,expanHook.ExpansionState,"title_description",width)}
+  titleDescriptionPositionInit={GivePosition(projectName,false,"title_description",width)}
   img_1_Position={GivePosition(projectName,expanHook.ExpansionState,"img_1",width)}
   img_2_Position={GivePosition(projectName,expanHook.ExpansionState,"img_2",width)}
   img_3_Position={GivePosition(projectName,expanHook.ExpansionState,"img_3",width)}
