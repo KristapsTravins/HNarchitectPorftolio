@@ -380,7 +380,8 @@
                 "mobile":{
                     "right":"20px",
                     "top":"30px",
-                    "left":"10px"
+                    "left":"100px",
+                    "width":"100px"
                 },
                 "tab":{
                     
@@ -399,9 +400,8 @@
                 "mobile":{
                     "width":"103px",
                     "height":"223px",
-                    "right":"30px",
-                    "left":"auto",
-                    "top":"92px"
+                    "left":"215px",
+                    "top":"100px"
                 },
                 "tab":{
                     "width":"219px",
@@ -421,8 +421,8 @@
                 "mobile":{
                     "width":"252px",
                     "height":"150px",
-                    "right":"100px",
-                    "top":"140px"
+                    "left":"25px",
+                    "top":"160px"
                 },
                 "tab":{
                     "width":"523px",
@@ -445,9 +445,8 @@
                 "mobile":{
                     "width":"164px",
                     "height":"164px",
-                    "left":"auto",
-                    "right":"65px",
-                    "top":"210px"
+                    "left":"190px",
+                    "top":"220px"
                 },
                 "tab":{
                     "width":"350px",
@@ -504,8 +503,8 @@
             "title_description":{
             "mobile":{
                
-                    "right":"158px",
-                    "top":"310px"
+                    "left":"25px",
+                    "top":"325px"
                 },
                 "tab":{
                     
