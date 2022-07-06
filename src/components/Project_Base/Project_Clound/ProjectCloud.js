@@ -12,6 +12,18 @@ const ProjectCloud = (props) => {
 
     return (
       <div className='project_cloud_box'>
+
+        
+      <div 
+      onMouseEnter={()=>{
+    /*     !props.OpenClose.ExpansionState?setHoverState(true):console.log("close") */
+      }}
+      onMouseLeave={()=>{/* setHoverState(false) */}}
+      onClick={() => {
+       props.OpenClose.setExpansionState(!props.OpenClose.ExpansionState)
+         /* setHoverState(false) */
+      } }
+      className='trigger_box'></div>
         
     <ProjectTitle
     title={props.title}
@@ -47,6 +59,11 @@ const ProjectCloud = (props) => {
     titleDescriptionPosition={props.titleDescriptionPosition}
     titleDescriptionPositionInit={props.titleDescriptionPositionInit}
     />
+    <ProjectText
+    text_intial_pos={props.text_intial_pos}
+    project_text={props.text2}
+    ProjectDescription_Position={props.ProjectDescription_1_postition}
+  />
 
       </div>
     )

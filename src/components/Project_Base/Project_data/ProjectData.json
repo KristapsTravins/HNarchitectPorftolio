@@ -533,7 +533,8 @@
                        
                     },
                     "desktop":{
-                      "right":"262px",
+                      "left":"70px",
+                      "right":"auto",
                       "top":"321px"
                        
                     }
@@ -563,8 +564,9 @@
         "open_state":{
             "title":{
                 "mobile":{
-                    "left":"10px",
-                    "top":"70px"
+                    "width":"80px",
+                    "left":"110px",
+                    "top":"170px"
                 },
                 "tab":{
 
@@ -573,8 +575,9 @@
                
                 },
                 "desktop":{
-                  "left":"0px",
-                  "top":"256px"
+                    "width":"80px",
+                    "left":"110px",
+                    "top":"170px"
                 }
             },
             "img_1":{
@@ -595,9 +598,9 @@
                    
                 },
                 "desktop":{
-
-                    "right":"20px",
-                    "height":"450px",
+                    "right":"30px",
+                    "width":"527px",
+                    "height":"1053px",
                     "top":"732px",
                     "zIndex":"-2"
         
@@ -619,10 +622,10 @@
                    
                 },
                 "desktop":{
-                    "top":"256px",
-                    "right":"20px",
-                    "width":"730px",
-                    "height":"496px"
+                    "top":"438px",
+                    "left":"18px",
+                    "width":"688px",
+                    "height":"410px"
                 }
             },
             "img_3":{
@@ -706,8 +709,8 @@
                    
                 },
                 "desktop":{
-                  "left":"0px",
-                  "top":"452px"
+                  "left":"15px",
+                  "top":"310px"
                    
                 }
             },
@@ -726,8 +729,12 @@
                        
                     },
                     "desktop":{
-                      "left":"0px",
-                      "top":"654px"
+                      "left":"auto",
+                      "right":"30px",
+                      "top":"420px",
+                      "zIndex":"-1",
+                      "width":"366px"
+                      
                        
                     }
             },
