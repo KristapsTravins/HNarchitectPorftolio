@@ -533,8 +533,7 @@
                        
                     },
                     "desktop":{
-                      "left":"70px",
-                      "right":"auto",
+                      "right":"970px",
                       "top":"321px"
                        
                     }
@@ -603,6 +602,7 @@
                     "height":"1053px",
                     "top":"732px",
                     "zIndex":"-2"
+                    
         
                 }
             },
@@ -729,12 +729,12 @@
                        
                     },
                     "desktop":{
-                      "left":"auto",
+                      
                       "right":"30px",
                       "top":"420px",
                       "zIndex":"-1",
                       "width":"366px"
-                      
+                                         
                        
                     }
             },
