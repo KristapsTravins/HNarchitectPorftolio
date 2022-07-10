@@ -6,6 +6,7 @@ import ProjectTitle from '../ProjectTitle/ProjectTitle'
 import ProjectText from '../Project_description_text/ProjectText'
 import { motion } from "framer-motion"
 import {BImg1,BImg2,BImg3,BImg4,BImg5,BImg6} from '../../../assets/images/ImageComponents'
+import TrigerBox from '../Trigger_box/TrigerBox'
 
 const ProjectCloud = (props) => {
 
@@ -14,17 +15,15 @@ const ProjectCloud = (props) => {
       <div className='project_cloud_box'>
 
         
-      <div 
-      onMouseEnter={()=>{
-    /*     !props.OpenClose.ExpansionState?setHoverState(true):console.log("close") */
-      }}
-      onMouseLeave={()=>{/* setHoverState(false) */}}
-      onClick={() => {
-       props.OpenClose.setExpansionState(!props.OpenClose.ExpansionState)
-         /* setHoverState(false) */
-      } }
-      className='trigger_box'></div>
-        
+
+  <TrigerBox 
+    OpenCloseTrigger={props.OpenClose.setExpansionState} 
+    OpenCloseState={props.OpenClose.ExpansionState} 
+    HoverStateChange={props.HoverInOut.setHoverState}
+    HoverState={props.HoverInOut.HoverState}
+    />
+
+
     <ProjectTitle
     title={props.title}
     add_style = {props.title_add_style} 

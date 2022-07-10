@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import "./Project_base_styles/css/global.css"
-import { ExpansionState } from './hooks/ExpansionState'
+import { ExpansionState, HoverState } from './hooks/ExpansionState'
 import { GivePosition } from "../../components/Project_Base/hooks/AnimatePositions";
 import useWindowDimensions from "../../assets/hooks/useWindowDimensions";
 
@@ -16,6 +16,7 @@ const ProjectsBase = ({
    projectDescriptionText1,
    projectDescriptionText2
   }) => {
+const hoverHook = HoverState();
 const expanHook = ExpansionState();
 const {width} = useWindowDimensions();
 
@@ -27,8 +28,11 @@ console.log(projectName)
    animate={expanHook.ExpansionState?projectExpanParam:{}}
    transition={expanHook.ExpansionState?{duration:1}:{duration:1,delay:1}}>
 
-  <ProjectComp 
-  OpenClose={expanHook} 
+  <ProjectComp
+
+  OpenClose={expanHook}
+  HoverInOut={hoverHook}
+   
   title={projectTitle} 
   title_add_style={GivePosition(projectName,false,"title",width)}
   titlePosition={GivePosition(projectName,expanHook.ExpansionState,"title",width)}

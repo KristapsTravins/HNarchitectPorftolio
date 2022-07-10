@@ -6,12 +6,11 @@ import ProjectTitle from '../ProjectTitle/ProjectTitle'
 import ProjectText from '../Project_description_text/ProjectText'
 import { motion } from "framer-motion"
 import {AImg1,AImg2,AImg3,AImg4,AImg5} from '../../../assets/images/ImageComponents'
+import TrigerBox from '../Trigger_box/TrigerBox'
+
 
 
 const ProjectHut = (props) => {
-
-    const [hoverState,setHoverState] = useState(false);
-
 
    
    
@@ -19,21 +18,19 @@ const ProjectHut = (props) => {
   return (
     <div className='project_hut_box'>
 
-      <div 
-      onMouseEnter={()=>{
-        !props.OpenClose.ExpansionState?setHoverState(true):console.log("close")
-      }}
-      onMouseLeave={()=>{setHoverState(false)}}
-      onClick={() => {
-        props.OpenClose.setExpansionState(!props.OpenClose.ExpansionState)
-        setHoverState(false)
-      } }
-      className='trigger_box'></div>
+  
+
+    <TrigerBox 
+    OpenCloseTrigger={props.OpenClose.setExpansionState} 
+    OpenCloseState={props.OpenClose.ExpansionState} 
+    HoverStateChange={props.HoverInOut.setHoverState}
+    HoverState={props.HoverInOut.HoverState}
+    />
 
 
     <motion.div 
     className='img_1'
-    animate={hoverState?{"top":"20px"}:props.img_1_Position}
+    animate={props.HoverInOut.HoverState?{"top":"20px"}:props.img_1_Position}
     transition={{duration:1}}
     >
     <AImg1 />
@@ -41,7 +38,7 @@ const ProjectHut = (props) => {
 
     <motion.div 
     className='img_2'
-    animate={hoverState?{"right":"300px"}:props.img_2_Position}
+    animate={props.HoverInOut.HoverState?{"right":"300px"}:props.img_2_Position}
     transition={{duration:1}}
     >
     <AImg2 />
@@ -49,7 +46,7 @@ const ProjectHut = (props) => {
 
     <motion.div 
     className='img_3'
-    animate={hoverState?{"top":"320px"}:props.img_3_Position}
+    animate={props.HoverInOut.HoverState?{"top":"320px"}:props.img_3_Position}
     transition={{duration:1}}
     >
     <AImg3 />
