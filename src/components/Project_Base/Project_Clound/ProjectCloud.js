@@ -18,7 +18,8 @@ const ProjectCloud = (props) => {
 
   <TrigerBox 
     OpenCloseTrigger={props.OpenClose.setExpansionState} 
-    OpenCloseState={props.OpenClose.ExpansionState} 
+    OpenCloseState={props.OpenClose.ExpansionState}
+
     HoverStateChange={props.HoverInOut.setHoverState}
     HoverState={props.HoverInOut.HoverState}
     />
@@ -32,14 +33,14 @@ const ProjectCloud = (props) => {
     />
     <motion.div 
     className='img_1'
-    animate={props.img_1_Position}
+    animate={props.HoverInOut.HoverState?{"left":"530px","top":"85px"}:props.img_1_Position}
     transition={{duration:1}}
     >
     <BImg1 />
     </motion.div>
     <motion.div 
     className='img_2'
-    animate={props.img_2_Position}
+    animate={props.HoverInOut.HoverState?{"left":"10px"}:props.img_2_Position}
     transition={{duration:1}}
     >
     <BImg2 />
@@ -47,7 +48,7 @@ const ProjectCloud = (props) => {
     
     <motion.div 
     className='img_3'
-    animate={props.img_3_Position}
+    animate={props.HoverInOut.HoverState?{"top":"363px"}:props.img_3_Position}
     transition={{duration:1}}
     >
     <BImg3 />

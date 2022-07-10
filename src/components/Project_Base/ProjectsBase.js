@@ -21,7 +21,6 @@ const expanHook = ExpansionState();
 const {width} = useWindowDimensions();
 
 
-console.log(projectName)
   return (
    <motion.div
    className='project_base'
@@ -32,7 +31,7 @@ console.log(projectName)
 
   OpenClose={expanHook}
   HoverInOut={hoverHook}
-   
+
   title={projectTitle} 
   title_add_style={GivePosition(projectName,false,"title",width)}
   titlePosition={GivePosition(projectName,expanHook.ExpansionState,"title",width)}

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import './css/global.css'
 import './css/mobile.css'
 import ProjectDescription from '../Project_title_description/ProjectDescription'
