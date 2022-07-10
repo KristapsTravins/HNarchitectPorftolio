@@ -1,16 +1,17 @@
-import ProjectData from "../Project_data/ProjectData.json"
+import sectionOne from "../Project_hut/AnimData/Hut.json"
+import sectionTwo from "../Project_Clound/AnimData/Cloud.json"
 
 const chooseProject = (proj) =>{
     let section = {};
     switch (proj) {
         case "project_hut":
-            section = ProjectData.project_hut;
+            section = sectionOne.project_hut;
             break;
         case "project_cloud":
-            section = ProjectData.project_cloud;
+            section = sectionTwo.project_cloud;
             break;     
         case "project_annas":
-            section = ProjectData.project_hut;
+            section = sectionOne.project_hut;
             break;
         default:
             break;

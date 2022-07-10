@@ -4,6 +4,7 @@
   width: 100%;
   height: 100%;
 }
+
 .project_cloud_box .trigger_box {
   position: absolute;
   width: 650px;
@@ -11,18 +12,20 @@
   height: 360px;
   z-index: 2;
 }
+
 .project_cloud_box .img_1 {
   position: absolute;
   z-index: -1;
   width: 219px;
   height: 474px;
-  left: 520px;
-  top: 85px;
+  right: 700px;
 }
+
 .project_cloud_box .img_1 img {
   width: 100%;
   height: 100%;
 }
+
 .project_cloud_box .img_2 {
   position: absolute;
   z-index: 1;
@@ -31,10 +34,12 @@
   left: "30px";
   top: 195px;
 }
+
 .project_cloud_box .img_2 img {
   width: 100%;
   height: 100%;
 }
+
 .project_cloud_box .img_3 {
   position: absolute;
   z-index: 0;
@@ -43,10 +48,12 @@
   left: 304px;
   top: 445px;
 }
+
 .project_cloud_box .img_3 img {
   width: 100%;
   height: 100%;
 }
+
 .project_cloud_box .img_4 {
   position: absolute;
   width: 350px;
@@ -55,17 +62,21 @@
   right: 111px;
   z-index: -2;
 }
+
 .project_cloud_box .img_4 img {
   width: 100%;
   height: 100%;
 }
+
 .project_cloud_box .img_5 {
   position: absolute;
   top: 130px;
   right: 111px;
   z-index: -2;
 }
+
 .project_cloud_box .img_5 img {
   width: 100%;
   height: 100%;
-}/*# sourceMappingURL=global.css.map */
+}
+/*# sourceMappingURL=global.css.map */
