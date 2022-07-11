@@ -54,6 +54,24 @@ const ProjectCloud = (props) => {
     <BImg3 />
     </motion.div>
 
+    <motion.div 
+    className='img_4'
+    animate={props.img_4_Position}
+    transition={{duration:1}}
+    >
+      {/* wrong pic  */}
+    <BImg3 />
+    </motion.div>
+
+    <motion.div 
+    className='img_5'
+    animate={props.img_5_Position}
+    transition={{duration:1}}
+    >
+      {/* wrong pic  */}
+    <BImg4 />
+    </motion.div>
+
     <ProjectDescription 
     titleDescription={props.titleDescription}
     titleDescriptionPosition={props.titleDescriptionPosition}

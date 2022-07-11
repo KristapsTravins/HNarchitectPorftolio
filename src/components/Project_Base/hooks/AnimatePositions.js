@@ -40,7 +40,13 @@ let component = {};
             break;
         case "img_5":
             component = current.img_5;
-            break;    
+            break;
+        case "img_6":
+            component = current.img_6;
+            break;
+        case "img_7":
+            component = current.img_7;
+            break;      
         case "title_description":
             component = current.title_description;
             break;

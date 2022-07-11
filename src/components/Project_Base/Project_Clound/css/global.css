@@ -49,10 +49,10 @@
 
 .project_cloud_box .img_4 {
   position: absolute;
-  width: 350px;
-  height: 350px;
-  top: 130px;
-  right: 111px;
+  width: 250px;
+  height: 250px;
+  top: 240px;
+  left: 90px;
   z-index: -2;
 }
 
@@ -65,6 +65,10 @@
   position: absolute;
   top: 130px;
   right: 111px;
+  width: 250px;
+  height: 250px;
+  top: 240px;
+  left: 90px;
   z-index: -2;
 }
 
