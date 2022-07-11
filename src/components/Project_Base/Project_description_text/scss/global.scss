@@ -4,14 +4,17 @@
     position: absolute;
     width: 320px;
     height: 269px;
-    z-index: -1;  
+    line-height: 25px;
+    z-index: -1;
+    overflow: hidden;
     .inner_description_text{
         width: 100%;
         height: 100%;
         display: flex;
+        
         p{
             @include font-style-text;
-            font-size: 13px;
+            font-size: 15px;
             span{
                 font-weight: 600;
             }

@@ -158,7 +158,7 @@
                 },
                 "desktop":{
                   "right":"970px",
-                  "top":"321px"
+                  "top":"260px"
                    
                 }
         },
@@ -177,8 +177,29 @@
                    
                 },
                 "desktop":{
-                  "right":"262px",
+                
                  
+                  "top":"321px"
+                   
+                }
+        },
+        "text_description_3":{
+            "mobile":{
+                "right":"110px",
+                "top":"185px",
+                "overflow":"hidden",
+                "width":"108px",
+                "height":"10px"
+                },
+                "tab":{
+                    
+                    "left":"265px",
+                   "top":"195px"
+                   
+                },
+                "desktop":{
+                
+                
                   "top":"321px"
                    
                 }
@@ -220,14 +241,13 @@
                 "top":"732px"
                
             },
-            "desktop":{
-                
-            
-                "left":"61%",
-                "width":"527px",
-                "height":"1053px",
-                "top":"732px",
-                "zIndex":"-2"
+        "desktop":{
+            "right":"0px",
+            "left":"auto",
+            "width":"527px",
+            "height":"1053px",
+            "top":"732px",
+            "zIndex":"-2"
             }
         },
         "img_2":{
@@ -269,10 +289,10 @@
                
             },
             "desktop":{
-                "right":"20px",
-                "width":"417px",
-                "height":"417px",
-                "top":"1378px"
+                "left":"20px",
+                "top":"984px",
+                "width":"450px",
+                "height":"450px"
             }
         },
         "img_4":{
@@ -376,8 +396,31 @@
                    
                 },
                 "desktop":{
+                    "height":"auto",
                     "right":"20px",
-                    "top":"1279px",
+                    "top":"1069px",
+                    "zIndex":"0"
+        
+                }
+        },
+        "text_description_3":{
+            "mobile":{
+                "width":"320px",
+                  "right":"30px",
+                  "top":"1610px",
+                  "height":"269px"
+                },
+                "tab":{
+                    "left":"auto",
+                    "right":"30px",
+                    "top":"1180px",
+                    "zIndex":"0"
+                   
+                },
+                "desktop":{
+                    "height":"auto",
+                    "left":"30px",
+                    "top":"1450px",
                     "zIndex":"0"
         
                 }

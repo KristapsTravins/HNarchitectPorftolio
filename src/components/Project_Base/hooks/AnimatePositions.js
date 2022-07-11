@@ -50,6 +50,9 @@ let component = {};
         case "text_description_2":
             component = current.text_description_2;
             break;
+        case "text_description_3":
+            component = current.text_description_3;
+            break;
         
         default:
             component = {};

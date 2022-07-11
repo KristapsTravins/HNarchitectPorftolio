@@ -3,7 +3,9 @@
   position: absolute;
   width: 320px;
   height: 269px;
+  line-height: 25px;
   z-index: -1;
+  overflow: hidden;
 }
 
 .project_description_block .inner_description_text {
@@ -19,7 +21,7 @@
   font-weight: 300;
   font-size: 15px;
   color: #D73434;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .project_description_block .inner_description_text p span {

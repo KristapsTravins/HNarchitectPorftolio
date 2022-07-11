@@ -10,7 +10,8 @@
   z-index: -1;
   width: 219px;
   height: 474px;
-  left: 520px;
+  /* left: 520px; */
+  right: 550px;
   top: 80px;
 }
 
@@ -24,7 +25,6 @@
   z-index: 1;
   width: 523px;
   height: 355px;
-  left: "30px";
   top: 195px;
 }
 
@@ -71,5 +71,11 @@
 .project_cloud_box .img_5 img {
   width: 100%;
   height: 100%;
+}
+
+.project_cloud_box .project_description_block {
+  overflow: hidden;
+  top: 200px;
+  right: 70%;
 }
 /*# sourceMappingURL=global.css.map */

@@ -14,7 +14,8 @@ const ProjectsBase = ({
    projectTitle,
    projectTitleDescription,
    projectDescriptionText1,
-   projectDescriptionText2
+   projectDescriptionText2,
+   projectDescriptionText3
   }) => {
 const hoverHook = HoverState();
 const expanHook = ExpansionState();
@@ -47,8 +48,10 @@ const {width} = useWindowDimensions();
   img_5_Position={GivePosition(projectName,expanHook.ExpansionState,"img_5",width)}
   ProjectDescription_1_postition ={GivePosition(projectName,expanHook.ExpansionState,"text_description_1",width)} 
   ProjectDescription_2_postition ={GivePosition(projectName,expanHook.ExpansionState,"text_description_2",width)}
+  ProjectDescription_3_postition ={GivePosition(projectName,expanHook.ExpansionState,"text_description_3",width)}
   text1={projectDescriptionText1}
   text2={projectDescriptionText2}
+  text3={projectDescriptionText3}
   text_intial_pos={GivePosition(projectName,false,"text_description_1",width)} 
   text2_addonStyle={{"textAlign":"right"}}
   img_4_Position_start = {GivePosition(projectName,false,"img_4",width)}
