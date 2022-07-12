@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/global.css'
 import './css/mobile.css'
+import './css/tab.css'
 import ProjectDescription from '../Project_title_description/ProjectDescription'
 import ProjectTitle from '../ProjectTitle/ProjectTitle'
 import ProjectText from '../Project_description_text/ProjectText'
@@ -103,7 +104,7 @@ const ProjectCloud = (props) => {
     />
     <ProjectText
     text_intial_pos={/* props.text_intial_pos */{}}
-    project_text={props.text2}
+    project_text={props.text1}
     ProjectDescription_Position={props.ProjectDescription_1_postition}
    />
 

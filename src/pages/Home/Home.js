@@ -34,7 +34,7 @@ const Home = () => {
   
    <ProjectsBase 
         child={ProjectCloud}
-        projectExpanParam={{"height":"3040px"}}
+        projectExpanParam={{"height":"4040px"}}
         projectName={"project_cloud"}
         projectTitleDescription={["Tiny house","Concept","2022","Atacama Desert","25 sq.m."]}
         projectTitle={["CLOUND","CHATER"]}
