@@ -136,10 +136,10 @@
                
             },
             "desktop":{
-                "width":"350px",
-                "height":"350px",
-                "top":"130px",
-                "right":"111px",
+                "width":"250px",
+                "height":"250px",
+                "top":"240px",
+                "left":"90px",
                 "zIndex":"-2"
             }
         },
@@ -155,10 +155,10 @@
                
             },
             "desktop":{
-                "width":"350px",
-                "height":"350px",
-                "top":"130px",
-                "right":"111px",
+                "width":"250px",
+                "height":"250px",
+                "top":"240px",
+                "left":"90px",
                 "zIndex":"-2"
             }
         },
@@ -239,6 +239,26 @@
                 
                 "left":"70px",
                   "top":"321px"
+                   
+                }
+        },
+        "text_description_4":{
+            "mobile":{
+                    "right":"110px",
+                    "top":"185px",
+                    "overflow":"hidden",
+                    "width":"108px",
+                    "height":"10px"
+                },
+                "tab":{
+                    
+                   "left":"265px",
+                   "top":"195px"
+                   
+                },
+                "desktop":{
+                  "left":"70px",
+                  "top":"260px"
                    
                 }
         }
@@ -382,21 +402,25 @@
         },
         "img_6":{
             "mobile":{
-                "width":"138px",
-                "height":"138px",
-                "right":"107px",
-                "top":"92px"
+                "width":"271px",
+                "height":"271px",
+                "right":"30px",
+                "top":"1300px"
             },
             "tab":{
-              
-               
+
+                "width":"363px",
+                "height":"363px",
+                "left":"0px",
+                "top":"890px"
+        
             },
             "desktop":{
-                "width":"350px",
-                "height":"350px",
-                "top":"130px",
-                "right":"111px",
-                "zIndex":"-2"
+                "width":"450px",
+                "height":"450px",
+                "left":"20px",
+                "top":"2200px"
+                
             }
         },
         "img_7":{
@@ -411,10 +435,11 @@
                
             },
             "desktop":{
-                "width":"350px",
-                "height":"350px",
-                "top":"130px",
-                "right":"111px",
+                "width":"533px",
+                "left":"auto",
+                "height":"434px",
+                "top":"2505px",
+                "right":"30px",
                 "zIndex":"-2"
             }
         },
@@ -501,6 +526,28 @@
                     "top":"1450px",
                     "zIndex":"0"
         
+                }
+        },
+        "text_description_4":{
+            "mobile":{
+                "width":"320px",
+                  "left":"10px",
+                  "top":"560px",
+                  "height":"269px"
+                },
+                "tab":{
+                    
+                    "left":"0px",
+                    "top":"654px"
+                   
+                },
+                "desktop":{
+                  "left":"auto",
+                  "right":"30px",
+                  "top":"2370px",
+                  "zIndex":"-1",
+                  "width":"400px"
+                                    
                 }
         }
     } 

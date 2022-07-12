@@ -153,8 +153,8 @@
                        
                     },
                     "desktop":{
-                      "right":"262px",
-                      "top":"321px"
+                      "right":"309px",
+                      "top":"280px"
                        
                     }
             },
@@ -173,9 +173,9 @@
                        
                     },
                     "desktop":{
-                      "right":"262px",
+                      "right":"309px",
                      
-                      "top":"321px"
+                      "top":"280px"
                        
                     }
             },
@@ -211,8 +211,7 @@
                   "top":"256px"
                 }
             },
-    "img_1":{
-                
+         "img_1":{
             "mobile":{
                 "width":"271px",
                 "height":"271px",

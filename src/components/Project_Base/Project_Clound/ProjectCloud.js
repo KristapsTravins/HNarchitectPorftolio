@@ -68,9 +68,33 @@ const ProjectCloud = (props) => {
     animate={props.img_5_Position}
     transition={{duration:1}}
     >
-      {/* wrong pic  */}
     <BImg4 />
     </motion.div>
+
+
+    <motion.div 
+    className='img_6'
+    animate={props.img_6_Position}
+    transition={{duration:1}}
+    >
+    {/* wrong pic  */}
+    <BImg3 />
+    </motion.div>
+
+    <motion.div 
+    className='img_7'
+    animate={props.img_7_Position}
+    transition={{duration:1}}
+    >
+    {/* wrong pic  */}
+    <BImg5 />
+    </motion.div>
+
+
+
+
+
+
 
     <ProjectDescription 
     titleDescription={props.titleDescription}
@@ -83,6 +107,10 @@ const ProjectCloud = (props) => {
     ProjectDescription_Position={props.ProjectDescription_1_postition}
    />
 
+
+
+
+
   <ProjectText
     text_intial_pos={{
       "width":"126px",
@@ -94,10 +122,16 @@ const ProjectCloud = (props) => {
    />
 
   <ProjectText
-   
     project_text={props.text3}
     ProjectDescription_Position={props.ProjectDescription_3_postition}
    />
+    <ProjectText
+    text_intial_pos={{
+      "textAlign":"right"  
+    }}
+   project_text={props.text4}
+   ProjectDescription_Position={props.ProjectDescription_4_postition}
+  />
 
 
 
