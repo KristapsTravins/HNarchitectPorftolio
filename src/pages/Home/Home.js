@@ -23,7 +23,7 @@ const Home = () => {
 
     return (
      <div className="home_center">
-    {/*     <ProjectsBase 
+        <ProjectsBase 
         child={ProjectHut}
         projectName={"project_hut"}
         projectExpanParam={{"height":"2040px"}} 
@@ -31,9 +31,10 @@ const Home = () => {
         projectTitle={["HEMP","HUT"]}
         projectDescriptionText1={text1}
         projectDescriptionText2={text2}
-        />  */}
-
-        <ProjectsBase 
+       
+        />
+  
+   <ProjectsBase 
         child={ProjectCloud}
         projectExpanParam={{"height":"3040px"}}
         projectName={"project_cloud"}
@@ -42,7 +43,7 @@ const Home = () => {
         projectDescriptionText1={Btext1}
         projectDescriptionText2={Btext2}
         projectDescriptionText3={Btext3}
-        />
+        /> 
      
      
 

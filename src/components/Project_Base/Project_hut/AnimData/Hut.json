@@ -178,6 +178,20 @@
                       "top":"321px"
                        
                     }
+            },
+            "text_description_3":{
+                "mobile":{
+                    
+                    },
+                    "tab":{
+                        
+                    
+                       
+                    },
+                    "desktop":{
+                    
+                                          
+                    }
             }
         },
         "open_state":{
@@ -370,6 +384,17 @@
                         "top":"1279px",
                         "zIndex":"0"
             
+                    }
+            },
+            "text_description_3":{
+                "mobile":{
+               
+                    },
+                "tab":{
+                 
+                    },
+                "desktop":{
+                 
                     }
             }
         } 
