@@ -120,6 +120,22 @@
                     "zIndex":"-2"
                 }
             },
+            "img_6":{
+                "mobile":{
+                },
+                "tab":{
+                },
+                "desktop":{
+                }
+            },
+            "img_7":{
+                "mobile":{
+                },
+                "tab":{
+                },
+                "desktop":{
+                }
+            },
             "title_description":{
             "mobile":{
                
@@ -192,6 +208,20 @@
                     
                                           
                     }
+            },
+            "text_description_4":{
+                "mobile":{
+                    
+                    },
+                    "tab":{
+                        
+                    
+                       
+                    },
+                    "desktop":{
+                    
+                                          
+                    }
             }
         },
         "open_state":{
@@ -211,7 +241,7 @@
                   "top":"256px"
                 }
             },
-         "img_1":{
+             "img_1":{
             "mobile":{
                 "width":"271px",
                 "height":"271px",
@@ -327,6 +357,22 @@
                     "zIndex":"-2"
                 }
             },
+            "img_6":{
+                "mobile":{
+                },
+                "tab":{
+                },
+                "desktop":{
+                }
+            },
+            "img_7":{
+                "mobile":{
+                },
+                "tab":{
+                },
+                "desktop":{
+                }
+            },
             "title_description":{
             "mobile":{
                "left":"10px",
@@ -344,7 +390,6 @@
                    
                 }
             },
-
             "text_description_1":{
                 "mobile":{
                     "width":"320px",
@@ -394,6 +439,20 @@
                     },
                 "desktop":{
                  
+                    }
+            },
+            "text_description_4":{
+                "mobile":{
+                    
+                    },
+                    "tab":{
+                        
+                    
+                       
+                    },
+                    "desktop":{
+                    
+                                          
                     }
             }
         } 

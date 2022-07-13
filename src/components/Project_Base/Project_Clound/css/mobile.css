@@ -20,5 +20,11 @@
     right: 70px;
     z-index: 0;
   }
+  .project_hut_box .project_description_block {
+    width: 70px;
+    height: 70px;
+    left: 31px;
+    top: 165px;
+  }
 }
 /*# sourceMappingURL=mobile.css.map */

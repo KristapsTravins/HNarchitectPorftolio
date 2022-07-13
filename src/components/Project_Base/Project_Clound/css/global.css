@@ -3,6 +3,12 @@
   position: relative;
   width: 100%;
   height: 100%;
+  /*  .project_description_block{
+        overflow: hidden;
+        top: 200px;
+        right: 70%;
+
+    } */
 }
 
 .project_cloud_box .img_1 {
@@ -105,8 +111,39 @@
 }
 
 .project_cloud_box .project_description_block {
-  overflow: hidden;
-  top: 200px;
-  right: 70%;
+  width: 70px;
+  height: 70px;
+  left: 31px;
+  top: 165px;
+}
+
+@media only screen and (max-width: 800px) {
+  .project_hut_box .img_1 {
+    position: absolute;
+    width: 138px;
+    height: 138px;
+    right: 107px;
+    top: 92px;
+  }
+  .project_hut_box .img_2 {
+    width: 199px;
+    height: 135px;
+    top: 155px;
+    right: 152px;
+    z-index: 1;
+  }
+  .project_hut_box .img_3 {
+    width: 121px;
+    height: 121px;
+    top: 200px;
+    right: 70px;
+    z-index: 0;
+  }
+  .project_hut_box .project_description_block {
+    width: 70px;
+    height: 70px;
+    left: 31px;
+    top: 165px;
+  }
 }
 /*# sourceMappingURL=global.css.map */
