@@ -13,8 +13,8 @@
                     "top":"50px"
                 },
                 "desktop":{
-                    "right":"625px",
-                    "top":"50px"
+                    "top":"50px",
+                    "right":"595px"
                 }
             },
             "img_1":{
@@ -27,16 +27,16 @@
                     
                 },
                 "tab":{
-                    "width":"363px",
-                    "height":"363px",
+                    "width":"319px",
+                    "height":"319px",
                     "right":"110px",
                     "top":"45px"
                    
                 },
                 "desktop":{
-                    "width":"363px",
-                    "height":"363px",
-                    "right":"110px",
+                    "width":"319px",
+                    "height":"319px",
+                    "right":"145px",
                     "top":"45px"
                 }
             },
@@ -48,15 +48,15 @@
                     "top":"152px"
                 },
                 "tab":{
-                    "width":"523px",
-                    "height":"355px",
+                    "width":"444.55px",
+                    "height":"301.75px",
                     "right":"236px",
                     "top":"195px"
                    
                 },
                 "desktop":{
-                    "width":"523px",
-                    "height":"355px",
+                    "width":"444.55px",
+                    "height":"301.75px",
                     "right":"270px",
                     "top":"195px"
                 }
@@ -69,16 +69,16 @@
                     "top":"200px"
                 },
                 "tab":{
-                    "width":"360px",
-                    "height":"315px",
-                    "right":"10px",
+                    "width":"306px",
+                    "height":"267.75px",
+                    "right":"50px",
                     "top":"300px"
                    
                 },
                 "desktop":{
-                    "width":"360px",
-                    "height":"315px",
-                    "right":"10px",
+                    "width":"306px",
+                    "height":"267.75px",
+                    "right":"50px",
                     "top":"300px"
                 }
             },
@@ -144,14 +144,14 @@
                 },
                 "tab":{
                     
-                    "right":"564px",
-                    "top":"560px"
+                    "right":"619px",
+                    "top":"510px"
                    
                 },
                 "desktop":{
                   
-                    "right":"597px",
-                    "top":"560px"
+                    "right":"518px",
+                    "top":"510px"
                 }
             },
             "text_description_1":{

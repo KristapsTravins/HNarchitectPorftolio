@@ -5,7 +5,7 @@ import "./css/desktop.css"
 import { motion } from "framer-motion"
 
  const ProjectDescription =(props)=> {
-const counters = [1.1,1.5,1.7,1.9,2.1,2.3]
+const counters = [3.1,3.5,3.7,3.9,4.1,4.3]
 let i = 0;
 return (
 
@@ -14,7 +14,7 @@ return (
           style={props.titleDescriptionPositionInit}
           initial={{height:"0%"}}
           animate={{height:"auto",...props.titleDescriptionPosition}} 
-          transition={{duration:0.7}}
+          transition={{duration:0.7,delay:2.6}}
           >
             {props.titleDescription.map((p)=>{
             

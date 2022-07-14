@@ -35,7 +35,7 @@ const {width} = useWindowDimensions();
   HoverInOut={hoverHook}
 
   title={projectTitle} 
-  title_add_style={GivePosition(projectName,false,"title",width)}
+  title_add_style={/* GivePosition(projectName,false,"title",width) */{}}
   titlePosition={GivePosition(projectName,expanHook.ExpansionState,"title",width)}
   
   titleDescription={projectTitleDescription}

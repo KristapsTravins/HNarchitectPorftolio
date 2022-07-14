@@ -63,7 +63,26 @@ const ProjectHut = (props) => {
     titleDescriptionPosition={props.titleDescriptionPosition}
     />
 
-  <ProjectText
+
+
+ 
+    </div>
+  )
+}
+
+export default ProjectHut
+
+
+
+
+
+
+
+
+
+
+
+  {/* <ProjectText
     text_intial_pos={props.text_intial_pos}
     project_text={props.text1}
     ProjectDescription_Position={props.ProjectDescription_1_postition}
@@ -90,11 +109,4 @@ const ProjectHut = (props) => {
     transition={{duration:1}}
     >
     <AImg5 />
-  </motion.div>
-
- 
-    </div>
-  )
-}
-
-export default ProjectHut
+  </motion.div> */}

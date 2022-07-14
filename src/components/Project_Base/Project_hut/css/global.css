@@ -6,6 +6,11 @@
   height: 100%;
 }
 
+.project_hut_box .proj_title_block {
+  right: 213px;
+  top: 210px;
+}
+
 .project_hut_box .trigger_box {
   width: 746px;
   height: 455px;
@@ -19,9 +24,9 @@
 
 .project_hut_box .img_1 {
   position: absolute;
-  width: 363px;
-  height: 363px;
-  right: 110px;
+  width: 319px;
+  height: 319px;
+  right: 145px;
   top: 92px;
   z-index: -1;
 }
@@ -33,8 +38,8 @@
 
 .project_hut_box .img_2 {
   position: absolute;
-  width: 523px;
-  height: 355px;
+  width: 444.55px;
+  height: 301.75px;
   top: 195px;
   right: 236px;
   z-index: 1;
@@ -47,10 +52,10 @@
 
 .project_hut_box .img_3 {
   position: absolute;
-  top: 300px;
-  width: 360px;
-  height: 315px;
-  right: 10px;
+  top: 280px;
+  width: 306px;
+  height: 267.75px;
+  right: 50px;
   z-index: 0;
 }
 

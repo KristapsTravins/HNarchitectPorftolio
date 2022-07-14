@@ -6,6 +6,7 @@
     flex-direction: column;
     width: 174px;
     height: 100px;
+    z-index: -2;
     .upper{
         display: inline-flex;
         justify-content: flex-start;

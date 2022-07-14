@@ -32,6 +32,7 @@ const ProjectCloud = (props) => {
     titlePosition={props.titlePosition} 
     transition={{duration:1}}
     />
+
     <motion.div 
     className='img_1'
     animate={props.HoverInOut.HoverState?{"left":"533px","top":"85px"}:props.img_1_Position}
@@ -39,6 +40,7 @@ const ProjectCloud = (props) => {
     >
     <BImg1 />
     </motion.div>
+
     <motion.div 
     className='img_2'
     animate={props.HoverInOut.HoverState?{"left":"10px"}:props.img_2_Position}
@@ -54,6 +56,16 @@ const ProjectCloud = (props) => {
     >
     <BImg3 />
     </motion.div>
+
+
+
+    <ProjectDescription 
+    titleDescription={props.titleDescription}
+    titleDescriptionPosition={props.titleDescriptionPosition}
+    titleDescriptionPositionInit={props.titleDescriptionPositionInit}
+    />
+
+
 
     <motion.div 
     className='img_4'
@@ -97,11 +109,6 @@ const ProjectCloud = (props) => {
 
 
 
-    <ProjectDescription 
-    titleDescription={props.titleDescription}
-    titleDescriptionPosition={props.titleDescriptionPosition}
-    titleDescriptionPositionInit={props.titleDescriptionPositionInit}
-    />
     <ProjectText
     text_intial_pos={/* props.text_intial_pos */{}}
     project_text={props.text1}
