@@ -22,32 +22,12 @@ const Home = () => {
 
     return (
      <div className="home_center">
-   <ProjectsBase 
-        child={ProjectHut}
-        projectName={"project_hut"}
-        projectExpanParam={{"height":"2040px"}} 
-        projectTitleDescription={["Modular prefab home","Concept","2022","Latvia","40 sq.m."]}
-        projectTitle={["HEMP","HUT"]}
-        projectDescriptionText1={text1}
-        projectDescriptionText2={text2}
-        /> 
+
    
-   <ProjectsBase 
-        child={ProjectCloud}
-        projectExpanParam={{"height":"4040px"}}
-        projectName={"project_cloud"}
-        projectTitleDescription={["Tiny house","Concept","2022","Atacama Desert","25 sq.m."]}
-        projectTitle={["CLOUND","CHATER"]}
-        projectDescriptionText1={Btext1}
-        projectDescriptionText2={Btext2}
-        projectDescriptionText3={Btext3}
-        projectDescriptionText4={Btext4}
-        /> 
-     
+ 
      
 
        
-  
 
    
       
