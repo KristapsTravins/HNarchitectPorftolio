@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import useWindowDimensions from '../../../assets/hooks/useWindowDimensions'
 import './css/global.css'
 import './css/desktop.css'
 import './css/tab.css'

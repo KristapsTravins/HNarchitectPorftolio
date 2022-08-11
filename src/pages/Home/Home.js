@@ -1,7 +1,6 @@
 import ProjectsBase from "../../components/Project_Base/ProjectsBase";
-import ProjectHut from "../../components/Project_Base/Project_hut/ProjectHut";
-import ProjectCloud from "../../components/Project_Base/Project_Clound/ProjectCloud";
-import { GivePosition } from "../../components/Project_Base/hooks/AnimatePositions";
+
+
 
 import "./css/global.css"
 
@@ -13,6 +12,14 @@ const Btext1 = "<p>Cloud Catcher aims to address the ever rising <span>global wa
 const Btext2 = "<p>The whole facade is covered in <span>recycled polyethylene mesh</span> which <span>catches</span> the air embodied <span>water</span>as <span>condensation</span>. Further it is stored in transparent <span>water-wall tanks</span>. This solution saves space, creates a lot of backup water storage and functions as a <span>thermal regulator</span>, thanks to water's large thermal storage capacity.</p>";
 const Btext3 = "<p>Interior layout concept is to  create  <span>flexible spaces</span>. Movable modules providing everyday functional needs and allowing for <span>control of spatial division</span>.</p>";
 const Btext4 = "<p>During periods of droughts building's embodied <span>circular system reuses gray water and wastewater</span> reducing water losses to the minimum.<span>In times of abundance</span> any additional water is <span>given back to </span>the </br> surrounding <span>fauna and flora.</span></p>";
+const Project_hut = {
+  name:"project_hut",
+  height:"2040px",
+  title_desc:["Modular prefab home","Concept","2022","Latvia","40 sq.m."],
+  project_title:["Modular prefab home","Concept","2022","Latvia","40 sq.m."],
+  project_desc1:text1,
+  project_desc2:text2,
+}
 
 
 
@@ -22,36 +29,7 @@ const Home = () => {
 
     return (
      <div className="home_center">
-   <ProjectsBase 
-        child={ProjectHut}
-        projectName={"project_hut"}
-        projectExpanParam={{"height":"2040px"}} 
-        projectTitleDescription={["Modular prefab home","Concept","2022","Latvia","40 sq.m."]}
-        projectTitle={["HEMP","HUT"]}
-        projectDescriptionText1={text1}
-        projectDescriptionText2={text2}
-        /> 
-   
-   <ProjectsBase 
-        child={ProjectCloud}
-        projectExpanParam={{"height":"4040px"}}
-        projectName={"project_cloud"}
-        projectTitleDescription={["Tiny house","Concept","2022","Atacama Desert","25 sq.m."]}
-        projectTitle={["CLOUND","CHATER"]}
-        projectDescriptionText1={Btext1}
-        projectDescriptionText2={Btext2}
-        projectDescriptionText3={Btext3}
-        projectDescriptionText4={Btext4}
-        /> 
-     
-     
-
-       
-  
-
-   
-      
-   
+        <ProjectsBase />
      </div>
     );
   }
