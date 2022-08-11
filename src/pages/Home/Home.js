@@ -29,7 +29,20 @@ const Home = () => {
 
     return (
      <div className="home_center">
+<<<<<<< HEAD
         <ProjectsBase />
+=======
+
+   
+ 
+     
+
+       
+
+   
+      
+   
+>>>>>>> 6a4bbb3b3dab447d701e6735f100a109ff426328
      </div>
     );
   }
