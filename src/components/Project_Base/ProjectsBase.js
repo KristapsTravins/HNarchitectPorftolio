@@ -1,15 +1,15 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import "./Project_base_styles/css/global.css"
+import "./css/global.css"
 
 
-import useWindowDimensions from "../../assets/hooks/useWindowDimensions";
+
 
 
 
 const ProjectsBase = ({
    projectName,
-/*    child: ProjectComp, */
+   child: ProjectComp,
    projectExpanParam,
    projectTitle,
    projectTitleDescription,
@@ -22,7 +22,11 @@ const ProjectsBase = ({
 
 
   return (
-  <motion.div className='project_base'>
+  <motion.div 
+  className='project_base'
+  >
+
+   <ProjectComp />
 
    </motion.div>
   )

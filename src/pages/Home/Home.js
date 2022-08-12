@@ -1,7 +1,5 @@
 import ProjectsBase from "../../components/Project_Base/ProjectsBase";
-
-
-
+import ProjectHut from "../../components/Project_components/Project_hut/ProjectHut";
 import "./css/global.css"
 
 
@@ -13,10 +11,11 @@ const Btext2 = "<p>The whole facade is covered in <span>recycled polyethylene me
 const Btext3 = "<p>Interior layout concept is to  create  <span>flexible spaces</span>. Movable modules providing everyday functional needs and allowing for <span>control of spatial division</span>.</p>";
 const Btext4 = "<p>During periods of droughts building's embodied <span>circular system reuses gray water and wastewater</span> reducing water losses to the minimum.<span>In times of abundance</span> any additional water is <span>given back to </span>the </br> surrounding <span>fauna and flora.</span></p>";
 const Project_hut = {
+  open_height:"500px",
   name:"project_hut",
   height:"2040px",
   title_desc:["Modular prefab home","Concept","2022","Latvia","40 sq.m."],
-  project_title:["Modular prefab home","Concept","2022","Latvia","40 sq.m."],
+  project_title:["Project","hut"],
   project_desc1:text1,
   project_desc2:text2,
 }
@@ -29,20 +28,18 @@ const Home = () => {
 
     return (
      <div className="home_center">
-<<<<<<< HEAD
-        <ProjectsBase />
-=======
 
-   
- 
+      
+      <ProjectsBase
+      child={ProjectHut}
+      />
      
 
        
 
    
       
-   
->>>>>>> 6a4bbb3b3dab447d701e6735f100a109ff426328
+
      </div>
     );
   }
