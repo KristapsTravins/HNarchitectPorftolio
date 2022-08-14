@@ -2,6 +2,7 @@ import React from 'react'
 import "./css/global.css"
 import { motion } from "framer-motion"
 import { AImg1,AImg2,AImg3  } from '../../../assets/images/ImageComponents'
+import TriggerBox from '../../TriggerBox/TriggerBox'
 
 const ProjectHut = (props) => {
   return (
@@ -19,7 +20,7 @@ const ProjectHut = (props) => {
          >
             <AImg1 />   
     </motion.div>
-
+          <TriggerBox width="590px" height="333px" top="133px" left="34px" />
     <motion.div 
          className='img_2'
          animate={{
