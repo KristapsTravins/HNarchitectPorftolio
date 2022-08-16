@@ -3,6 +3,17 @@
     border: 0.1px solid forestgreen;
     align-self: flex-end;
     position: relative;
+    /* title */
+    .proj_title_block{
+        height: 110px;
+        top: 18px;
+        .upper{
+            opacity: 0;
+        }
+        .lower{
+            opacity: 0;
+        }
+    }
     
     .img_1{
         position: absolute;

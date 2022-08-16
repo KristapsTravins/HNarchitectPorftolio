@@ -4,6 +4,7 @@ import "./css/mobile.css"
 import { motion } from "framer-motion"
 import { AImg1,AImg2,AImg3  } from '../../../assets/images/ImageComponents'
 import TriggerBox from '../../TriggerBox/TriggerBox'
+import ProjectTitle from '../../ProjectTitle/ProjectTitle'
 
 const ProjectHut = (props) => {
   return (
@@ -11,6 +12,7 @@ const ProjectHut = (props) => {
     className='project_hut_outer'
     style={{"height":"645px"}}
     >
+    <ProjectTitle title={["HEMP","HUT"]} />
     <motion.div 
          className='img_1'
          animate={{

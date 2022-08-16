@@ -11,16 +11,31 @@ const ProjectTitle = (props) => {
   return (
     <motion.div 
     className='proj_title_block'
-    animate={props.titlePosition}
-    transition={{duration:1.3,delay:1}}
-    style={props.add_style}
+   /*  animate={props.titlePosition}
+    transition={{duration:1.3,delay:1}} */
+   /*  style={props.add_style} */
     >
-      <div className='upper'>
+      <motion.div 
+      className='upper'
+      animate={{
+        width:"100%",
+        opacity:1
+       }}
+      transition={{ duration: 1.8, delay:3 }}
+      >
           <h1><span>{props.title[0][0]}</span>{props.title[0].slice(1,props.title[0].length)}</h1>
-      </div>
-      <div className='lower'>
+      </motion.div>
+      <motion.div 
+      className='lower'
+      animate={{
+        width:"100%",
+        opacity:1,
+        marginLeft:"50px"
+       }}
+      transition={{ duration: 1.8, delay:3 }}
+      >
           <h1>{props.title[1]}</h1>
-      </div>
+      </motion.div>
     </motion.div>
   )
 }
