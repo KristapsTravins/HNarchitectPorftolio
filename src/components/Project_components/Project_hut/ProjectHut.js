@@ -25,7 +25,7 @@ const ProjectHut = (props) => {
          >
             <AImg1 />   
     </motion.div>
-    {/*       <TriggerBox width="590px" height="333px" top="133px" left="34px" /> */}
+    <TriggerBox width="590px" height="333px" top="133px" left="34px" />
     <motion.div 
          className='img_2'
          animate={{

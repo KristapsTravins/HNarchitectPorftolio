@@ -82,8 +82,19 @@
     .project_hut_outer{
         .proj_title_block{
             height: 113px;
-            top: 10px;
-            left: 169px;
+            top: 9px;
+            left: 151px;
+            .upper{
+                h1{
+                    font-size: 40px;
+                }
+            }
+            .lower{
+                padding: 4px 0 0 0;
+                h1{
+                    font-size: 40px;
+                }
+            }
         }
         .huts_title_info{
             .list_item{
@@ -121,6 +132,16 @@
             z-index: 1;
             left: auto;
             right: 70px;
+            .upper{
+                h1{
+                    font-size: 40px;
+                }
+            }
+            .lower{
+                h1{
+                    font-size: 40px;
+                }
+            }
         }
         .img_1{
             top: 15px;

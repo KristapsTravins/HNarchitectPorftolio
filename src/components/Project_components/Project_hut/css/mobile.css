@@ -66,8 +66,17 @@
 @media only screen and (max-width: 448px) {
   .project_hut_outer .proj_title_block {
     height: 113px;
-    top: 10px;
-    left: 169px;
+    top: 9px;
+    left: 151px;
+  }
+  .project_hut_outer .proj_title_block .upper h1 {
+    font-size: 40px;
+  }
+  .project_hut_outer .proj_title_block .lower {
+    padding: 4px 0 0 0;
+  }
+  .project_hut_outer .proj_title_block .lower h1 {
+    font-size: 40px;
   }
   .project_hut_outer .huts_title_info .list_item .data {
     font-size: 12px;
@@ -93,6 +102,12 @@
     z-index: 1;
     left: auto;
     right: 70px;
+  }
+  .project_hut_outer .proj_title_block .upper h1 {
+    font-size: 40px;
+  }
+  .project_hut_outer .proj_title_block .lower h1 {
+    font-size: 40px;
   }
   .project_hut_outer .img_1 {
     top: 15px;
