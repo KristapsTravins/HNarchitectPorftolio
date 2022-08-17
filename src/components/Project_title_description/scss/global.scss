@@ -3,8 +3,7 @@
 
 .huts_title_info{
     position: absolute;
-    top: 340px;
-    left: 3px;
+    
     @include font-style-text;
     font-weight: 400;
     display: inline-flex;

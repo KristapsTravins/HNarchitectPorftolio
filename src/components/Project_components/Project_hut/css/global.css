@@ -3,9 +3,15 @@
   border: 0.1px solid forestgreen;
   align-self: flex-end;
   position: relative;
+  /* title desc */
   /* title */
 }
+.project_hut_outer .huts_title_info {
+  top: 465px;
+  right: 470px;
+}
 .project_hut_outer .proj_title_block {
+  width: 174px;
   height: 110px;
   top: 18px;
 }
@@ -14,6 +20,9 @@
 }
 .project_hut_outer .proj_title_block .lower {
   opacity: 0;
+}
+.project_hut_outer .proj_title_block .lower h1 {
+  margin: 0 0 30px 0;
 }
 .project_hut_outer .img_1 {
   position: absolute;

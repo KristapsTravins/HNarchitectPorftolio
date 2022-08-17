@@ -3,7 +3,6 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 174px;
   z-index: -2;
 }
 .proj_title_block .upper {
@@ -27,8 +26,8 @@
 }
 .proj_title_block .lower {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: flex-end;
   width: 0%;
   height: auto;
   overflow: hidden;
@@ -40,4 +39,5 @@
   color: #D73434;
   font-size: 50px;
   font-weight: 200;
+  height: 100%;
 }/*# sourceMappingURL=global.css.map */

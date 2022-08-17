@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { AImg1,AImg2,AImg3  } from '../../../assets/images/ImageComponents'
 import TriggerBox from '../../TriggerBox/TriggerBox'
 import ProjectTitle from '../../ProjectTitle/ProjectTitle'
+import ProjectDescription from '../../Project_title_description/ProjectDescription'
 
 const ProjectHut = (props) => {
   return (
@@ -12,7 +13,8 @@ const ProjectHut = (props) => {
     className='project_hut_outer'
     style={{"height":"645px"}}
     >
-    <ProjectTitle title={["HEMP","HUT"]} />
+    <ProjectDescription titleDescription={['Modular prefab home',"Concept","2022","Latvia","40 sq.m."]}/>
+   
     <motion.div 
          className='img_1'
          animate={{
@@ -35,6 +37,8 @@ const ProjectHut = (props) => {
             <AImg2 />
     </motion.div>
 
+    <ProjectTitle title={["HEMP","HUT"]} />
+
     <motion.div 
          className='img_3'
          animate={{
@@ -51,3 +55,13 @@ const ProjectHut = (props) => {
 }
 
 export default ProjectHut
+
+/* 
+
+[ Modular prefab home ]
+[ Concept ]
+[ 2022 ]
+[ Latvia ]
+[ 40 sq.m. ]
+
+ */
