@@ -7,6 +7,10 @@
     top: -31px;
     right: 75px;
   }
+  .project_hut_outer .huts_title_info {
+    top: 425px;
+    right: 408px;
+  }
   .project_hut_outer .img_1 {
     width: 250px;
     height: 250px;
@@ -32,8 +36,12 @@
   }
   .project_hut_outer .proj_title_block {
     height: 113px;
-    top: -13px;
+    top: -19px;
     left: 216px;
+  }
+  .project_hut_outer .huts_title_info {
+    top: 355px;
+    left: 7px;
   }
   .project_hut_outer .img_1 {
     width: 180px;
@@ -58,8 +66,11 @@
 @media only screen and (max-width: 448px) {
   .project_hut_outer .proj_title_block {
     height: 113px;
-    top: 13px;
+    top: 10px;
     left: 169px;
+  }
+  .project_hut_outer .huts_title_info .list_item .data {
+    font-size: 12px;
   }
   .project_hut_outer .img_1 {
     width: 180px;
