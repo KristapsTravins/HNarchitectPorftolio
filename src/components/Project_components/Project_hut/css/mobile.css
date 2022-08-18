@@ -1,6 +1,14 @@
 @media only screen and (max-width: 1010px) {
   .project_hut_outer {
     width: 100%;
+    /* trigger */
+  }
+  .project_hut_outer .trigger {
+    width: 590px;
+    height: 333px;
+    top: 133px;
+    right: 34px;
+    left: auto;
   }
   .project_hut_outer .proj_title_block {
     height: 120px;
@@ -34,6 +42,13 @@
   .project_hut_outer {
     width: 100%;
   }
+  .project_hut_outer .trigger {
+    width: 391px;
+    height: 250px;
+    top: 133px;
+    right: auto;
+    left: 6px;
+  }
   .project_hut_outer .proj_title_block {
     height: 113px;
     top: -19px;
@@ -64,6 +79,13 @@
   }
 }
 @media only screen and (max-width: 448px) {
+  .project_hut_outer .trigger {
+    width: 83%;
+    height: 190px;
+    top: 133px;
+    right: auto;
+    left: 6px;
+  }
   .project_hut_outer .proj_title_block {
     height: 113px;
     top: 9px;

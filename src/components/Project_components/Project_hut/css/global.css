@@ -3,8 +3,15 @@
   border: 0.1px solid forestgreen;
   align-self: flex-end;
   position: relative;
+  /* trigger */
   /* title desc */
   /* title */
+}
+.project_hut_outer .trigger {
+  width: 590px;
+  height: 333px;
+  top: 133px;
+  left: 34px;
 }
 .project_hut_outer .huts_title_info {
   top: 465px;

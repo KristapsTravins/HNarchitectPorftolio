@@ -13,7 +13,9 @@ const ProjectHut = (props) => {
     className='project_hut_outer'
     style={{"height":"645px"}}
     >
+      
     <ProjectDescription titleDescription={['Modular prefab home',"Concept","2022","Latvia","40 sq.m."]}/>
+    <ProjectTitle title={["HEMP","HUT"]} />
    
     <motion.div 
          className='img_1'
@@ -25,7 +27,7 @@ const ProjectHut = (props) => {
          >
             <AImg1 />   
     </motion.div>
-    <TriggerBox width="590px" height="333px" top="133px" left="34px" />
+    <TriggerBox  />
     <motion.div 
          className='img_2'
          animate={{
@@ -37,7 +39,7 @@ const ProjectHut = (props) => {
             <AImg2 />
     </motion.div>
 
-    <ProjectTitle title={["HEMP","HUT"]} />
+   
 
     <motion.div 
          className='img_3'
