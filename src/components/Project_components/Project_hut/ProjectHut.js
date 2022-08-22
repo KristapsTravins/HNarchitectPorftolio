@@ -6,7 +6,7 @@ import { AImg1,AImg2,AImg3  } from '../../../assets/images/ImageComponents'
 import TriggerBox from '../../TriggerBox/TriggerBox'
 import ProjectTitle from '../../ProjectTitle/ProjectTitle'
 import ProjectDescription from '../../Project_title_description/ProjectDescription'
-import ProjectHutExpand from './ProjectHutExp/ProjectHutExp'
+
 
 
 import { ProjectHover,ProjectOpenClose } from '../hooks/ProjectHook'
@@ -32,9 +32,13 @@ const  {openState,setOpenState} = ProjectOpenClose();
     <motion.div 
          className='img_1'
          style={{"border":"1px solid black"}}
-         animate={{
+         animate={!openState?{
             y:45,
             opacity:1
+          }:{
+            opacity:1,
+            right:"1px",
+            top:"530px"
           }}
           transition={{ ease: "easeIn", duration: 1.4 }}
          >
@@ -44,10 +48,15 @@ const  {openState,setOpenState} = ProjectOpenClose();
     <motion.div 
          className='img_2'
          style={{"border":"1px solid black"}}
-         animate={{
-           x:35,
+         animate={!openState?{
+          x:35,
+          opacity:1
+         }:{
+           right:"1px",
+           width:"629px",
+           height:"376px",
            opacity:1
-          }}
+         }}
           transition={{ ease: "easeIn", duration: 1.4, delay:1 }}
          >   
          {/*    <AImg2 /> */}
@@ -68,9 +77,7 @@ const  {openState,setOpenState} = ProjectOpenClose();
     </motion.div>
 
 
-        <ProjectHutExpand
-        openState={openState}
-        />
+     
         <TriggerBox 
         hover={{hoverState,setHoveState}}
         projectOpen={{openState,setOpenState}}

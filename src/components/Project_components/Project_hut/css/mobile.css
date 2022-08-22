@@ -12,7 +12,7 @@
   }
   .project_hut_outer .proj_title_block {
     height: 120px;
-    top: -31px;
+    top: -10px;
     right: 75px;
   }
   .project_hut_outer .huts_title_info {
@@ -23,6 +23,7 @@
     width: 250px;
     height: 250px;
     right: 120px;
+    top: 20px;
   }
   .project_hut_outer .img_2 {
     width: 370px;
@@ -51,7 +52,7 @@
   }
   .project_hut_outer .proj_title_block {
     height: 113px;
-    top: -19px;
+    top: -5px;
     left: 216px;
   }
   .project_hut_outer .huts_title_info {
@@ -62,7 +63,7 @@
     width: 180px;
     height: 180px;
     left: 160px;
-    top: 10px;
+    top: 25px;
     opacity: 0;
   }
   .project_hut_outer .img_2 {
