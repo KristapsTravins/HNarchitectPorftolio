@@ -6,12 +6,24 @@ import { AImg1,AImg2,AImg3  } from '../../../assets/images/ImageComponents'
 import TriggerBox from '../../TriggerBox/TriggerBox'
 import ProjectTitle from '../../ProjectTitle/ProjectTitle'
 import ProjectDescription from '../../Project_title_description/ProjectDescription'
+import ProjectHutExpand from './ProjectHutExp/ProjectHutExp'
+
+
+import { ProjectHover,ProjectOpenClose } from '../hooks/ProjectHook'
+
 
 const ProjectHut = (props) => {
+
+const {hoverState,setHoveState} = ProjectHover();
+const  {openState,setOpenState} = ProjectOpenClose();
+
   return (
-    <div 
+    <motion.div 
     className='project_hut_outer'
     style={{"height":"645px"}}
+    animate={openState?{"width":"100%","height":"1000px"}:{}}
+    transition={{ delay: 1,duration:2 }}
+
     >
       
     <ProjectDescription titleDescription={['Modular prefab home',"Concept","2022","Latvia","40 sq.m."]}/>
@@ -28,7 +40,7 @@ const ProjectHut = (props) => {
          >
           {/*   <AImg1 />    */}
     </motion.div>
-    <TriggerBox  />
+ 
     <motion.div 
          className='img_2'
          style={{"border":"1px solid black"}}
@@ -55,7 +67,17 @@ const ProjectHut = (props) => {
            {/*  <AImg3 /> */}
     </motion.div>
 
-    </div>
+
+        <ProjectHutExpand
+        openState={openState}
+        />
+        <TriggerBox 
+        hover={{hoverState,setHoveState}}
+        projectOpen={{openState,setOpenState}}
+        />
+
+
+    </motion.div>
   )
 }
 

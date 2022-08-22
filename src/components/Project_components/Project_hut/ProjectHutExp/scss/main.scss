@@ -1,0 +1,15 @@
+@import '../../../../../assets/styleShortcuts/scss/styleShorcuts.scss';
+.project_hut_exp_open{
+position:absolute;
+width: 545px;
+height: 290px;
+top: 152px;
+right: 116px;
+@include scaffolding;     
+}
+.project_hut_exp_closed{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    @include scaffolding;     
+}

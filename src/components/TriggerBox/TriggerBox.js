@@ -1,29 +1,27 @@
 import React from 'react'
 import './css/global.css'
-import { ProjectHover,ProjectOpenClose } from '../Project_components/hooks/ProjectHook'
+
 
 const TriggerBox = (props) => {
 
-
-const {hoverState,setHoveState} = ProjectHover();
-const  {openState,setOpenState} = ProjectOpenClose();
+    console.log(props.hover.hoverState)
 
   return (
     <div 
     className='trigger'
     onMouseEnter={()=>{
-        if(!openState){
-            setHoveState(true)
+        if(!props.hover.hoverState){
+            props.hover.setHoveState(true)
         }
     }}
     onMouseLeave={()=>{
-        if(!openState){
-            setHoveState(false)
+        if(props.hover.hoverState){
+            props.hover.setHoveState(false)
         }
     }}
     onClick={()=>{
-        setOpenState(!openState)
-        setHoveState(false)
+        props.projectOpen.setOpenState(!props.projectOpen.openState)
+        props.hover.setHoveState(false)
 
     }}
     style={{
@@ -32,7 +30,7 @@ const  {openState,setOpenState} = ProjectOpenClose();
         top:props.top,
         left:props.left
     }}
-    >{hoverState.toString()} / {openState.toString()}</div>
+    >{props.hover.hoverState.toString()} / {props.projectOpen.openState.toString()}</div>
   )
 }
 
