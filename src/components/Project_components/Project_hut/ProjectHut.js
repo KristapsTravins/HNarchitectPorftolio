@@ -26,8 +26,18 @@ const  {openState,setOpenState} = ProjectOpenClose();
 
     >
       
-    <ProjectDescription titleDescription={['Modular prefab home',"Concept","2022","Latvia","40 sq.m."]}/>
-    <ProjectTitle title={["HEMP","HUT"]} />
+    <ProjectDescription 
+    titleDescription={['Modular prefab home',"Concept","2022","Latvia","40 sq.m."]}
+    titleDescriptionPosition={openState?{top:"360px"}:{}}
+    ExpandState={openState}
+    />
+    <ProjectTitle
+    bottomAnim={{marginTop:"4px",marginLeft:"-1px",width:"100%",
+    opacity:1}}
+    OpenPos={{top:"185px"}}
+    ExpandState={openState} 
+    title={["HEMP","HUT"]}
+      />
    
     <motion.div 
          className='img_1'
