@@ -30,7 +30,7 @@ const TriggerBox = (props) => {
         top:props.top,
         left:props.left
     }}
-    >{props.hover.hoverState.toString()} / {props.projectOpen.openState.toString()}</div>
+    ></div>
   )
 }
 

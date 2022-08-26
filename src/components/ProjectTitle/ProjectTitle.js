@@ -28,7 +28,7 @@ const ProjectTitle = (props) => {
       </motion.div>
       <motion.div 
       className='lower'
-      animate={props.ExpandState?props.bottomAnim:{width:"100%",
+      animate={{width:"100%",
        opacity:1,
        marginLeft:"50px"}}
       transition={{ duration: 1.8, delay:3 }}
