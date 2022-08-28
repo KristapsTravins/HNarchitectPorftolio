@@ -4,11 +4,12 @@
 .hemp_hut_outer{
     height: 3000px;
     width: 100%;
-    padding: 5vw 0 0 0 ;
+    padding: 5.7vw 0 0 0 ;
     .hemp_hut_inner{
         @include scaffolding;
         width: 100%;
         position: relative;
+        height: 100%;
         /* title */
         .proj_title_block{
             height: 119px;
@@ -20,6 +21,42 @@
         /* titleDescription */
         .huts_title_info{
             top: 220px;
+        }
+
+        /* img 1 */
+
+        .img_1{
+            position: absolute;
+            width: 730px;
+            height: 498px;
+            right: 0px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+         /* img 2 */
+
+         .img_2{
+            position: absolute;
+            width: 450px;
+            height: 450px;
+            top: 460px;
+            right: 0px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        /* description text */
+        .text_description{
+            font-size: 13px;
+            width: 337px;
+            height: 195px;
+            top: 500px;
+            
         }
 
     }
