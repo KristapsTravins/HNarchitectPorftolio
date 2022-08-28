@@ -9,6 +9,10 @@
     height: 400px;
     top: 390px;
   }
+  .hemp_hut_outer .hemp_hut_inner .img_3 {
+    width: 400px;
+    height: 400px;
+  }
 }
 
 /* 1009px */
@@ -40,6 +44,9 @@
   .hemp_hut_outer .hemp_hut_inner .text_description {
     top: 410px;
   }
+  .hemp_hut_outer .hemp_hut_inner .img_3 {
+    top: 646px;
+  }
 }
 
 /* 820px */
@@ -57,6 +64,11 @@
   .hemp_hut_outer .hemp_hut_inner .text_description {
     top: 615px;
   }
+  .hemp_hut_outer .hemp_hut_inner .img_3 {
+    top: 853px;
+    width: 320px;
+    height: 320px;
+  }
 }
 
 @media only screen and (max-width: 635px) {
@@ -65,6 +77,12 @@
     height: 310px;
     top: 815px;
     left: 0px;
+  }
+  .hemp_hut_outer .hemp_hut_inner .img_3 {
+    top: 1454px;
+    right: 0px;
+    width: 320px;
+    height: 320px;
   }
 }
 
@@ -126,6 +144,10 @@
   .hemp_hut_outer .hemp_hut_inner .text_description {
     width: 100%;
     top: 490px;
+  }
+  .hemp_hut_outer .hemp_hut_inner .img_3 {
+    width: 271px;
+    height: 271px;
   }
 }
 /*# sourceMappingURL=view.css.map */

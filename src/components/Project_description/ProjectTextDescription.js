@@ -11,7 +11,7 @@ const ProjectTextDescription = (props) => {
    
   return (
     <div 
-    className='text_description'
+    className={props.textClass}
     dangerouslySetInnerHTML={{ __html: text1 }}
     >
     

@@ -4,10 +4,10 @@ import { motion } from "framer-motion"
 import "./css/global.css"
 import "./css/view.css"
 
-import { AImg1,AImg2,AImg3  } from '../../assets/images/ImageComponents'
+import { AImg1,AImg2,AImg3, AImg4  } from '../../assets/images/ImageComponents'
 import ProjectTitle from "../../components/ProjectTitle/ProjectTitle"
 import ProjectDescription from '../../components/Project_title_description/ProjectDescription'
-import ProjectTextDescription from '../../components/Project_description/ProjectDescription'
+import ProjectTextDescription from '../../components/Project_description/ProjectTextDescription'
 
 const HempHutExp = () => {
   return (
@@ -24,7 +24,12 @@ const HempHutExp = () => {
         <motion.div className='img_2'>
             <AImg1 />   
         </motion.div>  
-        <ProjectTextDescription />
+        
+        <ProjectTextDescription textClass={"text_description"} />
+
+        <motion.div className='img_3'>
+            <AImg4 />   
+        </motion.div>  
 
 
 
