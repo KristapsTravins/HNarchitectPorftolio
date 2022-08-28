@@ -1,0 +1,27 @@
+@import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
+
+
+.hemp_hut_outer{
+    height: 3000px;
+    width: 100%;
+    padding: 5vw 0 0 0 ;
+    .hemp_hut_inner{
+        @include scaffolding;
+        width: 100%;
+        position: relative;
+        /* title */
+        .proj_title_block{
+            height: 119px;
+            top: 75px;
+            .lower{
+                margin: -17px;
+            }
+        }
+        /* titleDescription */
+        .huts_title_info{
+            top: 220px;
+        }
+
+    }
+
+}

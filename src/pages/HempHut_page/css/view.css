@@ -1,0 +1,25 @@
+/* 1009px */
+@media only screen and (max-width: 1009px) {
+  .hemp_hut_outer .hemp_hut_inner {
+    /* title */
+    /* titleDescription */
+  }
+  .hemp_hut_outer .hemp_hut_inner .proj_title_block {
+    top: 0px;
+  }
+  .hemp_hut_outer .hemp_hut_inner .huts_title_info {
+    top: 140px;
+  }
+}
+
+/* 450px */
+@media only screen and (max-width: 450px) {
+  .hemp_hut_outer .hemp_hut_inner {
+    /* title */
+    /* titleDescription */
+  }
+  .hemp_hut_outer .hemp_hut_inner .proj_title_block {
+    top: 10px;
+  }
+}
+/*# sourceMappingURL=view.css.map */
