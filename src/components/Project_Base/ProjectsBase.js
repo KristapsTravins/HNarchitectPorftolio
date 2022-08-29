@@ -2,6 +2,8 @@ import React from 'react'
 import { motion } from "framer-motion"
 import "./css/global.css"
 
+import ProjectHut from "../Project_components/Project_hut/ProjectHut";
+
 
 
 
@@ -14,14 +16,16 @@ const ProjectsBase = ({
   }) => {
 
 
+const ProjectsBase = () => {
+
+
+
 
   return (
   <motion.div 
-  className='project_base'
-  >
-
-   <ProjectComp />
-
+  className='projects_base'
+    >
+      <ProjectHut />
    </motion.div>
   )
 }

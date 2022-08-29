@@ -1,19 +1,19 @@
 @import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
 
-.home_center{
-   
+.base_center{
+    @include scaffolding;
     padding: 85px 0 0 0;
     height: auto;
     display: flex;
     flex-direction: column;
     width: 100%;
     max-width: 1400px;
-    overflow-x: hidden;
+    overflow: hidden;
 
 }
 
 @media only screen and (min-width: 1010px)  {
-    .home_center{
+    .base_center{
         padding: 0px 0 0 0;
     }
 }

@@ -1,7 +1,7 @@
 import { MenuBtn } from './components/MenuBtn/MenuBtn';
 import { useState } from "react"
 import SideOverlay from './pages/SideOverlay/SideOverlay';
-import Home from './pages/Home/Home';
+import Base from './pages/Base/Base';
 
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
     <div  className="App">
     <MenuBtn openState={openState} changeState={setOpenState} />
     <SideOverlay openState={openState} />
-    <Home />
+    <Base />
     </div>
   
   );
