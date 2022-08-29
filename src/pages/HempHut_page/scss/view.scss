@@ -27,6 +27,14 @@
             .img_4{
                 top: 1026px;
             }
+            .img_5{
+            
+                width: 523px;
+                height: 276px;
+                top: 1380px;
+                left: 0px;
+              
+            }
         }
     
     }   
@@ -87,9 +95,13 @@
                 
             }
             .img_3{
-               top: 646px;
+               top: 640px;
     
             }
+            .img_4{
+                top: 948px;
+     
+             }
            
         }
     
@@ -127,6 +139,18 @@
                 width: 320px;
                 height: 320px;
              }
+             .img_4{
+                top:1130px;
+                width: 320px;
+                height: 320px;
+             }
+             .img_5{
+            
+                
+                top: 1480px;
+                left: 0px;
+              
+            }
         }
     
     }   
@@ -141,19 +165,31 @@
                 width: 310px;
                 height: 310px;
                 top: 815px;
-                left: 0px;
+                right: 0px;
              }
              .img_3{
-                top: 1454px;
+                top: 1420px;
                 right: 0px;
                 width: 320px;
                 height: 320px;
              }
              .text_description_2{
-                top: 1802px;
+                top: 1760px;
                 text-align: left;
-                left: 5px;
+                left: 5px;   
+            }
+            .img_4{
+                top: 1080px;
+                left: 0px;
+                width: 300px;
+                height: 300px;
+            }
+            .img_5{
+            
                 
+                top: 2014px;
+               
+              
             }
         }
     
@@ -172,8 +208,11 @@
              top: 290px;
             }
             .text_description{
-                top: 615px;
-                
+                top: 615px;   
+            }
+            .img_5{  
+              width: 311px;
+              height: 192px;
             }
         }
     
@@ -218,7 +257,7 @@
 @media only screen and (max-width: 450px) {
 
     .hemp_hut_outer{
-      
+        height: 2161px;
         .hemp_hut_inner{
           
             /* title */
@@ -226,7 +265,19 @@
               top: 10px;
              
             }
+            .text_description_2{
+                top: 1590px;
+            }
             /* titleDescription */
+            .img_4{
+                top: 950px;
+            }
+            .img_3{
+                top: 1270px;
+            }
+            .img_5{
+                top: 1860px;
+            }
             
     
         }

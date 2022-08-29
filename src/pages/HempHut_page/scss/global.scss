@@ -2,7 +2,7 @@
 
 
 .hemp_hut_outer{
-    height: 3000px;
+    height: 1761px;
     width: 100%;
     padding: 5.7vw 0 0 0 ;
     .hemp_hut_inner{
@@ -84,6 +84,18 @@
             height: 417px;
             top: 1171px;
             right: 0px;
+            z-index: -1;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .img_5{
+            position: absolute;
+            width: 593px;
+            height: 346px;
+            top: 1380px;
+            left: 0px;
             z-index: -1;
             img{
                 width: 100%;

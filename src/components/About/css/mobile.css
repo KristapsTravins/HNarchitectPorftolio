@@ -3,7 +3,10 @@
     width: 100%;
   }
   .about_center_section .main_description_block {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .about_center_section .main_description_block .image_block {
     position: absolute;
@@ -26,4 +29,5 @@
   .about_center_section .first {
     margin: 50px 0 0 1px;
   }
-}/*# sourceMappingURL=mobile.css.map */
+}
+/*# sourceMappingURL=mobile.css.map */

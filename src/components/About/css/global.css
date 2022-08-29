@@ -2,74 +2,101 @@
 .about_center_section {
   width: 612px;
   height: 672px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .about_center_section div {
   width: 100%;
 }
+
 .about_center_section .main_description_block {
   height: 246px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .about_center_section .main_description_block .image_block {
   width: 164px;
   height: 246px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 5px 0 0 0;
 }
+
 .about_center_section .main_description_block .image_block img {
   width: 100%;
 }
+
 .about_center_section .main_description_block .description_block {
   width: 434px;
   margin: 10px 0 0 0;
 }
+
 .about_center_section .main_description_block .description_block .title_block {
   line-height: 8px;
 }
+
 .about_center_section .main_description_block .description_block .title_block h1 {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   color: white;
   font-size: 13px;
   font-weight: bold;
   letter-spacing: 0px;
   word-spacing: -2px;
 }
+
 .about_center_section .main_description_block .description_block .title_block h3 {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   color: white;
   font-size: 13px;
   font-weight: bold;
 }
+
 .about_center_section .main_description_block .description_block .description_text_block {
   width: 100%;
   height: auto;
   margin: 40px 0 0 0;
 }
+
 .about_center_section .main_description_block .description_block .description_text_block p {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   color: white;
   font-size: 13px;
   width: 375px;
   font-weight: 400;
 }
+
 .about_center_section .exp_description_block h3 {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   color: white;
   font-size: 13px;
   font-weight: bold;
 }
+
 .about_center_section .exp_description_block ul {
   all: unset;
   list-style: none;
   line-height: 36px;
 }
+
 .about_center_section .exp_description_block ul li {
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   color: white;
   font-size: 13px;
   font-weight: 300;
-}/*# sourceMappingURL=global.css.map */
+}
+/*# sourceMappingURL=global.css.map */

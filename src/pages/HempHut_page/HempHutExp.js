@@ -37,7 +37,10 @@ const HempHutExp = () => {
         </motion.div>  
         <motion.div className='img_4'>
             <AImg3 />   
-        </motion.div> 
+        </motion.div>
+        <motion.div className='img_5'>
+            <AImg5 />   
+        </motion.div>  
 
 
 

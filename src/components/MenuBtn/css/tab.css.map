@@ -1,1 +1,9 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"tab.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/tab.scss"
+    ],
+    "names": [],
+    "file": "tab.css"
+}
