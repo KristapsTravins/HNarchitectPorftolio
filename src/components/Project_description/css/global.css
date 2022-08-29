@@ -1,14 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
-.text_description {
+.text_description_base {
   position: absolute;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 300;
   font-size: 15px;
   color: #D73434;
   margin: 0 0 0 1px;
 }
-
-.text_description span {
+.text_description_base span {
   font-weight: 600;
-}
-/*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */

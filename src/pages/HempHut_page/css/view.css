@@ -13,8 +13,13 @@
     width: 400px;
     height: 400px;
   }
+  .hemp_hut_outer .hemp_hut_inner .text_description_2 {
+    top: 870px;
+  }
+  .hemp_hut_outer .hemp_hut_inner .img_4 {
+    top: 1026px;
+  }
 }
-
 /* 1009px */
 @media only screen and (max-width: 1009px) {
   .hemp_hut_outer .hemp_hut_inner {
@@ -27,8 +32,10 @@
   .hemp_hut_outer .hemp_hut_inner .huts_title_info {
     top: 160px;
   }
+  .hemp_hut_outer .hemp_hut_inner .img_4 {
+    top: 1026px;
+  }
 }
-
 /* 920px */
 @media only screen and (max-width: 920px) {
   .hemp_hut_outer .hemp_hut_inner .img_1 {
@@ -44,11 +51,13 @@
   .hemp_hut_outer .hemp_hut_inner .text_description {
     top: 410px;
   }
+  .hemp_hut_outer .hemp_hut_inner .text_description_2 {
+    top: 790px;
+  }
   .hemp_hut_outer .hemp_hut_inner .img_3 {
     top: 646px;
   }
 }
-
 /* 820px */
 @media only screen and (max-width: 820px) {
   .hemp_hut_outer .hemp_hut_inner .img_1 {
@@ -64,13 +73,15 @@
   .hemp_hut_outer .hemp_hut_inner .text_description {
     top: 615px;
   }
+  .hemp_hut_outer .hemp_hut_inner .text_description_2 {
+    top: 950px;
+  }
   .hemp_hut_outer .hemp_hut_inner .img_3 {
     top: 853px;
     width: 320px;
     height: 320px;
   }
 }
-
 @media only screen and (max-width: 635px) {
   .hemp_hut_outer .hemp_hut_inner .img_2 {
     width: 310px;
@@ -84,8 +95,12 @@
     width: 320px;
     height: 320px;
   }
+  .hemp_hut_outer .hemp_hut_inner .text_description_2 {
+    top: 1802px;
+    text-align: left;
+    left: 5px;
+  }
 }
-
 /* 610px */
 @media only screen and (max-width: 610px) {
   .hemp_hut_outer .hemp_hut_inner .img_1 {
@@ -96,7 +111,6 @@
     top: 615px;
   }
 }
-
 /* 513px */
 @media only screen and (max-width: 513px) {
   .hemp_hut_outer .hemp_hut_inner .img_1 {
@@ -115,7 +129,6 @@
     top: 755px;
   }
 }
-
 /* 450px */
 @media only screen and (max-width: 450px) {
   .hemp_hut_outer .hemp_hut_inner {
@@ -126,7 +139,6 @@
     top: 10px;
   }
 }
-
 /* 400px */
 @media only screen and (max-width: 400px) {
   .hemp_hut_outer .hemp_hut_inner .img_1 {
@@ -149,5 +161,4 @@
     width: 271px;
     height: 271px;
   }
-}
-/*# sourceMappingURL=view.css.map */
+}/*# sourceMappingURL=view.css.map */

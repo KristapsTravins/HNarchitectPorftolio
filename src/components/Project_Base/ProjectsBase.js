@@ -9,11 +9,7 @@ import ProjectHut from "../Project_components/Project_hut/ProjectHut";
 
 
 
-const ProjectsBase = ({
 
-   child: ProjectComp,
-
-  }) => {
 
 
 const ProjectsBase = () => {

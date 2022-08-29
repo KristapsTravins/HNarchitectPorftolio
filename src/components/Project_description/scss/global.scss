@@ -1,7 +1,7 @@
 @import '../../../assets/styleShortcuts/scss/styleShorcuts.scss';
 
 
-.text_description{
+.text_description_base{
     position: absolute;
     @include font-style-text;
     margin: 0 0 0 1px ;
