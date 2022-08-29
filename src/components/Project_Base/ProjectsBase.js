@@ -8,15 +8,9 @@ import "./css/global.css"
 
 
 const ProjectsBase = ({
-   projectName,
+
    child: ProjectComp,
-   projectExpanParam,
-   projectTitle,
-   projectTitleDescription,
-   projectDescriptionText1,
-   projectDescriptionText2,
-   projectDescriptionText3,
-   projectDescriptionText4
+
   }) => {
 
 
