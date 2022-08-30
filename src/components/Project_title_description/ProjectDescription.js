@@ -12,7 +12,7 @@ return (
           className='huts_title_info'
           style={props.titleDescriptionPositionInit}
           initial={{height:"0%"}}
-          animate={{height:"auto",...props.titleDescriptionPosition}} 
+          animate={{height:"auto"}} 
           transition={{duration:0.7,delay:2.6}}
           >
             {props.titleDescription.map((p)=>{

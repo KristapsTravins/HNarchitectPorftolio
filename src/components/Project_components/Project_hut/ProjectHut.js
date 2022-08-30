@@ -28,9 +28,10 @@ const  {openState,setOpenState} = ProjectOpenClose();
       
     <ProjectDescription 
     titleDescription={['Modular prefab home',"Concept","2022","Latvia","40 sq.m."]}
+    animationClosed={true}
     />
     <ProjectTitle
-
+    animationClosed={true}
     title={["HEMP","HUT"]}
       />
    
