@@ -17,9 +17,7 @@ const text2 = "<p>Regarding the material usage, high focus is placed on <span> r
 const HempHutExp = () => {
   return (
     <div className='hemp_hut_outer'>
-        <div className='hemp_hut_inner'>
-
-        
+        <div className='hemp_hut_inner'>        
         <motion.div className='img_1'>
             <AImg2 />   
         </motion.div>  
