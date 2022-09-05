@@ -1,1 +1,27 @@
-/* No CSS *//*# sourceMappingURL=view.css.map */
+@media only screen and (max-width: 1010px) {
+  .project_clound_outer .proj_title_block {
+    right: 215px;
+  }
+  .project_clound_outer .huts_title_info {
+    top: 515px;
+    left: 64px;
+  }
+  .project_clound_outer .img_1 {
+    width: 195px;
+    height: 424px;
+    right: 48px;
+  }
+  .project_clound_outer .img_2 {
+    width: 475px;
+    height: 280px;
+    top: 216px;
+    left: 31px;
+  }
+  .project_clound_outer .img_3 {
+    width: 280px;
+    height: 280px;
+    top: 376px;
+    right: 114px;
+  }
+}
+/*# sourceMappingURL=view.css.map */

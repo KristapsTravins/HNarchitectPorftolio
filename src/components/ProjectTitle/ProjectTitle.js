@@ -18,19 +18,14 @@ console.log(props.animation)
     >
       <motion.div 
       className='upper'
-      animate={{
-        width:"100%",
-        opacity:1
-       }}
+      animate={props.UpperAnimation}
       transition={props.animationClosed?{ duration: 1.8, delay:3 }:{duration: 1, delay:0}}
       >
           <h1><span>{props.title[0][0]}</span>{props.title[0].slice(1,props.title[0].length)}</h1>
       </motion.div>
       <motion.div 
       className='lower'
-      animate={{width:"100%",
-       opacity:1,
-       marginLeft:"50px"}}
+      animate={props.LowerAnimation}
       transition={props.animationClosed?{duration: 1.8, delay:3 }:{duration: 1, delay:0 }}
       >
           <h1>{props.title[1]}</h1>

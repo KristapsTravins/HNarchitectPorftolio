@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .project_clound_outer {
-  border: 0.1px dotted black;
   width: 700px;
   position: relative;
 }
 
 .project_clound_outer .proj_title_block {
-  width: 174px;
+  width: 200px;
   height: 110px;
-  top: 18px;
+  top: 40px;
+  right: 230px;
 }
 
 .project_clound_outer .proj_title_block .upper {
@@ -24,12 +24,11 @@
 }
 
 .project_clound_outer .huts_title_info {
-  bottom: 120px;
-  height: 112px;
+  top: 560px;
+  left: 5px;
 }
 
 .project_clound_outer .trigger {
-  border: 0.1px dotted black;
   width: 630px;
   left: 0px;
   top: 231px;

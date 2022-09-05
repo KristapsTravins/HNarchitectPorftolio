@@ -33,6 +33,15 @@ const  {openState,setOpenState} = ProjectOpenClose();
     <ProjectTitle
     animationClosed={true}
     title={["HEMP","HUT"]}
+    UpperAnimation={{
+      width:"100%",
+      opacity:1
+     }}
+    LowerAnimation={{
+      width:"100%",
+      opacity:1,
+      marginLeft:"50px"
+     }}
       />
    
     <motion.div 

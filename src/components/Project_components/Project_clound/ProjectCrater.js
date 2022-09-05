@@ -26,9 +26,22 @@ const  {openState,setOpenState} = ProjectOpenClose();
 
    <ProjectDescription 
     titleDescription={['Tiny House',"Concept","2022","Atacoma Desert","25 sq.m."]}
-    animationClosed={false}
+    animationClosed={true}
    />
-  {/*  <ProjectTitle title={["CLOUND","CATHER"]}/> */}
+   <ProjectTitle
+    animationClosed={true}
+    title={["CLOUND","CATHER"]}
+    UpperAnimation={{
+      width:"100%",
+      opacity:1,
+      marginLeft:"70px"
+     }}
+    LowerAnimation={{
+      width:"100%",
+      opacity:1,
+     
+     }}
+    />
    <motion.div 
          className='img_1'
  

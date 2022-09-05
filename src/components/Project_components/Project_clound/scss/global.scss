@@ -2,13 +2,15 @@
 
 
 .project_clound_outer{
-@include scaffolding;
+
 width: 700px;
 position: relative;
     .proj_title_block{
-        width: 174px;
+      
+        width: 200px;
         height: 110px;
-        top: 18px;
+        top: 40px;
+        right: 230px;
         .upper{
             opacity: 0;
         }
@@ -20,11 +22,12 @@ position: relative;
         }
     }
     .huts_title_info{
-        bottom: 120px;
-        height:112px;
+        top: 560px;
+        left: 5px;
+      
     }
     .trigger{
-        @include scaffolding;
+       
         width: 630px;
         left: 0px;
         top: 231px;
