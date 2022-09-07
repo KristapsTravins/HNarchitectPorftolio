@@ -15,6 +15,10 @@
             }
             .trigger{
                
+                width: 557px;
+                height: 319px;
+                top: 194px;
+                left: 64px;
         
             }
             .img_1{
@@ -44,16 +48,135 @@
 
 @media only screen and (max-width: 700px) {
 
+    .project_clound_outer{
+        width: 100%;
+        
+        .proj_title_block{
+  
+            right: 213px;
+         
+        }
+        .huts_title_info{
+            left: auto;
+            right: 348px;
+            top: 457px;
+         
+        }
+        .trigger{
+           width: 430px;
+           left: auto;
+           right: 72px;
+           top: 160px;
+    
+        }
+        .img_1{
+          width: 174px;
+          height: 395px;
+          right: 37px;
+        }
+        .img_2{
+            width: 425px;
+            height: 256px;
+            top: 192px;
+            right: 152px;
+            left: auto;
+        }
+        .img_3{
+            width: 230px;
+            height: 230px;
+            top: 341px;
+            right: 105px;
+        }
+    
+    
+    } 
     
 
 }
 
-@media only screen and (max-width: 448px) {
-
+@media only screen and (max-width: 600px) {
+    .project_clound_outer{
+        
+        
+        .proj_title_block{
+  
+           
+         
+        }
+        .huts_title_info{
+        right: 274px;
+        top: 422px;
+         
+        }
+        .trigger{
+         
+        }
+        .img_1{
+            width: 152px;
+            height: 340px;
+        }
+        .img_2{
+            width: 368px;
+            height: 231px;
+            top: 183px;
+            right: 136px;
+        }
+        .img_3{
+          width: 210px;
+          height: 210px;
+          top: 316px;
+          right: 84px;
+        }
+    
+    
+    } 
   
 
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 480px) {
+
+    .project_clound_outer{
+        
+        
+        .proj_title_block{
+            right: 118px;
+           
+         
+        }
+        .huts_title_info{
+            right: 122px;
+            top: 323px;
+            z-index: 1;
+        
+         
+        }
+        .trigger{
+         width: 288px;
+         right: 33px;
+         top: 160px;
+        }
+        .img_1{
+          width: 103px;
+          height: 223px;
+
+        }
+        .img_2{
+         width: 252px;
+         height: 150px;
+         top: 166px;
+         right: 100px;
+         
+        }
+        .img_3{
+        width: 164px;
+        height: 164px;
+        top: 237px;
+        right: 60px;
+        }
+    
+    
+    } 
+  
 
 
 

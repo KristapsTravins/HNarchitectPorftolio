@@ -27,7 +27,7 @@ position: relative;
       
     }
     .trigger{
-       
+       @include scaffolding;
         width: 630px;
         left: 0px;
         top: 231px;
