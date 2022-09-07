@@ -24,8 +24,12 @@ import SecContentImg4 from "./files/content_2/content_img_9.webp";
 import SecContentImg5 from "./files/content_2/content_img_10.webp";
 import SecContentImg6 from "./files/content_2/content_img_11.webp";
 
-import ThirContentImg1 from "./files/content_3/content_img_12.webp";
-import ThirContentImg2 from "./files/content_3/content_img_13.webp";
+import ThirContentImg1 from "./files/content_3/content3_img_1.webp";
+import ThirContentImg2 from "./files/content_3/content3_img_2.webp";
+import ThirContentImg3 from "./files/content_3/content3_img_3.webp";
+import ThirContentImg4 from "./files/content_3/content3_img_4.webp";
+import ThirContentImg5 from "./files/content_3/content3_img_5.webp";
+import ThirContentImg6 from "./files/content_3/content3_img_6.webp"
 
 import ProfileImg from "./files/about_page/profile.webp";
 
@@ -94,14 +98,37 @@ export const AImg1 = (width) => {
     )
   }
 
+
+
+
   export const CImg1 = () => {
     return (
-      <img src={ThirContentImg1} alt="annas_img1" />
+      <img src={ThirContentImg3} alt="annas_img1" />
     )
   }
   export const CImg2 = () => {
     return (
+      <img src={ThirContentImg1} alt="annas_img1" />
+    )
+  }
+  export const CImg3 = () => {
+    return (
       <img src={ThirContentImg2} alt="annas_img2" />
+    )
+  }
+  export const CImg4 = () => {
+    return (
+      <img src={ThirContentImg4} alt="annas_img2" />
+    )
+  }
+  export const CImg5 = () => {
+    return (
+      <img src={ThirContentImg5} alt="annas_img2" />
+    )
+  }
+  export const CImg6 = () => {
+    return (
+      <img src={ThirContentImg6} alt="annas_img2" />
     )
   }
 

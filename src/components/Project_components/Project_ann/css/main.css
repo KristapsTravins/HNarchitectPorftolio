@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
+.project_ann_outer {
+  width: 100%;
+  position: relative;
+}
+
+.project_ann_outer .trigger {
+  width: 701px;
+  height: 319px;
+  top: 194px;
+  right: 100px;
+}
+
+.project_ann_outer .proj_title_block {
+  right: 565px;
+  top: -1px;
+}
+
+.project_ann_outer .img_1 {
+  opacity: 0;
+  position: absolute;
+  width: 695px;
+  height: 322px;
+  top: 125px;
+  right: 0px;
+  z-index: 2;
+}
+
+.project_ann_outer .img_1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.project_ann_outer .img_2 {
+  opacity: 0;
+  position: absolute;
+  width: 407px;
+  height: 575px;
+  top: 215px;
+  right: 459px;
+  z-index: 0;
+}
+
+.project_ann_outer .img_2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.project_ann_outer .img_3 {
+  opacity: 0;
+  position: absolute;
+  width: 390px;
+  height: 259px;
+  top: 351px;
+  right: 267px;
+  z-index: 1;
+}
+
+.project_ann_outer .img_3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.project_ann_outer .huts_title_info {
+  top: 476px;
+  left: auto;
+  right: 15px;
+}
+/*# sourceMappingURL=main.css.map */
