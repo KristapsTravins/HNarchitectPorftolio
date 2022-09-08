@@ -32,13 +32,42 @@
                 top: 320px;
                 width: 688px;
                 height: 414px;
+                z-index: 1;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .text_description_1{
+                right: 0px;
+                width: 368px;
+                height: 183px;
+                text-align: left;
+                top: 300px;
+                font-size: 13px;
+            }
+            .text_description_2{
+                right: 5px;
+                width: 126px;
+                height: 400px;
+                text-align: right;
+                top: 993px;
+                font-size: 13px;
+            }
+            .img_2{
+                position: absolute;
+                top: 640px;
+                width: 527px;
+                height: 1053px;
+                right: 0px;
+                z-index: 0;
                 img{
                     width: 100%;
                     height: 100%;
                 }
             }
 
-        }
 
-    
+
+        }
 }
