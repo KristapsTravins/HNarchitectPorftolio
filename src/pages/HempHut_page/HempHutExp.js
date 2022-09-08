@@ -36,7 +36,19 @@ const HempHutExp = () => {
         </motion.div>  
 
  
-        <ProjectTitle title={["HEMP","HUT"]} animationClosed={false}/>
+        <ProjectTitle title={["HEMP","HUT"]} 
+        animationClosed={false}
+        UpperAnimation={{
+            width:"100%",
+            opacity:1,
+           }}
+          LowerAnimation={{
+            width:"100%",
+            opacity:1,
+            marginLeft:"50px"
+           
+           }}
+        />
         <ProjectDescription titleDescription={['Modular prefab home',"Concept","2022","Latvia","40 sq.m."]} animationClosed={false}  /> 
         <ProjectTextDescription text={text1} textClass={"text_description"} />
         <ProjectTextDescription text={text2} textClass={"text_description_2"} />

@@ -1,0 +1,26 @@
+/* 1665px */
+@media only screen and (max-width: 1730px) {
+  .cloud_crater_exp_outer {
+    padding: 100px 0 0 0;
+  }
+}
+
+/* 1010px */
+@media only screen and (max-width: 1010px) {
+  .cloud_crater_exp_outer {
+    padding: 0px 0 0 0;
+  }
+}
+
+/* 920px */
+/* 820px */
+/* 400px */
+@media only screen and (max-width: 340px) {
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .proj_title_block {
+    left: -17px;
+  }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .huts_title_info {
+    left: 5px;
+  }
+}
+/*# sourceMappingURL=view.css.map */
