@@ -2,7 +2,7 @@
 
 .cloud_crater_exp_outer{
     height: auto;
-    height: 1761px;
+    height: 2761px;
         .cloud_crater_exp_inner{
             position:relative;
             width: 100%;
@@ -38,6 +38,63 @@
                     height: 100%;
                 }
             }
+             .img_2{
+                position: absolute;
+                top: 640px;
+                width: 527px;
+                height: 1053px;
+                right: 0px;
+                z-index: 0;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .img_3{
+                position: absolute;
+                top: 882px;
+                width: 450px;
+                height: 450px;
+                transform: rotate(270deg);
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .img_4{
+                position: absolute;
+                top:1424px;
+                width: 450px;
+                height: 450px;
+                transform: rotate(270deg);
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .img_5{
+                position: absolute;
+                top:1781px;
+                right: 0px;
+                width: 800px;
+                height: 400px;
+      
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+
+
+
+
+
+
+
+
             .text_description_1{
                 right: 0px;
                 width: 368px;
@@ -54,20 +111,12 @@
                 top: 993px;
                 font-size: 13px;
             }
-            .img_2{
-                position: absolute;
-                top: 640px;
-                width: 527px;
-                height: 1053px;
-                right: 0px;
-                z-index: 0;
-                img{
-                    width: 100%;
-                    height: 100%;
-                }
+            .text_description_3{
+                top: 1366px;
+                width: 309px;
+                height: 125px;
             }
-
-
+           
 
         }
 }

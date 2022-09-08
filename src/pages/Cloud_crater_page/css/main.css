@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .cloud_crater_exp_outer {
   height: auto;
-  height: 1761px;
+  height: 2761px;
 }
 
 .cloud_crater_exp_outer .cloud_crater_exp_inner {
@@ -48,6 +48,61 @@
   height: 100%;
 }
 
+.cloud_crater_exp_outer .cloud_crater_exp_inner .img_2 {
+  position: absolute;
+  top: 640px;
+  width: 527px;
+  height: 1053px;
+  right: 0px;
+  z-index: 0;
+}
+
+.cloud_crater_exp_outer .cloud_crater_exp_inner .img_2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.cloud_crater_exp_outer .cloud_crater_exp_inner .img_3 {
+  position: absolute;
+  top: 882px;
+  width: 450px;
+  height: 450px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.cloud_crater_exp_outer .cloud_crater_exp_inner .img_3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.cloud_crater_exp_outer .cloud_crater_exp_inner .img_4 {
+  position: absolute;
+  top: 1424px;
+  width: 450px;
+  height: 450px;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.cloud_crater_exp_outer .cloud_crater_exp_inner .img_4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.cloud_crater_exp_outer .cloud_crater_exp_inner .img_5 {
+  position: absolute;
+  top: 1781px;
+  right: 0px;
+  width: 800px;
+  height: 400px;
+}
+
+.cloud_crater_exp_outer .cloud_crater_exp_inner .img_5 img {
+  width: 100%;
+  height: 100%;
+}
+
 .cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_1 {
   right: 0px;
   width: 368px;
@@ -66,17 +121,9 @@
   font-size: 13px;
 }
 
-.cloud_crater_exp_outer .cloud_crater_exp_inner .img_2 {
-  position: absolute;
-  top: 640px;
-  width: 527px;
-  height: 1053px;
-  right: 0px;
-  z-index: 0;
-}
-
-.cloud_crater_exp_outer .cloud_crater_exp_inner .img_2 img {
-  width: 100%;
-  height: 100%;
+.cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_3 {
+  top: 1366px;
+  width: 309px;
+  height: 125px;
 }
 /*# sourceMappingURL=main.css.map */

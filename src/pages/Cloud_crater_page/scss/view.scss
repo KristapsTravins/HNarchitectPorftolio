@@ -12,23 +12,6 @@
 }
 
 
-/* 1010px */
-@media only screen and (max-width: 1010px) {
-
-    .cloud_crater_exp_outer{
-        padding: 0px 0 0 0;
-            .cloud_crater_exp_inner{
-                .img_2{
-                    top: 860px;
-                    width: 434px;
-                    height: 975px;
-                }
-             
-            }
-        
-    }
-
-}
 /* 1065px */
 @media only screen and (max-width: 1065px) {
 
@@ -40,14 +23,54 @@
                     width: 534px;
                     height: 332px;
                 }
-                
-                
+                .img_3{
+                    width: 380px;
+                    height: 380px;
+                }
+                .img_4{
+                    width: 380px;
+                    height: 380px;
+                    top: 1429px;
+                }
              
             }
         
     }
 
 }
+
+
+/* 1010px */
+@media only screen and (max-width: 1010px) {
+
+    .cloud_crater_exp_outer{
+        padding: 0px 0 0 0;
+            .cloud_crater_exp_inner{
+                .text_description_3{
+                    top: 1300px;
+                   
+                }
+                .img_2{
+                    top: 860px;
+                    width: 434px;
+                    height: 975px;
+                }
+                .img_4{
+                    top: 1361px;
+                }
+                .img_5{
+                    top: 1875px;
+                    width: 700px;
+                    height: 350px;
+                }
+               
+             
+            }
+        
+    }
+
+}
+
 /* 920px */
 
 @media only screen and (max-width: 920px) {
@@ -74,8 +97,81 @@
 }
 
 }
-/* 540px */
 
+/* 850px */
+@media only screen and (max-width: 850px) {
+    .cloud_crater_exp_outer{
+
+        .cloud_crater_exp_inner{
+            
+            .img_3{
+                width: 300px;
+                height: 300px;
+            }
+            .img_4{
+                width: 300px;
+                height: 300px;
+                top: 1310px;
+            }
+            .text_description_3{
+             top: 1250px;
+               
+            }
+        }
+    }
+}
+
+
+/* 740px */
+@media only screen and (max-width: 740px) {
+    .cloud_crater_exp_outer{
+
+        .cloud_crater_exp_inner{
+            
+            .img_3{
+                top: 1880px;
+                width: 380px;
+                height: 380px;
+            }
+            .text_description_3{
+                top: 1895px;
+                right: 10px;
+                left: auto;
+                text-align: right;
+               
+            }
+            .img_4{
+                right: 0px;
+                left: auto;
+                top: 2310px;
+                width: 380px;
+                height: 380px;
+            }
+        }
+    }
+}
+/* 540px */
+@media only screen and (max-width: 650px) {
+    .cloud_crater_exp_outer{
+
+        .cloud_crater_exp_inner{
+            
+           
+            .text_description_3{
+                top: 2300px;
+                right: auto;
+                left: 10px;
+                text-align: left;
+            }
+            .img_4{
+                right: auto;
+                left: 0px;
+                top: 2361px;
+               
+            }
+        }
+    }
+}
 @media only screen and (max-width: 540px) {
 
     .cloud_crater_exp_outer{
@@ -118,6 +214,12 @@
                 right: auto;
                 left: -5px;
             }
+            .img_3{
+                top: 1617px;
+            }
+            .img_4{
+                top: 2111px ;
+            }
             .text_description_1{
                 text-align: inherit;
                 width: 97%;
@@ -128,6 +230,12 @@
                 width: 97%;
                 text-align: left;
                 top: 1423px;
+            }
+            .text_description_3{
+                top: 2050px;
+                right: 10px;
+                left: auto;
+                text-align: right;
             }
             
          
