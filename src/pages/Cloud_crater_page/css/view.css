@@ -43,6 +43,11 @@
     width: 700px;
     height: 350px;
   }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .img_6 {
+    top: 2163px;
+    width: 380px;
+    height: 380px;
+  }
 }
 
 /* 920px */
@@ -71,8 +76,16 @@
     height: 300px;
     top: 1310px;
   }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .img_7 {
+    top: 2358px;
+    width: 378px;
+    height: 330px;
+  }
   .cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_3 {
     top: 1250px;
+  }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_4 {
+    right: 10px;
   }
 }
 
@@ -89,12 +102,27 @@
     left: auto;
     text-align: right;
   }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_4 {
+    right: 10px;
+    top: 3272px;
+  }
   .cloud_crater_exp_outer .cloud_crater_exp_inner .img_4 {
     right: 0px;
     left: auto;
     top: 2310px;
     width: 380px;
     height: 380px;
+  }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .img_5 {
+    top: 2713px;
+    width: 570px;
+    height: 285px;
+  }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .img_6 {
+    top: 2950px;
+  }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .img_7 {
+    top: 3390px;
   }
 }
 
@@ -111,6 +139,13 @@
     left: 0px;
     top: 2361px;
   }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .img_5 {
+    width: 470px;
+    height: 220px;
+  }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .img_7 {
+    top: 3430px;
+  }
 }
 
 @media only screen and (max-width: 540px) {
@@ -125,6 +160,10 @@
   .cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_1 {
     right: auto;
     top: 625px;
+  }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .img_5 {
+    width: 470px;
+    height: 220px;
   }
 }
 
@@ -147,6 +186,21 @@
   .cloud_crater_exp_outer .cloud_crater_exp_inner .img_4 {
     top: 2111px;
   }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .img_5 {
+    top: 2477px;
+    width: 328px;
+    height: 164px;
+  }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .img_6 {
+    top: 2666px;
+  }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .img_7 {
+    width: 300px;
+    height: 243px;
+    top: 3260px;
+    right: auto;
+    left: 0px;
+  }
   .cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_1 {
     text-align: inherit;
     width: 97%;
@@ -163,6 +217,9 @@
     right: 10px;
     left: auto;
     text-align: right;
+  }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_4 {
+    top: 3063px;
   }
 }
 

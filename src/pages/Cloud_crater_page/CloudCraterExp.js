@@ -17,6 +17,8 @@ const text2 = "The whole facade is covered in <span>recycled polyethylene mesh</
 
 const text3="Interior layout concept is to  create <span>flexible spaces</span>. Movable modules providing everyday functional needs and allowing for <span>control of spatial division</span>."
 
+const text4="<p>During periods of droughts building's embodied <span>circular system reuses gray water and wastewater</span> reducing water losses to the minimum. <span>In times of abundance</span> any additional water is <span>given back to</span> the surrounding <span>fauna and flora.</span></p>"
+
 const CloudCraterExp = () => {
   return (
     <div className='cloud_crater_exp_outer'>
@@ -57,7 +59,14 @@ const CloudCraterExp = () => {
             <motion.div className='img_5'>
                 <BImg4 />   
             </motion.div>
+            <motion.div className='img_6'>
+                <BImg3 />   
+            </motion.div>
+            <motion.div className='img_7'>
+                <BImg5 />   
+            </motion.div>
 
+            <ProjectTextDescription text={text4} textClass={"text_description_4"} />
             <ProjectTextDescription text={text3} textClass={"text_description_3"} />
             <ProjectTextDescription text={text2} textClass={"text_description_2"} />
             <ProjectTextDescription text={text1} textClass={"text_description_1"} />

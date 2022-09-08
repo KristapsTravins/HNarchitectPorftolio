@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .cloud_crater_exp_outer {
   height: auto;
-  height: 2761px;
+  height: 3761px;
 }
 
 .cloud_crater_exp_outer .cloud_crater_exp_inner {
@@ -96,9 +96,36 @@
   right: 0px;
   width: 800px;
   height: 400px;
+  z-index: 1;
 }
 
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_5 img {
+  width: 100%;
+  height: 100%;
+}
+
+.cloud_crater_exp_outer .cloud_crater_exp_inner .img_6 {
+  position: absolute;
+  top: 2091px;
+  left: 0px;
+  width: 450px;
+  height: 450px;
+}
+
+.cloud_crater_exp_outer .cloud_crater_exp_inner .img_6 img {
+  width: 100%;
+  height: 100%;
+}
+
+.cloud_crater_exp_outer .cloud_crater_exp_inner .img_7 {
+  position: absolute;
+  top: 2314px;
+  right: 0px;
+  width: 533px;
+  height: 434px;
+}
+
+.cloud_crater_exp_outer .cloud_crater_exp_inner .img_7 img {
   width: 100%;
   height: 100%;
 }
@@ -125,5 +152,13 @@
   top: 1366px;
   width: 309px;
   height: 125px;
+}
+
+.cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_4 {
+  text-align: right;
+  top: 2219px;
+  right: 0px;
+  width: 327px;
+  height: 153px;
 }
 /*# sourceMappingURL=main.css.map */
