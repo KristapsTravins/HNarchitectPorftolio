@@ -9,7 +9,7 @@ import "./css/global.css"
 
 import CloudCraterExp from "../Cloud_crater_page/CloudCraterExp";
 import HempHutExp from "../HempHut_page/HempHutExp";
-
+import ProjectAnnasExp from "../Project_annas/ProjectAnnas";
 
 
 
@@ -25,7 +25,7 @@ const Base = () => {
       <Route path="/" element={<ProjectsBase />}> </Route>
       <Route path="/a" element={<HempHutExp />}> </Route>
       <Route path="/b" element={<CloudCraterExp />}> </Route>
-      <Route path="/c" element={<></>}> </Route>
+      <Route path="/c" element={<ProjectAnnasExp />}> </Route>
     </Routes>
   </BrowserRouter>
      </div>

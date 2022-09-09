@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
+.annas_exp_outer {
+  height: auto;
+  height: 3000px;
+  width: 100%;
+}
+
+.annas_exp_outer .annas_exp_inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.annas_exp_outer .annas_exp_inner .text_description_1 {
+  left: 5px;
+  width: 326px;
+  height: 153px;
+  top: 400px;
+}
+
+.annas_exp_outer .annas_exp_inner .text_description_2 {
+  right: 5px;
+  width: 372px;
+  height: 153px;
+  text-align: right;
+  top: 723px;
+}
+
+.annas_exp_outer .annas_exp_inner .huts_title_info {
+  top: 140px;
+}
+
+.annas_exp_outer .annas_exp_inner .proj_title_block {
+  top: 38px;
+  height: 106px;
+  z-index: 1;
+}
+
+.annas_exp_outer .annas_exp_inner .img_1 {
+  position: absolute;
+  width: 734px;
+  height: 340px;
+  z-index: 0;
+  top: 85px;
+  right: 0px;
+}
+
+.annas_exp_outer .annas_exp_inner .img_1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.annas_exp_outer .annas_exp_inner .img_2 {
+  position: absolute;
+  width: 450px;
+  height: 318px;
+  right: 0px;
+  top: 460px;
+}
+
+.annas_exp_outer .annas_exp_inner .img_2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.annas_exp_outer .annas_exp_inner .img_3 {
+  position: absolute;
+  width: 450px;
+  height: 636px;
+  top: 474px;
+}
+
+.annas_exp_outer .annas_exp_inner .img_3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.annas_exp_outer .annas_exp_inner .img_4 {
+  position: absolute;
+  right: 0px;
+  width: 543px;
+  height: 361px;
+  top: 844px;
+}
+
+.annas_exp_outer .annas_exp_inner .img_4 img {
+  width: 100%;
+  height: 100%;
+}
+
+.annas_exp_outer .annas_exp_inner .img_5 {
+  position: absolute;
+  width: 703px;
+  height: 326px;
+  top: 1244px;
+  z-index: 1;
+}
+
+.annas_exp_outer .annas_exp_inner .img_5 img {
+  width: 100%;
+  height: 100%;
+}
+
+.annas_exp_outer .annas_exp_inner .img_6 {
+  position: absolute;
+  right: 0px;
+  width: 450px;
+  height: 316px;
+  top: 1450px;
+  z-index: 0;
+}
+
+.annas_exp_outer .annas_exp_inner .img_6 img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=main.css.map */
