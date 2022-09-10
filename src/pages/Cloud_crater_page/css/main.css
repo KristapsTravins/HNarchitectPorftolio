@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .cloud_crater_exp_outer {
   height: auto;
-  height: 3761px;
+  height: 2760px;
 }
 .cloud_crater_exp_outer .cloud_crater_exp_inner {
   position: relative;
@@ -112,6 +112,7 @@
   width: 368px;
   height: 183px;
   text-align: left;
+  left: 5px;
   top: 300px;
   font-size: 13px;
 }
