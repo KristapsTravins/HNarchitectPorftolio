@@ -5,7 +5,6 @@ import './css/global.css'
 
 const TriggerBox = (props) => {
 
-    console.log(props.hover.hoverState)
 
   return (
     <Link to={props.link}>

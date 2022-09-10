@@ -1,5 +1,6 @@
-import React from 'react'
-import { motion } from "framer-motion"
+import React, { useRef } from 'react'
+import { useInView } from 'react-intersection-observer';
+
 import "./css/global.css"
 
 import ProjectHut from "../Project_components/Project_hut/ProjectHut";
@@ -11,24 +12,31 @@ import ProjectAnna from '../Project_components/Project_ann/ProjectAnna';
 
 
 
-
+{/* <ProjectHut />
+<ProjectCrater /> 
+<ProjectAnna /> */}
 
 
 const ProjectsBase = () => {
 
-
+const myRef = useRef()
+const { myref: ref, inView } = useInView();
+console.log(myRef);
 
 
   return (
-  <motion.div 
+  <div 
   className='projects_base'
     > 
-      <ProjectHut />
-       <ProjectCrater /> 
-      <ProjectAnna />
-      
+    <div>
+    <ProjectHut/>
 
-   </motion.div>
+    <ProjectCrater   /> 
+   
+    
+    <ProjectAnna />
+    </div>   
+   </div>
   )
 }
 

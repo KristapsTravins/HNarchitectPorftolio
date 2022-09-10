@@ -7,7 +7,6 @@ import './css/mobile.css'
 
 const ProjectTitle = (props) => {
 
-console.log(props.animation)
   return (
     <motion.div 
     className='proj_title_block'

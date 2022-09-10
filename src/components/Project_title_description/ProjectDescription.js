@@ -18,7 +18,7 @@ return (
             {props.titleDescription.map((p)=>{
             
               return(
-               <div className='list_item'>
+               <div key={i++} className='list_item'>
                   <div className='left'>[ </div>
                     <motion.div className='data'
                     transition={{duration:0.7,delay:counters[i++]}}
