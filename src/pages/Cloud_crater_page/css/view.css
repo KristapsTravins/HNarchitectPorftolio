@@ -3,6 +3,9 @@
   .cloud_crater_exp_outer {
     padding: 100px 0 0 0;
   }
+  .cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_1 {
+    left: 5px;
+  }
 }
 /* 1065px */
 @media only screen and (max-width: 1065px) {
