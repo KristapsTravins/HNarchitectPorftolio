@@ -6,7 +6,7 @@
     width: 100%;
     padding: 5.7vw 0 0 0 ;
     .hemp_hut_inner{
-        @include scaffolding;
+        
         width: 100%;
         position: relative;
         height: 100%;
@@ -52,6 +52,7 @@
 
         /* description text */
         .text_description{
+            left: 3px;
             font-size: 13px;
             width: 337px;
             height: 195px;

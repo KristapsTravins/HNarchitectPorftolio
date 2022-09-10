@@ -25,8 +25,10 @@
     top: 415px;
   }
 }
-
 @media only screen and (max-width: 735px) {
+  .project_ann_outer {
+    height: 670px;
+  }
   .project_ann_outer .trigger {
     width: 85%;
     right: 0px;
@@ -56,15 +58,16 @@
     right: 15px;
   }
 }
-
 @media only screen and (max-width: 615px) {
   .project_ann_outer .huts_title_info {
     top: 530px;
     right: 21px;
   }
 }
-
 @media only screen and (max-width: 547px) {
+  .project_ann_outer {
+    height: 615px;
+  }
   .project_ann_outer .trigger {
     width: 409px;
     height: 195px;
@@ -95,5 +98,4 @@
     top: 394px;
     right: 5px;
   }
-}
-/*# sourceMappingURL=view.css.map */
+}/*# sourceMappingURL=view.css.map */

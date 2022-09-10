@@ -21,7 +21,7 @@ const  {openState,setOpenState} = ProjectOpenClose();
   return (
     <div
     className='project_ann_outer'
-    style={{"height":"900px"}}
+   
     >
     <ProjectTitle
     animationClosed={true}
@@ -76,6 +76,7 @@ const  {openState,setOpenState} = ProjectOpenClose();
 
      
     <TriggerBox 
+    link="/annas"
     hover={{hoverState,setHoveState}}
     projectOpen={{openState,setOpenState}}
     />

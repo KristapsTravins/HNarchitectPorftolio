@@ -1,15 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .base_center {
-  border: 0.1px dotted black;
   padding: 85px 0 0 0;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 100%;
   max-width: 1400px;
   overflow: hidden;
@@ -19,5 +13,4 @@
   .base_center {
     padding: 0px 0 0 0;
   }
-}
-/*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */

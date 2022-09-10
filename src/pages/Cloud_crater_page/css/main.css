@@ -3,13 +3,11 @@
   height: auto;
   height: 3761px;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner {
   position: relative;
   width: 100%;
   height: auto;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .proj_title_block {
   position: absolute;
   width: 200px;
@@ -17,24 +15,19 @@
   top: 40px;
   left: -20px;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .proj_title_block .upper {
   opacity: 0;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .proj_title_block .lower {
   opacity: 0;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .proj_title_block .lower h1 {
   margin: 0 0 30px 0;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .huts_title_info {
   top: 181px;
   left: 0px;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_1 {
   position: absolute;
   top: 320px;
@@ -42,12 +35,10 @@
   height: 414px;
   z-index: 1;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_1 img {
   width: 100%;
   height: 100%;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_2 {
   position: absolute;
   top: 640px;
@@ -56,40 +47,32 @@
   right: 0px;
   z-index: 0;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_2 img {
   width: 100%;
   height: 100%;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_3 {
   position: absolute;
   top: 882px;
   width: 450px;
   height: 450px;
-  -webkit-transform: rotate(270deg);
-          transform: rotate(270deg);
+  transform: rotate(270deg);
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_3 img {
   width: 100%;
   height: 100%;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_4 {
   position: absolute;
   top: 1424px;
   width: 450px;
   height: 450px;
-  -webkit-transform: rotate(270deg);
-          transform: rotate(270deg);
+  transform: rotate(270deg);
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_4 img {
   width: 100%;
   height: 100%;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_5 {
   position: absolute;
   top: 1781px;
@@ -98,12 +81,10 @@
   height: 400px;
   z-index: 1;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_5 img {
   width: 100%;
   height: 100%;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_6 {
   position: absolute;
   top: 2091px;
@@ -111,12 +92,10 @@
   width: 450px;
   height: 450px;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_6 img {
   width: 100%;
   height: 100%;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_7 {
   position: absolute;
   top: 2314px;
@@ -124,12 +103,10 @@
   width: 533px;
   height: 434px;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .img_7 img {
   width: 100%;
   height: 100%;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_1 {
   right: 0px;
   width: 368px;
@@ -138,7 +115,6 @@
   top: 300px;
   font-size: 13px;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_2 {
   right: 5px;
   width: 126px;
@@ -147,18 +123,15 @@
   top: 993px;
   font-size: 13px;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_3 {
   top: 1366px;
   width: 309px;
   height: 125px;
 }
-
 .cloud_crater_exp_outer .cloud_crater_exp_inner .text_description_4 {
   text-align: right;
   top: 2219px;
   right: 0px;
   width: 327px;
   height: 153px;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

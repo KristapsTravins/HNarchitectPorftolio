@@ -20,7 +20,7 @@ const  {openState,setOpenState} = ProjectOpenClose();
   return (
     <motion.div 
     className='project_hut_outer'
-    style={{"height":"645px"}}
+   
 
   
 
@@ -85,6 +85,7 @@ const  {openState,setOpenState} = ProjectOpenClose();
 
      
         <TriggerBox 
+        link="/hemp"
         hover={{hoverState,setHoveState}}
         projectOpen={{openState,setOpenState}}
         />

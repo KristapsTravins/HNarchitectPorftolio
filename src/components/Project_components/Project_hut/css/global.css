@@ -1,44 +1,37 @@
 .project_hut_outer {
   width: 700px;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  height: 580px;
+  align-self: flex-end;
   position: relative;
   overflow: hidden;
   /* trigger */
   /* title desc */
   /* title */
 }
-
 .project_hut_outer .trigger {
   width: 590px;
   height: 333px;
   top: 133px;
   left: 34px;
 }
-
 .project_hut_outer .huts_title_info {
   top: 465px;
   left: 30px;
 }
-
 .project_hut_outer .proj_title_block {
   width: 174px;
   height: 110px;
   top: 18px;
 }
-
 .project_hut_outer .proj_title_block .upper {
   opacity: 0;
 }
-
 .project_hut_outer .proj_title_block .lower {
   opacity: 0;
 }
-
 .project_hut_outer .proj_title_block .lower h1 {
   margin: 0 0 30px 0;
 }
-
 .project_hut_outer .img_1 {
   position: absolute;
   width: 300px;
@@ -48,12 +41,10 @@
   /* temp */
   right: 110px;
 }
-
 .project_hut_outer .img_1 img {
   width: 100%;
   height: 100%;
 }
-
 .project_hut_outer .img_2 {
   position: absolute;
   width: 435px;
@@ -63,12 +54,10 @@
   top: 150px;
   z-index: 1;
 }
-
 .project_hut_outer .img_2 img {
   width: 100%;
   height: 100%;
 }
-
 .project_hut_outer .img_3 {
   position: absolute;
   width: 298px;
@@ -80,9 +69,7 @@
   right: 80px;
   top: 253px;
 }
-
 .project_hut_outer .img_3 img {
   width: 100%;
   height: 100%;
-}
-/*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */

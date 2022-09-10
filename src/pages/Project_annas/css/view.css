@@ -25,7 +25,6 @@
     top: 850px;
   }
 }
-
 /* 1065px */
 /* 1010px */
 @media only screen and (max-width: 1010px) {
@@ -52,7 +51,6 @@
     top: 764px;
   }
 }
-
 /* 920px */
 @media only screen and (max-width: 920px) {
   .annas_exp_outer .annas_exp_inner .img_1 {
@@ -90,7 +88,6 @@
     top: 1096px;
   }
 }
-
 /* 850px */
 @media only screen and (max-width: 850px) {
   .annas_exp_outer .annas_exp_inner .img_2 {
@@ -103,9 +100,11 @@
     top: 1424px;
   }
 }
-
 /* 740px */
 @media only screen and (max-width: 740px) {
+  .annas_exp_outer {
+    height: 1800px;
+  }
   .annas_exp_outer .annas_exp_inner .img_1 {
     left: -1px;
     top: 309px;
@@ -136,7 +135,6 @@
     top: 1442px;
   }
 }
-
 /* 540px */
 @media only screen and (max-width: 540px) {
   .annas_exp_outer .annas_exp_inner .img_1 {
@@ -170,17 +168,16 @@
     top: 572px;
   }
 }
-
 /* 416px */
 @media only screen and (max-width: 450px) {
   .annas_exp_outer .annas_exp_inner .img_1 {
-    width: 322px;
-    height: 149px;
+    width: 373px;
+    height: 190px;
   }
   .annas_exp_outer .annas_exp_inner .img_2 {
     top: 940px;
-    width: 282px;
-    height: 199px;
+    width: 310px;
+    height: 240px;
   }
   .annas_exp_outer .annas_exp_inner .img_3 {
     width: 282px;
@@ -188,19 +185,19 @@
     top: 558px;
   }
   .annas_exp_outer .annas_exp_inner .img_4 {
-    width: 270px;
-    height: 180px;
+    width: 345px;
+    height: 216px;
     top: 1203px;
   }
   .annas_exp_outer .annas_exp_inner .img_5 {
-    width: 260px;
-    height: 130px;
+    width: 320px;
+    height: 170px;
     top: 1579px;
   }
   .annas_exp_outer .annas_exp_inner .img_6 {
-    top: 1438px;
-    width: 215px;
-    height: 152px;
+    top: 1388px;
+    width: 280px;
+    height: 200px;
   }
   .annas_exp_outer .annas_exp_inner .text_description_1 {
     top: 502px;
@@ -211,7 +208,6 @@
     top: 1100px;
   }
 }
-
 /* 400px */
 @media only screen and (max-width: 340px) {
   .annas_exp_outer .annas_exp_inner .img_1 {
@@ -221,5 +217,4 @@
   .annas_exp_outer .annas_exp_inner .text_description_1 {
     width: 100%;
   }
-}
-/*# sourceMappingURL=view.css.map */
+}/*# sourceMappingURL=view.css.map */

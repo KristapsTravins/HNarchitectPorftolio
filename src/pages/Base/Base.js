@@ -23,9 +23,9 @@ const Base = () => {
       <BrowserRouter>
     <Routes>
       <Route path="/" element={<ProjectsBase />}> </Route>
-      <Route path="/a" element={<HempHutExp />}> </Route>
-      <Route path="/b" element={<CloudCraterExp />}> </Route>
-      <Route path="/c" element={<ProjectAnnasExp />}> </Route>
+      <Route path="/hemp" element={<HempHutExp />}> </Route>
+      <Route path="/cloud" element={<CloudCraterExp />}> </Route>
+      <Route path="/annas" element={<ProjectAnnasExp />}> </Route>
     </Routes>
   </BrowserRouter>
      </div>

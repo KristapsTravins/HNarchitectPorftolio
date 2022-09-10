@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import './css/global.css'
 
 
@@ -7,6 +8,7 @@ const TriggerBox = (props) => {
     console.log(props.hover.hoverState)
 
   return (
+    <Link to={props.link}>
     <div 
     className='trigger'
     onMouseEnter={()=>{
@@ -31,6 +33,7 @@ const TriggerBox = (props) => {
         left:props.left
     }}
     ></div>
+    </Link>
   )
 }
 

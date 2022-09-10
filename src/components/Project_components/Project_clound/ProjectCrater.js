@@ -20,8 +20,7 @@ const  {openState,setOpenState} = ProjectOpenClose();
 
   return (
     <motion.div 
-    className='project_clound_outer'
-    style={{"height":"794px"}} >
+    className='project_clound_outer' >
       
 
    <ProjectDescription 
@@ -79,6 +78,7 @@ const  {openState,setOpenState} = ProjectOpenClose();
     </motion.div>
 
     <TriggerBox 
+    link="/cloud"
     hover={{hoverState,setHoveState}}
     projectOpen={{openState,setOpenState}}
     />
