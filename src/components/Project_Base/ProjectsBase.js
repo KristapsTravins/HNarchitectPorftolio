@@ -1,5 +1,5 @@
-import React, { useRef } from 'react'
-import { useInView } from 'react-intersection-observer';
+import React, { useState } from 'react'
+
 
 import "./css/global.css"
 
@@ -12,30 +12,26 @@ import ProjectAnna from '../Project_components/Project_ann/ProjectAnna';
 
 
 
-{/* <ProjectHut />
-<ProjectCrater /> 
-<ProjectAnna /> */}
+
 
 
 const ProjectsBase = () => {
 
-const myRef = useRef()
-const { myref: ref, inView } = useInView();
-console.log(myRef);
+const[section2,setSection2]=useState(false);
+
 
 
   return (
   <div 
   className='projects_base'
     > 
-    <div>
-    <ProjectHut/>
+  
+    <ProjectHut 
 
-    <ProjectCrater   /> 
-   
-    
+    />
+    <ProjectCrater sectionFun ={{section2,setSection2}} />
     <ProjectAnna />
-    </div>   
+   
    </div>
   )
 }

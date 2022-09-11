@@ -20,3 +20,15 @@ export const ProjectOpenClose = () => {
 }
 
 
+export const IsInView = () => {
+   const [view,setview] = useState(false);
+
+   const openView = ()=>{
+    return {view,setview};
+    }
+
+return openView();
+}
+
+
+

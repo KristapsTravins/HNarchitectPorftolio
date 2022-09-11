@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./css/global.css"
 import "./css/view.css"
 
@@ -7,27 +7,40 @@ import { BImg1,BImg2,BImg3  } from '../../../assets/images/ImageComponents'
 import TriggerBox from '../../TriggerBox/TriggerBox'
 import ProjectTitle from '../../ProjectTitle/ProjectTitle'
 import ProjectDescription from '../../Project_title_description/ProjectDescription'
+import { useInView } from 'react-intersection-observer';
 
 
 
-import { ProjectHover,ProjectOpenClose } from '../hooks/ProjectHook'
+import { ProjectHover,ProjectOpenClose,IsInView } from '../hooks/ProjectHook'
 
 
 const ProjectCrater = (props) => {
 
 const {hoverState,setHoveState} = ProjectHover();
 const  {openState,setOpenState} = ProjectOpenClose();
+const { ref, inView } = useInView();
+const {view,setview} = IsInView();
+
+const appearInView = () =>{
+  inView?setview(true):<></>
+}
+
+
+useEffect(()=>{
+  appearInView()
+},[inView])
+
 
   return (
     <motion.div 
-    className='project_clound_outer' >
+    className='project_clound_outer'
+    ref={ref}
+    inView={inView}
+    >
       
 
-   <ProjectDescription 
-    titleDescription={['Tiny House',"Concept","2022","Atacoma Desert","25 sq.m."]}
-    animationClosed={true}
-   />
-   <ProjectTitle
+   {view?<ProjectDescription titleDescription={['Tiny House',"Concept","2022","Atacoma Desert","25 sq.m."]} animationClosed={true}/>:<></>}
+   {view?<ProjectTitle
     animationClosed={true}
     title={["CLOUND","CATHER"]}
     UpperAnimation={{
@@ -40,8 +53,8 @@ const  {openState,setOpenState} = ProjectOpenClose();
       opacity:1,
      
      }}
-    />
-   <motion.div 
+    />:<></>}
+  {view?<motion.div 
          className='img_1'
  
          animate={{
@@ -51,9 +64,9 @@ const  {openState,setOpenState} = ProjectOpenClose();
           transition={{ ease: "easeIn", duration: 1.4, delay:1 }}
          >   
            <BImg1 />
-    </motion.div>
-
-    <motion.div 
+    </motion.div>:<></>}
+  
+  {view?<motion.div 
          className='img_2'
  
          animate={{
@@ -63,9 +76,9 @@ const  {openState,setOpenState} = ProjectOpenClose();
           transition={{ ease: "easeIn", duration: 1.4, delay:0.5 }}
          >   
            <BImg2 />
-    </motion.div>
-
-    <motion.div 
+    </motion.div>:<></>}
+    
+  {view?<motion.div 
          className='img_3'
  
          animate={{
@@ -75,14 +88,17 @@ const  {openState,setOpenState} = ProjectOpenClose();
           transition={{ ease: "easeIn", duration: 1.4, delay:1.5 }}
          >   
            <BImg3 />
-    </motion.div>
+    </motion.div>:<></>
+}
 
-    <TriggerBox 
-    link="/cloud"
-    hover={{hoverState,setHoveState}}
-    projectOpen={{openState,setOpenState}}
-    />
-
+  {view?<TriggerBox 
+      link="/cloud"
+      hover={{hoverState,setHoveState}}
+      projectOpen={{openState,setOpenState}}
+      />:<></>
+  }
+    
+    
 
     </motion.div>
   )
