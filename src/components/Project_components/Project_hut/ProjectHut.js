@@ -30,6 +30,7 @@ const  {openState,setOpenState} = ProjectOpenClose();
     />
     <ProjectTitle
     animationClosed={true}
+    delay={3}
     title={["HEMP","HUT"]}
     UpperAnimation={{
       width:"100%",
@@ -40,15 +41,13 @@ const  {openState,setOpenState} = ProjectOpenClose();
       opacity:1,
       marginLeft:"50px"
      }}
+
       />
    
     <motion.div 
          className='img_1'
          
-         animate={{
-            y:45,
-            opacity:1
-          }}
+         animate={{y:50,opacity:1}}
           transition={{ ease: "easeIn", duration: 1.4 }}
          >
             <AImg1 />   

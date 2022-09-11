@@ -1,10 +1,10 @@
 import React from 'react'
 
-import FirstContentImg1 from "./files/content_1/Original/9be8eb751a77abf4861deb1cfb06459c.png";
-import FirstContentImg2 from "./files/content_1/desktop/content_img_1.webp";                
-import FirstContentImg3 from "./files/content_1/desktop/content_img_3.webp";  
-import FirstContentImg4 from "./files/content_1/desktop/content_img_2.webp";
-import FirstContentImg5 from "./files/content_1/desktop/content_img_5.webp";
+import FirstContentImg1 from "./files/content_1/cont1_img_1.webp";
+import FirstContentImg2 from "./files/content_1/cont1_img_2.webp";                
+import FirstContentImg3 from "./files/content_1/cont1_img_3.webp";  
+import FirstContentImg4 from "./files/content_1/cont1_img_4.webp";
+import FirstContentImg5 from "./files/content_1/cont1_img_5.webp";
 
 
 
@@ -42,12 +42,12 @@ export const ProfilePic = () => {
 }
 export const AImg1 = (width) => {
     return (
-      <img src={FirstContentImg1} alt="hut_img1" />
+      <img src={FirstContentImg2} alt="hut_img1" />
     )
   }
   export const AImg2 = (width) => {
     return (
-      <img src={FirstContentImg2} alt="hut_img2" />
+      <img src={FirstContentImg1} alt="hut_img2" />
     )
   }
   export const AImg3 = (width) => {

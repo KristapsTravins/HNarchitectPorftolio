@@ -40,6 +40,7 @@
     top: 253px;
   }
 }
+
 @media only screen and (max-width: 700px) {
   .project_hut_outer {
     width: 100%;
@@ -81,6 +82,7 @@
     top: 220px;
   }
 }
+
 @media only screen and (max-width: 448px) {
   .project_hut_outer .trigger {
     width: 83%;
@@ -124,6 +126,7 @@
     top: 260px;
   }
 }
+
 @media only screen and (max-width: 360px) {
   .project_hut_outer .proj_title_block {
     z-index: 1;
@@ -153,4 +156,5 @@
     top: 194px;
     left: 90px;
   }
-}/*# sourceMappingURL=mobile.css.map */
+}
+/*# sourceMappingURL=mobile.css.map */

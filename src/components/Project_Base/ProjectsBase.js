@@ -17,7 +17,7 @@ import ProjectAnna from '../Project_components/Project_ann/ProjectAnna';
 
 const ProjectsBase = () => {
 
-const[section2,setSection2]=useState(false);
+
 
 
 
@@ -25,13 +25,9 @@ const[section2,setSection2]=useState(false);
   <div 
   className='projects_base'
     > 
-  
-    <ProjectHut 
-
-    />
-    <ProjectCrater sectionFun ={{section2,setSection2}} />
+    <ProjectHut />
+    <ProjectCrater />
     <ProjectAnna />
-   
    </div>
   )
 }

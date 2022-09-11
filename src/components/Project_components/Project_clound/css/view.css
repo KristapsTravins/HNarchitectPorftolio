@@ -30,6 +30,7 @@
     right: 114px;
   }
 }
+
 @media only screen and (max-width: 700px) {
   .project_clound_outer {
     width: 100%;
@@ -67,6 +68,7 @@
     right: 105px;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .project_clound_outer {
     height: 530px;
@@ -92,6 +94,7 @@
     right: 84px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .project_clound_outer .proj_title_block {
     right: 118px;
@@ -122,4 +125,5 @@
     top: 237px;
     right: 60px;
   }
-}/*# sourceMappingURL=view.css.map */
+}
+/*# sourceMappingURL=view.css.map */

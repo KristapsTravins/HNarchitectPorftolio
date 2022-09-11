@@ -1,6 +1,6 @@
 .project_hut_outer{
-    width: 700px;
-    height: 580px;
+    width: 788px;
+    height: 700px;
     align-self: flex-end;
     position: relative;
     overflow: hidden;
@@ -14,15 +14,15 @@
     }
     /* title desc */
     .huts_title_info{
-        top:465px;
-        left: 30px;
+        top:577px;
+        left: 34px;
 
     }
     /* title */
     .proj_title_block{
         width: 174px;
         height: 110px;
-        top: 18px;
+        top: 55px;
         .upper{
             opacity: 0;
         }
@@ -36,15 +36,14 @@
     
     .img_1{
         position: absolute;
-        width: 300px;
-        height: 300px;
+        width: 363px;
+        height: 363px;
      
         /* temp */
-
         opacity: 0;
         /* temp */
-        right: 110px;
-
+        top: 15px;
+        right: 94px;
         img{
             width: 100%;
             height: 100%;
@@ -52,29 +51,29 @@
     }
     .img_2{
         position: absolute;
-        width: 435px;
-        height: 294.65px;
+        width: 523px;
+        height: 355px;
         opacity: 0;
-
         right: 263px;
-        top: 150px;
+        top: 208px;
         z-index: 1;
         img{
             width: 100%;
             height: 100%;
         }
     }
+        
     .img_3{
         position: absolute;
-        width: 298px;
-        height: 261.45px;
+        width: 318px;
+        height: 318px;
         opacity: 0;
         /* temp */
-     
+        right: 75px;
         z-index: 0;
         /* temp */
-        right: 80px;
-        top: 253px;
+        
+        top: 386px;
 
         img{
             width: 100%;
