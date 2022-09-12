@@ -44,7 +44,7 @@ const  {openState,setOpenState} = ProjectOpenClose();
    
     <motion.div 
          className='img_1'
-         
+     
          animate={{
             y:45,
             opacity:1
@@ -70,7 +70,7 @@ const  {openState,setOpenState} = ProjectOpenClose();
 
     <motion.div 
          className='img_3'
-         
+        
          animate={{
            x:55,
            opacity:1
