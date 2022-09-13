@@ -18,14 +18,15 @@
 }
 
 .project_hut_outer .huts_title_info {
-  top: 445px;
-  left: 0px;
+  top: 500px;
+  left: 77px;
 }
 
 .project_hut_outer .proj_title_block {
   width: 174px;
   height: 110px;
-  top: 55px;
+  top: 70px;
+  left: 40px;
 }
 
 .project_hut_outer .proj_title_block .upper {
@@ -42,13 +43,13 @@
 
 .project_hut_outer .img_1 {
   position: absolute;
-  width: 363px;
-  height: 363px;
+  width: 260px;
+  height: 260px;
   /* temp */
   opacity: 0;
   /* temp */
-  top: 15px;
-  right: 94px;
+  top: 209px;
+  right: 227px;
 }
 
 .project_hut_outer .img_1 img {
@@ -73,14 +74,14 @@
 
 .project_hut_outer .img_3 {
   position: absolute;
-  width: 318px;
-  height: 318px;
+  width: 270px;
+  height: 255px;
   opacity: 0;
   /* temp */
-  right: 75px;
+  right: 284px;
   z-index: 0;
   /* temp */
-  top: 386px;
+  top: 239px;
 }
 
 .project_hut_outer .img_3 img {

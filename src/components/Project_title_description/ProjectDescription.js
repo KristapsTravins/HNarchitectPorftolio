@@ -16,7 +16,7 @@ return (
           style={props.titleDescriptionPositionInit}
           initial={{height:"0%"}}
           animate={{height:"auto"}} 
-          transition={{duration:1,delay:3.6}}
+          transition={props.DescriptionTransition}
           >
             {props.titleDescription.map((p)=>{
             

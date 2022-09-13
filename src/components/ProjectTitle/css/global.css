@@ -22,7 +22,7 @@
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
-  width: 0%;
+  width: 100%;
   height: auto;
 }
 
@@ -49,7 +49,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  width: 0%;
+  width: 100%;
   height: auto;
   overflow: hidden;
 }

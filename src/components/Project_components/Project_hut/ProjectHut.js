@@ -7,7 +7,7 @@ import TriggerBox from '../../TriggerBox/TriggerBox'
 import ProjectTitle from '../../ProjectTitle/ProjectTitle'
 import ProjectDescription from '../../Project_title_description/ProjectDescription'
 import { useInView } from 'react-intersection-observer';
-
+import { GetAnimation, GetAnimationSect1 } from '../animation_data/GetAnimationVals/GetAnimationVals'
 
 import { ProjectHover,ProjectOpenClose } from '../hooks/ProjectHook'
 
@@ -17,7 +17,7 @@ const ProjectHut = (props) => {
 const {hoverState,setHoveState} = ProjectHover();
 const  {openState,setOpenState} = ProjectOpenClose();
 
-
+console.log(GetAnimationSect1().img_2)
   return (
     <motion.div 
     className='project_hut_outer'
@@ -26,29 +26,32 @@ const  {openState,setOpenState} = ProjectOpenClose();
       
     <ProjectDescription 
     titleDescription={['Modular prefab home',"Concept","2022","Latvia","40 sq.m."]}
-    animationClosed={true}
+    DescriptionTransition={{duration:1,delay:2.3}}
     />
+    
     <ProjectTitle
-    animationClosed={true}
+   
     delay={3}
     title={["HEMP","HUT"]}
     UpperAnimation={{
       width:"100%",
       opacity:1
      }}
+    UpperAnimationTransition={{ duration: 1.8, delay:1 }}
     LowerAnimation={{
       width:"100%",
       opacity:1,
       marginLeft:"50px"
      }}
+    LowerAnimationTransition={{duration: 1.8, delay:1}}
 
       />
    
     <motion.div 
          className='img_1'
-         
-         animate={{y:50,opacity:1}}
-          transition={{ ease: "easeIn", duration: 1.4 }}
+
+          animate={GetAnimationSect1().img_1.animation}
+          transition={GetAnimationSect1().img_1.transition}
          >
             <AImg1 />   
     </motion.div>
@@ -56,11 +59,10 @@ const  {openState,setOpenState} = ProjectOpenClose();
     <motion.div 
          className='img_2'
  
-         animate={{
-          x:35,
-          opacity:1
-         }}
-          transition={{ ease: "easeIn", duration: 1.4, delay:1 }}
+         animate={
+          GetAnimationSect1().img_2.animation
+         }
+          transition={GetAnimationSect1().img_2.transition}
          >   
             <AImg2 />
     </motion.div>
@@ -70,22 +72,19 @@ const  {openState,setOpenState} = ProjectOpenClose();
     <motion.div 
          className='img_3'
          
-         animate={{
-           x:55,
-           opacity:1
-          }}
-          transition={{ ease: "easeIn", duration: 1.4, delay:2 }}
-         >   
+         animate={GetAnimationSect1().img_3.animation}
+          transition={GetAnimationSect1().img_3.transition}
+         >  
             <AImg3 />
     </motion.div>
 
-
+{/* 
      
         <TriggerBox 
         link="/hemp"
         hover={{hoverState,setHoveState}}
         projectOpen={{openState,setOpenState}}
-        />
+        /> */}
 
 
     </motion.div>

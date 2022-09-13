@@ -1,0 +1,38 @@
+{
+    "section1":{
+        "w1010px":{
+            "img_1":
+            {
+                "animation":{
+                    "opacity":1,
+                    "top":100,
+                    "right":135
+                },
+                "transition":{
+                    "duration":1.4,
+                    "delay":5
+                }
+            },
+            "img_2":{
+                "animation":{"x":35,"opacity":1},
+                "transition":{"duration":1.4}
+            },
+            "img_3":{
+                "animation":{
+                    "right":92,
+                    "top":359,
+                    "opacity":1
+                },
+                "transition":{
+                    "duration":2.3,
+                    "delay":5.2
+                }
+            },
+            "title":{
+                "animation":{},
+                "transition":{}
+            }
+        }
+}
+}
+

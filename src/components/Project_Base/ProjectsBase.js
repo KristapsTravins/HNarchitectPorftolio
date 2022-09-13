@@ -17,10 +17,6 @@ import ProjectAnna from '../Project_components/Project_ann/ProjectAnna';
 
 const ProjectsBase = () => {
 
-<<<<<<< HEAD
-
-=======
->>>>>>> refs/remotes/origin/main
 
 
 
@@ -28,17 +24,12 @@ const ProjectsBase = () => {
   <div 
   className='projects_base'
     > 
-<<<<<<< HEAD
-    <ProjectHut />
-    <ProjectCrater />
-    <ProjectAnna />
-=======
+
   
     <ProjectHut />{/* 
     <ProjectCrater />
     <ProjectAnna /> */}
-   
->>>>>>> refs/remotes/origin/main
+
    </div>
   )
 }
