@@ -6,7 +6,9 @@ import { motion } from "framer-motion"
  const ProjectDescription =(props)=> {
 const counters = [3.1,3.5,3.7,3.9,4.1,4.3]
 let i = 0;
-let c = 0;
+
+let key = 0;
+
 return (
 
 <motion.div
@@ -19,7 +21,9 @@ return (
             {props.titleDescription.map((p)=>{
             
               return(
-               <div key={`descript${c++}`}className='list_item'>
+
+               <div key={`Desc${key++}`} className='list_item'>
+
                   <div className='left'>[ </div>
                     <motion.div className='data'
                     transition={{duration:0.7,delay:counters[i++]+1}}
