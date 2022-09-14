@@ -69,8 +69,8 @@ setTimeout(() => {
     <motion.div 
          className='img_3'
          
-          animate={hoverState?GetAnimationSect1().img_3.hover:GetAnimationSect1().img_3.animation}
-          transition={wasHover?GetAnimationSect1().img_3.hover_transition:GetAnimationSect1().img_3.transition}
+          animate={openState?GetAnimationSect1().img_3.open_Sequence:hoverState?GetAnimationSect1().img_3.hover:GetAnimationSect1().img_3.animation}
+          transition={!wasHover?GetAnimationSect1().img_3.transition:openState?GetAnimationSect1().img_3.open_Sequence_Transition:GetAnimationSect1().img_3.hover_transition}
          >  
             <AImg3 />
     </motion.div>
@@ -78,7 +78,7 @@ setTimeout(() => {
 
      
        {showTrigger? <TriggerBox 
-        link="/hemp"
+        componentSwitch={props.ComponentSw}
         hover={{hoverState,setHoveState}}
         wasHover={setWasHover}
         projectOpen={{openState,setOpenState}}

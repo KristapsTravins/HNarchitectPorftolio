@@ -6,13 +6,14 @@ import Base from './pages/Base/Base';
 
 const App = () => {
   const [openState,setOpenState] = useState(false);
+  const [currentComp,setCurrentComp] = useState('/')
 
   return (
-   
+
     <div  className="App">
     <MenuBtn openState={openState} changeState={setOpenState} />
     <SideOverlay openState={openState} />
-    <Base />
+    <Base componentShow={{currentComp,setCurrentComp}} />
     </div>
   
   );

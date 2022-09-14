@@ -4,10 +4,11 @@ import './css/global.css'
 
 
 const TriggerBox = (props) => {
-
+    
+const {currentComp , setCurrentComp} = props.componentSwitch;
 
   return (
-    <Link to={"/"}>
+  
     <div 
     className='trigger'
     onMouseEnter={()=>{
@@ -24,7 +25,8 @@ const TriggerBox = (props) => {
     onClick={()=>{
         props.projectOpen.setOpenState(!props.projectOpen.openState)
         props.hover.setHoveState(false)
-
+        setCurrentComp("a");
+       
     }}
     style={{
         width:props.width,
@@ -33,7 +35,7 @@ const TriggerBox = (props) => {
         left:props.left
     }}
     ></div>
-    </Link>
+
   )
 }
 

@@ -13,7 +13,7 @@ import ProjectAnnasExp from "../Project_annas/ProjectAnnas";
 
 
 
-const Base = () => {
+const Base = (props) => {
 
 
 
@@ -22,7 +22,7 @@ const Base = () => {
      
       <BrowserRouter>
     <Routes>
-      <Route path="/" element={<ProjectsBase />}> </Route>
+      <Route path="/" element={<ProjectsBase componentShow={props.componentShow} />}> </Route>
       <Route path="/hemp" element={<HempHutExp />}> </Route>
       <Route path="/cloud" element={<CloudCraterExp />}> </Route>
       <Route path="/annas" element={<ProjectAnnasExp />}> </Route>

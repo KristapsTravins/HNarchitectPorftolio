@@ -15,7 +15,7 @@ import ProjectAnna from '../Project_components/Project_ann/ProjectAnna';
 
 
 
-const ProjectsBase = () => {
+const ProjectsBase = (props) => {
 
 
 
@@ -26,7 +26,7 @@ const ProjectsBase = () => {
     > 
 
   
-    <ProjectHut />{/* 
+    <ProjectHut ComponentSw={props.componentShow} />{/* 
     <ProjectCrater />
     <ProjectAnna /> */}
 
