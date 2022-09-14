@@ -17,7 +17,7 @@ const ProjectHut = (props) => {
 const {hoverState,setHoveState} = ProjectHover();
 const  {openState,setOpenState} = ProjectOpenClose();
 
-console.log(GetAnimationSect1().img_2)
+console.log(GetAnimationSect1().descritpion)
   return (
     <motion.div 
     className='project_hut_outer'
@@ -26,24 +26,17 @@ console.log(GetAnimationSect1().img_2)
       
     <ProjectDescription 
     titleDescription={['Modular prefab home',"Concept","2022","Latvia","40 sq.m."]}
-    DescriptionTransition={{duration:1,delay:2.3}}
+    DescriptionTransition={GetAnimationSect1().descritpion.transition}
     />
     
     <ProjectTitle
    
     delay={3}
     title={["HEMP","HUT"]}
-    UpperAnimation={{
-      width:"100%",
-      opacity:1
-     }}
-    UpperAnimationTransition={{ duration: 1.8, delay:1 }}
-    LowerAnimation={{
-      width:"100%",
-      opacity:1,
-      marginLeft:"50px"
-     }}
-    LowerAnimationTransition={{duration: 1.8, delay:1}}
+    UpperAnimation={GetAnimationSect1().title.animation.upper}
+    UpperAnimationTransition={GetAnimationSect1().title.transition.upper}
+    LowerAnimation={GetAnimationSect1().title.animation.lower}
+    LowerAnimationTransition={GetAnimationSect1().title.transition.lower}
 
       />
    
@@ -59,9 +52,7 @@ console.log(GetAnimationSect1().img_2)
     <motion.div 
          className='img_2'
  
-         animate={
-          GetAnimationSect1().img_2.animation
-         }
+         animate={GetAnimationSect1().img_2.animation}
           transition={GetAnimationSect1().img_2.transition}
          >   
             <AImg2 />

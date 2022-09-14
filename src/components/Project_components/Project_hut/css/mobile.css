@@ -12,8 +12,8 @@
   }
   .project_hut_outer .proj_title_block {
     height: 120px;
-    top: -10px;
-    right: 75px;
+    top: 0px;
+    right: 69px;
     left: auto;
   }
   .project_hut_outer .huts_title_info {
@@ -24,8 +24,8 @@
   .project_hut_outer .img_1 {
     width: 220px;
     height: 220px;
-    right: 120px;
-    top: 20px;
+    right: 159px;
+    top: 150px;
   }
   .project_hut_outer .img_2 {
     width: 409px;
@@ -66,20 +66,20 @@
   .project_hut_outer .img_1 {
     width: 180px;
     height: 180px;
-    left: 160px;
-    top: 25px;
+    left: 130px;
+    top: 150px;
     opacity: 0;
   }
   .project_hut_outer .img_2 {
-    width: 290px;
-    height: 195px;
+    width: 310px;
+    height: 200px;
     left: -35px;
     top: 150px;
   }
   .project_hut_outer .img_3 {
     left: 180px;
-    width: 210px;
-    height: 190px;
+    width: 190px;
+    height: 183px;
     top: 220px;
   }
 }
@@ -94,8 +94,8 @@
   }
   .project_hut_outer .proj_title_block {
     height: 113px;
-    top: 9px;
-    left: 151px;
+    top: 35px;
+    left: 192px;
   }
   .project_hut_outer .proj_title_block .upper h1 {
     font-size: 40px;
@@ -106,25 +106,28 @@
   .project_hut_outer .proj_title_block .lower h1 {
     font-size: 40px;
   }
+  .project_hut_outer .huts_title_info {
+    top: 368px;
+  }
   .project_hut_outer .huts_title_info .list_item .data {
     font-size: 12px;
   }
   .project_hut_outer .img_1 {
-    width: 180px;
-    height: 180px;
-    left: 122px;
-    top: 38px;
+    width: 170px;
+    height: 168px;
+    left: 124px;
+    top: 172px;
   }
   .project_hut_outer .img_2 {
-    width: 270px;
-    height: 175px;
+    width: 300px;
+    height: 185px;
     top: 172px;
   }
   .project_hut_outer .img_3 {
-    width: 180px;
+    width: 165px;
     height: 160px;
-    left: 140px;
-    top: 260px;
+    left: 121px;
+    top: 190px;
   }
 }
 
@@ -132,7 +135,7 @@
   .project_hut_outer .proj_title_block {
     z-index: 1;
     left: auto;
-    right: 70px;
+    right: 57px;
   }
   .project_hut_outer .proj_title_block .upper h1 {
     font-size: 40px;
@@ -140,11 +143,14 @@
   .project_hut_outer .proj_title_block .lower h1 {
     font-size: 40px;
   }
+  .project_hut_outer .huts_title_info {
+    top: 320px;
+  }
   .project_hut_outer .img_1 {
-    top: 15px;
+    top: 149px;
     width: 150px;
     height: 150px;
-    left: 123px;
+    left: 100px;
   }
   .project_hut_outer .img_2 {
     width: 250px;
@@ -152,10 +158,10 @@
     top: 149px;
   }
   .project_hut_outer .img_3 {
-    width: 170px;
-    height: 150px;
-    top: 194px;
-    left: 90px;
+    width: 145px;
+    height: 145px;
+    top: 160px;
+    left: 75px;
   }
 }
 /*# sourceMappingURL=mobile.css.map */
