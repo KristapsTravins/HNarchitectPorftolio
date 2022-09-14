@@ -3,7 +3,7 @@ import data from '../anim_data.json'
 
 export const GetAnimationSect1 = () =>{
     const { height, width } = useWindowDimensions();
-   
+    
     if(width>1010){
         return data.section1.w1010px
     }
@@ -20,3 +20,5 @@ export const GetAnimationSect1 = () =>{
         return data.section1.w700px
     }
 }
+
+

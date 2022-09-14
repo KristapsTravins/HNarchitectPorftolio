@@ -4,10 +4,10 @@
     /* trigger */
   }
   .project_hut_outer .trigger {
-    width: 590px;
-    height: 333px;
-    top: 133px;
-    right: 34px;
+    width: 480px;
+    height: 299px;
+    top: 131px;
+    right: 123px;
     left: auto;
   }
   .project_hut_outer .proj_title_block {
@@ -88,7 +88,7 @@
   .project_hut_outer .trigger {
     width: 83%;
     height: 190px;
-    top: 133px;
+    top: 170px;
     right: auto;
     left: 6px;
   }
@@ -132,6 +132,10 @@
 }
 
 @media only screen and (max-width: 360px) {
+  .project_hut_outer .trigger {
+    left: 0px;
+    top: 140px;
+  }
   .project_hut_outer .proj_title_block {
     z-index: 1;
     left: auto;

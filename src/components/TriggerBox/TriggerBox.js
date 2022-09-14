@@ -7,12 +7,13 @@ const TriggerBox = (props) => {
 
 
   return (
-    <Link to={props.link}>
+    <Link to={"/"}>
     <div 
     className='trigger'
     onMouseEnter={()=>{
         if(!props.hover.hoverState){
             props.hover.setHoveState(true)
+            props.wasHover(true)
         }
     }}
     onMouseLeave={()=>{

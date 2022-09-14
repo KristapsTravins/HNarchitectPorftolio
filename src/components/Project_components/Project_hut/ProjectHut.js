@@ -1,4 +1,4 @@
-import React,{useRef,useEffect} from 'react'
+import React,{useRef,useEffect, useState} from 'react'
 import "./css/global.css"
 import "./css/mobile.css"
 import { motion } from "framer-motion"
@@ -15,13 +15,19 @@ import { ProjectHover,ProjectOpenClose } from '../hooks/ProjectHook'
 const ProjectHut = (props) => {
 
 const {hoverState,setHoveState} = ProjectHover();
-const  {openState,setOpenState} = ProjectOpenClose();
+const {openState,setOpenState} = ProjectOpenClose();
+const [wasHover, setWasHover] = useState(false);
+const [showTrigger,setTrigerShow]=useState(false);
 
-console.log(GetAnimationSect1().descritpion)
+
+setTimeout(() => {
+  setTrigerShow(true)
+},6000);
+
+
   return (
     <motion.div 
     className='project_hut_outer'
-  
     >
       
     <ProjectDescription 
@@ -43,8 +49,8 @@ console.log(GetAnimationSect1().descritpion)
     <motion.div 
          className='img_1'
 
-          animate={GetAnimationSect1().img_1.animation}
-          transition={GetAnimationSect1().img_1.transition}
+          animate={openState?GetAnimationSect1().img_1.open_Sequence:hoverState?GetAnimationSect1().img_1.hover:GetAnimationSect1().img_1.animation}
+          transition={!wasHover?GetAnimationSect1().img_1.transition:openState?GetAnimationSect1().img_1.open_Sequence_Transition:GetAnimationSect1().img_1.hover_transition}
          >
             <AImg1 />   
     </motion.div>
@@ -63,19 +69,20 @@ console.log(GetAnimationSect1().descritpion)
     <motion.div 
          className='img_3'
          
-         animate={GetAnimationSect1().img_3.animation}
-          transition={GetAnimationSect1().img_3.transition}
+          animate={hoverState?GetAnimationSect1().img_3.hover:GetAnimationSect1().img_3.animation}
+          transition={wasHover?GetAnimationSect1().img_3.hover_transition:GetAnimationSect1().img_3.transition}
          >  
             <AImg3 />
     </motion.div>
 
-{/* 
+
      
-        <TriggerBox 
+       {showTrigger? <TriggerBox 
         link="/hemp"
         hover={{hoverState,setHoveState}}
+        wasHover={setWasHover}
         projectOpen={{openState,setOpenState}}
-        /> */}
+        />:<></>}
 
 
     </motion.div>
@@ -93,3 +100,5 @@ export default ProjectHut
 [ 40 sq.m. ]
 
  */
+
+/* right:50,top:377 */
