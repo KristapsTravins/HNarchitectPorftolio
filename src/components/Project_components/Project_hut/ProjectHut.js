@@ -76,13 +76,13 @@ setTimeout(() => {
     </motion.div>
 
 
-  {/*    
+      
        {showTrigger? <TriggerBox 
         componentSwitch={props.ComponentSw}
         hover={{hoverState,setHoveState}}
         wasHover={setWasHover}
         projectOpen={{openState,setOpenState}}
-        />:<></>} */}
+        />:<></>} 
 
 
     </motion.div>
