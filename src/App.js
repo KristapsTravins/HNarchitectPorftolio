@@ -6,14 +6,15 @@ import Base from './pages/Base/Base';
 
 const App = () => {
   const [openState,setOpenState] = useState(false);
+  const [isClickedItself,setClickedItself] = useState(false);
   const [currentComp,setCurrentComp] = useState('/')
 
   return (
 
     <div  className="App">
-    <MenuBtn openState={openState} changeState={setOpenState} />
-    <SideOverlay openState={openState} />
-    <Base componentShow={{currentComp,setCurrentComp}} />
+    <MenuBtn openState={openState} changeState={setOpenState} Component={{currentComp,setCurrentComp,isClickedItself,setClickedItself}}  />
+    <SideOverlay openState={openState} Component={currentComp} aboutShow={isClickedItself} />
+    <Base componentShow={{currentComp,setCurrentComp,setOpenState,setClickedItself}} />
     </div>
   
   );

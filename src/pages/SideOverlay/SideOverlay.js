@@ -19,7 +19,8 @@ function SideOverlay(props) {
     className={`content_overlay`}
     animate={props.openState?slideIn:slideOut}>
      <div className='center'>
-     <About />
+      {props.aboutShow?<About />:<></>}
+     {/* <About /> */}
      </div>
   
     </motion.div>

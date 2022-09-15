@@ -15,21 +15,21 @@ import ProjectAnnasExp from "../Project_annas/ProjectAnnas";
 
 const Base = (props) => {
 
-
+  
 
     return (
      <div className="base_center">
      
-      <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<ProjectsBase componentShow={props.componentShow} />}> </Route>
-      <Route path="/hemp" element={<HempHutExp />}> </Route>
-      <Route path="/cloud" element={<CloudCraterExp />}> </Route>
-      <Route path="/annas" element={<ProjectAnnasExp />}> </Route>
-    </Routes>
-  </BrowserRouter>
+     {props.componentShow.currentComp === "/"?<ProjectsBase componentShow={props.componentShow} />:<></>}
+     {props.componentShow.currentComp === "huts"?<HempHutExp />:<></>}
      </div>
     );
   }
   
 export default Base;
+
+{/* <Route path="/" element={<ProjectsBase componentShow={props.componentShow} />}> </Route>
+      <Route path="/hemp" element={<HempHutExp />}> </Route>
+      <Route path="/cloud" element={<CloudCraterExp />}> </Route>
+      <Route path="/annas" element={<ProjectAnnasExp />}> </Route>
+    </Routes> */}

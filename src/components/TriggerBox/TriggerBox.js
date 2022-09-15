@@ -5,8 +5,9 @@ import './css/global.css'
 
 const TriggerBox = (props) => {
     
-const {currentComp , setCurrentComp} = props.componentSwitch;
+const {currentComp , setCurrentComp, setOpenState,setClickedItself} = props.componentSwitch;
 
+console.log( props.componentSwitch)
   return (
   
     <div 
@@ -25,7 +26,16 @@ const {currentComp , setCurrentComp} = props.componentSwitch;
     onClick={()=>{
         props.projectOpen.setOpenState(!props.projectOpen.openState)
         props.hover.setHoveState(false)
-        setCurrentComp("a");
+        setClickedItself(false)
+        setOpenState(true)
+        setTimeout(()=>{
+            setOpenState(false)
+        },4000)
+        setTimeout(()=>{
+            setCurrentComp("huts");
+        },3500)
+
+       
        
     }}
     style={{

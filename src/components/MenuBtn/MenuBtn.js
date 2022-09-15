@@ -11,7 +11,24 @@ const pulse = {
 };
 return(
 <motion.button
-onClick={()=>props.changeState(!props.openState)} 
+onClick={()=>{
+    
+    if(props.Component.currentComp != "/"){
+        props.Component.setClickedItself(false);
+        props.changeState(true)
+        setTimeout(()=>{
+            props.changeState(false)
+        },3500)
+        setTimeout(()=>{
+           props.Component.setCurrentComp("/");
+        },4000)
+    }else{
+        props.Component.setClickedItself(true);
+        props.changeState(!props.openState)
+    }
+
+    
+}} 
 whileTap={{scale:1.7, transition:{duration:3}}}
 className="Menu_btn"
 animate={pulse}>
