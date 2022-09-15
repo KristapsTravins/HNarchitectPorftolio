@@ -26,9 +26,9 @@ const ProjectsBase = (props) => {
     > 
 
   
-    <ProjectHut ComponentSw={props.componentShow} />{/* 
-    <ProjectCrater />
-    <ProjectAnna /> */}
+    <ProjectHut ComponentSw={props.componentShow} /> 
+    <ProjectCrater  ComponentSw={props.componentShow}  />
+    <ProjectAnna  ComponentSw={props.componentShow}  />
 
    </div>
   )

@@ -1,91 +1,77 @@
 .project_hut_outer {
   width: 788px;
-  height: 700px;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  height: 850px;
+  align-self: flex-end;
   position: relative;
   overflow: hidden;
   /* trigger */
   /* title desc */
   /* title */
 }
-
 .project_hut_outer .trigger {
   width: 590px;
   height: 333px;
   top: 185px;
   left: 80px;
 }
-
 .project_hut_outer .huts_title_info {
-  top: 500px;
-  left: 77px;
+  top: 680px;
+  left: 35px;
 }
-
 .project_hut_outer .proj_title_block {
   width: 174px;
-  height: 110px;
-  top: 70px;
-  left: 40px;
+  height: 150px;
+  top: 100px;
+  left: 23px;
 }
-
 .project_hut_outer .proj_title_block .upper {
   opacity: 0;
 }
-
 .project_hut_outer .proj_title_block .lower {
   opacity: 0;
 }
-
 .project_hut_outer .proj_title_block .lower h1 {
   margin: 0 0 30px 0;
 }
-
 .project_hut_outer .img_1 {
   position: absolute;
-  width: 260px;
-  height: 260px;
+  width: 363px;
+  height: 363px;
   /* temp */
   opacity: 0;
   /* temp */
   top: 209px;
   right: 227px;
 }
-
 .project_hut_outer .img_1 img {
   width: 100%;
   height: 100%;
 }
-
 .project_hut_outer .img_2 {
   position: absolute;
-  width: 480px;
-  height: 285.65px;
+  width: 523px;
+  height: 355px;
   opacity: 0;
   right: 263px;
-  top: 208px;
+  top: 310px;
   z-index: 1;
 }
-
 .project_hut_outer .img_2 img {
   width: 100%;
   height: 100%;
 }
-
 .project_hut_outer .img_3 {
   position: absolute;
-  width: 270px;
-  height: 255px;
+  width: 318px;
+  height: 318px;
   opacity: 0;
   /* temp */
-  right: 284px;
+  right: 242px;
   z-index: 0;
   /* temp */
-  top: 239px;
+  top: 340px;
 }
-
 .project_hut_outer .img_3 img {
   width: 100%;
   height: 100%;
-}
-/*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */

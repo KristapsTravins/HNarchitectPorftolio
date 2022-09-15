@@ -1,66 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 .proj_title_block {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   z-index: -2;
 }
-
 .proj_title_block .upper {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-end;
+  align-items: center;
   overflow: hidden;
   width: 100%;
   height: auto;
 }
-
 .proj_title_block .upper h1 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 300;
   font-size: 15px;
   color: #D73434;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 200;
 }
-
 .proj_title_block .upper h1 span {
-  font-size: 80px;
+  font-size: 95px;
 }
-
 .proj_title_block .lower {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  align-items: center;
+  justify-content: flex-end;
   width: 100%;
   height: auto;
   overflow: hidden;
 }
-
 .proj_title_block .lower h1 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 300;
   font-size: 15px;
   color: #D73434;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 200;
   height: 100%;
-}
-/*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */

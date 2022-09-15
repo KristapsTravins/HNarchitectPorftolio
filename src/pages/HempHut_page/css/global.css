@@ -4,7 +4,6 @@
   width: 100%;
   padding: 5.7vw 0 0 0;
 }
-
 .hemp_hut_outer .hemp_hut_inner {
   width: 100%;
   position: relative;
@@ -17,32 +16,26 @@
   /* img 3 */
   /* img 4*/
 }
-
 .hemp_hut_outer .hemp_hut_inner .proj_title_block {
   height: 119px;
   top: 75px;
 }
-
 .hemp_hut_outer .hemp_hut_inner .proj_title_block .lower {
   margin: -17px;
 }
-
 .hemp_hut_outer .hemp_hut_inner .huts_title_info {
   top: 220px;
 }
-
 .hemp_hut_outer .hemp_hut_inner .img_1 {
   position: absolute;
   width: 730px;
   height: 498px;
   right: 0px;
 }
-
 .hemp_hut_outer .hemp_hut_inner .img_1 img {
   width: 100%;
   height: 100%;
 }
-
 .hemp_hut_outer .hemp_hut_inner .img_2 {
   position: absolute;
   width: 450px;
@@ -50,12 +43,10 @@
   top: 460px;
   right: 0px;
 }
-
 .hemp_hut_outer .hemp_hut_inner .img_2 img {
   width: 100%;
   height: 100%;
 }
-
 .hemp_hut_outer .hemp_hut_inner .text_description {
   left: 3px;
   font-size: 13px;
@@ -63,7 +54,6 @@
   height: 195px;
   top: 500px;
 }
-
 .hemp_hut_outer .hemp_hut_inner .text_description_2 {
   width: 322px;
   height: 270px;
@@ -71,19 +61,16 @@
   right: 3px;
   top: 990px;
 }
-
 .hemp_hut_outer .hemp_hut_inner .img_3 {
   position: absolute;
   width: 450px;
   height: 450px;
   top: 780px;
 }
-
 .hemp_hut_outer .hemp_hut_inner .img_3 img {
   width: 100%;
   height: 100%;
 }
-
 .hemp_hut_outer .hemp_hut_inner .img_4 {
   position: absolute;
   width: 417px;
@@ -92,12 +79,10 @@
   right: 0px;
   z-index: -1;
 }
-
 .hemp_hut_outer .hemp_hut_inner .img_4 img {
   width: 100%;
   height: 100%;
 }
-
 .hemp_hut_outer .hemp_hut_inner .img_5 {
   position: absolute;
   width: 593px;
@@ -106,9 +91,7 @@
   left: 0px;
   z-index: -1;
 }
-
 .hemp_hut_outer .hemp_hut_inner .img_5 img {
   width: 100%;
   height: 100%;
-}
-/*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */

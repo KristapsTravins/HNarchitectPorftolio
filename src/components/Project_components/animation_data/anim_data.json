@@ -6,7 +6,7 @@
                 "animation":{
                     "opacity":1,
                     "top":100,
-                    "right":135
+                    "right":96
                 },
                 "transition":{
                     "duration":2,
@@ -14,8 +14,8 @@
                 },
                 "hover":{
                     "opacity":1,
-                    "top":85,
-                    "right":120
+                    "top":90,
+                    "right":35
                 },
                 "hover_transition":{
                     "duration":1,
@@ -37,8 +37,8 @@
             },
             "img_3":{
                 "animation":{
-                    "right":92,
-                    "top":359,
+                    "right":15,
+                    "top":425,
                     "opacity":1
                 },
                 "transition":{
@@ -46,8 +46,8 @@
                     "delay":5.2
                 },
                 "hover":{
-                    "right":67,
-                    "top":374,
+                    "right":0,
+                    "top":465,
                     "opacity":1
                 },
                 "hover_transition":{
@@ -97,12 +97,12 @@
             {
                 "animation":{
                     "opacity":1,
-                    "top":78,
+                    "top":15,
                     "right":115
                 },
                 "transition":{
                     "duration":1.4,
-                    "delay":1.4
+                    "delay":4.4
                 },
                 "hover":{
                     "opacity":1,
@@ -129,13 +129,13 @@
             },
             "img_3":{
                 "animation":{
-                    "right":75,
-                    "top":290,
+                    "right":35,
+                    "top":236,
                     "opacity":1
                 },
                 "transition":{
                     "duration":1.6,
-                    "delay":1.2
+                    "delay":4.2
                 },
                 "hover":{
                     "right":64,
@@ -171,11 +171,11 @@
                 "transition":{
                     "upper":{
                         "duration":1.8,
-                        "delay":2.5
+                        "delay":1
                     },
                     "lower":{
                         "duration":1.8,
-                        "delay":2.5
+                        "delay":1
                     }
                 }
             },
