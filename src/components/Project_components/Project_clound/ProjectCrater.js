@@ -8,6 +8,7 @@ import TriggerBox from '../../TriggerBox/TriggerBox'
 import ProjectTitle from '../../ProjectTitle/ProjectTitle'
 import ProjectDescription from '../../Project_title_description/ProjectDescription'
 import { useInView } from 'react-intersection-observer';
+import { GetAnimationSect2 } from '../animation_data/GetAnimationVals/GetAnimationVals'
 
 
 
@@ -25,11 +26,11 @@ const appearInView = () =>{
   inView?setview(true):<></>
 }
 
-
 useEffect(()=>{
   appearInView()
 },[inView])
 
+const animationData = GetAnimationSect2();
 
   return (
     <motion.div 
@@ -37,22 +38,17 @@ useEffect(()=>{
     ref={ref}
     inView={inView}
     >
-      
+   
 
    {view?<ProjectDescription titleDescription={['Tiny House',"Concept","2022","Atacoma Desert","25 sq.m."]} animationClosed={true}/>:<></>}
+
    {view?<ProjectTitle
     animationClosed={true}
     title={["CLOUND","CATHER"]}
-    UpperAnimation={{
-      width:"100%",
-      opacity:1,
-      marginLeft:"70px"
-     }}
-    LowerAnimation={{
-      width:"100%",
-      opacity:1,
-     
-     }}
+    UpperAnimation={animationData.title.animation.upper}
+    LowerAnimation={animationData.title.animation.lower}
+    UpperAnimationTransition={animationData.title.transition.upper}
+    LowerAnimationTransition={animationData.title.transition.lower}
     />:<></>}
   {view?<motion.div 
          className='img_1'
@@ -81,25 +77,16 @@ useEffect(()=>{
   {view?<motion.div 
          className='img_3'
  
-         animate={{
-          x:35,
-          opacity:1
-         }}
-          transition={{ ease: "easeIn", duration: 1.4, delay:1.5 }}
+          animate={animationData.img_3.animation}
+          transition={animationData.img_3.transition}
          >   
            <BImg3 />
     </motion.div>:<></>
 }
 
-  {view?<TriggerBox 
-      link="/cloud"
-      hover={{hoverState,setHoveState}}
-      projectOpen={{openState,setOpenState}}
-      />:<></>
-  }
-    
-    
 
+    
+   
     </motion.div>
   )
 }

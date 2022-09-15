@@ -7,7 +7,7 @@ import TriggerBox from '../../TriggerBox/TriggerBox'
 import ProjectTitle from '../../ProjectTitle/ProjectTitle'
 import ProjectDescription from '../../Project_title_description/ProjectDescription'
 import { useInView } from 'react-intersection-observer';
-import { GetAnimation, GetAnimationSect1 } from '../animation_data/GetAnimationVals/GetAnimationVals'
+import {GetAnimationSect1 } from '../animation_data/GetAnimationVals/GetAnimationVals'
 
 import { ProjectHover,ProjectOpenClose } from '../hooks/ProjectHook'
 

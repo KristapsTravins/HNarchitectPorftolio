@@ -4,16 +4,19 @@
   height: 807px;
   position: relative;
 }
+
 .project_ann_outer .trigger {
   width: 701px;
   height: 319px;
   top: 194px;
   right: 100px;
 }
+
 .project_ann_outer .proj_title_block {
   right: 565px;
   top: -1px;
 }
+
 .project_ann_outer .img_1 {
   opacity: 0;
   position: absolute;
@@ -23,10 +26,12 @@
   right: 0px;
   z-index: 2;
 }
+
 .project_ann_outer .img_1 img {
   width: 100%;
   height: 100%;
 }
+
 .project_ann_outer .img_2 {
   opacity: 0;
   position: absolute;
@@ -36,10 +41,12 @@
   right: 459px;
   z-index: 0;
 }
+
 .project_ann_outer .img_2 img {
   width: 100%;
   height: 100%;
 }
+
 .project_ann_outer .img_3 {
   opacity: 0;
   position: absolute;
@@ -49,12 +56,15 @@
   right: 267px;
   z-index: 1;
 }
+
 .project_ann_outer .img_3 img {
   width: 100%;
   height: 100%;
 }
+
 .project_ann_outer .huts_title_info {
   top: 476px;
   left: auto;
   right: 15px;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */

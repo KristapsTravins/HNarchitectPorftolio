@@ -7,7 +7,7 @@ const TriggerBox = (props) => {
     
 const {currentComp , setCurrentComp, setOpenState,setClickedItself} = props.componentSwitch;
 
-console.log( props.componentSwitch)
+
   return (
   
     <div 

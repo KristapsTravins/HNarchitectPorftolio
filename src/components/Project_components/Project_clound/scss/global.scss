@@ -2,14 +2,14 @@
 
 
 .project_clound_outer{
-height: 700px;
+height: 1010px;
 width: 700px;
 position: relative;
     .proj_title_block{
       
-        width: 200px;
-        height: 110px;
-        top: 40px;
+        width: 231px;
+        height: 139px;
+        top: 20px;
         right: 230px;
         .upper{
             opacity: 0;
@@ -63,10 +63,14 @@ position: relative;
     .img_3{
         opacity: 0;
         position: absolute;
-        width: 350px;
-        height: 350px;
-        top: 413px;
-        right: 109px;
+        /* width: 350px;
+        height: 350px; */
+        width: 319px;
+        height: 319px;
+        top: 232px;
+        height: 319px;
+       /*  top: 413px;
+        right: 109px; */
         z-index: 0;
         img{
             width: 100%;
