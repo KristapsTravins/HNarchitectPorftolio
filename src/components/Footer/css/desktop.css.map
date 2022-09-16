@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../scss/desktop.scss"
-    ],
-    "names": [],
-    "file": "desktop.css"
-}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"desktop.css"}

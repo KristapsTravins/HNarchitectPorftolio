@@ -5,12 +5,12 @@
             {
                 "animation":{
                     "opacity":1,
-                    "top":100,
-                    "right":96
+                    "top":115,
+                    "right":0
                 },
                 "transition":{
                     "duration":2,
-                    "delay":5
+                    "delay":3.2
                 },
                 "hover":{
                     "opacity":1,
@@ -45,7 +45,7 @@
                 },
                 "transition":{
                     "duration":1.8,
-                    "delay":1.2
+                    "delay":2
                 },
                 "hover":{
                     "right":0,
@@ -81,17 +81,17 @@
                 },
                 "transition":{
                     "upper":{
-                        "duration":1.8,
-                        "delay":0
+                        "duration":1.5,
+                        "delay":5
                     },
                     "lower":{
-                        "duration":1.8,
-                        "delay":0
+                        "duration":1.5,
+                        "delay":5.3
                     }
                 }
             },
             "descritpion":{
-                "transition":{"duration":1,"delay":2.3}
+                "transition":{"duration":1,"delay":1.7}
             }
         },
 

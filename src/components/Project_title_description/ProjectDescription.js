@@ -4,7 +4,7 @@ import "./css/global.css"
 import { motion } from "framer-motion"
 
  const ProjectDescription =(props)=> {
-const counters = [3.1,3.5,3.7,3.9,4.1,4.3]
+const counters = [2,2.3,2.5,2.7,3,3.3]
 let i = 0;
 
 let key = 0;

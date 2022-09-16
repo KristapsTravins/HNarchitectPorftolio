@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useState} from 'react'
 import "./css/global.css"
 import "./css/view.css"
 
@@ -19,16 +19,27 @@ const ProjectCrater = (props) => {
 
 const {hoverState,setHoveState} = ProjectHover();
 const  {openState,setOpenState} = ProjectOpenClose();
+const [wasHover, setWasHover] = useState(false);
+const [showTrigger,setTrigerShow]=useState(false);
 const { ref, inView } = useInView();
 const {view,setview} = IsInView();
 
 const appearInView = () =>{
-  inView?setview(true):<></>
+
+  if(inView){
+    setview(true);
+    setTimeout(() => {
+      setTrigerShow(true)
+    },6000);
+  }
 }
 
 useEffect(()=>{
   appearInView()
 },[inView])
+
+
+
 
 const animationData = GetAnimationSect2();
 
@@ -40,7 +51,11 @@ const animationData = GetAnimationSect2();
     >
    
 
-   {view?<ProjectDescription titleDescription={['Tiny House',"Concept","2022","Atacoma Desert","25 sq.m."]} animationClosed={true}/>:<></>}
+   {view?<ProjectDescription 
+   titleDescription={['Tiny House',"Concept","2022","Atacoma Desert","25 sq.m."]} 
+   DescriptionTransition={animationData.descritpion.transition}
+   
+   />:<></>}
 
    {view?<ProjectTitle
     animationClosed={true}
@@ -53,11 +68,8 @@ const animationData = GetAnimationSect2();
   {view?<motion.div 
          className='img_1'
  
-         animate={{
-          x:35,
-          opacity:1
-         }}
-          transition={{ ease: "easeIn", duration: 1.4, delay:1 }}
+         animate={animationData.img_1.animation}
+          transition={animationData.img_1.transition}
          >   
            <BImg1 />
     </motion.div>:<></>}
@@ -65,11 +77,8 @@ const animationData = GetAnimationSect2();
   {view?<motion.div 
          className='img_2'
  
-         animate={{
-          x:35,
-          opacity:1
-         }}
-          transition={{ ease: "easeIn", duration: 1.4, delay:0.5 }}
+         animate={animationData.img_2.animation}
+          transition={animationData.img_2.transition}
          >   
            <BImg2 />
     </motion.div>:<></>}
@@ -83,7 +92,12 @@ const animationData = GetAnimationSect2();
            <BImg3 />
     </motion.div>:<></>
 }
-
+{showTrigger? <TriggerBox 
+        componentSwitch={props.ComponentSw}
+        hover={{hoverState,setHoveState}}
+        wasHover={setWasHover}
+        projectOpen={{openState,setOpenState}}
+        />:<></>} 
 
     
    
