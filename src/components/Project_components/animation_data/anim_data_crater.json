@@ -14,8 +14,8 @@
                 },
                 "hover":{
                     "opacity":1,
-                    "top":90,
-                    "right":35
+                    "top":100,
+                    "right":-30
                 },
                 "hover_transition":{
                     "duration":1,
@@ -28,7 +28,7 @@
                 },
                 "open_Sequence_Transition":{
                     "duration":2.4,
-                    "delay":0
+                    "delay":0.5
                 }
             },
             "img_2":{
@@ -48,8 +48,10 @@
                     "delay":2
                 },
                 "hover":{
-                    "right":0,
-                    "top":465,
+                    "width":350,
+                    "height":350,
+                    "right":80,
+                    "top":427,
                     "opacity":1
                 },
                 "hover_transition":{
@@ -63,7 +65,7 @@
                 },
                 "open_Sequence_Transition":{
                     "duration":2.4,
-                    "delay":0
+                    "delay":1
                 }
             },
             "title":{

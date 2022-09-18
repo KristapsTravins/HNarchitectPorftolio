@@ -18,7 +18,7 @@ import { ProjectHover,ProjectOpenClose,IsInView } from '../hooks/ProjectHook'
 const ProjectCrater = (props) => {
 
 const {hoverState,setHoveState} = ProjectHover();
-const  {openState,setOpenState} = ProjectOpenClose();
+const {openState,setOpenState} = ProjectOpenClose();
 const [wasHover, setWasHover] = useState(false);
 const [showTrigger,setTrigerShow]=useState(false);
 const { ref, inView } = useInView();
@@ -39,9 +39,10 @@ useEffect(()=>{
 },[inView])
 
 
-
+console.log(hoverState)
 
 const animationData = GetAnimationSect2();
+console.log(animationData.img_1.hover)
 
   return (
     <motion.div 
@@ -67,9 +68,8 @@ const animationData = GetAnimationSect2();
     />:<></>}
   {view?<motion.div 
          className='img_1'
- 
-         animate={animationData.img_1.animation}
-          transition={animationData.img_1.transition}
+          animate={openState?animationData.img_1.open_Sequence:hoverState?animationData.img_1.hover:animationData.img_1.animation}
+          transition={!wasHover?animationData.img_1.transition:openState?animationData.img_1.open_Sequence_Transition:animationData.img_1.hover_transition}
          >   
            <BImg1 />
     </motion.div>:<></>}
@@ -86,8 +86,8 @@ const animationData = GetAnimationSect2();
   {view?<motion.div 
          className='img_3'
  
-          animate={animationData.img_3.animation}
-          transition={animationData.img_3.transition}
+          animate={openState?animationData.img_3.open_Sequence:hoverState?animationData.img_3.hover:animationData.img_3.animation}
+          transition={!wasHover?animationData.img_3.transition:openState?animationData.img_3.open_Sequence_Transition:animationData.img_3.hover_transition}
          >   
            <BImg3 />
     </motion.div>:<></>
