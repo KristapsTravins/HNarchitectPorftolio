@@ -193,8 +193,8 @@
             {
                 "animation":{
                     "opacity":1,
-                    "top":45,
-                    "right":30
+                    "top":30,
+                    "right":20
                 },
                 "transition":{
                     "duration":1.4,
@@ -225,8 +225,8 @@
             },
             "img_3":{
                 "animation":{
-                    "right":5,
-                    "top":310,
+                    "right":0,
+                    "top":327,
                     "opacity":1
                 },
                 "transition":{
@@ -284,8 +284,8 @@
             {
                 "animation":{
                     "opacity":1,
-                    "top":105,
-                    "left":172
+                    "top":88,
+                    "left":287
                 },
                 "transition":{
                     "duration":1.4,
@@ -298,8 +298,8 @@
             },
             "img_3":{
                 "animation":{
-                    "left":205,
-                    "top":265,
+                    "left":225,
+                    "top":281,
                     "opacity":1
                 },
                 "transition":{
