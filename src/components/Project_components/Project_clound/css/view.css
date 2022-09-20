@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1010px) {
   .project_clound_outer .proj_title_block {
-    right: 215px;
+    right: 190px;
+    top: -32px;
   }
   .project_clound_outer .huts_title_info {
     top: 515px;
@@ -26,8 +27,8 @@
   .project_clound_outer .img_3 {
     width: 280px;
     height: 280px;
-    top: 376px;
-    right: 114px;
+    top: 216px;
+    right: 165px;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -35,7 +36,8 @@
     width: 100%;
   }
   .project_clound_outer .proj_title_block {
-    right: 213px;
+    right: 265px;
+    top: 30px;
   }
   .project_clound_outer .huts_title_info {
     left: auto;
@@ -43,12 +45,14 @@
     top: 457px;
   }
   .project_clound_outer .trigger {
-    width: 430px;
+    width: 468px;
+    height: 255px;
     left: auto;
     right: 72px;
-    top: 160px;
+    top: 190px;
   }
   .project_clound_outer .img_1 {
+    top: 141px;
     width: 174px;
     height: 395px;
     right: 37px;
@@ -63,8 +67,8 @@
   .project_clound_outer .img_3 {
     width: 230px;
     height: 230px;
-    top: 341px;
-    right: 105px;
+    top: 217px;
+    right: 125px;
   }
 }
 @media only screen and (max-width: 600px) {

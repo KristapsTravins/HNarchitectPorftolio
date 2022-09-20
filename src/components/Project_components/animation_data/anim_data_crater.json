@@ -102,12 +102,12 @@
             {
                 "animation":{
                     "opacity":1,
-                    "top":15,
-                    "right":115
+                    "top":65,
+                    "right":40
                 },
                 "transition":{
                     "duration":1.4,
-                    "delay":4.4
+                    "delay":3.4
                 },
                 "hover":{
                     "opacity":1,
@@ -134,13 +134,13 @@
             },
             "img_3":{
                 "animation":{
-                    "right":35,
-                    "top":236,
+                    "right":0,
+                    "top":352,
                     "opacity":1
                 },
                 "transition":{
                     "duration":1.6,
-                    "delay":4.2
+                    "delay":2.2
                 },
                 "hover":{
                     "right":29,
@@ -170,7 +170,7 @@
                     "lower":{
                         "width":"100%",
                         "opacity":1,
-                        "marginLeft":50
+                        "marginLeft":-60
                     }
                 },
                 "transition":{
@@ -193,8 +193,8 @@
             {
                 "animation":{
                     "opacity":1,
-                    "top":75,
-                    "left":175
+                    "top":45,
+                    "right":30
                 },
                 "transition":{
                     "duration":1.4,
@@ -225,13 +225,13 @@
             },
             "img_3":{
                 "animation":{
-                    "left":222,
-                    "top":240,
+                    "right":5,
+                    "top":310,
                     "opacity":1
                 },
                 "transition":{
                     "duration":1.6,
-                    "delay":4.2
+                    "delay":3.2
                 },
                 "hover":{
                     "left":222,
