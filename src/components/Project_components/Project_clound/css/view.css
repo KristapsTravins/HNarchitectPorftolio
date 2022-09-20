@@ -103,8 +103,14 @@
 @media only screen and (max-width: 480px) {
   .project_clound_outer .proj_title_block {
     /*   right: 185px; */
-    left: 0px;
+    left: -20px;
     top: 45px;
+  }
+  .project_clound_outer .proj_title_block .upper h1 {
+    font-size: 50px;
+  }
+  .project_clound_outer .proj_title_block .lower h1 {
+    font-size: 50px;
   }
   .project_clound_outer .huts_title_info {
     left: 0px;
@@ -125,6 +131,50 @@
   }
   .project_clound_outer .img_2 {
     width: 310px;
+    left: -37px;
+    top: 195px;
+    height: 170px;
+  }
+  .project_clound_outer .img_3 {
+    width: 164px;
+    height: 164px;
+    top: 200px;
+    right: auto;
+    left: 145px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .project_clound_outer .proj_title_block {
+    /*   right: 185px; */
+    left: -30px;
+    top: 55px;
+  }
+  .project_clound_outer .proj_title_block .upper h1 {
+    font-size: 40px;
+  }
+  .project_clound_outer .proj_title_block .lower h1 {
+    font-size: 40px;
+    padding: 5px 0 0 0;
+  }
+  .project_clound_outer .huts_title_info {
+    left: 0px;
+    top: 370px;
+    z-index: 1;
+  }
+  .project_clound_outer .trigger {
+    width: 310px;
+    left: -37px;
+    top: 195px;
+    height: 170px;
+  }
+  .project_clound_outer .img_1 {
+    width: 103px;
+    height: 223px;
+    top: 196px;
+    left: 180px;
+  }
+  .project_clound_outer .img_2 {
+    width: 280px;
     left: -37px;
     top: 195px;
     height: 170px;
