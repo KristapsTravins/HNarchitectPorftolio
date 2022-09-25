@@ -31,6 +31,7 @@
     right: 165px;
   }
 }
+
 @media only screen and (max-width: 700px) {
   .project_clound_outer {
     width: 100%;
@@ -71,6 +72,7 @@
     right: 125px;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .project_clound_outer {
     height: 530px;
@@ -100,6 +102,7 @@
     right: 84px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .project_clound_outer .proj_title_block {
     /*   right: 185px; */
@@ -143,6 +146,7 @@
     left: 145px;
   }
 }
+
 @media only screen and (max-width: 360px) {
   .project_clound_outer .proj_title_block {
     /*   right: 185px; */
@@ -186,4 +190,5 @@
     right: auto;
     left: 145px;
   }
-}/*# sourceMappingURL=view.css.map */
+}
+/*# sourceMappingURL=view.css.map */

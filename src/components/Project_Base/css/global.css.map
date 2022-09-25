@@ -1,1 +1,9 @@
-{"version":3,"sources":["../scss/global.scss","global.css"],"names":[],"mappings":"AACA;EACI,aAAA;EACA,YAAA;EACA,aAAA;EACA,sBAAA;ACAJ","file":"global.css"}
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,cAAc,CAAA;EACV,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAEzB",
+    "sources": [
+        "../scss/global.scss"
+    ],
+    "names": [],
+    "file": "global.css"
+}

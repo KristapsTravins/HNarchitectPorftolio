@@ -7,7 +7,7 @@
     position: relative;
 
     .trigger{
-      
+        border: 1px solid black;
         width: 701px;
         height: 319px;
         top: 194px;
@@ -16,8 +16,13 @@
     }
 
     .proj_title_block{
-        right: 565px;
-        top: -1px;
+        
+        right: 500px;
+        top: -35px;
+        .upper{
+            opacity: 0;
+        }
+        .lower{}
     }
 
     .img_1{
@@ -26,7 +31,7 @@
         width: 695px;
         height: 322px;
         top: 125px;
-        right: 0px;
+        right: 52px;
         z-index: 2;
         img{
             width: 100%;
@@ -38,7 +43,7 @@
         position: absolute;
         width: 407px;
         height: 575px;
-        top: 215px;
+        top: 180px;
         right: 459px;
         z-index: 0;
         img{
@@ -51,8 +56,8 @@
         position: absolute;
         width: 390px;
         height: 259px;
-        top: 351px;
-        right: 267px;
+        top: 180px;
+        right: 312px;
         z-index: 1;
         img{
             width: 100%;
@@ -60,7 +65,7 @@
         }
     }
     .huts_title_info{
-        top: 476px;
+        top: 503px;
         left: auto;
         right: 15px;
       
