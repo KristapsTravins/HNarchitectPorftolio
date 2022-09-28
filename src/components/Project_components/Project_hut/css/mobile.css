@@ -58,7 +58,7 @@
   .project_hut_outer .proj_title_block {
     height: 143px;
     top: -16px;
-    left: 250px;
+    left: 234px;
   }
   .project_hut_outer .huts_title_info {
     top: 355px;
@@ -111,7 +111,7 @@
     top: 368px;
   }
   .project_hut_outer .huts_title_info .list_item .data {
-    font-size: 12px;
+    font-size: 15px;
   }
   .project_hut_outer .img_1 {
     width: 170px;

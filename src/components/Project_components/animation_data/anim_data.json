@@ -91,7 +91,6 @@
                 "transition":{"duration":1,"delay":2.3}
             }
         },
-
         "w700px":{
             "img_1":
             {
@@ -262,11 +261,11 @@
                 "transition":{
                     "upper":{
                         "duration":1.8,
-                        "delay":5
+                        "delay":6
                     },
                     "lower":{
                         "duration":1.8,
-                        "delay":5
+                        "delay":6
                     }
                 }
             },

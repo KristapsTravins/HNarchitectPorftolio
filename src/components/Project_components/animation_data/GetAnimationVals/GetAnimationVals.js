@@ -47,28 +47,29 @@ export const GetAnimationSect3 = () =>{
     const { width } = useWindowDimensions();
     
     if(width>1010){
-        console.log("this is data3.section3.w1010px")
+     
         return data3.section3.w1010px
     }
     else if (width<360){
-        console.log("this is data3.section3.w360px")
+    
         return data3.section3.w000px
     }
     else if(width<1010&&width>850){
-        console.log("this is data3.section3.w850px")
+      
         return data3.section3.w850px
     }
     
-    else if (width<445&&width>360){
-        console.log("this is data3.section3.w360px")
+    else if (width<560&&width>360){
+  
         return data3.section3.w360px
     }
     else if (width<700&&width>445){
-        console.log("this is data3.section3.w445px")
+        
         return data3.section3.w445px
     }
+   
     else if (width<850&&width>615){
-        console.log("this is data3.section3.w700px")
+   
         return data3.section3.w700px
     }
 }

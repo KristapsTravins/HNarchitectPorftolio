@@ -153,8 +153,8 @@
 
         }
         .img_2{
-          top: 203px;
-          right: 308px;
+          top: 160px;
+          right: 284px;
           width: 250px;
           height: 350px;
         }
@@ -183,30 +183,33 @@
         }
     
         .proj_title_block{
-          right: 232px;
+          left: 10px;
+          right: auto;
         }
     
         .img_1{
+           top: 124px;
+           right: 10px;
            width: 411px;
            height: 175px;
         }
         .img_2{
           width: 200px;
           height: 270px;
-          top: 160px;
-          right: 257px;
+          top: 170px;
+          right: 225px;
           left: auto;
         }
           
         .img_3{
           width: 229px;
           height: 132px;
-          top: 206px;
-          left: auto;
+          top: 200px;
+          left: 120px;
           right: 183px;
         }
         .huts_title_info{
-          
+        z-index: 1;
         top: 324px;
         right: -25px;
           

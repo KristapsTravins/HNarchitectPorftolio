@@ -25,8 +25,8 @@ const ProjectsBase = (props) => {
   className='projects_base'
     > 
 <ProjectHut ComponentSw={props.componentShow} />
-  {/* <ProjectCrater ComponentSw={props.componentShow}  /> */}
-{/* <ProjectAnna  ComponentSw={props.componentShow}  /> */}
+  <ProjectCrater ComponentSw={props.componentShow}  />
+<ProjectAnna  ComponentSw={props.componentShow}  />
 
    </div>
   )
