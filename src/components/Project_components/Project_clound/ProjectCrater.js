@@ -97,6 +97,7 @@ console.log(animationData.img_1.hover)
         hover={{hoverState,setHoveState}}
         wasHover={setWasHover}
         projectOpen={{openState,setOpenState}}
+        projectSet={"crat"}
         />:<></>} 
 
     

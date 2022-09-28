@@ -1,9 +1,4 @@
 import ProjectsBase from "../../components/Project_Base/ProjectsBase";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
 
 import "./css/global.css"
 
@@ -22,14 +17,11 @@ const Base = (props) => {
      
      {props.componentShow.currentComp === "/"?<ProjectsBase componentShow={props.componentShow} />:<></>}
      {props.componentShow.currentComp === "huts"?<HempHutExp />:<></>}
+     {props.componentShow.currentComp === "ann"?<ProjectAnnasExp />:<></>}
+     {props.componentShow.currentComp === "crat"?<CloudCraterExp />:<></>}
      </div>
     );
   }
   
 export default Base;
 
-{/* <Route path="/" element={<ProjectsBase componentShow={props.componentShow} />}> </Route>
-      <Route path="/hemp" element={<HempHutExp />}> </Route>
-      <Route path="/cloud" element={<CloudCraterExp />}> </Route>
-      <Route path="/annas" element={<ProjectAnnasExp />}> </Route>
-    </Routes> */}

@@ -89,6 +89,7 @@ useEffect(()=>{
      hover={{hoverState,setHoveState}}
      wasHover={setWasHover}
      projectOpen={{openState,setOpenState}}
+     projectSet={"ann"}
     />:<></>}
 
     </div>

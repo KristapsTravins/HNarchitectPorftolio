@@ -32,7 +32,7 @@ const {currentComp , setCurrentComp, setOpenState,setClickedItself} = props.comp
             setOpenState(false)
         },4000)
         setTimeout(()=>{
-            setCurrentComp("huts");
+            setCurrentComp(props.projectSet);
         },3500)
 
        

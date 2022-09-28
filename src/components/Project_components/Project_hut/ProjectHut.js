@@ -82,6 +82,7 @@ setTimeout(() => {
         hover={{hoverState,setHoveState}}
         wasHover={setWasHover}
         projectOpen={{openState,setOpenState}}
+        projectSet={"huts"}
         />:<></>} 
 
 
