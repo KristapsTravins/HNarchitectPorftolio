@@ -14,8 +14,8 @@
                 },
                 "hover":{
                     "opacity":1,
-                    "top":90,
-                    "right":35
+                    "top":85,
+                    "right":80
                 },
                 "hover_transition":{
                     "duration":1,
@@ -46,8 +46,8 @@
                     "delay":5.2
                 },
                 "hover":{
-                    "right":0,
-                    "top":465,
+                    "right":10,
+                    "top":430,
                     "opacity":1
                 },
                 "hover_transition":{

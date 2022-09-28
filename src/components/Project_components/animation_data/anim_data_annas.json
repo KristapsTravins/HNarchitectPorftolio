@@ -261,8 +261,8 @@
             "img_2":{
                 "animation":{
                     "opacity":1,
-                    "top":225,
-                    "right":404
+                    "top":195,
+                    "right":370
                 },
                 "transition":{
                     "duration":2,
@@ -270,8 +270,8 @@
                 },
                 "hover":{
                     "opacity":1,
-                    "top":225,
-                    "right":404
+                    "top":207,
+                    "right":381
                     
                 },
                 "hover_transition":{
@@ -291,16 +291,16 @@
             "img_3":{
                 "animation":{
                     "opacity":1,
-                    "top":335,
-                    "right":245
+                    "top":299,
+                    "right":248
                 },
                 "transition":{
                     "duration":2,
                     "delay":2
                 },
                 "hover":{
-                    "top":335,
-                    "right":245,
+                    "top":309,
+                    "right":237,
                     "opacity":1
                 },
                 "hover_transition":{
@@ -374,8 +374,8 @@
             "img_2":{
                 "animation":{
                     "opacity":1,
-                    "top":220,
-                    "right":308
+                    "top":209,
+                    "right":274
                 },
                 "transition":{
                     "duration":2,
@@ -383,8 +383,8 @@
                 },
                 "hover":{
                     "opacity":1,
-                    "top":220,
-                    "right":308
+                    "top":232,
+                    "right":350
                     
                 },
                 "hover_transition":{
@@ -404,16 +404,16 @@
             "img_3":{
                 "animation":{
                     "opacity":1,
-                    "top":335,
-                    "right":245
+                    "top":243,
+                    "right":185
                 },
                 "transition":{
                     "duration":2,
                     "delay":2
                 },
                 "hover":{
-                    "top":335,
-                    "right":245,
+                    "top":308,
+                    "right":228,
                     "opacity":1
                 },
                 "hover_transition":{

@@ -24,7 +24,7 @@
 
 .project_hut_outer .proj_title_block {
   width: 174px;
-  height: 150px;
+  height: 145px;
   top: 100px;
   left: 23px;
 }
@@ -33,11 +33,20 @@
   opacity: 0;
 }
 
+.project_hut_outer .proj_title_block .upper h1 {
+  font-size: 50px;
+}
+
+.project_hut_outer .proj_title_block .upper h1 span {
+  font-weight: 100;
+}
+
 .project_hut_outer .proj_title_block .lower {
   opacity: 0;
 }
 
 .project_hut_outer .proj_title_block .lower h1 {
+  font-size: 50px;
   margin: 0 0 30px 0;
 }
 
