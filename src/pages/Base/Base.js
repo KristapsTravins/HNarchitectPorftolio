@@ -14,7 +14,6 @@ const Base = (props) => {
 
     return (
      <div className="base_center">
-     
      {props.componentShow.currentComp === "/"?<ProjectsBase componentShow={props.componentShow} />:<></>}
      {props.componentShow.currentComp === "huts"?<HempHutExp />:<></>}
      {props.componentShow.currentComp === "ann"?<ProjectAnnasExp />:<></>}

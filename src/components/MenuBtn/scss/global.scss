@@ -11,7 +11,31 @@
     width: 113px;
     background-color:$base-col;
     z-index: 5;
-    div{
+    cursor: pointer;
+    .btn_label{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+            div{
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                h1{
+                    font-size: 9px;
+                    @include font-style-menu;
+                }
+                .turnBlack{
+                    animation: turnBlack 2s  forwards 2s;
+                }
+               
+            }
+            
+    }
+    .btn{
         width: 100%;
         height: 100%;
         border-radius: 100%;
@@ -33,4 +57,11 @@
     0%{opacity: 0;}
     100%{opacity: 1;}
 }
+
+@keyframes turnBlack {
+        0%{color: white}
+        100%{color: $content-col}
+    }
+
+
 

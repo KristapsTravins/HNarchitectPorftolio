@@ -12,8 +12,7 @@ const pulse = {
 return(
 <motion.button
 onClick={()=>{
-    
-    if(props.Component.currentComp != "/"){
+    if(props.Component.currentComp !== "/"){
         props.Component.setClickedItself(false);
         props.changeState(true)
         setTimeout(()=>{
@@ -32,8 +31,16 @@ onClick={()=>{
 whileTap={{scale:1.7, transition:{duration:3}}}
 className="Menu_btn"
 animate={pulse}>
-<div className={props.openState?"fadeOut":"fadeIn"}>
+
+
+<div className="btn_label">
+    <div>
+        <h1 className={props.Component.currentComp === "/" && props.openState?"turnBlack":"intial"}>
+            [about]
+        </h1>
+    </div>
 </div>
+<div className={`btn ${props.openState?"fadeOut":"fadeIn"}`}></div>
 </motion.button>
 )
 }

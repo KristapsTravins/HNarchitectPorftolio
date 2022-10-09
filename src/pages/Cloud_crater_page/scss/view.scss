@@ -13,6 +13,16 @@
     }
 }
 
+@media only screen and (max-width: 1100px) {
+    .cloud_crater_exp_outer{
+        .cloud_crater_exp_inner{
+            .text_description_2{
+                right: 5px !important;
+             }
+        }
+    }
+    
+   }
 
 /* 1065px */
 @media only screen and (max-width: 1065px) {

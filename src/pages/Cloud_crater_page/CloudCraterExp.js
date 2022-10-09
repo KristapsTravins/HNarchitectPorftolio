@@ -1,15 +1,16 @@
 import React from 'react'
 import { motion } from "framer-motion"
 
+import './css/view.css'
+import './css/main.css'
 
-
-import { BImg1,BImg2,BImg3,BImg4,BImg5,BImg6,BImg7,BImg8,BImg9  } from '../../assets/images/ImageComponents'
+import { BImg1,BImg2,BImg3,BImg4,BImg5,BImg7,BImg8} from '../../assets/images/ImageComponents'
 import ProjectTitle from '../../components/ProjectTitle/ProjectTitle'
 import ProjectDescription from '../../components/Project_title_description/ProjectDescription'
 import ProjectTextDescription from '../../components/Project_description/ProjectTextDescription'
 
-import './css/main.css'
-import './css/view.css'
+
+
 
 const text1 = "<p>Cloud Catcher aims to address the ever rising <span>global water crisis.</span> It is estimated that <span>2.7 billion people worldwide suffer due to water scarcity.</span> Some of the affected regions don't get any rainfall for months or even years, most of the precipitation simply stays in the air, but <span>there also lies an opportunity to collect drinking water out of thin air</span> using biomimicry.</p>"
 

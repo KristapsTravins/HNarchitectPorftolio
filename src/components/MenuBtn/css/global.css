@@ -10,9 +10,43 @@
   width: 113px;
   background-color: #F8F8F8;
   z-index: 5;
+  cursor: pointer;
 }
 
-.Menu_btn div {
+.Menu_btn .btn_label {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.Menu_btn .btn_label div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Menu_btn .btn_label div h1 {
+  font-size: 9px;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+}
+
+.Menu_btn .btn_label div .turnBlack {
+  -webkit-animation: turnBlack 2s  forwards 2s;
+          animation: turnBlack 2s  forwards 2s;
+}
+
+.Menu_btn .btn {
   width: 100%;
   height: 100%;
   border-radius: 100%;
@@ -62,6 +96,24 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes turnBlack {
+  0% {
+    color: white;
+  }
+  100% {
+    color: #D73434;
+  }
+}
+
+@keyframes turnBlack {
+  0% {
+    color: white;
+  }
+  100% {
+    color: #D73434;
   }
 }
 /*# sourceMappingURL=global.css.map */
