@@ -3,6 +3,7 @@ import "./css/global.css"
 import "./css/tab.css"
 import "./css/mobile.css"
 import "./css/desktop.css"
+import Menubtnlabel from "../Menu_btn_label/Menu_btn_label"
 
 export const MenuBtn = (props) =>{
 const pulse = {
@@ -35,9 +36,7 @@ animate={pulse}>
 
 <div className="btn_label">
     <div>
-        <h1 className={props.Component.currentComp === "/" && props.openState?"turnBlack":"intial"}>
-            [about]
-        </h1>
+       <Menubtnlabel oc={props.openState} about={props.Component.isClickedItself} currentPage={props.Component.currentComp} class={`label_style ${props.Component.currentComp === "/" && props.openState?"turnBlack":"initial"}`} />
     </div>
 </div>
 <div className={`btn ${props.openState?"fadeOut":"fadeIn"}`}></div>

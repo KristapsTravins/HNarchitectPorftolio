@@ -1,0 +1,11 @@
+.label_style span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=global.css.map */
