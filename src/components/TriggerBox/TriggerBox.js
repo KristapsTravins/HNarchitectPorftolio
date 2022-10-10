@@ -24,6 +24,7 @@ const {currentComp , setCurrentComp, setOpenState,setClickedItself} = props.comp
         }
     }}
     onClick={()=>{
+        props.navigation.setNav("HOME")
         props.projectOpen.setOpenState(!props.projectOpen.openState)
         props.hover.setHoveState(false)
         setClickedItself(false)

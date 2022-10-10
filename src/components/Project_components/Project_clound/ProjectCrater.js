@@ -39,10 +39,10 @@ useEffect(()=>{
 },[inView])
 
 
-console.log(hoverState)
+
 
 const animationData = GetAnimationSect2();
-console.log(animationData.img_1.hover)
+
 
   return (
     <motion.div 
@@ -98,6 +98,7 @@ console.log(animationData.img_1.hover)
         wasHover={setWasHover}
         projectOpen={{openState,setOpenState}}
         projectSet={"crat"}
+        navigation={props.navigation} 
         />:<></>} 
 
     

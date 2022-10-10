@@ -90,6 +90,7 @@ useEffect(()=>{
      wasHover={setWasHover}
      projectOpen={{openState,setOpenState}}
      projectSet={"ann"}
+     navigation={props.navigation} 
     />:<></>}
 
     </div>

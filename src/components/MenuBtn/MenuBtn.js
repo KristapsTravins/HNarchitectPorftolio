@@ -16,6 +16,7 @@ onClick={()=>{
     if(props.Component.currentComp !== "/"){
         props.Component.setClickedItself(false);
         props.changeState(true)
+        props.navigation.setNav("ABOUT")
         setTimeout(()=>{
             props.changeState(false)
         },3500)
@@ -24,7 +25,11 @@ onClick={()=>{
         },4000)
     }else{
         props.Component.setClickedItself(true);
+        props.navigation.setNav("HOME")
         props.changeState(!props.openState)
+        props.openState?props.navigation.setNav("ABOUT"):<></>;
+        
+        
     }
 
     
@@ -36,7 +41,7 @@ animate={pulse}>
 
 <div className="btn_label">
     <div>
-       <Menubtnlabel oc={props.openState} about={props.Component.isClickedItself} currentPage={props.Component.currentComp} class={`label_style ${props.Component.currentComp === "/" && props.openState?"turnBlack":"initial"}`} />
+       <Menubtnlabel navigation={props.navigation.navig} oc={props.openState} about={props.Component.isClickedItself} currentPage={props.Component.currentComp} class={`label_style ${props.Component.currentComp === "/" && props.openState?"turnBlack":"initial"}`} />
     </div>
 </div>
 <div className={`btn ${props.openState?"fadeOut":"fadeIn"}`}></div>

@@ -14,6 +14,7 @@ function SideOverlay(props) {
       left:"101%",
       transition:{duration:3}
   } 
+  
   return (
   <AnimatePresence>
       {props.openState&&(

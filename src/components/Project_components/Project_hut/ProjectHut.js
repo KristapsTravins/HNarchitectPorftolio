@@ -83,6 +83,7 @@ setTimeout(() => {
         wasHover={setWasHover}
         projectOpen={{openState,setOpenState}}
         projectSet={"huts"}
+        navigation={props.navigation} 
         />:<></>} 
 
 
