@@ -48,7 +48,7 @@ const animationData = GetAnimationSect2();
     <motion.div 
     className='project_clound_outer'
     ref={ref}
-    inView={inView}
+    inview={inView.toString()}
     >
    
 

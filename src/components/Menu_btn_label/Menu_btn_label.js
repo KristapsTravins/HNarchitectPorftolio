@@ -1,6 +1,7 @@
-import { render } from "@testing-library/react";
-import { AnimatePresence, motion, useAnimation } from "framer-motion"
+
+import { AnimatePresence, motion} from "framer-motion"
 import { useEffect, useState } from "react";
+
 import "./css/global.css"
 
 
@@ -8,6 +9,8 @@ function Menubtnlabel(props) {
   
   const [initialChange,setChange] = useState(true);
   const [navPlace,setNavPlace] =useState("ABOUT")
+
+
   const trigger =() => {
       setChange(false)
       setTimeout(()=>{
@@ -18,6 +21,7 @@ function Menubtnlabel(props) {
 
 useEffect(()=>{
   trigger();
+   // eslint-disable-next-line react-hooks/exhaustive-deps
 },[props.oc])
 
   return(

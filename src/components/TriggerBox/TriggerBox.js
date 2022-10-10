@@ -4,7 +4,7 @@ import './css/global.css'
 
 const TriggerBox = (props) => {
     
-const {currentComp , setCurrentComp, setOpenState,setClickedItself} = props.componentSwitch;
+const {setCurrentComp, setOpenState,setClickedItself} = props.componentSwitch;
 const [disabled,setDisable] = useState(false)
 
   return (

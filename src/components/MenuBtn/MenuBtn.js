@@ -10,7 +10,7 @@ import { useState } from "react"
 export const MenuBtn = (props) =>{
 const [disableBtn,setDisable]=useState(false);
 const pulse = {
-    scale:[1, 1.2, 1],
+    scale:[1, 1.1, 1],
     transition:{duration:2, repeat:Infinity ,repeatDelay:4,}
 };
 return(
@@ -44,9 +44,10 @@ onClick={()=>{
 
     
 }} 
-whileTap={{scale:1.7, transition:{duration:3}}}
+whileTap={{scale:-6.7, transition:{duration:3}}}
 className="Menu_btn"
-animate={pulse}>
+animate={pulse}
+>
 
 
 <div className="btn_label">

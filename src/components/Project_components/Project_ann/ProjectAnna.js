@@ -20,17 +20,18 @@ const ProjectAnna = (props) => {
   const {hoverState,setHoveState} = ProjectHover();
   const {openState,setOpenState} = ProjectOpenClose();
   const [wasHover, setWasHover] = useState(false);
-  const [showTrigger,setTrigerShow]=useState(false);
   const { ref, inView } = useInView();
   const {view,setview} = IsInView();
 
-const appearInView = () =>{
-  inView?setview(true):<></>
-}
+  const appearInView = () =>{
+    inView?setview(true):<></>
+  }
 
 
 useEffect(()=>{
+ 
   appearInView()
+   // eslint-disable-next-line react-hooks/exhaustive-deps
 },[inView])
 
 
@@ -40,7 +41,7 @@ useEffect(()=>{
     <div
     className='project_ann_outer'
     ref={ref}
-    inView={inView}
+    inview={inView.toString()}
     >
     
     {view?<ProjectTitle
