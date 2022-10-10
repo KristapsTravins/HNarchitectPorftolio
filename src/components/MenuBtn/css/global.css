@@ -4,7 +4,7 @@
   border-radius: 100%;
   position: fixed;
   background-position: -322px -255px;
-  left: 20px;
+  left: 25px;
   top: 25px;
   height: 113px;
   width: 113px;
@@ -12,52 +12,39 @@
   z-index: 5;
   cursor: pointer;
 }
-
 .Menu_btn .btn_label {
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: 1;
 }
-
 .Menu_btn .btn_label div {
   width: 100%;
   height: 100%;
   border-radius: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .Menu_btn .btn_label div h1 {
   font-size: 9px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   color: white;
 }
-
 .Menu_btn .btn_label div .turnBlack {
-  -webkit-animation: turnBlack 2s  forwards 2s;
-          animation: turnBlack 2s  forwards 2s;
+  -webkit-animation: turnBlack 2s forwards 2s;
+          animation: turnBlack 2s forwards 2s;
 }
-
 .Menu_btn .btn {
   width: 100%;
   height: 100%;
   border-radius: 100%;
-  background: linear-gradient(166deg, #bf2827 0%, #963334 100%);
+  background: linear-gradient(166deg, rgb(191, 40, 39) 0%, rgb(150, 51, 52) 100%);
 }
-
 .Menu_btn .fadeOut {
-  -webkit-animation: fadeOut 2s  forwards 2s;
-          animation: fadeOut 2s  forwards 2s;
+  -webkit-animation: fadeOut 2s forwards 2s;
+          animation: fadeOut 2s forwards 2s;
 }
-
 .Menu_btn .fadeIn {
   -webkit-animation: fadeIn 2s forwards;
           animation: fadeIn 2s forwards;
@@ -80,7 +67,6 @@
     opacity: 0;
   }
 }
-
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -89,7 +75,6 @@
     opacity: 1;
   }
 }
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -98,7 +83,6 @@
     opacity: 1;
   }
 }
-
 @-webkit-keyframes turnBlack {
   0% {
     color: white;
@@ -107,7 +91,6 @@
     color: #D73434;
   }
 }
-
 @keyframes turnBlack {
   0% {
     color: white;
@@ -115,5 +98,4 @@
   100% {
     color: #D73434;
   }
-}
-/*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */

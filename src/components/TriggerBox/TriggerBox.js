@@ -1,12 +1,11 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import React, { useState } from 'react'
 import './css/global.css'
 
 
 const TriggerBox = (props) => {
     
 const {currentComp , setCurrentComp, setOpenState,setClickedItself} = props.componentSwitch;
-
+const [disabled,setDisable] = useState(false)
 
   return (
   
@@ -24,6 +23,8 @@ const {currentComp , setCurrentComp, setOpenState,setClickedItself} = props.comp
         }
     }}
     onClick={()=>{
+        if(!disabled){
+        setDisable(true)
         props.navigation.setNav("HOME")
         props.projectOpen.setOpenState(!props.projectOpen.openState)
         props.hover.setHoveState(false)
@@ -31,10 +32,15 @@ const {currentComp , setCurrentComp, setOpenState,setClickedItself} = props.comp
         setOpenState(true)
         setTimeout(()=>{
             setOpenState(false)
+            window.scrollTo(0, 0)
+            setDisable(false)
         },4000)
         setTimeout(()=>{
             setCurrentComp(props.projectSet);
         },3500)
+
+        }
+        
 
        
        

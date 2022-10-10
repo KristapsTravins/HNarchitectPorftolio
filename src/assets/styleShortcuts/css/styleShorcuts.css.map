@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,OAAO,CAAC,6FAAI",
-    "sources": [
-        "../scss/styleShorcuts.scss"
-    ],
-    "names": [],
-    "file": "styleShorcuts.css"
-}
+{"version":3,"sources":["../scss/styleShorcuts.scss"],"names":[],"mappings":"AAAQ,qGAAA","file":"styleShorcuts.css"}

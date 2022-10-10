@@ -19,7 +19,7 @@ function SideOverlay(props) {
   <AnimatePresence>
       {props.openState&&(
         <motion.div
-          className={`content_overlay`}
+          className="content_overlay"
           initial={slideOut}
           animate={slideIn}
           exit={slideOut}
@@ -34,32 +34,3 @@ function SideOverlay(props) {
 }
 
 export default SideOverlay
-
-
-
-/* [<AnimatePresence>
-  {!props.oc&&(
-  <motion.span
-  initial={{ width:"0px" }}
-  animate={{ width:"40px" }}
-  exit={{ width:"0px" }}
-  transition={{duration:2}}
-  >
-  {props.currentPage==="/"?"ABOUT":"HOME"}
-  </motion.span>)}
-  </AnimatePresence>]  
- */
-
-
-  /* 
-  
-   <motion.div
-    className={`content_overlay`}
-    animate={props.openState?slideIn:slideOut}>
-     <div className='center'>
-      {props.aboutShow?<About />:<></>}
-     </div>
-  
-    </motion.div>
-  
-  */

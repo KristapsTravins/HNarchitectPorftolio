@@ -4,8 +4,11 @@ import "./css/tab.css"
 import "./css/mobile.css"
 import "./css/desktop.css"
 import Menubtnlabel from "../Menu_btn_label/Menu_btn_label"
+import { useState } from "react"
+
 
 export const MenuBtn = (props) =>{
+const [disableBtn,setDisable]=useState(false);
 const pulse = {
     scale:[1, 1.2, 1],
     transition:{duration:2, repeat:Infinity ,repeatDelay:4,}
@@ -13,24 +16,31 @@ const pulse = {
 return(
 <motion.button
 onClick={()=>{
-    if(props.Component.currentComp !== "/"){
-        props.Component.setClickedItself(false);
-        props.changeState(true)
-        props.navigation.setNav("ABOUT")
-        setTimeout(()=>{
-            props.changeState(false)
-        },3500)
-        setTimeout(()=>{
-           props.Component.setCurrentComp("/");
-        },4000)
-    }else{
-        props.Component.setClickedItself(true);
-        props.navigation.setNav("HOME")
-        props.changeState(!props.openState)
-        props.openState?props.navigation.setNav("ABOUT"):<></>;
-        
-        
+    if(!disableBtn){
+        setDisable(true)
+        if(props.Component.currentComp !== "/"){
+            props.Component.setClickedItself(false);
+            props.changeState(true)
+            props.navigation.setNav("ABOUT")
+            setTimeout(()=>{
+                props.changeState(false)
+                setDisable(false)
+                window.scrollTo(0, 0)
+            },4000)
+            setTimeout(()=>{
+               props.Component.setCurrentComp("/");
+            },3500)
+        }else{
+            props.Component.setClickedItself(true);
+            props.navigation.setNav("HOME")
+            props.changeState(!props.openState)
+            props.openState?props.navigation.setNav("ABOUT"):<></>;
+            setTimeout(()=>{
+                setDisable(false)
+            },6000)
+        }
     }
+    
 
     
 }} 

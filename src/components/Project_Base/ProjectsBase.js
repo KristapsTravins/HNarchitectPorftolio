@@ -10,15 +10,7 @@ import ProjectAnna from '../Project_components/Project_ann/ProjectAnna';
 
 
 
-
-
-
-
-
 const ProjectsBase = (props) => {
-
-
-
 
   return (
   <div 

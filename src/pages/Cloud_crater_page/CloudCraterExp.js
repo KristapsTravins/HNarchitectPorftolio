@@ -1,8 +1,9 @@
 import React from 'react'
 import { motion } from "framer-motion"
 
-import './css/view.css'
 import './css/main.css'
+import './css/view.css'
+
 
 import { BImg1,BImg2,BImg3,BImg4,BImg5,BImg7,BImg8} from '../../assets/images/ImageComponents'
 import ProjectTitle from '../../components/ProjectTitle/ProjectTitle'
