@@ -1,1 +1,9 @@
-{"version":3,"sources":["../scss/tab.scss","tab.css"],"names":[],"mappings":"AAAA;EACI;IACI,kBAAA;ECCN;AACF","file":"tab.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACpC,AAAA,aAAa,CAAA;IACT,MAAM,EAAE,UAAU;GACrB",
+    "sources": [
+        "../scss/tab.scss"
+    ],
+    "names": [],
+    "file": "tab.css"
+}
