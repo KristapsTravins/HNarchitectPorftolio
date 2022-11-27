@@ -23,6 +23,16 @@ module.exports = {
     // exclude node_modules
     rules: [
       {
+        test: /\.(png|jpg|webp|gif|svg|mp4)$/,
+        use: [{
+                loader: 'file-loader',
+            },
+            {
+                loader: 'webp-loader'
+            }
+        ]
+    },
+      {
         test: /\.(js|jsx)$/,  
         exclude: /node_modules/,
         use: ["babel-loader"],
@@ -30,8 +40,11 @@ module.exports = {
       {
         test: /\.(s(a|c)ss)$/,
         use: ['style-loader','css-loader', 'sass-loader']
-     }
+     },
+   
     ],
+    
+
   },
   resolve: {
     extensions: ["*", ".js", ".jsx"],

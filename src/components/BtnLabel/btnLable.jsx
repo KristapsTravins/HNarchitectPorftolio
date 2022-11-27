@@ -11,12 +11,12 @@ const BtnLabel = (props) => {
           [
        </span>
        <AnimatePresence>
-            {props.btnStatus&&(
+        {props.btnStatus&&(
       <motion.div className='label_inner'
-       initial={{ width:"0px" }}
-       animate={{ width:"40px" }}
-       exit={{ width:"0px" }}
-       transition={{duration:2}}
+        initial={{ width:"0px" }}
+        animate={{ width:"40px" }}
+        exit={{ width:"0px" }}
+        transition={{duration:2}}
       > 
         <span>{props.sliderState?"HOME":"ABOUT"}</span>
       </motion.div>)}
