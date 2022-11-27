@@ -1,0 +1,103 @@
+.project_hut_outer{
+    width: 788px;
+    height: 1100px;
+    align-self: flex-end;
+    position: relative;
+  /*   overflow: hidden; */
+    /* trigger */
+    .trigger{
+      
+        width:590px;
+        height: 353px;
+        top: 309px;
+        left: 80px;
+    }
+    /* title desc */
+    .huts_title_info{
+
+        top:680px;
+        left: 35px;
+        
+
+
+    }
+    /* title */
+    .proj_title_block{
+        width: 174px;
+        height: 145px;
+        top: 100px;
+        left: 23px;
+        .upper{
+            h1{
+                span{
+                    font-weight: 100;
+                }
+                font-size: 50px;
+            }
+            animation: title_animation 3s forwards ;
+            animation-delay: 2s;
+            opacity: 0;
+        }
+        .lower{
+            animation: title_animation_lower 3s forwards ;
+            animation-delay: 2s;
+            opacity: 0;
+            h1{
+                font-size: 50px;
+                margin: 0 0 30px 0 ;
+            }
+        }
+    }
+    
+    .img_1{
+        position: absolute;
+        width: 363px;
+        height: 363px;
+        top: 209px;
+        right: 227px;
+        animation: img1_slideIn 2s forwards;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .img_2{
+        position: absolute;
+        width: 523px;
+        height: 355px;
+
+        right: 263px;
+        top: 310px;
+        z-index: 1;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+        
+    .img_3{
+        position: absolute;
+        width: 318px;
+        height: 318px;
+        animation: img3_slideIn 2s forwards;
+        right: 242px;
+        z-index: 0;
+        top: 340px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .trigger_box{
+        cursor: pointer;
+        position: absolute;
+        width: 704px;
+        height: 354px;
+        top: 309px;
+        z-index: 1;
+        border: 0.1px dotted white;
+    }
+}
+
+
+
