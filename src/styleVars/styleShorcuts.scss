@@ -7,7 +7,6 @@ $content-col:#F8F8F8;
 
 
 
-
 @mixin TempOverlay {
     background-color: #D73434;
     opacity: 0.3;
@@ -16,7 +15,7 @@ $content-col:#F8F8F8;
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
     font-size: 15px;
-    color: $content-col;
+    color: #D73434;
 }
 
 @mixin font-style-menu {

@@ -1,7 +1,32 @@
+@import '../../../../styleVars/styleShorcuts.scss';
 
 #clicked{
     animation: Pulsate 1s linear
 }
+.slider_open{
+    animation: change-background 2s forwards
+}
+.slider_closed{
+    animation: change-background_b 2s forwards
+}
+
+
+@keyframes change-background_b {
+    0% {
+        background:$base-col-;
+    }
+    100% {
+        background: $content-col;
+    }
+  }
+@keyframes change-background {
+    0% {
+      background: $content-col;
+    }
+    100% {
+        background:$base-col-;
+    }
+  }
 
 
 @keyframes Pulsate {
