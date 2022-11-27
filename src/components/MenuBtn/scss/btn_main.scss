@@ -1,0 +1,37 @@
+@import '../../../styleVars/styleShorcuts.scss';
+
+
+.menu_btn_outer{
+
+    border-radius: 100%;
+    position: fixed;
+    left: 25px;
+    top: 25px;
+    height: 113px;
+    width: 113px;
+    background-color:$content-col;
+    z-index: 5;
+    cursor: pointer;
+
+   
+}
+
+
+@keyframes apear{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1440px) {
+    .menu_btn_outer{
+     height: 151px;
+     width: 151px;
+    }
+ }

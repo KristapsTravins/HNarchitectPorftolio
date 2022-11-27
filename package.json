@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "css-loader": "^6.7.2",
+    "framer-motion": "^7.6.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "style-loader": "^3.3.1"
