@@ -14,10 +14,7 @@ const Hut = (props) => {
 const hooks = useDetectHover();
 
 const width = useWindowDimensions().width;
-/* 
-useAnimationPositions({x:50,y:-20},{x:50,y:-20},{x:50,y:-20},{x:50,y:-20},width) */
-let a =useAnimationPositions({x:50,y:-20},{x:50,y:-20},{x:50,y:-20},width);
-console.log(a)
+
   return (
     <motion.div 
     className='project_hut_outer'>

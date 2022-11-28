@@ -1,0 +1,81 @@
+
+
+
+.project_clound_outer{
+height: 1100px;
+width: 700px;
+position: relative;
+    .proj_title_block{
+        width: 231px;
+        height: 139px;
+        top: -27px;
+        right: 112px;
+        .upper{
+            opacity: 0;
+            animation: title_upper 2s forwards 2s;
+            
+        }
+        .lower{
+            opacity: 0;
+            animation: title_init_anim 2s forwards 2s;
+            h1{
+                margin: 0 0 30px 0 ;
+            }
+        }
+    }
+    .huts_title_info{
+        top: 520px;
+        left: 5px;
+      
+    }
+    
+    .img_1{
+        opacity: 1;
+        position: absolute;
+        width: 219px;
+        height: 474px;
+        top: 69px;
+        right: 0px;
+        z-index: 0;
+        
+        animation: img1_inital 2s forwards;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .img_2{
+        opacity: 1;
+        position: absolute;
+        width: 535px;
+        height: 319px;
+        top: 184px;
+        left: 0px;
+        z-index: 2;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .img_3{
+        animation: img3_inital 2s forwards;
+        opacity: 1;
+        position: absolute;
+        /* width: 350px;
+        height: 350px; */
+        width: 319px;
+        height: 319px;
+        top: 320px;
+        right: 75px;
+       /*  top: 413px;
+        right: 109px; */
+       
+        z-index: 0;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+}

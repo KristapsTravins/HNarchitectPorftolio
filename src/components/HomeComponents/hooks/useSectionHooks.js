@@ -67,4 +67,3 @@ export const useWindowDimensions  = () => {
   }
 
 
-/* P is 10%, X is 150, so the equation is 10% * 150 = Y */

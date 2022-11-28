@@ -3,8 +3,7 @@
     height: 1100px;
     align-self: flex-end;
     position: relative;
-  /*   overflow: hidden; */
-    /* trigger */
+
     .trigger{
       
         width:590px;
@@ -12,7 +11,7 @@
         top: 309px;
         left: 80px;
     }
-    /* title desc */
+
     .huts_title_info{
 
         top:680px;
@@ -21,7 +20,6 @@
 
 
     }
-    /* title */
     .proj_title_block{
         width: 174px;
         height: 145px;
@@ -97,7 +95,7 @@
         height: 354px;
         top: 309px;
         z-index: 1;
-        border: 0.1px dotted white;
+      
     }
 }
 
