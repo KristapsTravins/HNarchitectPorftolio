@@ -8,25 +8,25 @@ import { AImg1,AImg2,AImg3  } from '../../../assets/images/ImageComponents'
 import Trigger from '../../TriggerBox/Trigger'
 import ProjectTitle from '../../ProjectTitle/ProjectTitle'
 import ProjectDescription from '../../Project_title_description/ProjectDescription'
-import { useDetectHover, getXYVals } from '../hooks/useSectionHooks'
+import { useAnimationPositions, useDetectHover,useWindowDimensions } from '../hooks/useSectionHooks'
 
 const Hut = (props) => {
-const input1 = useRef(null);
-const a = document.getElementById('S1img_1') 
 const hooks = useDetectHover();
 
-
-
+const width = useWindowDimensions().width;
+/* 
+useAnimationPositions({x:50,y:-20},{x:50,y:-20},{x:50,y:-20},{x:50,y:-20},width) */
+let a =useAnimationPositions({x:50,y:-20},{x:50,y:-20},{x:50,y:-20},width);
+console.log(a)
   return (
     <motion.div 
     className='project_hut_outer'>
   
     <motion.div 
     className={`img_1`}
-    animate={hooks.isHovered?{x:50,y:-20}:{}}
+    animate={hooks.isHovered?useAnimationPositions({x:50,y:-20},{x:16,y:-5},{x:16,y:-5},{x:35,y:15},width):""}
     transition={{duration:1.5}}
-    id="S1img_1"
-    ref={input1}
+
     >
         <AImg1 />   
     </motion.div>
@@ -36,7 +36,7 @@ const hooks = useDetectHover();
     </motion.div>
     <motion.div 
          className='img_3'
-         animate={hooks.isHovered?{x:30,y:25}:{}}
+         animate={hooks.isHovered?useAnimationPositions({x:30,y:25},{x:23,y:5},{x:10,y:20},{x:10,y:-3},width):{}}
          transition={{duration:1.5}}
       
          >  
@@ -47,9 +47,7 @@ const hooks = useDetectHover();
     delay={3}
     title={["HEMP","HUT"]} />
     <ProjectDescription 
-    titleDescription={['Modular prefab home',"Concept","2022","Latvia","40 sq.m."]}
- 
-    />
+    titleDescription={['Modular prefab home',"Concept","2022","Latvia","40 sq.m."]}/>
 
 
     </motion.div>

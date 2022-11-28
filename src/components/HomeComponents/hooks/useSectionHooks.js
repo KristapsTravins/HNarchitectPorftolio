@@ -1,27 +1,70 @@
-import { useState } from "react"
+import { useState,useEffect } from "react";
+
 
 export const useDetectHover = () =>{
     const [isHovered,setIsHovered] = useState(false);
     const [initiated,setInitiated] = useState(true);
-    const [img,setimg]= useState({})
-    const setImgPos = (obj) =>{
-        setImgPos(getXYVals(obj))
-    }
     const FlipInitiatedBack = () =>{
         setTimeout(()=>{
             setInitiated(false);
         },2000)
     }
-
-    return{isHovered,setIsHovered,initiated,FlipInitiatedBack,setImgPos,img}
+    return{
+        isHovered,
+        setIsHovered,
+        initiated,
+        FlipInitiatedBack,
+    }
     
 }
 
-export const getXYVals = (DocObject) =>{
-   const object =  DocObject.getBoundingClientRect();
-   return {
-    x:object.x,
-    y:object.y
-   }
-}
 
+
+
+export const useWindowDimensions  = () => {
+    const hasWindow = typeof window !== 'undefined';
+    function getWindowDimensions() {
+      const width = hasWindow ? window.innerWidth : null;
+      const height = hasWindow ? window.innerHeight : null;
+      return {
+        width,
+        height,
+      };
+    }
+    const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+    useEffect(() => {
+      if (hasWindow) {
+        function handleResize() {
+          setWindowDimensions(getWindowDimensions());
+        }
+  
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+      }
+    }, [hasWindow]);
+    return windowDimensions;
+  }
+
+  
+
+  export const useAnimationPositions = (imgPostition,imgPostition1010,imgPostition700,imgPostition448,scrWidth) =>{
+    
+  
+    if(scrWidth<=1010 && scrWidth>=700){
+      return  imgPostition1010
+    }
+    else if(scrWidth<=700){
+       return imgPostition700
+    }
+    else if(scrWidth<=448){
+       return imgPostition448
+    }
+    else{
+        return imgPostition
+    }
+
+    
+  }
+
+
+/* P is 10%, X is 150, so the equation is 10% * 150 = Y */
