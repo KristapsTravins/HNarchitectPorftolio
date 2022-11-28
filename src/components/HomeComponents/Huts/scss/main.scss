@@ -53,9 +53,11 @@
         position: absolute;
         width: 363px;
         height: 363px;
-        top: 209px;
-        right: 227px;
+        opacity: 1;
+        top: 102px; 
+        right: 141px;
         animation: img1_slideIn 2s forwards;
+            
         img{
             width: 100%;
             height: 100%;
