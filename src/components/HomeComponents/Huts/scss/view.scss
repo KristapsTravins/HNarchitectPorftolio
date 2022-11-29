@@ -24,7 +24,7 @@
         .huts_title_info{
             top:425px;
             left:auto;
-            right: 405px;
+            right: 444px;
     
         }
         
@@ -68,7 +68,7 @@
             height: 250px;
             top: 133px;
             right: auto;
-            left:6px;
+            left:10px;
         }
         .proj_title_block{
             height: 143px;
@@ -77,7 +77,7 @@
         }
         .huts_title_info{
             top:355px;
-            left:7px;
+            left:-9px;
     
         }
         .img_1{
@@ -104,6 +104,7 @@
     }
 
 }
+
 
 @media only screen and (max-width: 448px) {
 
@@ -168,6 +169,16 @@
     }
 
 }
+
+@media only screen and (max-width: 420px) {
+
+    .project_hut_outer{
+        .proj_title_block{
+            top:-35px;
+        }
+    }
+
+}
 @media only screen and (max-width: 360px) {
 
     .project_hut_outer{
@@ -179,6 +190,7 @@
             z-index: 1;
             left: auto;
             right: 20px;
+            top: 5px;
             .upper{
                 h1{
                     font-size: 40px;
@@ -217,3 +229,54 @@
     }
 
 }
+@media only screen and (max-width: 345px) {
+
+    .project_hut_outer{
+        .proj_title_block{
+            top:-35px;
+        }
+        .img_3{
+            right: 0px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+/* 
+preset
+.project_hut_outer{
+    .trigger_box{
+     
+    }
+    .proj_title_block{
+     
+        .upper{
+            h1{
+     
+            }
+        }
+        .lower{
+            h1{
+     
+            }
+        }
+    }
+    .huts_title_info{
+     
+    }
+    .img_1{
+             
+    }
+    .img_2{
+     
+    }
+    .img_3{
+        }
+} */

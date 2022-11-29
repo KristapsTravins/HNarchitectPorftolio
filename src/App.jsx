@@ -5,6 +5,7 @@ import { useSliderState } from "./components/Slider/hooks/useSlidetState"
 import OverlaySlider from "./components/Slider/OverlaySlider"
 import Hut from "./components/HomeComponents/Huts/Huts"
 import ProjectCrater from "./components/HomeComponents/Crater/ProjectCrater"
+import ProjectAnna from "./components/HomeComponents/Project_ann/ProjectAnna"
 
 const App =()=>{
 const slider = useSliderState();
@@ -14,7 +15,8 @@ const slider = useSliderState();
             <OverlaySlider openState={slider.sliderState} />
             <div className="base_center">
                 <Hut />
-                <ProjectCrater />
+                <ProjectCrater /> 
+                <ProjectAnna />
             </div>
         </div>
     )

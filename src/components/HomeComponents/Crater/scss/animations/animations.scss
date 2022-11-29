@@ -1,5 +1,33 @@
+@keyframes img1_x390{
+  from{
+    opacity: 0;
+    top: 180px;
+    left: auto;
+    right: 35px;
 
+  }
+  to{
+    opacity: 1;
+    top: 148px;
+    left: auto;
+    right: -10px;
+  }
+}
+@keyframes img3_x390{
+  from{
+    opacity: 0;
+    top: 243px;
+    left: auto;
+    right: 35px;
 
+  }
+  to{
+    opacity: 1;
+    top: 285px;
+    left: auto;
+    right: -1px;
+  }
+}
 @keyframes img3_x480{
     from{
       opacity: 0;
@@ -9,8 +37,8 @@
     }
     to{
       opacity: 1;
-      top: 286px;
-      left: 204px;
+      top: 285px;
+      left: 220px;
     }
   }
 
@@ -23,8 +51,8 @@
     }
     to{
       opacity: 1;
-      top: 130px;
-      left: 240px;
+      top: 128px;
+      left: 257px;
     }
   }
 @keyframes img3_x600{
@@ -54,9 +82,6 @@
       right: 10px;
     }
   }
-
-
-
 @keyframes img3_x700{
     from{
       opacity: 0;
@@ -71,9 +96,6 @@
     }
   }
 
-
-
-
 @keyframes img1_x700{
     from{
       opacity: 0;
@@ -87,10 +109,6 @@
       right: 50px;
     }
   }
-  
-
-
-
 @keyframes img3_x1010{
     from{
       opacity: 0;
@@ -104,8 +122,6 @@
       right: 98px;
     }
   }
-
-
 @keyframes img1_x1010{
     from{
       opacity: 0;
@@ -119,9 +135,7 @@
       right: 78px;
     }
   }
-
-
-@keyframes img3_inital{
+@keyframes img3_inital_crater{
     from{
       opacity: 0;
       top: 233px;
@@ -134,8 +148,6 @@
       right: 75px;
     }
   }
-
-
 @keyframes img1_inital{
     from{
       opacity: 0;
@@ -149,7 +161,6 @@
       right: 0px;
     }
   }
-
 @keyframes title_init_anim{
     from{
       opacity: 0;
@@ -160,8 +171,7 @@
       opacity: 1;
       margin: 0 0 0 -117px;
     }
-  }
-  
+  } 
 @keyframes title_upper{
     from{
       opacity: 0;

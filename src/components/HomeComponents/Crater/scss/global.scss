@@ -9,7 +9,7 @@ position: relative;
         width: 231px;
         height: 139px;
         top: -27px;
-        right: 112px;
+        right: 116px;
         .upper{
             opacity: 0;
             animation: title_upper 2s forwards 2s;
@@ -25,7 +25,7 @@ position: relative;
     }
     .huts_title_info{
         top: 520px;
-        left: 5px;
+        left: -3px;
       
     }
     
@@ -58,23 +58,28 @@ position: relative;
         }
     }
     .img_3{
-        animation: img3_inital 2s forwards;
+        animation: img3_inital_crater 2s forwards;
         opacity: 1;
         position: absolute;
-        /* width: 350px;
-        height: 350px; */
         width: 319px;
         height: 319px;
         top: 320px;
         right: 75px;
-       /*  top: 413px;
-        right: 109px; */
-       
         z-index: 0;
         img{
             width: 100%;
             height: 100%;
         }
+    }
+    .trigger_box{
+        width: 610px;
+        height: 300px;
+        top: 210px;
+        position: absolute;
+        z-index: 2;
+        left: 29px;
+        cursor: pointer;
+
     }
 
 

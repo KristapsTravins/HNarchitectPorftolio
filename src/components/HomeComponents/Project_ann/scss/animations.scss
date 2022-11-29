@@ -1,0 +1,200 @@
+#sliderOnHover_first{
+    animation: title_animation 3s forwards ;
+  }
+  
+  
+  /* keygrames  */
+  @keyframes title_animation{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+  @keyframes img3_inital{
+    from{
+      opacity: 0;
+      top: 180px;
+      right: 312px;
+    }
+    to{
+      opacity: 1;
+      top: 360px;
+      right: 235px;
+    }
+  }
+  
+  @keyframes img2_inital{
+    from{
+      opacity: 0;
+      top: 140px;
+      right: 353px;
+    }
+    to{
+      opacity: 1;
+      top: 180px;
+      right: 459px;
+    }
+  }
+
+  @keyframes img2_x850{
+    from{
+      opacity: 0;
+      top: 140px;
+      right: 353px;
+    }
+    to{
+      opacity: 1;
+      top: 180px;
+      right: 410px;
+    }
+  }
+  
+  @keyframes img2_x740{
+    from{
+      opacity: 0;
+      top: 140px;
+      right: 353px;
+    }
+    to{
+      opacity: 1;
+      top: 180px;
+      right: 370px;
+    }
+  }
+    
+  @keyframes img3_x740{
+    from{
+      opacity: 0;
+      top: 237px;
+      right: 235px;
+    }
+    to{
+      opacity: 1;
+      top: 305px;
+      right: 223px;
+    }
+  }
+
+  @keyframes img3_x650{
+    from{
+      opacity: 0;
+      top: 244px;
+      right: 235px;
+    }
+    to{
+      opacity: 1;
+      top: 316px;
+      right: 173px;
+    }
+  }
+
+  @keyframes img2_x650{
+    from{
+      opacity: 0;
+      top: 150px;
+      right: 250px;
+    }
+    to{
+      opacity: 1;
+      top: 180px;
+      right: 280px;
+    }
+  }
+
+
+  @keyframes img3_x560{
+    from{
+      opacity: 0;
+      top: 196px;
+      right: 203px;
+    }
+    to{
+      opacity: 1;
+      top: 251px;
+      right: 170px;
+    }
+  }
+  @keyframes img3_x506{
+    from{
+      opacity: 0;
+      top: 208px;
+      right: 178px;
+    }
+    to{
+      opacity: 1;
+      top: 246px;
+      right: 159px;
+    }
+  }
+  @keyframes img2_x506{
+    from{
+      opacity: 0;
+      top: 150px;
+      right: 180px;
+    }
+    to{
+      opacity: 1;
+      top: 171px;
+      right: 220px;
+    }
+  }
+  @keyframes img2_x506{
+    from{
+      opacity: 0;
+      top: 140px;
+      right: auto;
+      left: 40px;
+    }
+    to{
+      opacity: 1;
+      top: 171px;
+      right: auto;
+      left: -6px;
+    }
+  }
+  @keyframes img3_x390{
+    from{
+      opacity: 0;
+      top: 233px;
+      right: 97px;
+      left: auto;
+    }
+    to{
+      opacity: 1;
+      top: 255px;
+      right: 69px;
+      left: auto;
+    }
+  }
+  @keyframes img3_x390{
+    from{
+      opacity: 0;
+      top: 233px;
+      right: 97px;
+      left: auto;
+    }
+    to{
+      opacity: 1;
+      top: 255px;
+      right: 69px;
+      left: auto;
+    }
+  }
+  @keyframes img2_x390{
+    from{
+      opacity: 0;
+      top: 166px;
+      right: auto;
+      left: -6px;
+    }
+    to{
+        opacity: 1;
+        top: 170px;
+        right: auto;
+        left: -7px;
+    }
+  }
+
+

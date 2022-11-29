@@ -62,8 +62,25 @@ export const useWindowDimensions  = () => {
     else{
         return imgPostition
     }
+  }
 
+
+
+  export const useAnimationPositionsCrater = (imgPostition,imgPostition1010,imgPostition700,imgPostition600,scrWidth) =>{
     
+  
+    if(scrWidth<=1010 && scrWidth>700){
+      return  imgPostition1010
+    }
+    else if(scrWidth<=700 && scrWidth > 600){
+       return imgPostition700
+    }
+    else if(scrWidth<=600){
+       return imgPostition600
+    }
+    else{
+        return imgPostition
+    }
   }
 
 

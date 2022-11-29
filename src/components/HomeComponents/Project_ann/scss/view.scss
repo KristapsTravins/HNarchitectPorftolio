@@ -1,0 +1,362 @@
+@media only screen and (max-width: 850px) {
+
+    .project_ann_outer{
+        
+    .trigger{
+      right: 10px;
+    }
+
+    .proj_title_block{
+        right: 430px;
+    }
+
+    .img_1{
+      top: 135px;
+      right: 20px;
+      width: 621px;
+      height: 279px;
+    }
+    .img_2{
+        width: 377px;
+        height: 513px;
+        top: 178px;
+        right: 400px;
+        animation: img2_x850 2s forwards ;
+    }
+    .img_3{
+        width: 362px;
+        height: 215px;
+        top: 195px;
+        right: 267px;
+        
+    }
+    .huts_title_info{
+      
+        top: 460px;
+      
+    }
+}
+  
+}
+@media only screen and (max-width: 800px) {
+
+    
+    .project_ann_outer{
+        height: 670px;
+        .trigger{
+          width: 85%;
+          right: 0px;
+        }
+    
+        .proj_title_block{
+            right: 370px;
+        }
+    
+        .img_1{
+            top: 120px;
+            width: 574px;
+            height: 263px;
+            
+        }
+        .img_2{
+            width: 327px;
+            height: 460px;
+            top: 200px;
+            right: 383px;
+           
+           
+        }
+          
+        .img_3{
+           width: 294px;
+           height: 175px;
+           top: 208px;
+           right: 283px;
+           
+        }
+        .huts_title_info{
+          
+            top: 400px;
+            right: 15px;
+        
+          
+        }
+    }
+    
+
+}
+@media only screen and (max-width: 740px) {
+
+    
+    .project_ann_outer{
+        height: 670px;
+        .trigger{
+          width: 85%;
+          right: 0px;
+          height: 228px;
+        }
+    
+        .proj_title_block{
+            right: 304px;
+        }
+    
+        .img_1{
+            top: 120px;
+            width: 540px;
+            height: 245px;
+            
+        }
+        .img_2{
+            width: 285px;
+            height: 400px;
+            top: 185px;
+            right: 300px;
+            
+            animation: img2_x740 2s forwards ;
+           
+        }
+          
+        .img_3{
+           width: 294px;
+           height: 175px;
+           top: 208px;
+           right: 283px;
+           animation: img3_x740 2s forwards ;
+           
+        }
+        .huts_title_info{
+          
+            top: 400px;
+            right: 15px;
+        
+          
+        }
+    }
+    
+
+}
+@media only screen and (max-width: 650px) {
+    .project_ann_outer{
+   
+        .trigger{
+        height: 228px;
+        }
+    
+        .proj_title_block{
+          
+        }
+    
+        .img_1{
+           width: 505px;
+           height: 220px;
+           right: -8px;
+
+        }
+        .img_2{
+          top: 160px;
+          right: 284px;
+          width: 250px;
+          height: 350px;
+          animation: img2_x650 2s forwards ;
+        }
+          
+        .img_3{
+            top: 280px;
+            right: 255px;
+          width: 242px;
+          height: 135px;
+          animation: img3_x650 2s forwards ;
+        }
+        .huts_title_info{
+          
+        top: 355px;
+        right: -46px;
+          
+        }
+    }
+}
+@media only screen and (max-width: 560px) {
+    .project_ann_outer{
+        height: 615px;
+        .trigger{
+            width: 409px;
+            height: 195px;
+            top: 122px;
+        }
+    
+        .proj_title_block{
+          
+          right: 198px;
+        }
+    
+        .img_1{
+           top: 124px;
+           right: -10px;
+           width: 411px;
+           height: 175px;
+        }
+        .img_2{
+          width: 200px;
+          height: 270px;
+          top: 170px;
+          right: 225px;
+          left: auto;
+        
+        }
+          
+        .img_3{
+          width: 229px;
+          height: 132px;
+          top: 200px;
+          right:  10px;
+          animation: img3_x560 2s forwards ;
+        
+        }
+        .huts_title_info{
+        z-index: 1;
+        top: 318px;
+        right: -40px;
+          
+        }
+    }
+}
+@media only screen and (max-width: 505px) {
+    .project_ann_outer{
+        height: 615px;
+        .trigger{
+            width: 409px;
+            height: 195px;
+            top: 122px;
+        }
+    
+        .proj_title_block{
+          
+          right: 198px;
+        }
+    
+        .img_1{
+           top: 124px;
+           right: -10px;
+           width: 370px;
+           height: 164px;
+        }
+        .img_2{
+          width: 200px;
+          height: 270px;
+          top: 170px;
+          right: 225px;
+          animation: img2_x506 2s forwards ;
+          left: auto;
+        
+        }
+          
+        .img_3{
+          width: 194px;
+          height: 110px;
+          top: 200px;
+          right:  10px;
+          animation: img3_x506 2s forwards ;
+        
+        }
+        .huts_title_info{
+        z-index: 1;
+        top: 308px;
+        right: -49px;
+          
+        }
+    }
+}
+@media only screen and (max-width: 442px) {
+    .project_ann_outer{
+        height: 615px;
+        .trigger{
+            width: 409px;
+            height: 195px;
+            top: 122px;
+        }
+    
+        .proj_title_block{
+          
+          right: 198px;
+        }
+    
+        .img_2{
+          width: 200px;
+          height: 270px;
+          top: 170px;
+          right: 225px;
+          animation: img2_x506 2s forwards ;
+          left: auto;
+        
+        }
+          
+        .img_3{
+          width: 194px;
+          height: 110px;
+          top: 200px;
+          right:  10px;
+          animation: img3_x506 2s forwards ;
+        
+        }
+        .huts_title_info{
+        z-index: 1;
+        top: 308px;
+        right: -49px;
+          
+        }
+    }
+}
+@media only screen and (max-width: 390px) {
+    .project_ann_outer{
+        height: 615px;
+        .trigger{
+            width: 409px;
+            height: 195px;
+            top: 122px;
+        }
+    
+        .proj_title_block{
+          
+          right: 15px;
+        }
+    
+        .img_2{
+          width: 200px;
+          height: 270px;
+          top: 170px;
+          right: 225px;
+          animation: img2_x390 2s forwards ;
+          left: auto;
+        
+        }
+          
+        .img_3{
+          width: 194px;
+          height: 110px;
+          top: 200px;
+          right:  10px;
+          animation: img3_x390 2s forwards ;
+        
+        }
+        .huts_title_info{
+        z-index: 1;
+        top: 450px;
+        right: -49px;
+          
+        }
+    }
+}
+@media only screen and (max-width: 360px) {
+    .project_ann_outer{
+        height: 615px;
+        .huts_title_info{
+        z-index: 1;
+        top: 450px;
+        right: auto;
+        left: 10px;
+          
+        }
+    }
+}
+
+
