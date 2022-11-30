@@ -33,7 +33,10 @@ module.exports = {
             },
             {
                 loader: 'webp-loader'
-            }
+            },
+            {
+              loader: "webpack-image-resize-loader",
+            },
         ]
     },
       {

@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+
 import FirstContentImg1 from "./files/content_1/cont1_img_1.webp";
 import FirstContentImg2 from "./files/content_1/cont1_img_2.webp";                
 import FirstContentImg3 from "./files/content_1/cont1_img_3.webp";  
@@ -29,13 +31,14 @@ import ThirContentImg2 from "./files/content_3/content3_img_2.webp";
 import ThirContentImg3 from "./files/content_3/content3_img_3.webp";
 import ThirContentImg4 from "./files/content_3/content3_img_4.webp";
 import ThirContentImg5 from "./files/content_3/content3_img_5.webp";
-import ThirContentImg6 from "./files/content_3/content3_img_6.webp"
-
+import ThirContentImg6 from "./files/content_3/content3_img_6.webp";
 import ProfileImg from "./files/about_page/profile.webp";
 
+/* ?width=100&height=100& */
 
 
 export const ProfilePic = () => {
+  
   return (
     <img src={ProfileImg} alt="profile_pic" />
   )

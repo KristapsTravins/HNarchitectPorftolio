@@ -22,7 +22,8 @@
     "sass-loader": "^13.2.0",
     "webp-loader": "^0.6.0",
     "webpack-cli": "^5.0.0",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^4.11.1",
+    "webpack-image-resize-loader": "^5.0.0"
   },
   "dependencies": {
     "css-loader": "^6.7.2",
