@@ -15,25 +15,23 @@ const boxRef = useRef();
 const [posX, setX] = useState({});
 const getPosition = () => {
     const x = boxRef.current.offsetLeft;
-    
     setX(x===0?x+25:x);
   };
   useEffect(() => {
     getPosition();
   }, []);
+
   useEffect(() => {
     window.addEventListener("resize", getPosition);
   }, []);
-
     return(
         <div className="app">
             {typeof posX != "undefined"?<MenuBtn sliderData={slider} position={posX} />:<></>}
-           
             <OverlaySlider openState={slider.sliderState} />
             <div ref={boxRef} className="base_center">
                 <Hut />
-                {/* <ProjectCrater />  */}
-                 {/*  <ProjectAnna /> */}
+                <ProjectCrater /> 
+                <ProjectAnna /> 
             </div>
         </div>
     )

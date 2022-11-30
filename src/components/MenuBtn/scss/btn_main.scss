@@ -2,16 +2,13 @@
 
 
 .menu_btn_outer{
-
     border-radius: 100%;
     position: fixed;
- 
     top: 25px;
     height: 113px;
     width: 113px;
     z-index: 5;
     cursor: pointer;
-    /* parliec uz inner  */
     overflow: hidden;
     .inner_menu_btn{
         width: 100%;
@@ -24,7 +21,7 @@
 
 
 
-
+/* 
 @keyframes change-background {
     0% {
       background: $content-col;
@@ -33,7 +30,7 @@
       background:$base-col-;
     }
   }
-
+ */
 
 
 @media only screen and (min-width: 1440px) {

@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import { motion,AnimatePresence} from 'framer-motion'
 import React,{ useState } from 'react'
 import {ClickedBtn} from './hooks/BtnHooks'
 import "./scss/animatons/animations.scss"
@@ -8,7 +8,6 @@ import BtnLabel from "../BtnLabel/btnLable"
 
 
 const MenuBtn = (props) => {
-
 
 const btnClick = ClickedBtn();
 const Slider = props.sliderData;
@@ -27,9 +26,10 @@ const Slider = props.sliderData;
         Slider.setSliderState(!Slider.sliderState)
       }
       }}>
-    <div className={`inner_menu_btn ${Slider.sliderState?"slider_open":"slider_closed"}`}>
-    <BtnLabel sliderState={Slider.sliderState} btnStatus={btnClick.btnStatusEnabled} />
-    </div>
+         <div className={`inner_menu_btn ${Slider.sliderState?"slider_open":"slider_closed"} ${Slider.sliderState?"open_seq":"close_seq"}`}>
+              <BtnLabel sliderState={Slider.sliderState} btnStatus={btnClick.btnStatusEnabled} />
+         </div> 
+        
 
     </motion.div>
    
@@ -37,3 +37,9 @@ const Slider = props.sliderData;
 }
 
 export default MenuBtn
+
+
+
+{/* <div className={`inner_menu_btn ${Slider.sliderState?"slider_open":"slider_closed"}`}>
+<BtnLabel sliderState={Slider.sliderState} btnStatus={btnClick.btnStatusEnabled} />
+</div> */}

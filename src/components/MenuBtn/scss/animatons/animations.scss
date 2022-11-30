@@ -3,30 +3,65 @@
 #clicked{
     animation: Pulsate 1s linear
 }
+
 .slider_open{
-    animation: change-background 2s forwards
+      background-color: #963334;
+/*     animation: closeSequence 5s forwards ; */
 }
 .slider_closed{
-    animation: change-background_b 2s forwards
+    background-color: #f1f1e4;
+  
+/*     animation: closeSequence 5s forwards ; */
+}
+.open_seq{
+    animation: openSequence 5.5s forwards;
+  
+}
+.close_seq{
+    animation: closeSequence 5.5s forwards;
+}
+.open_seq_text{
+    animation: openSequenceText 5.5s forwards;
+  
+}
+.close_seq_text{
+    animation: closeSequenceText 5.5s forwards;
 }
 
 
-@keyframes change-background_b {
+@keyframes openSequenceText {
     0% {
-        background:$base-col-;
+        color: #f1f1e4;
     }
     100% {
-        background: $content-col;
+        color: #963334;
     }
-  }
-@keyframes change-background {
+}
+@keyframes closeSequenceText {
     0% {
-      background: $content-col;
+        color: #963334;
     }
     100% {
-        background:$base-col-;
+        color: #f1f1e4;
     }
-  }
+}
+@keyframes openSequence {
+    0% {
+        background-color: #f1f1e4;
+    }
+    100% {
+        background-color: #963334;
+    }
+}
+
+@keyframes closeSequence {
+    0% {
+        background-color: #963334;
+    }
+    100% {
+        background-color: #f1f1e4;
+    }
+}
 
 
 @keyframes Pulsate {

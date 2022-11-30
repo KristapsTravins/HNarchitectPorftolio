@@ -6,7 +6,7 @@ import "./scss/lblmain.scss"
 const BtnLabel = (props) => {
 
   return (
-    <div className={`label_outer ${props.sliderState?"lbl_open":"lbl_closed"}`}>
+    <div className={`label_outer ${props.sliderState?"lbl_open":"lbl_closed"} ${props.sliderState?"close_seq_text":"open_seq_text"}`}>
        <span>
           [
        </span>
