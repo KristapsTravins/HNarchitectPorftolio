@@ -1,3 +1,4 @@
+import { useState,useRef,useEffect } from "react"
 import "./styleVars/styleShorcuts.scss"
 import "./main_style.scss"
 import MenuBtn from "./components/MenuBtn/MenuBtn"
@@ -7,16 +8,32 @@ import Hut from "./components/HomeComponents/Huts/Huts"
 import ProjectCrater from "./components/HomeComponents/Crater/ProjectCrater"
 import ProjectAnna from "./components/HomeComponents/Project_ann/ProjectAnna"
 
+
 const App =()=>{
 const slider = useSliderState();
+const boxRef = useRef();
+const [posX, setX] = useState({});
+const getPosition = () => {
+    const x = boxRef.current.offsetLeft;
+    
+    setX(x===0?x+25:x);
+  };
+  useEffect(() => {
+    getPosition();
+  }, []);
+  useEffect(() => {
+    window.addEventListener("resize", getPosition);
+  }, []);
+
     return(
         <div className="app">
-            <MenuBtn sliderData={slider} />
+            {typeof posX != "undefined"?<MenuBtn sliderData={slider} position={posX} />:<></>}
+           
             <OverlaySlider openState={slider.sliderState} />
-            <div className="base_center">
+            <div ref={boxRef} className="base_center">
                 <Hut />
-                <ProjectCrater /> 
-                <ProjectAnna />
+                {/* <ProjectCrater />  */}
+                 {/*  <ProjectAnna /> */}
             </div>
         </div>
     )

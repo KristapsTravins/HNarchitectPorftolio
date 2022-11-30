@@ -15,6 +15,7 @@ const Slider = props.sliderData;
 
   return (
     <motion.div
+    style={{left:props.position}}
     className={`menu_btn_outer`}
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
