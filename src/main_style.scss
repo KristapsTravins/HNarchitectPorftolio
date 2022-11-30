@@ -1,8 +1,9 @@
 @import './styleVars/styleShorcuts.scss';
 
-html{
+body{
     background: #963334;
-    overflow-x: hidden;
+    position: relative;
+    
 }
 
 .app{
@@ -10,25 +11,19 @@ html{
     height: auto;
     display: flex;
     justify-content: center;
+    overflow: hidden;
     
     .base_center{
-        @include scaffolding
-    }
-}
-.base_center{
-  
-    padding: 85px 0 0 0;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 1100px;
-   
-
-}
-
-@media only screen and (min-width: 1010px)  {
-    .base_center{
-        padding: 0px 0 0 0;
+        @include scaffolding;
+     /*    overflow: hidden; */
+        padding: 85px 0 0 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1100px;
+       
+    
+        
     }
 }

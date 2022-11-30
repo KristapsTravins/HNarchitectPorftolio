@@ -6,11 +6,13 @@
     position: relative;
 
     .trigger_box{
-
-        width: 701px;
+        position: absolute;
+        width: 547px;
+        cursor: pointer;
         height: 319px;
-        top: 194px;
-        right:100px;
+        top: 120px;
+        right:48px;
+        z-index: 2;
 
     }
 

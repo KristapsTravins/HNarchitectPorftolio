@@ -83,4 +83,36 @@ export const useWindowDimensions  = () => {
     }
   }
 
+  export const useAnimationPositionsAnn = (imgPostition,imgPostition850,imgPostition800,imgPostition740,imgPostition650,
+    imgPostition560,imgPostition505,imgPostition390,scrWidth) =>{
+    
+  
+    if(scrWidth<=850 && scrWidth>800){
+      return  imgPostition850
+    }
+    else if(scrWidth<=800 && scrWidth > 740){
+       return imgPostition800
+    }
+    else if(scrWidth<=740 && scrWidth > 650){
+       return imgPostition740
+    }
+    else if(scrWidth<=650 && scrWidth > 560){
+      return imgPostition650
+   }
+   else if(scrWidth<=560 && scrWidth > 505){
+    return imgPostition560
+ }
+  else if(scrWidth<=505 && scrWidth > 442){
+    return imgPostition505
+  }
+  else if(scrWidth<=390){
+    return imgPostition390
+ }
+  else{
+        return imgPostition
+    }
+  }
+
+
+
 

@@ -4,7 +4,9 @@ import React from 'react'
 
 import FirstContentImg1 from "./files/content_1/cont1_img_1.webp";
 import FirstContentImg2 from "./files/content_1/cont1_img_2.webp";                
-import FirstContentImg3 from "./files/content_1/cont1_img_3.webp";  
+import FirstContentImg3 from "./files/content_1/cont1_img_3.webp";
+
+
 import FirstContentImg4 from "./files/content_1/cont1_img_4.webp";
 import FirstContentImg5 from "./files/content_1/cont1_img_5.webp";
 
