@@ -57,7 +57,7 @@ const ProjectAnna = (props) => {
     animationClosed={true}
     
     />
-    <Trigger  hoverState={hooks} />
+    <Trigger  hoverState={hooks} openPage={props.setPage} page="ANN" slider={props.sliderData} />
     </div>
   )
 }

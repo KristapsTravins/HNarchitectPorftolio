@@ -11,7 +11,7 @@ const MenuBtn = (props) => {
 
 const btnClick = ClickedBtn();
 const Slider = props.sliderData;
-console.log(props.position)
+
   return (
     <motion.div
     style={props.position!==0?{left:props.position}:{}}
@@ -24,6 +24,7 @@ console.log(props.position)
       if(btnClick.btnStatusEnabled){
         btnClick.setClickedOn();
         Slider.setSliderState(!Slider.sliderState)
+        props.setPage("ABOUT");
       }
       }}>
          <div className={`inner_menu_btn ${Slider.sliderState?"slider_open":"slider_closed"} ${Slider.sliderState?"open_seq":"close_seq"}`}>

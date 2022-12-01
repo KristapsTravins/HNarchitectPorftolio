@@ -27,10 +27,11 @@ const OverlaySlider = (props) => {
         transition={{duration:3}}
       >
         <div className='center'>
-          <ProjectAnnas/>
-          {/* <CloudCraterExp /> */}
-      {/*       <About /> */}
-           {/*  <HempHutExp/> */}
+        {props.slide==="ANN"?<ProjectAnnas/>:<></>}
+        {props.slide==="CATHER"?<CloudCraterExp />:<></>}
+        {props.slide==="HUT"?<HempHutExp />:<></>}
+        {props.slide==="ABOUT"?<About />:<></>}
+      
         </div>
       </motion.div>)}
 </AnimatePresence>

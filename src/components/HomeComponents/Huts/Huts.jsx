@@ -39,7 +39,7 @@ const width = useWindowDimensions().width;
          >  
             <AImg3 />
     </motion.div>
-    <Trigger hoverState={hooks} />
+    <Trigger hoverState={hooks} openPage={props.setPage} page="HUT" slider={props.sliderData} />
     <ProjectTitle 
     delay={3}
     title={["HEMP","HUT"]} />

@@ -45,7 +45,7 @@ const ProjectCrater = (props) => {
     title={["CLOUND","CATHER"]} />
     <ProjectDescription 
     titleDescription={['Modular prefab home',"Concept","2022","Latvia","40 sq.m."]}/>
-    <Trigger hoverState={hooks} />
+    <Trigger hoverState={hooks} openPage={props.setPage} page="CATHER" slider={props.sliderData}/>
     </motion.div>
     
 
