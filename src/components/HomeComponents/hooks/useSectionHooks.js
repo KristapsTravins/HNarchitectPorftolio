@@ -113,6 +113,9 @@ export const useWindowDimensions  = () => {
     }
   }
 
-
+export const useWasInView = () =>{
+  const [wasInView,setWasInVIew] = useState(false);
+  return {wasInView,setWasInVIew} 
+}
 
 
