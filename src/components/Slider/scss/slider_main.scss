@@ -8,15 +8,15 @@
     position: fixed;
     height: auto;
     overflow-y: scroll;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     left: 101%;
     overflow-x: hidden;
     z-index: 4;
     .center{
+     
       margin: 3% 0 0 0;
       position: relative;
+      display: flex;
+      justify-content: center;
       top: 5%;
     }
     }

@@ -13,9 +13,11 @@ const App =()=>{
 const slider = useSliderState();
 const boxRef = useRef();
 const [posX, setX] = useState({});
+
+
 const getPosition = () => {
     const x = boxRef.current.offsetLeft;
-    setX(x===0?x+25:x);
+    setX(x);
   };
   useEffect(() => {
     getPosition();

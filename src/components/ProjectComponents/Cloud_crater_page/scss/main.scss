@@ -1,0 +1,150 @@
+@import "../../../../styleVars/styleShorcuts.scss";
+
+.cloud_crater_exp_outer{
+    width: 100%;
+    max-width: 1100px;
+    height: 2760px;
+        .cloud_crater_exp_inner{
+            position:relative;
+            width: 100%;
+            height: auto;
+            .proj_title_block{
+                position: absolute;
+                width: 260px;
+                height: 140px;
+                top: 40px;
+                left: -20px;
+                .upper{
+            
+                    h1{
+                        color: #963334;
+                    }
+                }
+                .lower{
+           
+                    h1{
+                        color: #963334;
+                        margin: 0 0 30px 0 ;
+                    }
+                }
+            }
+            .huts_title_info{
+                top: 195px;
+                color: #963334;
+                left: 0px;
+            }
+            .img_1{
+                position: absolute;
+                top: 320px;
+                width: 688px;
+                height: 414px;
+                z-index: 1;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .img_2{
+                position: absolute;
+                top: 640px;
+                width: 527px;
+                height: 1053px;
+                right: 0px;
+                z-index: 0;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .img_3{
+                position: absolute;
+                top: 882px;
+                width: 450px;
+                height: 450px;
+                transform: rotate(270deg);
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .img_4{
+                position: absolute;
+                top:1424px;
+                width: 450px;
+                height: 450px;
+                transform: rotate(270deg);
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .img_5{
+                position: absolute;
+                top:1781px;
+                right: 0px;
+                width: 800px;
+                height: 400px;
+                z-index: 1;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .img_6{
+                position: absolute;
+                top:2091px;
+                left: 0px;
+                width: 450px;
+                height: 450px;
+      
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .img_7{
+                position: absolute;
+                top:2314px;
+                right: 0px;
+                width: 533px;
+                height: 434px;
+      
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .text_description_1{
+                right: 0px;
+                width: 368px;
+                height: 183px;
+                text-align: left;
+                left: 0px;
+                top: 735px;
+                font-size: 13px;
+            }
+            .text_description_2{
+                right: 0px;
+                width: 126px;
+                height: 400px;
+                text-align: right;
+                top: 993px;
+                font-size: 13px;
+            }
+            .text_description_3{
+                top: 1366px;
+                width: 309px;
+                height: 125px;
+            }
+            .text_description_4{
+                text-align: right;
+                top: 2219px;
+                right: 0px;
+                width: 327px;
+                height: 153px;
+            }
+        }
+}
+

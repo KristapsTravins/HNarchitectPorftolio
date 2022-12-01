@@ -11,10 +11,10 @@ const MenuBtn = (props) => {
 
 const btnClick = ClickedBtn();
 const Slider = props.sliderData;
-
+console.log(props.position)
   return (
     <motion.div
-    style={{left:props.position}}
+    style={props.position!==0?{left:props.position}:{}}
     className={`menu_btn_outer`}
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}

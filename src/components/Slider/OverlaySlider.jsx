@@ -1,6 +1,8 @@
 import { motion,AnimatePresence } from "framer-motion"
 import { About } from "../About/About";
-
+import HempHutExp from "../ProjectComponents/HempHut_page/HempHutExp";
+import CloudCraterExp from '../ProjectComponents/Cloud_crater_page/CloudCraterExp'
+import ProjectAnnas from '../ProjectComponents/Project_annas/ProjectAnnas'
 import "./scss/slider_main.scss"
 
 const OverlaySlider = (props) => {
@@ -25,7 +27,10 @@ const OverlaySlider = (props) => {
         transition={{duration:3}}
       >
         <div className='center'>
-            <About />
+          <ProjectAnnas/>
+          {/* <CloudCraterExp /> */}
+      {/*       <About /> */}
+           {/*  <HempHutExp/> */}
         </div>
       </motion.div>)}
 </AnimatePresence>

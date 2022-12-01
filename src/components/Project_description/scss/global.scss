@@ -1,0 +1,12 @@
+@import '../../../styleVars/styleShorcuts.scss';
+
+
+.text_description_base{
+    position: absolute;
+    @include font-style-text;
+    margin: 0 0 0 1px ;
+    color: #963334;
+    span{
+        font-weight: 600;
+    }
+}
