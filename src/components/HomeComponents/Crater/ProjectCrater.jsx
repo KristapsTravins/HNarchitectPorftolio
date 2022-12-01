@@ -20,6 +20,7 @@ const ProjectCrater = (props) => {
   return (
     <motion.div 
     className='project_clound_outer'
+ 
     >
   <motion.div 
   className='img_1'

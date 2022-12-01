@@ -16,14 +16,14 @@ const hooks = useDetectHover();
 const width = useWindowDimensions().width;
 
   return (
-    <motion.div 
+    <motion.div
+     
     className='project_hut_outer'>
   
     <motion.div 
     className={`img_1`}
     animate={hooks.isHovered?useAnimationPositions({x:50,y:-20},{x:16,y:-5},{x:16,y:-5},{x:35,y:15},width):""}
     transition={{duration:1.5}}
-
     >
         <AImg1 />   
     </motion.div>

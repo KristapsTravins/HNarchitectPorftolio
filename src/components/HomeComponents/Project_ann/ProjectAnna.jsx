@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useRef,useEffect } from 'react'
 import "./scss/animations.scss"
 import "./scss/main.scss"
 import "./scss/view.scss"
 
 import ProjectTitle from '../../ProjectTitle/ProjectTitle'
-import { motion } from "framer-motion"
+import { motion, useInView } from "framer-motion"
 import { CImg6,CImg5,CImg3  } from '../../../assets/images/ImageComponents'
 import ProjectDescription from '../../Project_title_description/ProjectDescription'
 import Trigger from '../../TriggerBox/Trigger'
@@ -18,12 +18,19 @@ import { useDetectHover,useWindowDimensions, useAnimationPositionsAnn } from '..
 const ProjectAnna = (props) => {
   
   const hooks = useDetectHover();
-
   const width = useWindowDimensions().width;
-  
+  const refs = useRef(null)
+  const isInView = useInView(refs)
+  useEffect(() => {
+    console.log("Element is in view: ", isInView)
+  }, [isInView])
 
   return (
-    <div className='project_ann_outer'>
+    
+    <div 
+    className='project_ann_outer'
+    ref={refs}
+    >
     
     <ProjectTitle
     animationClosed={true}

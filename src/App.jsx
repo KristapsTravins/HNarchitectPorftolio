@@ -8,6 +8,7 @@ import OverlaySlider from "./components/Slider/OverlaySlider"
 import Hut from "./components/HomeComponents/Huts/Huts"
 import ProjectCrater from "./components/HomeComponents/Crater/ProjectCrater"
 import ProjectAnna from "./components/HomeComponents/Project_ann/ProjectAnna"
+import { useInView } from "framer-motion"
 
 
 const App =()=>{
@@ -15,6 +16,7 @@ const slider = useSliderState();
 const boxRef = useRef();
 const [posX, setX] = useState({});
 const appSlideContent = useAppHook();
+
 
 const getPosition = () => {
     const x = boxRef.current.offsetLeft;
@@ -36,7 +38,7 @@ const getPosition = () => {
             <div ref={boxRef} className="base_center">
                 <Hut setPage={appSlideContent.setSlideContent} sliderData={slider} />
                 <ProjectCrater setPage={appSlideContent.setSlideContent} sliderData={slider} /> 
-                <ProjectAnna setPage={appSlideContent.setSlideContent} sliderData={slider} /> 
+                <ProjectAnna  setPage={appSlideContent.setSlideContent} sliderData={slider} /> 
             </div>
         </div>
     )
